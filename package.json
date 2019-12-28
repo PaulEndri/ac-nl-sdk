@@ -1,0 +1,17 @@
+{
+  "name": "ac-nl-sdk",
+  "version": "1.0.0",
+  "description": "Animal Crossing New Leaf Data Dump SDK",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "node dist/index.js"
+  },
+  "author": "Paul Endri",
+  "license": "MIT",
+  "dependencies": {
+    "moment": "^2.24.0"
+  },
+  "devDependencies": {
+    "@types/moment": "^2.13.0"
+  }
+}
