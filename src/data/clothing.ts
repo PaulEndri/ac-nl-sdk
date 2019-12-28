@@ -1,6 +1,6 @@
 import iClothing from '../interfaces/iClothing';
 
-const Clothing: iClothing[] = [
+export const Clothing: iClothing[] = [
 	{
 		Name: 'Academy Uniform',
 		Price: '720',

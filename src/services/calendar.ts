@@ -4,7 +4,7 @@ import Fishes from '../data/fish';
 import Bugs from '../data/bug';
 import Events from '../data/events';
 
-export default class CalenderService {
+export class CalenderService {
 	private date: Moment;
 
 	constructor(date: string) {
@@ -80,3 +80,5 @@ export default class CalenderService {
 		};
 	}
 }
+
+export default CalenderService;

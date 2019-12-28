@@ -1,6 +1,6 @@
 import iFurniture from '../interfaces/iFurniture';
 
-const Wallpapers: iFurniture[] = [
+export const Wallpapers: iFurniture[] = [
 	{
 		Name: 'Alpine Wall',
 		Price: '1,320',

@@ -1,6 +1,6 @@
 import iBug from '../interfaces/iBug';
 
-const Bugs: iBug[] = [
+export const Bugs: iBug[] = [
 	{
 		Name: 'Common Butterfly',
 		Price: 90,

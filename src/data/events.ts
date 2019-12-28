@@ -19,7 +19,7 @@ const nthOfMonth = (date: moment.Moment, nth: number) => {
 	return Math.ceil(date.date() / 7) === nth;
 };
 
-const Events = [
+export const Events = [
 	{
 		Name: "New Year's Day",
 		Date: [ 0, 0 ],

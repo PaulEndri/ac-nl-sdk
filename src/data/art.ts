@@ -1,6 +1,6 @@
 import iArt from '../interfaces/iArt';
 
-const art: iArt[] = [
+export const Art: iArt[] = [
 	{
 		Name: 'Ancient Statue',
 		Fake: 'Half eyes'
@@ -103,4 +103,4 @@ const art: iArt[] = [
 	}
 ];
 
-export default art;
+export default Art;

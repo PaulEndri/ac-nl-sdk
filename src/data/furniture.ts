@@ -1,6 +1,6 @@
 import iFurniture from '../interfaces/iFurniture';
 
-const Furnitures: iFurniture[] = [
+export const Furnitures: iFurniture[] = [
 	{
 		Name: '? Block',
 		Price: 'NFS',
