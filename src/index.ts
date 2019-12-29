@@ -1,4 +1,5 @@
 export * from './services/calendar';
+export * from './services/playerFactory';
 export * from './data/art';
 export * from './data/bug';
 export * from './data/clothing';
@@ -21,3 +22,7 @@ export * from './interfaces/iItem';
 export * from './interfaces/iNature';
 export * from './interfaces/iPurchasable';
 export * from './interfaces/iVillager';
+export * from './types/ClothingTypes';
+export * from './types/FishLocations';
+export * from './types/Personality';
+export * from './types/Species';

@@ -3,12 +3,15 @@ import Villagers from '../data/villagers';
 import Fishes from '../data/fish';
 import Bugs from '../data/bug';
 import Events from '../data/events';
+import iPlayer from '../interfaces/iPlayer';
 
 export class CalenderService {
 	private date: Moment;
+	private playerData?: iPlayer;
 
-	constructor(date: string) {
+	constructor(date: string, player?: iPlayer) {
 		this.date = moment(date);
+		this.playerData = player;
 	}
 
 	get month(): number {
@@ -20,7 +23,7 @@ export class CalenderService {
 	}
 
 	get hour(): number {
-		return this.date.hour();
+		return this.date.hour() || 24;
 	}
 
 	private findInArray(arrayToCheck: number[], value: number) {
@@ -45,10 +48,21 @@ export class CalenderService {
 		});
 	}
 
-	public getVillagers() {
+	public getVillagers(playerVillagers = false) {
 		const { month, day } = this;
 
-		return Villagers.filter(({ Birthday }) => Birthday.Month === month && Birthday.Day === day);
+		const villagers = Villagers.filter(
+			({ Birthday }) => Birthday.Month === month && Birthday.Day === day
+		);
+
+		if (playerVillagers) {
+			return villagers.filter(
+				({ Name }) =>
+					this.playerData ? this.playerData.Villagers.indexOf(Name) >= 0 : true
+			);
+		}
+
+		return villagers;
 	}
 
 	public getEvents() {
@@ -71,12 +85,12 @@ export class CalenderService {
 		});
 	}
 
-	public getAll(forTime = false) {
+	public getAll(forTime = false, forPlayer = false) {
 		return {
 			Events: this.getEvents(),
 			Fishes: this.getFishes(forTime),
 			Bugs: this.getBugs(forTime),
-			Villagers: this.getVillagers()
+			Villagers: this.getVillagers(forPlayer)
 		};
 	}
 }
