@@ -1,6 +1,6 @@
-import iArt from '../interfaces/iArt';
+import IArt from '../interfaces/IArt';
 
-export const Art: iArt[] = [
+export const Art: IArt[] = [
 	{
 		Name: 'Ancient Statue',
 		Fake: 'Half eyes'

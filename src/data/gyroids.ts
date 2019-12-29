@@ -1,6 +1,6 @@
-import iItem from '../interfaces/iItem';
+import IItem from '../interfaces/IItem';
 
-export const Gyroids: iItem[] = [
+export const Gyroids: IItem[] = [
 	{
 		Name: 'Bowtoid',
 		Price: 'NFS'

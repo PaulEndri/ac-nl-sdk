@@ -1,4 +1,4 @@
-export default interface iPlayer {
+export default interface IPlayer {
 	Name: string;
 	TownName: string;
 	Villagers: string[];

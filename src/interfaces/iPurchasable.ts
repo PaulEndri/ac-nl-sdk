@@ -1,5 +1,5 @@
-import iItem from './iItem';
+import IItem from './IItem';
 
-export default interface iPurchasable extends iItem {
+export default interface IPurchasable extends IItem {
 	Source?: string;
 };

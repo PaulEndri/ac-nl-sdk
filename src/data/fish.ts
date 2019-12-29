@@ -1,6 +1,6 @@
-import iFish from '../interfaces/iFish';
+import IFish from '../interfaces/IFish';
 
-export const Fishes: iFish[] = [
+export const Fishes: IFish[] = [
 	{
 		Name: 'Ribbon Eel',
 		Price: 600,
@@ -882,7 +882,7 @@ export const Fishes: iFish[] = [
 		]
 	},
 	{
-		Name: 'Killifish',
+		Name: 'KillIFish',
 		Price: 300,
 		Location: 'Pond',
 		Size: 'Tiny',

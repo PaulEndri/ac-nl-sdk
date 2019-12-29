@@ -1,4 +1,4 @@
-export default interface iItem {
+export default interface IItem {
 	Name: string;
 	Price: number | string;
 };

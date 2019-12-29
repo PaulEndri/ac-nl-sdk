@@ -1,6 +1,6 @@
-import iFossil from '../interfaces/iFossil';
+import IFossil from '../interfaces/IFossil';
 
-export const Fossils: iFossil[] = [
+export const Fossils: IFossil[] = [
 	{
 		Name: 'Ankylo Skull',
 		Price: '3,000',

@@ -1,8 +1,8 @@
-import iPlayer from '../interfaces/iPlayer';
+import IPlayer from '../interfaces/IPlayer';
 
 export default class PlayerFactoryService {
-	static GeneratePlayer(name: string, town: string): iPlayer {
-		const player: iPlayer = {
+	static GeneratePlayer(name: string, town: string): IPlayer {
+		const player: IPlayer = {
 			Name: name,
 			TownName: town,
 			Catalogued: [],

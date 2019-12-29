@@ -1,6 +1,6 @@
-import iItem from './iItem';
+import IItem from './IItem';
 
-export default interface iNature extends iItem {
+export default interface iNature extends IItem {
 	Location: string;
 	Months: number[];
 	Times: number[];

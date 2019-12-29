@@ -1,6 +1,6 @@
-import iFurniture from '../interfaces/iFurniture';
+import IFurniture from '../interfaces/IFurniture';
 
-export const Flooring: iFurniture[] = [
+export const Flooring: IFurniture[] = [
 	{
 		Name: 'Alpine Rug',
 		Price: '1,400',

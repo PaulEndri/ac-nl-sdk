@@ -1,6 +1,6 @@
-import iBug from '../interfaces/iBug';
+import IBug from '../interfaces/IBug';
 
-export const Bugs: iBug[] = [
+export const Bugs: IBug[] = [
 	{
 		Name: 'Common Butterfly',
 		Price: 90,

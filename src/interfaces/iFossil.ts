@@ -1,6 +1,6 @@
-import iItem from './iItem';
+import IItem from './IItem';
 
-export default interface iFossil extends iItem {
+export default interface IFossil extends IItem {
 	Points: string;
 	Color: string;
 	Size: number;

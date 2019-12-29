@@ -1,8 +1,8 @@
-import iPurchasable from './iPurchasable';
+import IPurchasable from './IPurchasable';
 import Personality from '../types/Personality';
 import Species from '../types/Species';
 
-interface iVillager {
+interface IVillager {
 	'Name': string;
 	'Url': string;
 	'Biography': {
@@ -20,7 +20,7 @@ interface iVillager {
 		'Milk': string;
 		'Sugar': string;
 	};
-	'Gifts': iPurchasable[];
+	'Gifts': IPurchasable[];
 	'Species': Species;
 	'Personality': Personality;
 	'Gender': string;
@@ -36,4 +36,4 @@ interface iVillager {
 	'Style'?: string;
 }
 
-export default iVillager;
+export default IVillager;

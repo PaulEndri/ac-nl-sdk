@@ -1,6 +1,6 @@
-import iFurniture from '../interfaces/iFurniture';
+import IFurniture from '../interfaces/IFurniture';
 
-export const Wallpapers: iFurniture[] = [
+export const Wallpapers: IFurniture[] = [
 	{
 		Name: 'Alpine Wall',
 		Price: '1,320',

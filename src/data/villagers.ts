@@ -1,6 +1,6 @@
-import iVillager from '../interfaces/iVillager';
+import IVillager from '../interfaces/IVillager';
 
-export const Villagers: iVillager[] = [
+export const Villagers: IVillager[] = [
 	{
 		Name: 'Admiral',
 		Url: 'https://nookipedia.com/wiki/Admiral',

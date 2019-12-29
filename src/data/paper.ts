@@ -1,6 +1,6 @@
-import iPurchasable from '../interfaces/iPurchasable';
+import IPurchasable from '../interfaces/IPurchasable';
 
-export const Papers: iPurchasable[] = [
+export const Papers: IPurchasable[] = [
 	{
 		Name: 'Airmail Paper',
 		Price: '160',

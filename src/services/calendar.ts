@@ -3,13 +3,13 @@ import Villagers from '../data/villagers';
 import Fishes from '../data/fish';
 import Bugs from '../data/bug';
 import Events from '../data/events';
-import iPlayer from '../interfaces/iPlayer';
+import IPlayer from '../interfaces/IPlayer';
 
 export class CalenderService {
 	private date: Moment;
-	private playerData?: iPlayer;
+	private playerData?: IPlayer;
 
-	constructor(date: string, player?: iPlayer) {
+	constructor(date: string, player?: IPlayer) {
 		this.date = moment(date);
 		this.playerData = player;
 	}

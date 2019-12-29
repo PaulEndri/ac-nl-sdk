@@ -1,7 +1,7 @@
-import iNature from './iNature';
+import iNature from './INature';
 import { FishLocations } from '../types/FishLocations';
 
-export default interface iFish extends iNature {
+export default interface IFish extends iNature {
 	Location: FishLocations;
 	Size: string;
 };
