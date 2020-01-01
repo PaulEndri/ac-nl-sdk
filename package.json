@@ -1,6 +1,6 @@
 {
   "name": "ac-nl-sdk",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Animal Crossing New Leaf Data Dump SDK",
   "main": "dist/index.js",
   "scripts": {

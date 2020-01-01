@@ -1,3 +1,4 @@
 import iNature from './INature';
 
-export default interface IBug extends iNature {};
+export interface IBug extends iNature {}
+export default IBug;

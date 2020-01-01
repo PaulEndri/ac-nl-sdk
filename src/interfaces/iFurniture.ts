@@ -1,5 +1,7 @@
 import IPurchasable from './IPurchasable';
 
-export default interface IFurniture extends IPurchasable {
+export interface IFurniture extends IPurchasable {
 	'HHA Themes'?: string;
-};
+}
+
+export default IFurniture;

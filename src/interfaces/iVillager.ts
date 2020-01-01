@@ -2,7 +2,7 @@ import IPurchasable from './IPurchasable';
 import Personality from '../types/Personality';
 import Species from '../types/Species';
 
-interface IVillager {
+export interface IVillager {
 	'Name': string;
 	'Url': string;
 	'Biography': {
