@@ -1,1532 +1,1095 @@
 import IFish from '../interfaces/IFish';
 
 export const Fishes: IFish[] = [
-	{
-		Name: 'Ribbon Eel',
-		Price: 600,
-		Location: 'Island',
-		Size: 'Thin',
-		Months: [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ],
-		Times: [
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			7,
-			8,
-			9,
-			10,
-			11,
-			12,
-			13,
-			14,
-			15,
-			16,
-			17,
-			18,
-			19,
-			20,
-			21,
-			22,
-			23,
-			24
-		]
-	},
-	{
-		Name: 'Moray Eel',
-		Price: 2000,
-		Location: 'Island',
-		Size: 'Very Large',
-		Months: [ 6, 7, 8, 9, 10 ],
-		Times: [
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			7,
-			8,
-			9,
-			10,
-			11,
-			12,
-			13,
-			14,
-			15,
-			16,
-			17,
-			18,
-			19,
-			20,
-			21,
-			22,
-			23,
-			24
-		]
-	},
-	{
-		Name: 'Ray',
-		Price: 3000,
-		Location: 'Island',
-		Size: 'Very Large',
-		Months: [ 6, 7, 8, 9, 10, 11 ],
-		Times: [ 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21 ]
-	},
-	{
-		Name: 'Giant Trevally',
-		Price: 4500,
-		Location: 'Island',
-		Size: 'Very Large',
-		Months: [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ],
-		Times: [
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			7,
-			8,
-			9,
-			10,
-			11,
-			12,
-			13,
-			14,
-			15,
-			16,
-			17,
-			18,
-			19,
-			20,
-			21,
-			22,
-			23,
-			24
-		]
-	},
-	{
-		Name: 'Napoleonfish',
-		Price: 10000,
-		Location: 'Island',
-		Size: 'Huge',
-		Months: [ 6, 7, 8 ],
-		Times: [ 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21 ]
-	},
-	{
-		Name: 'Whale Shark',
-		Price: 13000,
-		Location: 'Island',
-		Size: 'Huge with Fin',
-		Months: [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ],
-		Times: [
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			7,
-			8,
-			9,
-			10,
-			11,
-			12,
-			13,
-			14,
-			15,
-			16,
-			17,
-			18,
-			19,
-			20,
-			21,
-			22,
-			23,
-			24
-		]
-	},
-	{
-		Name: 'Catfish',
-		Price: 800,
-		Location: 'Large Pond',
-		Size: 'Large',
-		Months: [ 3, 4, 5, 6, 7, 8, 9, 10 ],
-		Times: [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 16, 17, 18, 19, 20, 21, 22, 23, 24 ]
-	},
-	{
-		Name: 'Giant Snakehead',
-		Price: 5500,
-		Location: 'Large Pond',
-		Size: 'Very Large',
-		Months: [ 6, 7, 8 ],
-		Times: [ 9, 10, 11, 12, 13, 14, 15, 16 ]
-	},
-	{
-		Name: 'Gar',
-		Price: 6000,
-		Location: 'Large Pond',
-		Size: 'Huge',
-		Months: [ 6, 7, 8, 9 ],
-		Times: [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 16, 17, 18, 19, 20, 21, 22, 23, 24 ]
-	},
-	{
-		Name: 'Clownfish',
-		Price: 650,
-		Location: 'Ocean',
-		Size: 'Tiny',
-		Months: [ 4, 5, 6, 7, 8, 9 ],
-		Times: [
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			7,
-			8,
-			9,
-			10,
-			11,
-			12,
-			13,
-			14,
-			15,
-			16,
-			17,
-			18,
-			19,
-			20,
-			21,
-			22,
-			23,
-			24
-		]
-	},
-	{
-		Name: 'Seahorse',
-		Price: 1100,
-		Location: 'Ocean',
-		Size: 'Tiny',
-		Months: [ 4, 5, 6, 7, 8, 9, 10, 11 ],
-		Times: [
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			7,
-			8,
-			9,
-			10,
-			11,
-			12,
-			13,
-			14,
-			15,
-			16,
-			17,
-			18,
-			19,
-			20,
-			21,
-			22,
-			23,
-			24
-		]
-	},
-	{
-		Name: 'Horse Mackerel',
-		Price: 150,
-		Location: 'Ocean',
-		Size: 'Small',
-		Months: [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ],
-		Times: [
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			7,
-			8,
-			9,
-			10,
-			11,
-			12,
-			13,
-			14,
-			15,
-			16,
-			17,
-			18,
-			19,
-			20,
-			21,
-			22,
-			23,
-			24
-		]
-	},
-	{
-		Name: 'Butterflyfish',
-		Price: 1000,
-		Location: 'Ocean',
-		Size: 'Small',
-		Months: [ 4, 5, 6, 7, 8, 9 ],
-		Times: [
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			7,
-			8,
-			9,
-			10,
-			11,
-			12,
-			13,
-			14,
-			15,
-			16,
-			17,
-			18,
-			19,
-			20,
-			21,
-			22,
-			23,
-			24
-		]
-	},
-	{
-		Name: 'Surgeonfish',
-		Price: 1000,
-		Location: 'Ocean',
-		Size: 'Small',
-		Months: [ 4, 5, 6, 7, 8, 9 ],
-		Times: [
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			7,
-			8,
-			9,
-			10,
-			11,
-			12,
-			13,
-			14,
-			15,
-			16,
-			17,
-			18,
-			19,
-			20,
-			21,
-			22,
-			23,
-			24
-		]
-	},
-	{
-		Name: 'Puffer Fish',
-		Price: 240,
-		Location: 'Ocean',
-		Size: 'Medium',
-		Months: [ 6, 7, 8, 9 ],
-		Times: [
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			7,
-			8,
-			9,
-			10,
-			11,
-			12,
-			13,
-			14,
-			15,
-			16,
-			17,
-			18,
-			19,
-			20,
-			21,
-			22,
-			23,
-			24
-		]
-	},
-	{
-		Name: 'Squid',
-		Price: 400,
-		Location: 'Ocean',
-		Size: 'Medium',
-		Months: [ 1, 2, 3, 4, 5, 6, 12 ],
-		Times: [
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			7,
-			8,
-			9,
-			10,
-			11,
-			12,
-			13,
-			14,
-			15,
-			16,
-			17,
-			18,
-			19,
-			20,
-			21,
-			22,
-			23,
-			24
-		]
-	},
-	{
-		Name: 'Zebra Turkeyfish',
-		Price: 400,
-		Location: 'Ocean',
-		Size: 'Medium',
-		Months: [ 4, 5, 6, 7, 8, 9, 10, 11 ],
-		Times: [
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			7,
-			8,
-			9,
-			10,
-			11,
-			12,
-			13,
-			14,
-			15,
-			16,
-			17,
-			18,
-			19,
-			20,
-			21,
-			22,
-			23,
-			24
-		]
-	},
-	{
-		Name: 'Red Snapper',
-		Price: 3000,
-		Location: 'Ocean',
-		Size: 'Medium',
-		Months: [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ],
-		Times: [
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			7,
-			8,
-			9,
-			10,
-			11,
-			12,
-			13,
-			14,
-			15,
-			16,
-			17,
-			18,
-			19,
-			20,
-			21,
-			22,
-			23,
-			24
-		]
-	},
-	{
-		Name: 'Barred Knifejaw',
-		Price: 5000,
-		Location: 'Ocean',
-		Size: 'Medium',
-		Months: [ 3, 4, 5, 6, 7, 8, 9, 10, 11 ],
-		Times: [
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			7,
-			8,
-			9,
-			10,
-			11,
-			12,
-			13,
-			14,
-			15,
-			16,
-			17,
-			18,
-			19,
-			20,
-			21,
-			22,
-			23,
-			24
-		]
-	},
-	{
-		Name: 'Olive Flounder',
-		Price: 300,
-		Location: 'Ocean',
-		Size: 'Large',
-		Months: [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ],
-		Times: [
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			7,
-			8,
-			9,
-			10,
-			11,
-			12,
-			13,
-			14,
-			15,
-			16,
-			17,
-			18,
-			19,
-			20,
-			21,
-			22,
-			23,
-			24
-		]
-	},
-	{
-		Name: 'Sea Bass',
-		Price: 200,
-		Location: 'Ocean',
-		Size: 'Very Large',
-		Months: [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ],
-		Times: [
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			7,
-			8,
-			9,
-			10,
-			11,
-			12,
-			13,
-			14,
-			15,
-			16,
-			17,
-			18,
-			19,
-			20,
-			21,
-			22,
-			23,
-			24
-		]
-	},
-	{
-		Name: 'Blue Marlin',
-		Price: 10000,
-		Location: 'Ocean',
-		Size: 'Huge',
-		Months: [ 6, 7, 8, 9 ],
-		Times: [
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			7,
-			8,
-			9,
-			10,
-			11,
-			12,
-			13,
-			14,
-			15,
-			16,
-			17,
-			18,
-			19,
-			20,
-			21,
-			22,
-			23,
-			24
-		]
-	},
-	{
-		Name: 'Coelacanth',
-		Price: 15000,
-		Location: 'Ocean',
-		Size: 'Huge',
-		Months: [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ],
-		Times: [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 16, 17, 18, 19, 20, 21, 22, 23, 24 ]
-	},
-	{
-		Name: 'Ocean Sunfish',
-		Price: 4000,
-		Location: 'Ocean',
-		Size: 'Huge with Fin',
-		Months: [ 6, 7, 8, 9 ],
-		Times: [ 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21 ]
-	},
-	{
-		Name: 'Hammerhead Shark',
-		Price: 8000,
-		Location: 'Ocean',
-		Size: 'Huge with Fin',
-		Months: [ 6, 7, 8, 9 ],
-		Times: [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 16, 17, 18, 19, 20, 21, 22, 23, 24 ]
-	},
-	{
-		Name: 'Saw Shark',
-		Price: 12000,
-		Location: 'Ocean',
-		Size: 'Huge with Fin',
-		Months: [ 6, 7, 8, 9 ],
-		Times: [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 16, 17, 18, 19, 20, 21, 22, 23, 24 ]
-	},
-	{
-		Name: 'Shark',
-		Price: 15000,
-		Location: 'Ocean',
-		Size: 'Huge with Fin',
-		Months: [ 6, 7, 8, 9 ],
-		Times: [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 16, 17, 18, 19, 20, 21, 22, 23, 24 ]
-	},
-	{
-		Name: 'Sea Butterfly',
-		Price: 1000,
-		Location: 'Ocean',
-		Size: 'Tiny',
-		Months: [ 1, 2, 12 ],
-		Times: [
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			7,
-			8,
-			9,
-			10,
-			11,
-			12,
-			13,
-			14,
-			15,
-			16,
-			17,
-			18,
-			19,
-			20,
-			21,
-			22,
-			23,
-			24
-		]
-	},
-	{
-		Name: 'Blowfish',
-		Price: 125,
-		Location: 'Ocean',
-		Size: 'Medium',
-		Months: [ 1, 2, 11, 12 ],
-		Times: [
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			7,
-			8,
-			9,
-			10,
-			11,
-			12,
-			13,
-			14,
-			15,
-			16,
-			17,
-			18,
-			19,
-			20,
-			21,
-			22,
-			23,
-			24
-		]
-	},
-	{
-		Name: 'Dab',
-		Price: 300,
-		Location: 'Ocean',
-		Size: 'Medium',
-		Months: [ 1, 2, 3, 4, 10, 11, 12 ],
-		Times: [
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			7,
-			8,
-			9,
-			10,
-			11,
-			12,
-			13,
-			14,
-			15,
-			16,
-			17,
-			18,
-			19,
-			20,
-			21,
-			22,
-			23,
-			24
-		]
-	},
-	{
-		Name: 'Football Fish',
-		Price: 2500,
-		Location: 'Ocean',
-		Size: 'Large',
-		Months: [ 1, 2, 3, 11, 12 ],
-		Times: [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 16, 17, 18, 19, 20, 21, 22, 23, 24 ]
-	},
-	{
-		Name: 'Tuna',
-		Price: 7000,
-		Location: 'Ocean',
-		Size: 'Huge',
-		Months: [ 1, 2, 3, 11, 12 ],
-		Times: [
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			7,
-			8,
-			9,
-			10,
-			11,
-			12,
-			13,
-			14,
-			15,
-			16,
-			17,
-			18,
-			19,
-			20,
-			21,
-			22,
-			23,
-			24
-		]
-	},
-	{
-		Name: 'Oarfish',
-		Price: 9000,
-		Location: 'Ocean',
-		Size: 'Huge',
-		Months: [ 1, 2, 3, 4, 5, 12 ],
-		Times: [
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			7,
-			8,
-			9,
-			10,
-			11,
-			12,
-			13,
-			14,
-			15,
-			16,
-			17,
-			18,
-			19,
-			20,
-			21,
-			22,
-			23,
-			24
-		]
-	},
-	{
-		Name: 'Tadpole',
-		Price: 100,
-		Location: 'Pond',
-		Size: 'Tiny',
-		Months: [ 3, 4, 5, 6, 7 ],
-		Times: [
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			7,
-			8,
-			9,
-			10,
-			11,
-			12,
-			13,
-			14,
-			15,
-			16,
-			17,
-			18,
-			19,
-			20,
-			21,
-			22,
-			23,
-			24
-		]
-	},
-	{
-		Name: 'Frog',
-		Price: 120,
-		Location: 'Pond',
-		Size: 'Tiny',
-		Months: [ 5, 6, 7, 8 ],
-		Times: [
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			7,
-			8,
-			9,
-			10,
-			11,
-			12,
-			13,
-			14,
-			15,
-			16,
-			17,
-			18,
-			19,
-			20,
-			21,
-			22,
-			23,
-			24
-		]
-	},
-	{
-		Name: 'KillIFish',
-		Price: 300,
-		Location: 'Pond',
-		Size: 'Tiny',
-		Months: [ 4, 5, 6, 7, 8 ],
-		Times: [
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			7,
-			8,
-			9,
-			10,
-			11,
-			12,
-			13,
-			14,
-			15,
-			16,
-			17,
-			18,
-			19,
-			20,
-			21,
-			22,
-			23,
-			24
-		]
-	},
-	{
-		Name: 'Crawfish',
-		Price: 200,
-		Location: 'Pond',
-		Size: 'Small',
-		Months: [ 4, 5, 6, 7, 8 ],
-		Times: [
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			7,
-			8,
-			9,
-			10,
-			11,
-			12,
-			13,
-			14,
-			15,
-			16,
-			17,
-			18,
-			19,
-			20,
-			21,
-			22,
-			23,
-			24
-		]
-	},
-	{
-		Name: 'Eel',
-		Price: 2000,
-		Location: 'River',
-		Size: 'Thin',
-		Months: [ 6, 7, 8 ],
-		Times: [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 16, 17, 18, 19, 20, 21, 22, 23, 24 ]
-	},
-	{
-		Name: 'Pale Chub',
-		Price: 200,
-		Location: 'River',
-		Size: 'Tiny',
-		Months: [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ],
-		Times: [ 9, 10, 11, 12, 13, 14, 15, 16 ]
-	},
-	{
-		Name: 'Neon Tetra',
-		Price: 500,
-		Location: 'River',
-		Size: 'Tiny',
-		Months: [ 4, 5, 6, 7, 8, 9, 10, 11 ],
-		Times: [ 9, 10, 11, 12, 13, 14, 15, 16 ]
-	},
-	{
-		Name: 'Goldfish',
-		Price: 1300,
-		Location: 'River',
-		Size: 'Tiny',
-		Months: [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ],
-		Times: [
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			7,
-			8,
-			9,
-			10,
-			11,
-			12,
-			13,
-			14,
-			15,
-			16,
-			17,
-			18,
-			19,
-			20,
-			21,
-			22,
-			23,
-			24
-		]
-	},
-	{
-		Name: 'Guppy',
-		Price: 1300,
-		Location: 'River',
-		Size: 'Tiny',
-		Months: [ 4, 5, 6, 7, 8, 9, 10, 11 ],
-		Times: [ 9, 10, 11, 12, 13, 14, 15, 16 ]
-	},
-	{
-		Name: 'Bluegill',
-		Price: 120,
-		Location: 'River',
-		Size: 'Small',
-		Months: [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ],
-		Times: [ 9, 10, 11, 12, 13, 14, 15, 16 ]
-	},
-	{
-		Name: 'Crucian Carp',
-		Price: 120,
-		Location: 'River',
-		Size: 'Small',
-		Months: [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ],
-		Times: [
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			7,
-			8,
-			9,
-			10,
-			11,
-			12,
-			13,
-			14,
-			15,
-			16,
-			17,
-			18,
-			19,
-			20,
-			21,
-			22,
-			23,
-			24
-		]
-	},
-	{
-		Name: 'Freshwater Goby',
-		Price: 300,
-		Location: 'River',
-		Size: 'Small',
-		Months: [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ],
-		Times: [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 16, 17, 18, 19, 20, 21, 22, 23, 24 ]
-	},
-	{
-		Name: 'Popeyed Goldfish',
-		Price: 1300,
-		Location: 'River',
-		Size: 'Tiny',
-		Months: [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ],
-		Times: [ 9, 10, 11, 12, 13, 14, 15, 16 ]
-	},
-	{
-		Name: 'Nibble Fish',
-		Price: 1500,
-		Location: 'River',
-		Size: 'Small',
-		Months: [ 5, 6, 7, 8, 9 ],
-		Times: [ 9, 10, 11, 12, 13, 14, 15, 16 ]
-	},
-	{
-		Name: 'Piranha',
-		Price: 2500,
-		Location: 'River',
-		Size: 'Small',
-		Months: [ 6, 7, 8 ],
-		Times: [ 1, 2, 3, 4, 9, 10, 11, 12, 13, 14, 15, 16, 21, 22, 23, 24 ]
-	},
-	{
-		Name: 'Angelfish',
-		Price: 3000,
-		Location: 'River',
-		Size: 'Small',
-		Months: [ 5, 6, 7, 8, 9, 10 ],
-		Times: [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 16, 17, 18, 19, 20, 21, 22, 23, 24 ]
-	},
-	{
-		Name: 'Barbel Steed',
-		Price: 200,
-		Location: 'River',
-		Size: 'Medium',
-		Months: [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ],
-		Times: [
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			7,
-			8,
-			9,
-			10,
-			11,
-			12,
-			13,
-			14,
-			15,
-			16,
-			17,
-			18,
-			19,
-			20,
-			21,
-			22,
-			23,
-			24
-		]
-	},
-	{
-		Name: 'Dace',
-		Price: 200,
-		Location: 'River',
-		Size: 'Medium',
-		Months: [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ],
-		Times: [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 16, 17, 18, 19, 20, 21, 22, 23, 24 ]
-	},
-	{
-		Name: 'Cherry Salmon',
-		Price: 1000,
-		Location: 'River',
-		Size: 'Medium',
-		Months: [ 3, 4, 5, 6 ],
-		Times: [ 4, 5, 6, 7, 8, 9, 16, 17, 18, 19, 20, 21 ]
-	},
-	{
-		Name: 'Char',
-		Price: 3800,
-		Location: 'River',
-		Size: 'Medium',
-		Months: [ 3, 4, 5, 6 ],
-		Times: [ 4, 5, 6, 7, 8, 9, 16, 17, 18, 19, 20, 21 ]
-	},
-	{
-		Name: 'Arowana',
-		Price: 10000,
-		Location: 'River',
-		Size: 'Medium',
-		Months: [ 6, 7, 8 ],
-		Times: [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 16, 17, 18, 19, 20, 21, 22, 23, 24 ]
-	},
-	{
-		Name: 'Black Bass',
-		Price: 300,
-		Location: 'River',
-		Size: 'Large',
-		Months: [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ],
-		Times: [
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			7,
-			8,
-			9,
-			10,
-			11,
-			12,
-			13,
-			14,
-			15,
-			16,
-			17,
-			18,
-			19,
-			20,
-			21,
-			22,
-			23,
-			24
-		]
-	},
-	{
-		Name: 'Carp',
-		Price: 300,
-		Location: 'River',
-		Size: 'Large',
-		Months: [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ],
-		Times: [
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			7,
-			8,
-			9,
-			10,
-			11,
-			12,
-			13,
-			14,
-			15,
-			16,
-			17,
-			18,
-			19,
-			20,
-			21,
-			22,
-			23,
-			24
-		]
-	},
-	{
-		Name: 'Rainbow Trout',
-		Price: 800,
-		Location: 'River',
-		Size: 'Large',
-		Months: [ 3, 4, 5, 6 ],
-		Times: [ 4, 5, 6, 7, 8, 9, 16, 17, 18, 19, 20, 21 ]
-	},
-	{
-		Name: 'Koi',
-		Price: 4000,
-		Location: 'River',
-		Size: 'Large',
-		Months: [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ],
-		Times: [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 16, 17, 18, 19, 20, 21, 22, 23, 24 ]
-	},
-	{
-		Name: 'Saddled Bichir',
-		Price: 4000,
-		Location: 'River',
-		Size: 'Large',
-		Months: [ 6, 7, 8, 9 ],
-		Times: [ 1, 2, 3, 4, 21, 22, 23, 24 ]
-	},
-	{
-		Name: 'Dorado',
-		Price: 15000,
-		Location: 'River',
-		Size: 'Very Large',
-		Months: [ 6, 7, 8, 9 ],
-		Times: [ 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21 ]
-	},
-	{
-		Name: 'Bitterling',
-		Price: 800,
-		Location: 'River',
-		Size: 'Tiny',
-		Months: [ 1, 2, 12 ],
-		Times: [
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			7,
-			8,
-			9,
-			10,
-			11,
-			12,
-			13,
-			14,
-			15,
-			16,
-			17,
-			18,
-			19,
-			20,
-			21,
-			22,
-			23,
-			24
-		]
-	},
-	{
-		Name: 'Loach',
-		Price: 300,
-		Location: 'River',
-		Size: 'Small',
-		Months: [ 3, 4, 5 ],
-		Times: [
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			7,
-			8,
-			9,
-			10,
-			11,
-			12,
-			13,
-			14,
-			15,
-			16,
-			17,
-			18,
-			19,
-			20,
-			21,
-			22,
-			23,
-			24
-		]
-	},
-	{
-		Name: 'Pond Smelt',
-		Price: 300,
-		Location: 'River',
-		Size: 'Small',
-		Months: [ 1, 2, 12 ],
-		Times: [
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			7,
-			8,
-			9,
-			10,
-			11,
-			12,
-			13,
-			14,
-			15,
-			16,
-			17,
-			18,
-			19,
-			20,
-			21,
-			22,
-			23,
-			24
-		]
-	},
-	{
-		Name: 'Mitten Crab',
-		Price: 2000,
-		Location: 'River',
-		Size: 'Small',
-		Months: [ 10, 11 ],
-		Times: [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 16, 17, 18, 19, 20, 21, 22, 23, 24 ]
-	},
-	{
-		Name: 'Yellow Perch',
-		Price: 240,
-		Location: 'River',
-		Size: 'Medium',
-		Months: [ 1, 2, 3, 10, 11, 12 ],
-		Times: [
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			7,
-			8,
-			9,
-			10,
-			11,
-			12,
-			13,
-			14,
-			15,
-			16,
-			17,
-			18,
-			19,
-			20,
-			21,
-			22,
-			23,
-			24
-		]
-	},
-	{
-		Name: 'Sweetfish',
-		Price: 900,
-		Location: 'River',
-		Size: 'Medium',
-		Months: [ 7, 8 ],
-		Times: [
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			7,
-			8,
-			9,
-			10,
-			11,
-			12,
-			13,
-			14,
-			15,
-			16,
-			17,
-			18,
-			19,
-			20,
-			21,
-			22,
-			23,
-			24
-		]
-	},
-	{
-		Name: 'Soft Shelled Turtle',
-		Price: 3750,
-		Location: 'River',
-		Size: 'Medium',
-		Months: [ 8, 9 ],
-		Times: [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 16, 17, 18, 19, 20, 21, 22, 23, 24 ]
-	},
-	{
-		Name: 'Salmon',
-		Price: 700,
-		Location: 'River',
-		Size: 'Large',
-		Months: [ 9 ],
-		Times: [
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			7,
-			8,
-			9,
-			10,
-			11,
-			12,
-			13,
-			14,
-			15,
-			16,
-			17,
-			18,
-			19,
-			20,
-			21,
-			22,
-			23,
-			24
-		]
-	},
-	{
-		Name: 'Pike',
-		Price: 1800,
-		Location: 'River',
-		Size: 'Very Large',
-		Months: [ 9, 10, 11, 12 ],
-		Times: [ 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21 ]
-	},
-	{
-		Name: 'King Salmon',
-		Price: 1800,
-		Location: 'River',
-		Size: 'Huge',
-		Months: [ 9 ],
-		Times: [
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			7,
-			8,
-			9,
-			10,
-			11,
-			12,
-			13,
-			14,
-			15,
-			16,
-			17,
-			18,
-			19,
-			20,
-			21,
-			22,
-			23,
-			24
-		]
-	},
-	{
-		Name: 'Arapaima',
-		Price: 10000,
-		Location: 'River',
-		Size: 'Huge',
-		Months: [ 7, 8, 9 ],
-		Times: [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 16, 17, 18, 19, 20, 21, 22, 23, 24 ]
-	},
-	{
-		Name: 'Stringfish',
-		Price: 15000,
-		Location: 'River',
-		Size: 'Huge',
-		Months: [ 1, 2, 12 ],
-		Times: [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 16, 17, 18, 19, 20, 21, 22, 23, 24 ]
-	}
-];
-
+    {
+        "Months": [
+            [1,2],
+            [12]
+        ],
+        "Times": [
+            [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24],
+            [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24]
+        ],
+        "Location": "River",
+        "Size": "Tiny",
+        "Name": "Bitterling",
+        "Number": 1,
+        "Notes": [],
+        "Price": 900
+    },
+    {
+        "Months": [
+            [1,2,3,4,5,6,7,8,9,10,11,12]
+        ],
+        "Times": [
+            [9,10,11,12,13,14,15,16]
+        ],
+        "Location": "River",
+        "Size": "Tiny",
+        "Name": "Pale Chub",
+        "Number": 2,
+        "Notes": [],
+        "Price": 200
+    },
+    {
+        "Months": [
+            [1,2,3,4,5,6,7,8,9,10,11,12]
+        ],
+        "Times": [
+            [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24]
+        ],
+        "Location": "River",
+        "Size": "Small",
+        "Name": "Crucian Carp",
+        "Number": 3,
+        "Notes": [],
+        "Price": 120
+    },
+    {
+        "Months": [
+            [1,2,3,4,5,6,7,8,9,10,11,12],
+            [1,2,3,4,5,6,7,8,9,10,11,12]
+        ],
+        "Times": [
+            [16,17,18,19,20,21,22,23,24],
+            [1,2,3,4,5,6,7,8,9]
+        ],
+        "Location": "River",
+        "Size": "Medium",
+        "Name": "Dace",
+        "Number": 4,
+        "Notes": [],
+        "Price": 200
+    },
+    {
+        "Months": [
+            [1,2,3,4,5,6,7,8,9,10,11,12]
+        ],
+        "Times": [
+            [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24]
+        ],
+        "Location": "River",
+        "Size": "Medium",
+        "Name": "Barbel Steed",
+        "Number": 5,
+        "Notes": [],
+        "Price": 200
+    },
+    {
+        "Months": [
+            [1,2,3,4,5,6,7,8,9,10,11,12]
+        ],
+        "Times": [
+            [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24]
+        ],
+        "Location": "River",
+        "Size": "Large",
+        "Name": "Carp",
+        "Number": 6,
+        "Notes": [],
+        "Price": 300
+    },
+    {
+        "Months": [
+            [1,2,3,4,5,6,7,8,9,10,11,12],
+            [1,2,3,4,5,6,7,8,9,10,11,12]
+        ],
+        "Times": [
+            [16,17,18,19,20,21,22,23,24],
+            [1,2,3,4,5,6,7,8,9]
+        ],
+        "Location": "River",
+        "Size": "Large",
+        "Name": "Koi",
+        "Number": 7,
+        "Notes": [],
+        "Price": "4,000"
+    },
+    {
+        "Months": [
+            [1,2,3,4,5,6,7,8,9,10,11,12]
+        ],
+        "Times": [
+            [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24]
+        ],
+        "Location": "River",
+        "Size": "Tiny",
+        "Name": "Goldfish",
+        "Number": 8,
+        "Notes": [],
+        "Price": "1,300"
+    },
+    {
+        "Months": [
+            [1,2,3,4,5,6,7,8,9,10,11,12]
+        ],
+        "Times": [
+            [9,10,11,12,13,14,15,16]
+        ],
+        "Location": "River",
+        "Size": "Tiny",
+        "Name": "Popeyed Goldfish",
+        "Number": 9,
+        "Notes": [],
+        "Price": "1,300"
+    },
+    {
+        "Months": [
+            [4,5,6,7,8]
+        ],
+        "Times": [
+            [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24]
+        ],
+        "Location": "Pond",
+        "Size": "Tiny",
+        "Name": "Killifish",
+        "Number": 10,
+        "Notes": [],
+        "Price": 300
+    },
+    {
+        "Months": [
+            [4,5,6,7,8,9]
+        ],
+        "Times": [
+            [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24]
+        ],
+        "Location": "Pond",
+        "Size": "Small",
+        "Name": "Crawfish",
+        "Number": 11,
+        "Notes": [],
+        "Price": 200
+    },
+    {
+        "Months": [
+            [8,9],
+            [8,9]
+        ],
+        "Times": [
+            [16,17,18,19,20,21,22,23,24],
+            [1,2,3,4,5,6,7,8,9]
+        ],
+        "Location": "River",
+        "Size": "Medium",
+        "Name": "Soft Shelled Turtle",
+        "Number": 12,
+        "Notes": [],
+        "Price": "3,750"
+    },
+    {
+        "Months": [
+            [3,4,5,6,7]
+        ],
+        "Times": [
+            [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24]
+        ],
+        "Location": "Pond",
+        "Size": "Tiny",
+        "Name": "Tadpole",
+        "Number": 13,
+        "Notes": [],
+        "Price": 100
+    },
+    {
+        "Months": [
+            [5,6,7,8]
+        ],
+        "Times": [
+            [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24]
+        ],
+        "Location": "Pond",
+        "Size": "Tiny",
+        "Name": "Frog",
+        "Number": 14,
+        "Notes": [],
+        "Price": 120
+    },
+    {
+        "Months": [
+            [1,2,3,4,5,6,7,8,9,10,11,12],
+            [1,2,3,4,5,6,7,8,9,10,11,12]
+        ],
+        "Times": [
+            [16,17,18,19,20,21,22,23,24],
+            [1,2,3,4,5,6,7,8,9]
+        ],
+        "Location": "River",
+        "Size": "Small",
+        "Name": "Freshwater Goby",
+        "Number": 15,
+        "Notes": [],
+        "Price": 300
+    },
+    {
+        "Months": [
+            [3,4,5]
+        ],
+        "Times": [
+            [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24]
+        ],
+        "Location": "River",
+        "Size": "Small",
+        "Name": "Loach",
+        "Number": 16,
+        "Notes": [],
+        "Price": 300
+    },
+    {
+        "Months": [
+            [3,4,5,6,7,8,9,10],
+            [3,4,5,6,7,8,9,10]
+        ],
+        "Times": [
+            [16,17,18,19,20,21,22,23,24],
+            [1,2,3,4,5,6,7,8,9]
+        ],
+        "Location": "Large Pond",
+        "Size": "Large",
+        "Name": "Catfish",
+        "Number": 17,
+        "Notes": [],
+        "Price": 800
+    },
+    {
+        "Months": [
+            [6,7,8,9],
+            [6,7,8,9]
+        ],
+        "Times": [
+            [16,17,18,19,20,21,22,23,24],
+            [1,2,3,4,5,6,7,8,9]
+        ],
+        "Location": "River",
+        "Size": "Thin",
+        "Name": "Eel",
+        "Number": 18,
+        "Notes": [],
+        "Price": "2,000"
+    },
+    {
+        "Months": [
+            [6,7,8]
+        ],
+        "Times": [
+            [9,10,11,12,13,14,15,16]
+        ],
+        "Location": "Large Pond",
+        "Size": "Very Large",
+        "Name": "Giant Snakehead",
+        "Number": 19,
+        "Notes": [],
+        "Price": "5,500"
+    },
+    {
+        "Months": [
+            [1,2,3,4,5,6,7,8,9,10,11,12]
+        ],
+        "Times": [
+            [9,10,11,12,13,14,15,16]
+        ],
+        "Location": "River",
+        "Size": "Small",
+        "Name": "Bluegill",
+        "Number": 20,
+        "Notes": [],
+        "Price": 120
+    },
+    {
+        "Months": [
+            [1,2,3],
+            [10,11,12]
+        ],
+        "Times": [
+            [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24],
+            [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24]
+        ],
+        "Location": "River",
+        "Size": "Medium",
+        "Name": "Yellow Perch",
+        "Number": 21,
+        "Notes": [],
+        "Price": 240
+    },
+    {
+        "Months": [
+            [1,2,3,4,5,6,7,8,9,10,11,12]
+        ],
+        "Times": [
+            [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24]
+        ],
+        "Location": "River",
+        "Size": "Large",
+        "Name": "Black Bass",
+        "Number": 22,
+        "Notes": [],
+        "Price": 300
+    },
+    {
+        "Months": [
+            [9,10,11,12]
+        ],
+        "Times": [
+            [4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21]
+        ],
+        "Location": "River",
+        "Size": "Very Large",
+        "Name": "Pike",
+        "Number": 23,
+        "Notes": [],
+        "Price": "1,800"
+    },
+    {
+        "Months": [
+            [1,2],
+            [1,2],
+            [12],
+            [12]
+        ],
+        "Times": [
+            [16,17,18,19,20,21,22,23,24],
+            [1,2,3,4,5,6,7,8,9],
+            [16,17,18,19,20,21,22,23,24],
+            [1,2,3,4,5,6,7,8,9]
+        ],
+        "Location": "River",
+        "Size": "Small",
+        "Name": "Pond Smelt",
+        "Number": 24,
+        "Notes": [],
+        "Price": 300
+    },
+    {
+        "Months": [
+            [7,8,9]
+        ],
+        "Times": [
+            [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24]
+        ],
+        "Location": "River",
+        "Size": "Medium",
+        "Name": "Sweetfish",
+        "Number": 25,
+        "Notes": [],
+        "Price": 900
+    },
+    {
+        "Months": [
+            [3,4,5,6],
+            [9,10,11]
+        ],
+        "Times": [
+            [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24],
+            [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24]
+        ],
+        "Location": "River",
+        "Size": "Medium",
+        "Name": "Cherry Salmon",
+        "Number": 26,
+        "Notes": [],
+        "Price": "1,000"
+    },
+    {
+        "Months": [
+            [3,4,5,6],
+            [9,10,11]
+        ],
+        "Times": [
+            [4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21],
+            [4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21]
+        ],
+        "Location": "River",
+        "Size": "Medium",
+        "Name": "Char",
+        "Number": 27,
+        "Notes": [],
+        "Price": "3,800"
+    },
+    {
+        "Months": [
+            [3,4,5,6],
+            [9,10,11]
+        ],
+        "Times": [
+            [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24],
+            [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24]
+        ],
+        "Location": "River",
+        "Size": "Large",
+        "Name": "Rainbow Trout",
+        "Number": 28,
+        "Notes": [],
+        "Price": 800
+    },
+    {
+        "Months": [
+            [1,2],
+            [1,2],
+            [12],
+            [12]
+        ],
+        "Times": [
+            [16,17,18,19,20,21,22,23,24],
+            [1,2,3,4,5,6,7,8,9],
+            [16,17,18,19,20,21,22,23,24],
+            [1,2,3,4,5,6,7,8,9]
+        ],
+        "Location": "River",
+        "Size": "Huge",
+        "Name": "Stringfish",
+        "Number": 29,
+        "Notes": [],
+        "Price": "15,000"
+    },
+    {
+        "Months": [
+            [9]
+        ],
+        "Times": [
+            [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24]
+        ],
+        "Location": "River",
+        "Size": "Large",
+        "Name": "Salmon",
+        "Number": 30,
+        "Notes": [],
+        "Price": 700
+    },
+    {
+        "Months": [
+            [9]
+        ],
+        "Times": [
+            [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24]
+        ],
+        "Location": "River",
+        "Size": "Huge",
+        "Name": "King Salmon",
+        "Number": 31,
+        "Notes": [],
+        "Price": "1,800"
+    },
+    {
+        "Months": [
+            [9,10,11],
+            [9,10,11]
+        ],
+        "Times": [
+            [16,17,18,19,20,21,22,23,24],
+            [1,2,3,4,5,6,7,8,9]
+        ],
+        "Location": "River",
+        "Size": "Small",
+        "Name": "Mitten Crab",
+        "Number": 32,
+        "Notes": [],
+        "Price": "2,000"
+    },
+    {
+        "Months": [
+            [4,5,6,7,8,9,10,11]
+        ],
+        "Times": [
+            [9,10,11,12,13,14,15,16]
+        ],
+        "Location": "River",
+        "Size": "Tiny",
+        "Name": "Guppy",
+        "Number": 33,
+        "Notes": [],
+        "Price": "1,300"
+    },
+    {
+        "Months": [
+            [5,6,7,8,9]
+        ],
+        "Times": [
+            [9,10,11,12,13,14,15,16]
+        ],
+        "Location": "River",
+        "Size": "Small",
+        "Name": "Nibble Fish",
+        "Number": 34,
+        "Notes": [],
+        "Price": "1,500"
+    },
+    {
+        "Months": [
+            [5,6,7,8,9,10],
+            [5,6,7,8,9,10]
+        ],
+        "Times": [
+            [16,17,18,19,20,21,22,23,24],
+            [1,2,3,4,5,6,7,8,9]
+        ],
+        "Location": "River",
+        "Size": "Small",
+        "Name": "Angelfish",
+        "Number": 35,
+        "Notes": [],
+        "Price": "3,000"
+    },
+    {
+        "Months": [
+            [4,5,6,7,8,9,10,11]
+        ],
+        "Times": [
+            [9,10,11,12,13,14,15,16]
+        ],
+        "Location": "River",
+        "Size": "Tiny",
+        "Name": "Neon Tetra",
+        "Number": 36,
+        "Notes": [],
+        "Price": 500
+    },
+    {
+        "Months": [
+            [6,7,8,9],
+            [6,7,8,9]
+        ],
+        "Times": [
+            [9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24],
+            [1,2,3,4]
+        ],
+        "Location": "River",
+        "Size": "Small",
+        "Name": "Piranha",
+        "Number": 37,
+        "Notes": [],
+        "Price": "2,500"
+    },
+    {
+        "Months": [
+            [6,7,8,9],
+            [6,7,8,9]
+        ],
+        "Times": [
+            [16,17,18,19,20,21,22,23,24],
+            [1,2,3,4,5,6,7,8,9]
+        ],
+        "Location": "River",
+        "Size": "Medium",
+        "Name": "Arowana",
+        "Number": 38,
+        "Notes": [],
+        "Price": "10,000"
+    },
+    {
+        "Months": [
+            [6,7,8,9]
+        ],
+        "Times": [
+            [4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21]
+        ],
+        "Location": "River",
+        "Size": "Very Large",
+        "Name": "Dorado",
+        "Number": 39,
+        "Notes": [],
+        "Price": "15,000"
+    },
+    {
+        "Months": [
+            [6,7,8,9],
+            [6,7,8,9]
+        ],
+        "Times": [
+            [16,17,18,19,20,21,22,23,24],
+            [1,2,3,4,5,6,7,8,9]
+        ],
+        "Location": "Large Pond",
+        "Size": "Huge",
+        "Name": "Gar",
+        "Number": 40,
+        "Notes": [],
+        "Price": "6,000"
+    },
+    {
+        "Months": [
+            [7,8,9],
+            [7,8,9]
+        ],
+        "Times": [
+            [16,17,18,19,20,21,22,23,24],
+            [1,2,3,4,5,6,7,8,9]
+        ],
+        "Location": "River",
+        "Size": "Huge",
+        "Name": "Arapaima",
+        "Number": 41,
+        "Notes": [],
+        "Price": "10,000"
+    },
+    {
+        "Months": [
+            [6,7,8,9],
+            [6,7,8,9]
+        ],
+        "Times": [
+            [21,22,23,24],
+            [1,2,3,4]
+        ],
+        "Location": "River",
+        "Size": "Large",
+        "Name": "Saddled Bichir",
+        "Number": 42,
+        "Notes": [],
+        "Price": "4,000"
+    },
+    {
+        "Months": [
+            [1,2],
+            [12]
+        ],
+        "Times": [
+            [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24],
+            [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24]
+        ],
+        "Location": "Ocean",
+        "Size": "Tiny",
+        "Name": "Sea Butterfly",
+        "Number": 43,
+        "Notes": [],
+        "Price": "1,000"
+    },
+    {
+        "Months": [
+            [4,5,6,7,8,9,10,11]
+        ],
+        "Times": [
+            [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24]
+        ],
+        "Location": "Ocean",
+        "Size": "Tiny",
+        "Name": "Seahorse",
+        "Number": 44,
+        "Notes": [],
+        "Price": "1,100"
+    },
+    {
+        "Months": [
+            [4,5,6,7,8,9]
+        ],
+        "Times": [
+            [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24]
+        ],
+        "Location": "Ocean",
+        "Size": "Tiny",
+        "Name": "Clownfish",
+        "Number": 45,
+        "Notes": [],
+        "Price": 650
+    },
+    {
+        "Months": [
+            [4,5,6,7,8,9]
+        ],
+        "Times": [
+            [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24]
+        ],
+        "Location": "Ocean",
+        "Size": "Small",
+        "Name": "Surgeonfish",
+        "Number": 46,
+        "Notes": [],
+        "Price": "1,000"
+    },
+    {
+        "Months": [
+            [4,5,6,7,8,9]
+        ],
+        "Times": [
+            [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24]
+        ],
+        "Location": "Ocean",
+        "Size": "Small",
+        "Name": "Butterflyfish",
+        "Number": 47,
+        "Notes": [],
+        "Price": "1,000"
+    },
+    {
+        "Months": [
+            [6,7,8]
+        ],
+        "Times": [
+            [4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21]
+        ],
+        "Location": "Island",
+        "Size": "Huge",
+        "Name": "Napoleonfish",
+        "Number": 48,
+        "Notes": [],
+        "Price": "10,000"
+    },
+    {
+        "Months": [
+            [4,5,6,7,8,9,10,11]
+        ],
+        "Times": [
+            [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24]
+        ],
+        "Location": "Ocean",
+        "Size": "Medium",
+        "Name": "Zebra Turkeyfish",
+        "Number": 49,
+        "Notes": [],
+        "Price": 400
+    },
+    {
+        "Months": [
+            [1,2],
+            [11,12]
+        ],
+        "Times": [
+            [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24],
+            [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24]
+        ],
+        "Location": "Ocean",
+        "Size": "Medium",
+        "Name": "Blowfish",
+        "Number": 50,
+        "Notes": [],
+        "Price": 125
+    },
+    {
+        "Months": [
+            [6,7,8,9],
+            [6,7,8,9]
+        ],
+        "Times": [
+            [16,17,18,19,20,21,22,23,24],
+            [1,2,3,4,5,6,7,8,9]
+        ],
+        "Location": "Ocean",
+        "Size": "Medium",
+        "Name": "Puffer Fish",
+        "Number": 51,
+        "Notes": [],
+        "Price": 240
+    },
+    {
+        "Months": [
+            [1,2,3,4,5,6,7,8,9,10,11,12]
+        ],
+        "Times": [
+            [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24]
+        ],
+        "Location": "Ocean",
+        "Size": "Small",
+        "Name": "Horse Mackerel",
+        "Number": 52,
+        "Notes": [],
+        "Price": 150
+    },
+    {
+        "Months": [
+            [3,4,5,6,7,8,9,10,11]
+        ],
+        "Times": [
+            [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24]
+        ],
+        "Location": "Ocean",
+        "Size": "Medium",
+        "Name": "Barred Knifejaw",
+        "Number": 53,
+        "Notes": [],
+        "Price": "5,000"
+    },
+    {
+        "Months": [
+            [1,2,3,4,5,6,7,8,9,10,11,12]
+        ],
+        "Times": [
+            [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24]
+        ],
+        "Location": "Ocean",
+        "Size": "Very Large",
+        "Name": "Sea Bass",
+        "Number": 54,
+        "Notes": [],
+        "Price": 200
+    },
+    {
+        "Months": [
+            [1,2,3,4,5,6,7,8,9,10,11,12]
+        ],
+        "Times": [
+            [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24]
+        ],
+        "Location": "Ocean",
+        "Size": "Medium",
+        "Name": "Red Snapper",
+        "Number": 55,
+        "Notes": [],
+        "Price": "3,000"
+    },
+    {
+        "Months": [
+            [1,2,3,4],
+            [11,12]
+        ],
+        "Times": [
+            [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24],
+            [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24]
+        ],
+        "Location": "Ocean",
+        "Size": "Medium",
+        "Name": "Dab",
+        "Number": 56,
+        "Notes": [],
+        "Price": 300
+    },
+    {
+        "Months": [
+            [1,2,3,4,5,6,7,8,9,10,11,12]
+        ],
+        "Times": [
+            [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24]
+        ],
+        "Location": "Ocean",
+        "Size": "Large",
+        "Name": "Olive Flounder",
+        "Number": 57,
+        "Notes": [],
+        "Price": 800
+    },
+    {
+        "Months": [
+            [1,2,3,4,5,6,7,8],
+            [12]
+        ],
+        "Times": [
+            [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24],
+            [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24]
+        ],
+        "Location": "Ocean",
+        "Size": "Medium",
+        "Name": "Squid",
+        "Number": 58,
+        "Notes": [],
+        "Price": 400
+    },
+    {
+        "Months": [
+            [6,7,8,9,10]
+        ],
+        "Times": [
+            [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24]
+        ],
+        "Location": "Island",
+        "Size": "Very Large",
+        "Name": "Moray Eel",
+        "Number": 59,
+        "Notes": [],
+        "Price": "2,000"
+    },
+    {
+        "Months": [
+            [1,2,3,4,5,6,7,8,9,10,11,12]
+        ],
+        "Times": [
+            [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24]
+        ],
+        "Location": "Island",
+        "Size": "Thin",
+        "Name": "Ribbon Eel",
+        "Number": 60,
+        "Notes": [
+            "Only Available On The Island"
+        ],
+        "Price": 600
+    },
+    {
+        "Months": [
+            [1,2,3],
+            [1,2,3],
+            [11,12],
+            [11,12]
+        ],
+        "Times": [
+            [16,17,18,19,20,21,22,23,24],
+            [1,2,3,4,5,6,7,8,9],
+            [16,17,18,19,20,21,22,23,24],
+            [1,2,3,4,5,6,7,8,9]
+        ],
+        "Location": "Ocean",
+        "Size": "Large",
+        "Name": "Football Fish",
+        "Number": 61,
+        "Notes": [],
+        "Price": "2,500"
+    },
+    {
+        "Months": [
+            [1,2,3]
+        ],
+        "Times": [
+            [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24]
+        ],
+        "Location": "Ocean",
+        "Size": "Huge",
+        "Name": "Tuna",
+        "Number": 62,
+        "Notes": [],
+        "Price": "7,000"
+    },
+    {
+        "Months": [
+            [6,7,8,9]
+        ],
+        "Times": [
+            [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24]
+        ],
+        "Location": "Ocean",
+        "Size": "Huge",
+        "Name": "Blue Marlin",
+        "Number": 63,
+        "Notes": [],
+        "Price": "10,000"
+    },
+    {
+        "Months": [
+            [1,2,3,4,5,6,7,8,9,10,11,12]
+        ],
+        "Times": [
+            [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24]
+        ],
+        "Location": "Island",
+        "Size": "Very Large",
+        "Name": "Giant Trevally",
+        "Number": 64,
+        "Notes": [
+            "Only Available On The Island"
+        ],
+        "Price": "4,500"
+    },
+    {
+        "Months": [
+            [6,7,8,9,10,11]
+        ],
+        "Times": [
+            [4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21]
+        ],
+        "Location": "Island",
+        "Size": "Very Large",
+        "Name": "Ray",
+        "Number": 65,
+        "Notes": [],
+        "Price": "3,000"
+    },
+    {
+        "Months": [
+            [6,7,8,9]
+        ],
+        "Times": [
+            [4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21]
+        ],
+        "Location": "Ocean",
+        "Size": "Huge with Fin",
+        "Name": "Ocean Sunfish",
+        "Number": 66,
+        "Notes": [],
+        "Price": "4,000"
+    },
+    {
+        "Months": [
+            [5,6,7,8],
+            [5,6,7,8]
+        ],
+        "Times": [
+            [16,17,18,19,20,21,22,23,24],
+            [1,2,3,4,5,6,7,8,9]
+        ],
+        "Location": "Ocean",
+        "Size": "Huge with Fin",
+        "Name": "Hammerhead Shark",
+        "Number": 67,
+        "Notes": [],
+        "Price": "8,000"
+    },
+    {
+        "Months": [
+            [6,7,8,9],
+            [6,7,8,9]
+        ],
+        "Times": [
+            [16,17,18,19,20,21,22,23,24],
+            [1,2,3,4,5,6,7,8,9]
+        ],
+        "Location": "Ocean",
+        "Size": "Huge with Fin",
+        "Name": "Shark",
+        "Number": 68,
+        "Notes": [],
+        "Price": "15,000"
+    },
+    {
+        "Months": [
+            [6,7,8,9],
+            [6,7,8,9]
+        ],
+        "Times": [
+            [16,17,18,19,20,21,22,23,24],
+            [1,2,3,4,5,6,7,8,9]
+        ],
+        "Location": "Ocean",
+        "Size": "Huge with Fin",
+        "Name": "Saw Shark",
+        "Number": 69,
+        "Notes": [],
+        "Price": "12,000"
+    },
+    {
+        "Months": [
+            [1,2,3,4,5,6,7,8,9,10,11,12]
+        ],
+        "Times": [
+            [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24]
+        ],
+        "Location": "Island",
+        "Size": "Huge with Fin",
+        "Name": "Whale Shark",
+        "Number": 70,
+        "Notes": [
+            "Only Available On The Island"
+        ],
+        "Price": "13,000"
+    },
+    {
+        "Months": [
+            [1,2,3,4,5],
+            [12]
+        ],
+        "Times": [
+            [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24],
+            [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24]
+        ],
+        "Location": "Ocean",
+        "Size": "Huge",
+        "Name": "Oarfish",
+        "Number": 71,
+        "Notes": [],
+        "Price": "9,000"
+    },
+    {
+        "Months": [
+            [1,2,3,4,5,6,7,8,9,10,11,12],
+            [1,2,3,4,5,6,7,8,9,10,11,12]
+        ],
+        "Times": [
+            [16,17,18,19,20,21,22,23,24],
+            [1,2,3,4,5,6,7,8,9]
+        ],
+        "Location": "Ocean",
+        "Size": "Huge",
+        "Name": "Coelacanth",
+        "Number": 72,
+        "Notes": [
+            "Only Available During Rain"
+        ],
+        "Price": "15,000"
+    }
+]
 export default Fishes;

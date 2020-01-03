@@ -3,15 +3,19 @@ import Villagers from '../data/villagers';
 import Fishes from '../data/fish';
 import Bugs from '../data/bug';
 import Events from '../data/events';
-import IPlayer from '../interfaces/IPlayer';
+import IVillager from '../interfaces/IVillager';
+import IBug from '../interfaces/IBug';
+import IFish from '../interfaces/IFish';
+import IDeepSea from '../interfaces/IDeepSea';
+import INature from '../interfaces/INature';
+import DeepSea from '../data/deepSea';
+import { FishLocations } from '../types/FishLocations';
 
 export class CalenderService {
 	private date: Moment;
-	private playerData?: IPlayer;
 
-	constructor(date: string, player?: IPlayer) {
+	constructor(date: string) {
 		this.date = moment(date);
-		this.playerData = player;
 	}
 
 	get month(): number {
@@ -26,41 +30,59 @@ export class CalenderService {
 		return this.date.hour() || 24;
 	}
 
-	private findInArray(arrayToCheck: number[], value: number) {
-		return arrayToCheck.indexOf(value) >= 0;
-	}
+	private matchRange(
+		months: number[][],
+		times: number[][],
+		validateTime: boolean,
+		month: number,
+		time?: number
+	) {
+		return months.some((monthRange, index) => {
+			const timeRange = times[index];
 
-	public getFishes(forTime = false) {
-		return Fishes.filter((fish) => {
-			const validMonth = this.findInArray(fish.Months, this.month);
-			const validTime = this.findInArray(fish.Times, this.hour);
-
-			return validMonth && (!forTime || validTime);
+			if (!validateTime) {
+				return monthRange.includes(month);
+			} else if (time) {
+				return monthRange.includes(month) && timeRange.includes(time);
+			}
 		});
 	}
 
-	public getBugs(forTime = false) {
-		return Bugs.filter((fish) => {
-			const validMonth = this.findInArray(fish.Months, this.month);
-			const validTime = this.findInArray(fish.Times, this.hour);
+	private getNature(natureItems: INature[], forTime: boolean, location?: string) {
+		return natureItems.filter((natureItem) => {
+			const timeResult = this.matchRange(
+				natureItem.Months,
+				natureItem.Times,
+				forTime,
+				this.month,
+				this.hour
+			);
+			if (!location || location.length === 0) {
+				return timeResult;
+			}
 
-			return validMonth && (!forTime || validTime);
+			return timeResult && natureItem.Location && natureItem.Location.includes(location);
 		});
 	}
 
-	public getVillagers(playerVillagers = false) {
+	public getDeepSea(allDeepSea: IDeepSea[], forTime = false) {
+		return this.getNature(allDeepSea, forTime);
+	}
+
+	public getFishes(allFishes: IFish[], forTime = false, location?: FishLocations) {
+		return this.getNature(allFishes, forTime, location);
+	}
+
+	public getBugs(allBugs: IBug[], forTime = false, location?: string) {
+		return this.getNature(allBugs, forTime, location);
+	}
+
+	public getVillagers(allVillagers: IVillager[]) {
 		const { month, day } = this;
 
-		const villagers = Villagers.filter(
+		const villagers = allVillagers.filter(
 			({ Birthday }) => Birthday.Month === month && Birthday.Day === day
 		);
-
-		if (playerVillagers) {
-			return villagers.filter(
-				({ Name }) =>
-					this.playerData ? this.playerData.Villagers.indexOf(Name) >= 0 : true
-			);
-		}
 
 		return villagers;
 	}
@@ -85,12 +107,13 @@ export class CalenderService {
 		});
 	}
 
-	public getAll(forTime = false, forPlayer = false) {
+	public getAll(forTime = false) {
 		return {
 			Events: this.getEvents(),
-			Fishes: this.getFishes(forTime),
-			Bugs: this.getBugs(forTime),
-			Villagers: this.getVillagers(forPlayer)
+			DeepSea: this.getDeepSea(DeepSea, forTime),
+			Fishes: this.getFishes(Fishes, forTime),
+			Bugs: this.getBugs(Bugs, forTime),
+			Villagers: this.getVillagers(Villagers)
 		};
 	}
 }
