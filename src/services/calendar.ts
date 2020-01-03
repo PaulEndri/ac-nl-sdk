@@ -89,18 +89,19 @@ export class CalenderService {
 
 	public getEvents() {
 		const { month, day, date } = this;
+		const actualEventMonth = month - 1;
 
 		return Events.filter((event) => {
 			if (event.Static && event.Range) {
 				const [ [ startMonth, startDay ], [ endMonth, endDay ] ] = event.Date;
-				const isAfterStart = month >= startMonth && day >= startDay;
-				const isBeforeEnd = month <= endMonth && day <= endDay;
+				const isAfterStart = actualEventMonth >= startMonth && day >= startDay;
+				const isBeforeEnd = actualEventMonth <= endMonth && day <= endDay;
 
 				return isAfterStart && isBeforeEnd;
 			} else if (event.Static) {
 				const [ eventMonth, eventDay ] = event.Date;
 
-				return eventMonth === month && eventDay === day;
+				return eventMonth === actualEventMonth && eventDay === day;
 			} else {
 				return event.Calculate && event.Calculate(date);
 			}
