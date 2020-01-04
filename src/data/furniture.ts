@@ -1,10115 +1,15407 @@
 import IFurniture from '../interfaces/IFurniture';
 
 export const Furnitures: IFurniture[] = [
-	{
-		Name: '? Block',
-		Price: 'NFS',
-		'HHA Themes': 'Toy Shop',
-		Source: 'Fortune Cookie #25'
-	},
-	{
-		Name: '1-Up Mushroom',
-		Price: 'NFS',
-		'HHA Themes': 'Toy Shop',
-		Source: 'Fortune Cookie #24'
-	},
-	{
-		Name: '2017 Cake',
-		Price: 'NFS',
-		Source: 'DLC'
-	},
-	{
-		Name: '24-Hour-Shop ABD',
-		Price: 'NFS',
-		'HHA Themes': 'None',
-		Source: 'DLC (Japan)'
-	},
-	{
-		Name: '24-Hour-Shop Banner',
-		Price: 'NFS',
-		Source: "Filly's RV (7-11)"
-	},
-	{
-		Name: '24-Hour-Shop Baskets',
-		Price: 'NFS',
-		Source: "Filly's RV (7-11)"
-	},
-	{
-		Name: '24-Hour-Shop Clock',
-		Price: 'NFS',
-		Source: "Filly's RV (7-11)"
-	},
-	{
-		Name: '24-Hour-Shop Counter',
-		Price: 'NFS',
-		'HHA Themes': 'None',
-		Source: "Filly's RV, DLC (Japan)"
-	},
-	{
-		Name: '24-Hour-Shop Model',
-		Price: 'NFS',
-		'HHA Themes': 'Toy Shop',
-		Source: "Filly's RV, DLC (Japan)"
-	},
-	{
-		Name: '24-Hour-Shop Sign',
-		Price: 'NFS',
-		'HHA Themes': 'None',
-		Source: "Filly's RV, DLC (Japan)"
-	},
-	{
-		Name: 'ABD',
-		Price: 'NFS',
-		'HHA Themes': 'None',
-		Source: "Gonzo's RV, 100Mil Bells in Savings Account"
-	},
-	{
-		Name: 'Accordion Screen',
-		Price: 'NFS',
-		Source: "Resetti's RV"
-	},
-	{
-		Name: 'Afternoon-Tea Set',
-		Price: 'NYR',
-		'HHA Themes': 'Fairy Tale',
-		Source: "Sandy's RV, DLC (Japan)"
-	},
-	{
-		Name: 'Air Conditioner',
-		Price: '2,500',
-		'HHA Themes': 'Sci-Fi',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Air Pump',
-		Price: 'NFS',
-		Source: "Tybalt's RV, Harvey's Shop"
-	},
-	{
-		Name: 'Air Purifier',
-		Price: 'NFS',
-		Source: "Murphy's RV, Harvey's Shop"
-	},
-	{
-		Name: 'Alarm Clock',
-		Price: '1,000',
-		'HHA Themes': 'None',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Aloe',
-		Price: '1,200',
-		'HHA Themes': 'Rustic',
-		Source: 'Gardening Store (TIY)'
-	},
-	{
-		Name: 'Alpine Bed',
-		Price: '2,400',
-		'HHA Themes': 'Rustic',
-		Source: "Isabelle/Vivian's RV, Timmy & Tommy"
-	},
-	{
-		Name: 'Alpine Chair',
-		Price: '2,000',
-		'HHA Themes': 'Rustic',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Alpine Closet',
-		Price: '2,380',
-		'HHA Themes': 'Rustic',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Alpine Dresser',
-		Price: '2,200',
-		'HHA Themes': 'Rustic',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Alpine Kitchen Cart',
-		Price: '1,960',
-		'HHA Themes': 'Rustic',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Alpine Lamp',
-		Price: '2,000',
-		'HHA Themes': 'Rustic',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Alpine Low Table',
-		Price: '2,000',
-		'HHA Themes': 'Rustic',
-		Source: "Isabelle/Jingle's RV, Timmy & Tommy"
-	},
-	{
-		Name: 'Alpine Panel',
-		Price: '1,800',
-		'HHA Themes': 'Rustic',
-		Source: "Isabelle's RV, Timmy & Tommy"
-	},
-	{
-		Name: 'Alpine Shelf',
-		Price: '2,100',
-		'HHA Themes': 'Rustic',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Alpine Sofa',
-		Price: '2,360',
-		'HHA Themes': 'Rustic',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Alto Saxophone',
-		Price: 'NFS',
-		Source: "Weber's RV"
-	},
-	{
-		Name: 'Aluminum Briefcase',
-		Price: 'NFS',
-		'HHA Themes': 'Sci-Fi, Trendy',
-		Source: '5Mil Bells in Savings Account'
-	},
-	{
-		Name: 'Amazing Machine',
-		Price: '3,600',
-		'HHA Themes': 'Quirky, Sci-Fi',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Amiibo Shelf',
-		Price: 'NFS',
-		Source: 'Complete every Advanced level in Desert Island Escape'
-	},
-	{
-		Name: 'Amp',
-		Price: '2,400',
-		'HHA Themes': 'Sci-Fi',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Anatomical Model',
-		Price: '3,360',
-		'HHA Themes': 'Quirky, Sci-Fi',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Anchor',
-		Price: 'NFS',
-		'HHA Themes': 'Toy Shop',
-		Source: 'Pascal'
-	},
-	{
-		Name: 'Antique Clock',
-		Price: '2,350',
-		'HHA Themes': 'Antique',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Antique Shelf',
-		Price: 'NFS',
-		Source: "Reese's RV"
-	},
-	{
-		Name: 'Aquarius Urn',
-		Price: '4,800',
-		'HHA Themes': 'None',
-		Source: "Sahara's RV, DLC (Japan)"
-	},
-	{
-		Name: 'Arc de Triomphe',
-		Price: '9,200',
-		'HHA Themes': 'Toy Shop',
-		Source: 'Timmy & Tommy (Spotlight Item)'
-	},
-	{
-		Name: 'Arcade Machine',
-		Price: '4,400',
-		'HHA Themes': 'Toy Shop',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Aries Rocking Chair',
-		Price: '4,800',
-		'HHA Themes': 'None',
-		Source: 'DLC (Japan)'
-	},
-	{
-		Name: 'Aroma Pot',
-		Price: '1,200',
-		'HHA Themes': 'Trendy',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Arrow Sign',
-		Price: '3,500',
-		'HHA Themes': 'Trendy',
-		Source: 'Museum Shop'
-	},
-	{
-		Name: 'Arwing',
-		Price: '840',
-		'HHA Themes': 'Sci-Fi, Toy Shop',
-		Source: 'Fortune Cookie #36'
-	},
-	{
-		Name: 'Asteroid',
-		Price: '1,800',
-		'HHA Themes': 'Sci-Fi, Toy Shop',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Astro Bed',
-		Price: '3,200',
-		'HHA Themes': 'Sci-Fi, Trendy',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Astro CD Player',
-		Price: '3,600',
-		'HHA Themes': 'Sci-Fi, Trendy',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Astro Chair',
-		Price: '2,800',
-		'HHA Themes': 'Sci-Fi, Trendy',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Astro Clock',
-		Price: '2,980',
-		'HHA Themes': 'Sci-Fi, Trendy',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Astro Closet',
-		Price: '3,480',
-		'HHA Themes': 'Sci-Fi, Trendy',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Astro Dresser',
-		Price: '3,400',
-		'HHA Themes': 'Sci-Fi, Trendy',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Astro Lamp',
-		Price: '2,680',
-		'HHA Themes': 'Sci-Fi, Trendy',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Astro Shelf',
-		Price: '2,800',
-		'HHA Themes': 'Sci-Fi, Trendy',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Astro Sofa',
-		Price: '3,280',
-		'HHA Themes': 'Sci-Fi, Trendy',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Astro Table',
-		Price: '3,000',
-		'HHA Themes': 'Sci-Fi, Trendy',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Astro TV',
-		Price: '3,200',
-		'HHA Themes': 'Sci-Fi, Trendy',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Aurora Screen',
-		Price: '4,080',
-		'HHA Themes': 'Sci-Fi',
-		Source: 'DLC (Japan)'
-	},
-	{
-		Name: 'Autograph Cards',
-		Price: 'NFS',
-		Source: "Harvey's Shop"
-	},
-	{
-		Name: 'Automatic Washer',
-		Price: '4,800',
-		'HHA Themes': 'Sci-Fi',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Autumn-Leaf Chair',
-		Price: '4,440',
-		'HHA Themes': 'Rustic',
-		Source: "Nat's RV, DLC (Japan)"
-	},
-	{
-		Name: 'Ayers Rock',
-		Price: '1,200',
-		'HHA Themes': 'None',
-		Source: 'Gulliver (Answer Correct)'
-	},
-	{
-		Name: 'Azalea Bonsai',
-		Price: '1,500',
-		'HHA Themes': 'Harmonious, Rustic',
-		Source: 'Gardening Store (TIY)'
-	},
-	{
-		Name: 'Azalea Stool',
-		Price: '2,200',
-		'HHA Themes': 'Fairy Tale, Rustic',
-		Source: 'Leif (Weeding Day; Happy Generosity Award)'
-	},
-	{
-		Name: 'Baby Bear',
-		Price: '800',
-		'HHA Themes': 'Fairy Tale, Toy Shop',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Baby Bed',
-		Price: '2,900',
-		'HHA Themes': 'Fairy Tale',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Baby Panda',
-		Price: '480',
-		'HHA Themes': 'Fairy Tale, Harmonious, Toy Shop',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Backpack',
-		Price: '1,980',
-		'HHA Themes': 'None',
-		Source: "Rex's RV, Camping NPC (Tent)"
-	},
-	{
-		Name: 'Backyard Pool',
-		Price: '990',
-		'HHA Themes': 'None',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Bagpipes',
-		Price: '1,200',
-		'HHA Themes': 'None',
-		Source: 'Gulliver (Answer Correct)'
-	},
-	{
-		Name: 'Balance Beam',
-		Price: 'NFS',
-		Source: "Louie's RV"
-	},
-	{
-		Name: 'Ball',
-		Price: 'NFS',
-		Source: "Gulliver/Tybalt's RV, Harvey's Shop"
-	},
-	{
-		Name: 'Ball Catcher',
-		Price: '2,040',
-		'HHA Themes': 'None',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Ball Return',
-		Price: '6,200',
-		'HHA Themes': 'Toy Shop',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Balloon Bed',
-		Price: '3,200',
-		'HHA Themes': 'Toy Shop',
-		Source: 'Gift Balloon'
-	},
-	{
-		Name: 'Balloon Chair',
-		Price: '2,480',
-		'HHA Themes': 'Toy Shop',
-		Source: 'Gift Balloon'
-	},
-	{
-		Name: 'Balloon Clock',
-		Price: '2,480',
-		'HHA Themes': 'Toy Shop',
-		Source: 'Gift Balloon'
-	},
-	{
-		Name: 'Balloon Closet',
-		Price: '2,980',
-		'HHA Themes': 'Toy Shop',
-		Source: 'Gift Balloon'
-	},
-	{
-		Name: 'Balloon Dresser',
-		Price: '2,680',
-		'HHA Themes': 'Toy Shop',
-		Source: 'Gift Balloon'
-	},
-	{
-		Name: 'Balloon Lamp',
-		Price: '2,560',
-		'HHA Themes': 'Toy Shop',
-		Source: 'Gift Balloon'
-	},
-	{
-		Name: 'Balloon Sofa',
-		Price: '2,680',
-		'HHA Themes': 'Toy Shop',
-		Source: 'Gift Balloon'
-	},
-	{
-		Name: 'Balloon Table',
-		Price: '2,880',
-		'HHA Themes': 'Toy Shop',
-		Source: 'Gift Balloon'
-	},
-	{
-		Name: 'Balloon TV',
-		Price: '2,800',
-		'HHA Themes': 'Toy Shop',
-		Source: 'Gift Balloon'
-	},
-	{
-		Name: 'Balloon Vanity',
-		Price: '2,800',
-		'HHA Themes': 'Toy Shop',
-		Source: 'Gift Balloon'
-	},
-	{
-		Name: 'Balloon-Dog Lamp',
-		Price: '3,000',
-		'HHA Themes': 'Toy Shop',
-		Source: 'Gift Balloon'
-	},
-	{
-		Name: 'Bamboo Bench',
-		Price: 'NFS',
-		Source: "Boot's RV"
-	},
-	{
-		Name: 'Bamboo Fence',
-		Price: 'NFS',
-		Source: "Tad's RV, Harvey's Shop"
-	},
-	{
-		Name: 'Bamboo Grass',
-		Price: '3,080',
-		'HHA Themes': 'Harmonious',
-		Source: 'Starcrossed Day (Isabelle; Japan Only)'
-	},
-	{
-		Name: 'Banana Flower Basket',
-		Price: 'NFS',
-		Source: "Kapp'n's RV"
-	},
-	{
-		Name: 'Barbecue',
-		Price: '1,760',
-		'HHA Themes': 'None',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Barbecue Bed',
-		Price: '2,844',
-		'HHA Themes': 'None',
-		Source: "Filly's RV (7-11), DLC (Japan)"
-	},
-	{
-		Name: 'Barbecue Spit',
-		Price: 'NFS',
-		Source: "Felyne's RV"
-	},
-	{
-		Name: 'Barbell',
-		Price: 'NFS',
-		Source: "Louie's RV"
-	},
-	{
-		Name: "Barber's Pole",
-		Price: '1,600',
-		'HHA Themes': 'None',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Barrel',
-		Price: '800',
-		'HHA Themes': 'Toy Shop',
-		Source: 'Pascal'
-	},
-	{
-		Name: 'Barrel Planter',
-		Price: 'NFS',
-		Source: "Maggie's RV, Harvey's Shop"
-	},
-	{
-		Name: 'Baseball Set',
-		Price: 'NFS',
-		Source: "Tybalt's RV, Harvey's Shop"
-	},
-	{
-		Name: 'Basic Display Stand',
-		Price: 'NFS',
-		Source: "Candi/Ursala/Weber's RV, Harvey's Shop"
-	},
-	{
-		Name: "Basic Teacher's Desk",
-		Price: 'NFS',
-		Source: "Blathers/Leopold's RV"
-	},
-	{
-		Name: 'Basic Trash Can',
-		Price: 'NFS',
-		Source: "Digby/Hornsby/Vivian's RV, Harvey's Shop"
-	},
-	{
-		Name: 'Basket Chair',
-		Price: 'NFS',
-		Source: "Isabelle/Stella/Tasha's RV"
-	},
-	{
-		Name: 'Basketball Hoop',
-		Price: '2,120',
-		'HHA Themes': 'None',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Bass',
-		Price: '2,400',
-		'HHA Themes': 'None',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Bath Mat',
-		Price: '600',
-		'HHA Themes': 'Harmonious',
-		Source: "Paolo's RV, Timmy & Tommy"
-	},
-	{
-		Name: 'Bath Set',
-		Price: 'NFS',
-		Source: "Paolo's RV"
-	},
-	{
-		Name: 'Bathroom Shelf',
-		Price: 'NFS',
-		Source: "Harvey's Shop"
-	},
-	{
-		Name: 'Bathroom Sink',
-		Price: '1,200',
-		'HHA Themes': 'None',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Bathroom Stall',
-		Price: '2,000',
-		'HHA Themes': 'None',
-		Source: "Resetti's RV, Timmy & Tommy"
-	},
-	{
-		Name: 'Bathtub',
-		Price: '2,400',
-		'HHA Themes': 'Harmonious',
-		Source: "Paolo's RV, Timmy & Tommy"
-	},
-	{
-		Name: 'Beach Chair',
-		Price: '35 Medals',
-		'HHA Themes': 'None',
-		Source: "Pascal/Plucky's RV, Island Gift Shop (Rare)"
-	},
-	{
-		Name: 'Beach Table',
-		Price: '30 Medals',
-		'HHA Themes': 'None',
-		Source: "Pascal's RV, Island Gift Shop (Rare)"
-	},
-	{
-		Name: 'Beacon Fire',
-		Price: '1,000',
-		'HHA Themes': 'Harmonious',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Bear Pole',
-		Price: '1,400',
-		'HHA Themes': 'Rustic',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Beauty Salon Cart',
-		Price: 'NFS',
-		Source: "Tasha's RV"
-	},
-	{
-		Name: 'Beetle Chair',
-		Price: 'NFS',
-		'HHA Themes': 'Toy Shop',
-		Source: 'Bug Off'
-	},
-	{
-		Name: 'Bell Knickknack',
-		Price: 'NFS',
-		'HHA Themes': 'Harmonious',
-		Source: 'Countdown (Isabelle; Korea Only)'
-	},
-	{
-		Name: 'Berliner',
-		Price: 'NFS',
-		'HHA Themes': 'Fairy Tale',
-		Source: "Pave's RV, Countdown (Isabelle; German Only)"
-	},
-	{
-		Name: 'Big Amp',
-		Price: 'NFS',
-		Source: "Sprocket's RV"
-	},
-	{
-		Name: 'Big Ben',
-		Price: '1,200',
-		'HHA Themes': 'None',
-		Source: 'Gulliver (Answer Correct)'
-	},
-	{
-		Name: 'Big Festive Tree',
-		Price: '2,480',
-		'HHA Themes': 'Rustic, Toy Shop',
-		Source: 'Timmy & Tommy (12/1 - 12/23)'
-	},
-	{
-		Name: 'Bilboquet',
-		Price: '2,000',
-		'HHA Themes': 'Harmonious, Toy Shop',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Bill Blaster',
-		Price: '840',
-		'HHA Themes': 'Toy Shop',
-		Source: 'Fortune Cookie #28'
-	},
-	{
-		Name: 'Billard Table',
-		Price: '1,800',
-		'HHA Themes': 'Toy Shop',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Billboard',
-		Price: 'NFS',
-		Source: "Copper's RV, Harvey's Shop"
-	},
-	{
-		Name: 'Bingo Wheel',
-		Price: '2,400',
-		'HHA Themes': 'Toy Shop',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Bird Feeder',
-		Price: '1,260',
-		'HHA Themes': 'None',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Birdbath',
-		Price: '1,450',
-		'HHA Themes': 'None',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Birdcage',
-		Price: '1,700',
-		'HHA Themes': 'Fairy Tale, Rustic',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Birdhouse',
-		Price: '1,620',
-		'HHA Themes': 'Rustic',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Birthday Cake',
-		Price: 'NFS',
-		'HHA Themes': 'Fairy Tale',
-		Source: 'Birthday (Friendship Level Is Good With The 3 Neighbors)'
-	},
-	{
-		Name: 'Birthday Candles',
-		Price: 'NFS',
-		'HHA Themes': 'Fairy Tale',
-		Source: 'Birthday (Friendship Level At Maximum With The 3 Neighbors)'
-	},
-	{
-		Name: 'Birthday Sign',
-		Price: 'NFS',
-		'HHA Themes': 'Fairy Tale',
-		Source: 'Birthday (Friendship Level At Maximum With The 3 Neighbors)'
-	},
-	{
-		Name: 'Birthday Table',
-		Price: 'NFS',
-		'HHA Themes': 'Fairy Tale',
-		Source: 'Birthday (Friendship Level At Maximum With The 3 Neighbors)'
-	},
-	{
-		Name: 'Bishop',
-		Price: '2,800',
-		'HHA Themes': 'Toy Shop',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Bistro Table',
-		Price: 'NFS',
-		Source: "Olive's RV"
-	},
-	{
-		Name: 'Biwa Lute',
-		Price: '1,800',
-		'HHA Themes': 'Harmonious',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Black Katana',
-		Price: '12,000',
-		'HHA Themes': 'Antique, Harmonious, Quirky',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Black Phone',
-		Price: 'NFS',
-		Source: "Billy's RV"
-	},
-	{
-		Name: 'Block',
-		Price: '840',
-		'HHA Themes': 'Toy Shop',
-		Source: 'Fortune Cookie #17'
-	},
-	{
-		Name: 'Blossom Lantern',
-		Price: '2,400',
-		'HHA Themes': 'Harmonious',
-		Source: 'Timmy & Tommy (JP, 3/1 - 3/3)'
-	},
-	{
-		Name: 'Blowfish Sashimi',
-		Price: 'NFS',
-		Source: "Chip's RV"
-	},
-	{
-		Name: 'Blue Bed',
-		Price: '2,100',
-		'HHA Themes': 'Rustic',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Blue Bench',
-		Price: '1,900',
-		'HHA Themes': 'Rustic',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Blue Bookcase',
-		Price: '1,900',
-		'HHA Themes': 'Rustic',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Blue Bureau',
-		Price: '2,160',
-		'HHA Themes': 'Rustic',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Blue Cabinet',
-		Price: '2,400',
-		'HHA Themes': 'Rustic',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Blue Certificate',
-		Price: '960',
-		'HHA Themes': 'None',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Blue Chair',
-		Price: '1,200',
-		'HHA Themes': 'Rustic',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Blue Clock',
-		Price: '1,600',
-		'HHA Themes': 'Rustic',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Blue Corner',
-		Price: '6,800',
-		'HHA Themes': 'None',
-		Source: 'Timmy & Tommy (Spotlight Item)'
-	},
-	{
-		Name: 'Blue Dresser',
-		Price: '2,100',
-		'HHA Themes': 'Rustic',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Blue Falcon',
-		Price: '840',
-		'HHA Themes': 'Sci-Fi, Toy Shop',
-		Source: 'Fortune Cookie #34'
-	},
-	{
-		Name: 'Blue Table',
-		Price: '1,800',
-		'HHA Themes': 'Rustic',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Blue Vase',
-		Price: '2,500',
-		'HHA Themes': 'Antique, Harmonious',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Blue Wall Shelf',
-		Price: '2,000',
-		'HHA Themes': 'Rustic',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Blue Wardrobe',
-		Price: '1,920',
-		'HHA Themes': 'Rustic',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Blueprints',
-		Price: 'NFS',
-		Source: "Digby's RV"
-	},
-	{
-		Name: 'Board Game',
-		Price: 'NFS',
-		Source: "Claude's RV"
-	},
-	{
-		Name: 'Bobsled',
-		Price: '4,800',
-		'HHA Themes': 'None',
-		Source: 'Snowman'
-	},
-	{
-		Name: 'Bomb',
-		Price: 'NFS',
-		Source: "Ganon's RV"
-	},
-	{
-		Name: 'Bonfire',
-		Price: '2,240',
-		'HHA Themes': 'None',
-		Source: 'Camping NPC (Tent)'
-	},
-	{
-		Name: 'Book Stands',
-		Price: 'NFS',
-		Source: "Dobie/Leopold's RV"
-	},
-	{
-		Name: 'Boomerang',
-		Price: '1,200',
-		'HHA Themes': 'None',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Boston Bag',
-		Price: 'NFS',
-		Source: "Rex/Rover/Stu's RV"
-	},
-	{
-		Name: 'Bottled Ship',
-		Price: '60 Medals',
-		'HHA Themes': 'Toy Shop',
-		Source: 'Island Gift Shop (Club Tortimer Members)'
-	},
-	{
-		Name: 'Bow',
-		Price: '1,400',
-		'HHA Themes': 'Antique, Harmonious, Quirky',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Bowl Sink',
-		Price: 'NFS',
-		Source: "Stella's RV"
-	},
-	{
-		Name: 'Bowling Pins',
-		Price: '1,200',
-		'HHA Themes': 'Toy Shop',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Box Corner Sofa',
-		Price: '1,600',
-		'HHA Themes': 'Trendy',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Box of Chocolates',
-		Price: '20 Medals',
-		'HHA Themes': 'None',
-		Source: 'Island Gift Shop (Club Tortimer Members)'
-	},
-	{
-		Name: 'Box of Tissues',
-		Price: 'NFS',
-		'HHA Themes': 'None',
-		Source: '100k Bells in Savings Account'
-	},
-	{
-		Name: 'Box Sofa',
-		Price: '2,400',
-		'HHA Themes': 'Trendy',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Box with Helmet',
-		Price: 'NFS',
-		Source: "Resetti's RV"
-	},
-	{
-		Name: 'Boxed Figurine',
-		Price: '1,200',
-		'HHA Themes': 'Toy Shop',
-		Source: 'Redd (Fireworks Show; Bang Ticket)'
-	},
-	{
-		Name: 'Boxing Barricade',
-		Price: '1,050',
-		'HHA Themes': 'None',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Boxing Mat',
-		Price: '1,180',
-		'HHA Themes': 'None',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Box-Shaped Seat',
-		Price: 'NFS',
-		Source: "Rex/Tad's RV, Harvey's Shop"
-	},
-	{
-		Name: 'Bread Basket',
-		Price: 'NFS',
-		Source: "Bea/Ellie's RV"
-	},
-	{
-		Name: 'Bread Box',
-		Price: '800',
-		'HHA Themes': 'None',
-		Source: "Bea's RV, Timmy & Tommy"
-	},
-	{
-		Name: 'Bread-Making Set',
-		Price: 'NFS',
-		Source: "Bea's RV"
-	},
-	{
-		Name: 'Breaker',
-		Price: '800',
-		'HHA Themes': 'Sci-Fi',
-		Source: "Cyrus' RV, Timmy & Tommy"
-	},
-	{
-		Name: 'Brick Oven',
-		Price: 'NFS',
-		Source: "Ketchup's RV, Harvey's Shop"
-	},
-	{
-		Name: 'Broken Post',
-		Price: '1,800',
-		'HHA Themes': 'Antique, Quirky',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Bromeliaceae',
-		Price: '1,300',
-		'HHA Themes': 'Rustic',
-		Source: 'Gardening Store (TIY)'
-	},
-	{
-		Name: 'Bronze Bug Trophy',
-		Price: 'NFS',
-		'HHA Themes': 'None',
-		Source: 'Bug Off'
-	},
-	{
-		Name: 'Bronze Fish Trophy',
-		Price: 'NFS',
-		'HHA Themes': 'None',
-		Source: 'Fishing Tourney'
-	},
-	{
-		Name: 'Brown Pot',
-		Price: '800',
-		'HHA Themes': 'None',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Brown Seat',
-		Price: 'NFS',
-		Source: "Digby/K.K./Spike's RV"
-	},
-	{
-		Name: 'Bucket',
-		Price: '600',
-		'HHA Themes': 'Harmonious',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Buffet Server',
-		Price: '2,844',
-		'HHA Themes': 'Harmonious',
-		Source: "Filly's RV (7-11), DLC (Japan)"
-	},
-	{
-		Name: 'Bug Zapper',
-		Price: '1,200',
-		'HHA Themes': 'None',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Bunk Bed',
-		Price: '2,800',
-		'HHA Themes': 'None',
-		Source: "Timmy & Tommy's RV, Timmy & Tommy"
-	},
-	{
-		Name: 'Bureom',
-		Price: 'NFS',
-		'HHA Themes': 'Harmonious',
-		Source: 'Daeboreum (Isabelle; Korea Only)'
-	},
-	{
-		Name: 'Burger Meal',
-		Price: 'NFS',
-		Source: "Huck's RV"
-	},
-	{
-		Name: 'Busing Station',
-		Price: 'NFS',
-		Source: "Huck's RV"
-	},
-	{
-		Name: 'Bus-Stop Stand',
-		Price: 'NFS',
-		Source: "Boyd's RV"
-	},
-	{
-		Name: 'Butterfly Machine',
-		Price: '2,680',
-		'HHA Themes': 'Sci-Fi',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Cabana Armchair',
-		Price: '40 Medals',
-		'HHA Themes': 'Harmonious, Rustic',
-		Source: "Blanca's RV, Island Gift Shop"
-	},
-	{
-		Name: 'Cabana Bed',
-		Price: '40 Medals',
-		'HHA Themes': 'Harmonious, Rustic',
-		Source: "Blanca's RV, Island Gift Shop"
-	},
-	{
-		Name: 'Cabana Bookcase',
-		Price: '40 Medals',
-		'HHA Themes': 'Harmonious, Rustic',
-		Source: 'Island Gift Shop'
-	},
-	{
-		Name: 'Cabana Chair',
-		Price: '40 Medals',
-		'HHA Themes': 'Harmonious, Rustic',
-		Source: 'Island Gift Shop'
-	},
-	{
-		Name: 'Cabana Dresser',
-		Price: '40 Medals',
-		'HHA Themes': 'Harmonious, Rustic',
-		Source: 'Island Gift Shop'
-	},
-	{
-		Name: 'Cabana Lamp',
-		Price: '40 Medals',
-		'HHA Themes': 'Harmonious, Rustic',
-		Source: "Blanca's RV, Island Gift Shop"
-	},
-	{
-		Name: 'Cabana Screen',
-		Price: '40 Medals',
-		'HHA Themes': 'Harmonious, Rustic',
-		Source: 'Island Gift Shop'
-	},
-	{
-		Name: 'Cabana Table',
-		Price: '40 Medals',
-		'HHA Themes': 'Harmonious, Rustic',
-		Source: "Blanca's RV, Island Gift Shop"
-	},
-	{
-		Name: 'Cabana Vanity',
-		Price: '40 Medals',
-		'HHA Themes': 'Harmonious, Rustic',
-		Source: 'Island Gift Shop'
-	},
-	{
-		Name: 'Cabana Wall Radio',
-		Price: '40 Medals',
-		'HHA Themes': 'Harmonious, Rustic',
-		Source: 'Island Gift Shop'
-	},
-	{
-		Name: 'Cabana Wardrobe',
-		Price: '40 Medals',
-		'HHA Themes': 'Harmonious, Rustic',
-		Source: 'Island Gift Shop'
-	},
-	{
-		Name: 'Cabin Armchair',
-		Price: '2,280',
-		'HHA Themes': 'Rustic',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Cabin Bed',
-		Price: '2,400',
-		'HHA Themes': 'Rustic',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Cabin Bookcase',
-		Price: '2,300',
-		'HHA Themes': 'Rustic',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Cabin Chair',
-		Price: '1,700',
-		'HHA Themes': 'Rustic',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Cabin Clock',
-		Price: '2,000',
-		'HHA Themes': 'Rustic',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Cabin Couch',
-		Price: '2,480',
-		'HHA Themes': 'Rustic',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Cabin Dresser',
-		Price: '2,160',
-		'HHA Themes': 'Rustic',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Cabin Low Table',
-		Price: '2,100',
-		'HHA Themes': 'Rustic',
-		Source: "Sahara's RV, Timmy & Tommy"
-	},
-	{
-		Name: 'Cabin Table',
-		Price: '2,100',
-		'HHA Themes': 'Rustic',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Cabin Wall Clock',
-		Price: '1,800',
-		'HHA Themes': 'Rustic',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Cabin Wardrobe',
-		Price: '2,480',
-		'HHA Themes': 'Rustic',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Cable Spool',
-		Price: 'NFS',
-		Source: "Rex's RV, Harvey's Shop"
-	},
-	{
-		Name: 'Cacao Tree',
-		Price: '1,680',
-		'HHA Themes': 'Rustic',
-		Source: "Sandy's RV, Valentine's Day (Letter From Mom)"
-	},
-	{
-		Name: 'Cactus',
-		Price: '1,700',
-		'HHA Themes': 'Rustic',
-		Source: 'Gardening Store (TIY)'
-	},
-	{
-		Name: 'Cafeteria Table',
-		Price: 'NFS',
-		Source: "Sylvana's RV"
-	},
-	{
-		Name: 'Caladium',
-		Price: '1,300',
-		'HHA Themes': 'Rustic',
-		Source: 'Gardening Store (TIY)'
-	},
-	{
-		Name: 'Camp Stove',
-		Price: '1,200',
-		'HHA Themes': 'None',
-		Source: "Booker's RV, Camping NPC (Igloo)"
-	},
-	{
-		Name: 'Campfire',
-		Price: '1,360',
-		'HHA Themes': 'None',
-		Source: 'Camping NPC (Igloo)'
-	},
-	{
-		Name: 'Campfire Cookware',
-		Price: '800',
-		'HHA Themes': 'None',
-		Source: "Booker's RV, Camping NPC (Tent)"
-	},
-	{
-		Name: 'Cancer Table',
-		Price: '4,800',
-		'HHA Themes': 'None',
-		Source: "Celeste's RV, DLC"
-	},
-	{
-		Name: 'Candelabra',
-		Price: 'NFS',
-		Source: "Billy/Julia's RV"
-	},
-	{
-		Name: 'Candle',
-		Price: '1,280',
-		'HHA Themes': 'Quirky',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Candy House',
-		Price: '6,000',
-		Source: 'Happy Home Designer Save Data'
-	},
-	{
-		Name: 'Candy Jar',
-		Price: '2,200',
-		'HHA Themes': 'Fairy Tale',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Candy Machine',
-		Price: '980',
-		'HHA Themes': 'Toy Shop',
-		Source: "Jack's RV, Timmy & Tommy"
-	},
-	{
-		Name: 'Cans',
-		Price: 'NFS',
-		Source: "Candi's RV, Harvey's Shop"
-	},
-	{
-		Name: 'Capricorn Ornament',
-		Price: '4,800',
-		'HHA Themes': 'None',
-		Source: 'DLC'
-	},
-	{
-		Name: 'Capsule-Toy Machine',
-		Price: '1,480',
-		'HHA Themes': 'Toy Shop',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: "Captain's Monitor",
-		Price: '2,800',
-		'HHA Themes': 'Sci-Fi, Toy Shop',
-		Source: 'Timmy & Tommy (Spotlight Item)'
-	},
-	{
-		Name: 'Card Bed',
-		Price: '220,000',
-		'HHA Themes': 'Toy Shop',
-		Source: 'Gracie Grace (during sales)'
-	},
-	{
-		Name: 'Card Chair',
-		Price: '100,000',
-		'HHA Themes': 'Toy Shop',
-		Source: 'Gracie Grace (during sales)'
-	},
-	{
-		Name: 'Card Closet',
-		Price: '240,000',
-		'HHA Themes': 'Toy Shop',
-		Source: 'Gracie Grace (during sales)'
-	},
-	{
-		Name: 'Card Dresser',
-		Price: '120,000',
-		'HHA Themes': 'Toy Shop',
-		Source: 'Gracie Grace (during sales)'
-	},
-	{
-		Name: 'Card Lamp',
-		Price: '80,000',
-		'HHA Themes': 'Toy Shop',
-		Source: 'Gracie Grace (during sales)'
-	},
-	{
-		Name: 'Card Screen',
-		Price: '90,000',
-		'HHA Themes': 'Toy Shop',
-		Source: 'Gracie Grace (during sales)'
-	},
-	{
-		Name: 'Card Shelf',
-		Price: '68,000',
-		'HHA Themes': 'Toy Shop',
-		Source: 'Gracie Grace (during sales)'
-	},
-	{
-		Name: 'Card Sofa',
-		Price: '180,000',
-		'HHA Themes': 'Toy Shop',
-		Source: 'Gracie Grace (during sales)'
-	},
-	{
-		Name: 'Card Table',
-		Price: '200,000',
-		'HHA Themes': 'Toy Shop',
-		Source: 'Gracie Grace (during sales)'
-	},
-	{
-		Name: 'Card Tower',
-		Price: '80,000',
-		'HHA Themes': 'Toy Shop',
-		Source: 'Gracie Grace (during sales)'
-	},
-	{
-		Name: 'Card Wall Clock',
-		Price: '300,000',
-		'HHA Themes': 'Toy Shop',
-		Source: 'Gracie Grace (during sales)'
-	},
-	{
-		Name: 'Cardboard Bed',
-		Price: '1,000',
-		'HHA Themes': 'Quirky',
-		Source: "Jacob's RV, Re-Tail (Flea Market) or Police Station (Lost and Found)"
-	},
-	{
-		Name: 'Cardboard Box',
-		Price: '100',
-		'HHA Themes': 'None',
-		Source: "Copper/Kicks/Stu's RV, Timmy & Tommy"
-	},
-	{
-		Name: 'Cardboard Chair',
-		Price: '800',
-		'HHA Themes': 'Quirky',
-		Source: 'Re-Tail (Flea Market) or Police Station (Lost and Found)'
-	},
-	{
-		Name: 'Cardboard Closet',
-		Price: '920',
-		'HHA Themes': 'Quirky',
-		Source: 'Re-Tail (Flea Market) or Police Station (Lost and Found)'
-	},
-	{
-		Name: 'Cardboard Sofa',
-		Price: '960',
-		'HHA Themes': 'Quirky',
-		Source: 'Re-Tail (Flea Market) or Police Station (Lost and Found)'
-	},
-	{
-		Name: 'Cardboard Table',
-		Price: '960',
-		'HHA Themes': 'Quirky',
-		Source: "Jacob's RV; Re-Tail (Flea Market) or Police Station (Lost and Found)"
-	},
-	{
-		Name: 'Carp Banner',
-		Price: '2,020',
-		'HHA Themes': 'Harmonious',
-		Source: 'Timmy & Tommy (JP, 5/1 - 5/5)'
-	},
-	{
-		Name: 'Carpentry Set',
-		Price: 'NFS',
-		Source: "Cyru's RV"
-	},
-	{
-		Name: 'Carriage',
-		Price: '8,000',
-		Source: 'Happy Home Designer Save Data'
-	},
-	{
-		Name: 'Cart Return',
-		Price: 'NFS',
-		Source: "Timmy & Tommy's RV"
-	},
-	{
-		Name: 'Casablanca Lilies',
-		Price: 'NFS',
-		Source: "Ursala's RV"
-	},
-	{
-		Name: 'Cash Register',
-		Price: '6,480',
-		'HHA Themes': 'None',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Cash Tray',
-		Price: 'NFS',
-		Source: "June/Ursala's RV"
-	},
-	{
-		Name: 'Cassette Player',
-		Price: '1,500',
-		'HHA Themes': 'None',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Casual Display Stand',
-		Price: 'NFS',
-		Source: "Tybalt's RV, Harvey's Shop"
-	},
-	{
-		Name: 'Cat Tower',
-		Price: '1,600',
-		'HHA Themes': 'None',
-		Source: "Blanca's RV, DLC"
-	},
-	{
-		Name: 'Catepillar Sofa',
-		Price: 'NFS',
-		'HHA Themes': 'Toy Shop',
-		Source: 'Bug Off'
-	},
-	{
-		Name: 'CD Player',
-		Price: '1,600',
-		'HHA Themes': 'None',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'CD Shelf',
-		Price: '1,200',
-		'HHA Themes': 'Trendy',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Cello',
-		Price: '1,800',
-		'HHA Themes': 'None',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Cement Mixer',
-		Price: '1,600',
-		'HHA Themes': 'None',
-		Source: 'Timmy & Tommy (Spotlight Item)'
-	},
-	{
-		Name: 'Ceramic Hot Pot',
-		Price: '1,000',
-		'HHA Themes': 'Harmonious',
-		Source: 'Timmy & Tommy (JP)'
-	},
-	{
-		Name: 'Chain Divider',
-		Price: 'NFS',
-		Source: "Gonzo's RV"
-	},
-	{
-		Name: 'Chaise Lounge',
-		Price: '2,480',
-		'HHA Themes': 'Trendy',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Chalkboard',
-		Price: '1,400',
-		'HHA Themes': 'Sci-Fi',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Changing Room',
-		Price: 'NFS',
-		Source: "Bitty/Louie's RV"
-	},
-	{
-		Name: 'Checkout Counter',
-		Price: '3,480',
-		'HHA Themes': 'None',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Cheese',
-		Price: 'NFS',
-		Source: "Norma's RV"
-	},
-	{
-		Name: 'Cherry-Blossom Clock',
-		Price: '4,160',
-		'HHA Themes': 'Rustic',
-		Source: 'DLC (Japan)'
-	},
-	{
-		Name: 'Chihuahua Ornament',
-		Price: 'NFS',
-		Source: 'Fortune Cookie #53'
-	},
-	{
-		Name: 'Chocolate Cake',
-		Price: '600',
-		'HHA Themes': 'Fairy Tale',
-		Source: "Valentine's Day (Letter From Isabelle)"
-	},
-	{
-		Name: 'Chocolate Fountain',
-		Price: '2,200',
-		'HHA Themes': 'Fairy Tale',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Cicada Stereo',
-		Price: 'NFS',
-		'HHA Themes': 'Toy Shop',
-		Source: 'Bug Off'
-	},
-	{
-		Name: 'Cinnamoroll Parasol',
-		Price: 'NFS',
-		'HHA Themes': 'Cute',
-		Source: "Chai's RV (Sanrio)"
-	},
-	{
-		Name: 'Cinnamoroll Sign',
-		Price: 'NFS',
-		'HHA Themes': 'Cute',
-		Source: "Chai's RV (Sanrio)"
-	},
-	{
-		Name: 'Cinnamoroll Sofa',
-		Price: 'NFS',
-		'HHA Themes': 'Cute',
-		Source: "Chai's RV (Sanrio)"
-	},
-	{
-		Name: 'Cinnamoroll Stool',
-		Price: 'NFS',
-		'HHA Themes': 'Cute',
-		Source: "Chai's RV (Sanrio)"
-	},
-	{
-		Name: 'Cinnamoroll Table',
-		Price: 'NFS',
-		'HHA Themes': 'Cute',
-		Source: "Chai's RV (Sanrio)"
-	},
-	{
-		Name: 'Cinnamoroll Tray',
-		Price: 'NFS',
-		'HHA Themes': 'Cute',
-		Source: "Chai's RV (Sanrio)"
-	},
-	{
-		Name: 'Circle Banner',
-		Price: '1,200',
-		'HHA Themes': 'Harmonious',
-		Source: 'Timmy & Tommy (JP)'
-	},
-	{
-		Name: 'Clackercart',
-		Price: '1,380',
-		'HHA Themes': 'Fairy Tale',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Classic Bed',
-		Price: '2,520',
-		'HHA Themes': 'Trendy',
-		Source: "Piper's RV, Timmy & Tommy"
-	},
-	{
-		Name: 'Classic Bookcase',
-		Price: '2,560',
-		'HHA Themes': 'Trendy',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Classic Buffet',
-		Price: '3,360',
-		'HHA Themes': 'Trendy',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Classic Chair',
-		Price: '1,800',
-		'HHA Themes': 'Trendy',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Classic Clock',
-		Price: '2,180',
-		'HHA Themes': 'Trendy',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Classic Desk',
-		Price: '2,200',
-		'HHA Themes': 'Trendy',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Classic Screen',
-		Price: 'NFS',
-		Source: "Stella's RV"
-	},
-	{
-		Name: 'Classic Sofa',
-		Price: '2,240',
-		'HHA Themes': 'Trendy',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Classic Table',
-		Price: '1,600',
-		'HHA Themes': 'Trendy',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Classic Vanity',
-		Price: '2,560',
-		'HHA Themes': 'Trendy',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Classic Wall Shelf',
-		Price: '2,400',
-		'HHA Themes': 'Trendy',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Classic Wardrobe',
-		Price: '2,560',
-		'HHA Themes': 'Trendy',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Claw-Foot Tub',
-		Price: '1,280',
-		'HHA Themes': 'Fairy Tale',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Clay Furnace',
-		Price: '1,800',
-		'HHA Themes': 'Harmonious',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Clear Model',
-		Price: '3,360',
-		'HHA Themes': 'Quirky, Sci-Fi',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Clothes Closet',
-		Price: '1,340',
-		'HHA Themes': 'None',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Clothesline Pole',
-		Price: '960',
-		'HHA Themes': 'None',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Cloud-Making Machine',
-		Price: 'NFS',
-		'HHA Themes': 'Cute',
-		Source: "Etoile's RV (Sanrio)"
-	},
-	{
-		Name: 'Coat Hanger',
-		Price: '1,100',
-		'HHA Themes': 'Trendy',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Coconut Juice',
-		Price: 'NFS',
-		Source: "Plucky's RV, Harvey's Shop"
-	},
-	{
-		Name: 'Coconut Palm',
-		Price: '1,200',
-		'HHA Themes': 'Rustic',
-		Source: 'Gardening Store (TIY)'
-	},
-	{
-		Name: 'Coffee Cup',
-		Price: 'NFS',
-		'HHA Themes': 'None',
-		Source: 'Brewster (Work at The Roost)'
-	},
-	{
-		Name: 'Coffee Grinder',
-		Price: 'NFS',
-		'HHA Themes': 'Trendy',
-		Source: 'Brewster (Work at The Roost)'
-	},
-	{
-		Name: 'Coffeemaker',
-		Price: 'NFS',
-		'HHA Themes': 'Trendy',
-		Source: 'Brewster (Work at The Roost)'
-	},
-	{
-		Name: 'Coin',
-		Price: '840',
-		'HHA Themes': 'Toy Shop',
-		Source: 'Fortune Cookie #18'
-	},
-	{
-		Name: 'Coin Locker',
-		Price: 'NFS',
-		Source: "Stu's RV"
-	},
-	{
-		Name: 'Colorful Wheel',
-		Price: '2,000',
-		'HHA Themes': 'Toy Shop',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Common Bed',
-		Price: '800',
-		'HHA Themes': 'None',
-		Source: "Copper's RV, Timmy & Tommy"
-	},
-	{
-		Name: 'Common Chair',
-		Price: '800',
-		'HHA Themes': 'None',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Compact Car',
-		Price: 'NFS',
-		Source: "Rex's RV"
-	},
-	{
-		Name: 'Compass',
-		Price: '1,280',
-		'HHA Themes': 'Sci-Fi',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Complex Machine',
-		Price: '3,840',
-		'HHA Themes': 'Quirky, Sci-Fi',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Computer',
-		Price: '1,720',
-		'HHA Themes': 'Sci-Fi',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Computer Desk',
-		Price: '3,600',
-		'HHA Themes': 'Sci-Fi, Trendy',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Conga Drum',
-		Price: '1,600',
-		'HHA Themes': 'None',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Console Table',
-		Price: 'NFS',
-		Source: "Digby/Dobie/Piper's RV"
-	},
-	{
-		Name: 'Conveyor Belt',
-		Price: 'NFS',
-		Source: "Murphy's RV"
-	},
-	{
-		Name: 'Conveyor-Belt Sushi',
-		Price: '3,600',
-		'HHA Themes': 'Harmonious',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Cool Globe',
-		Price: '4,800',
-		'HHA Themes': 'Antique, Sci-Fi',
-		Source: "Billy's RV, Nature Day (Isabelle; NA Only)"
-	},
-	{
-		Name: 'Copy Machine',
-		Price: '3,200',
-		'HHA Themes': 'Sci-Fi',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Corinthian Post',
-		Price: '3,600',
-		'HHA Themes': 'Antique, Quirky',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Corkboard',
-		Price: '1,600',
-		'HHA Themes': 'Sci-Fi, Trendy',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Corn Plant',
-		Price: '1,300',
-		'HHA Themes': 'Rustic',
-		Source: 'Gardening Store (TIY)'
-	},
-	{
-		Name: 'Cornstalks',
-		Price: 'NFS',
-		Source: "Tad's RV, Harvey's Shop"
-	},
-	{
-		Name: 'Cornucopia',
-		Price: '3,500',
-		'HHA Themes': 'Rustic',
-		Source: 'Harvest Festival'
-	},
-	{
-		Name: 'Cosmos Fan',
-		Price: '2,380',
-		'HHA Themes': 'Fairy Tale, Rustic',
-		Source: 'Leif (Weeding Day; The Town Cleanup Prize)'
-	},
-	{
-		Name: 'Counter Table',
-		Price: 'NFS',
-		Source: "Bea/Ellie/Kicks/Mabel/Sylvana's RV"
-	},
-	{
-		Name: 'Country Guitar',
-		Price: '1,700',
-		'HHA Themes': 'None',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Covered Wagon',
-		Price: '3,800',
-		'HHA Themes': 'Rustic',
-		Source: 'Timmy & Tommy (Spotlight Item)'
-	},
-	{
-		Name: 'Cow Skull',
-		Price: '1,020',
-		'HHA Themes': 'None',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Crab Clock',
-		Price: 'NFS',
-		'HHA Themes': 'Toy Shop',
-		Source: 'Fishing Tourney'
-	},
-	{
-		Name: 'Cradle',
-		Price: '3,800',
-		'HHA Themes': 'Fairy Tale',
-		Source: "Carrie's RV, Timmy & Tommy"
-	},
-	{
-		Name: 'Crane Game',
-		Price: '1,680',
-		'HHA Themes': 'Toy Shop',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Crayons',
-		Price: 'NFS',
-		Source: "Blanca/Carrie/Wendell's RV"
-	},
-	{
-		Name: 'Cream And Sugar',
-		Price: 'NFS',
-		'HHA Themes': 'Fairy Tale',
-		Source: 'Brewster (Work at The Roost)'
-	},
-	{
-		Name: 'Cream Sofa',
-		Price: '2,000',
-		'HHA Themes': 'None',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Creepy Bat Stone',
-		Price: '2,000',
-		'HHA Themes': 'Quirky',
-		Source: 'Jack (Halloween)'
-	},
-	{
-		Name: 'Creepy Cauldron',
-		Price: '3,600',
-		'HHA Themes': 'Quirky, Sci-Fi',
-		Source: 'Jack (Halloween)'
-	},
-	{
-		Name: 'Creepy Clock',
-		Price: '2,800',
-		'HHA Themes': 'Quirky',
-		Source: 'Jack (Halloween)'
-	},
-	{
-		Name: 'Creepy Coffin',
-		Price: '2,000',
-		'HHA Themes': 'Quirky',
-		Source: 'Jack (Halloween)'
-	},
-	{
-		Name: 'Creepy Crystal',
-		Price: '8,000',
-		'HHA Themes': 'Quirky, Sci-Fi',
-		Source: 'Jack (Halloween)'
-	},
-	{
-		Name: 'Creepy Skeleton',
-		Price: '2,000',
-		'HHA Themes': 'Quirky, Sci-Fi',
-		Source: 'Jack (Halloween)'
-	},
-	{
-		Name: 'Creepy Statue',
-		Price: '3,200',
-		'HHA Themes': 'Quirky',
-		Source: 'Jack (Halloween)'
-	},
-	{
-		Name: 'Creepy Stone',
-		Price: '2,000',
-		'HHA Themes': 'Quirky',
-		Source: 'Jack (Halloween)'
-	},
-	{
-		Name: "Crew Member's Seat",
-		Price: '2,800',
-		'HHA Themes': 'Sci-Fi, Toy Shop',
-		Source: 'Timmy & Tommy (Spotlight Item)'
-	},
-	{
-		Name: "Crew's Monitor",
-		Price: '2,400',
-		'HHA Themes': 'Sci-Fi, Toy Shop',
-		Source: 'Timmy & Tommy (Spotlight Item)'
-	},
-	{
-		Name: 'Croton',
-		Price: '1,300',
-		'HHA Themes': 'Rustic',
-		Source: 'Gardening Store (TIY)'
-	},
-	{
-		Name: 'Cruiser Bike',
-		Price: 'NFS',
-		Source: "Maddie/Stu's RV, Harvey's Shop"
-	},
-	{
-		Name: 'Cubbyhole',
-		Price: '2,200',
-		'HHA Themes': 'None',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Cube Clock',
-		Price: '1,100',
-		'HHA Themes': 'Trendy',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Cucco Ornament',
-		Price: 'NFS',
-		Source: "Medli's RV"
-	},
-	{
-		Name: 'Cuckoo Clock',
-		Price: '1,800',
-		'HHA Themes': 'Rustic',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Cucumber Horse',
-		Price: '400',
-		'HHA Themes': 'Harmonious, Quirky',
-		Source: 'Obon (Isabelle; Japan Only)'
-	},
-	{
-		Name: 'Cup of Tea',
-		Price: 'NFS',
-		Source: "Boris/Claude's RV"
-	},
-	{
-		Name: 'Cupcake',
-		Price: 'NFS',
-		Source: "Sandy's RV"
-	},
-	{
-		Name: 'Cupid Bench',
-		Price: '2,000',
-		'HHA Themes': 'Fairy Tale',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Curling Stone',
-		Price: '1,600',
-		'HHA Themes': 'None',
-		Source: 'Snowman'
-	},
-	{
-		Name: 'Curry Plate',
-		Price: 'NFS',
-		Source: "Cashmere's RV"
-	},
-	{
-		Name: 'Cushion',
-		Price: '800',
-		'HHA Themes': 'None',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Cutting-Board Set',
-		Price: 'NFS',
-		Source: "Buzz/Cashmere/Ketchup's RV"
-	},
-	{
-		Name: 'Cypress Plant',
-		Price: 'NFS',
-		Source: "Candi/Olive's RV, Harvey's Shop"
-	},
-	{
-		Name: 'Dab Table',
-		Price: 'NFS',
-		'HHA Themes': 'Toy Shop',
-		Source: 'Fishing Tourney'
-	},
-	{
-		Name: 'Dachsund Ornament',
-		Price: 'NFS',
-		Source: 'Fortune Cookie #55'
-	},
-	{
-		Name: 'Daffodil',
-		Price: '680',
-		'HHA Themes': 'Rustic',
-		Source: 'Gardening Store'
-	},
-	{
-		Name: "Daimyo's Tray",
-		Price: 'NFS',
-		Source: "Nilly/Joan/Kapp'n/Wade's RV"
-	},
-	{
-		Name: 'Dala Horse',
-		Price: '1,200',
-		'HHA Themes': 'Rustic, Toy Shop',
-		Source: 'Gulliver (Answer Correct)'
-	},
-	{
-		Name: 'Dalmatian Ornament',
-		Price: 'NFS',
-		Source: 'Fortune Cookie #54'
-	},
-	{
-		Name: 'Dango',
-		Price: '3,552',
-		'HHA Themes': 'Harmonious',
-		Source: 'Tsukimi (Isabelle, Japan Only)'
-	},
-	{
-		Name: 'Dartboard',
-		Price: '1,520',
-		'HHA Themes': 'Toy Shop',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Decorative Plate',
-		Price: 'NFS',
-		Source: "Snooty's RV"
-	},
-	{
-		Name: 'Decoy Duck',
-		Price: 'NFS',
-		Source: "Harvey's Shop"
-	},
-	{
-		Name: 'Deer Scare',
-		Price: '1,800',
-		'HHA Themes': 'Harmonious, Rustic',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Deluxe Range',
-		Price: '3,200',
-		'HHA Themes': 'Sci-Fi',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Deluxe Washer',
-		Price: '5,200',
-		'HHA Themes': 'Sci-Fi',
-		Source: 'Timmy & Tommy (Spotlight Item)'
-	},
-	{
-		Name: "Dentist's Chair",
-		Price: '3,200',
-		'HHA Themes': 'Quirky, Sci-Fi',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Desert Cactus',
-		Price: '890',
-		'HHA Themes': 'Rustic',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Desert Island Map',
-		Price: 'NFS',
-		Source: 'Obtain high scores in the begginer levels in Desert Island Escape'
-	},
-	{
-		Name: 'Desert Island Stool',
-		Price: 'NFS',
-		Source: 'Obtain high scores in the advanced levels in Desert Island Escape'
-	},
-	{
-		Name: 'Desert Island Table',
-		Price: 'NFS',
-		Source: 'Obtain "terrific scores" in the intermediate levels in Desert Island Escape'
-	},
-	{
-		Name: 'Desk Bell',
-		Price: 'NFS',
-		Source: "Julia's RV"
-	},
-	{
-		Name: 'Desk Light',
-		Price: '1,280',
-		'HHA Themes': 'Sci-Fi',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Desk Mirror',
-		Price: 'NFS',
-		Source: "Vivian's RV"
-	},
-	{
-		Name: 'Desktop Mic',
-		Price: 'NFS',
-		Source: "Harvey's Shop"
-	},
-	{
-		Name: 'Desktop TV',
-		Price: 'NFS',
-		Source: "Spike's RV"
-	},
-	{
-		Name: 'Dessert Case',
-		Price: '3,200',
-		'HHA Themes': 'Fairy Tale',
-		Source: "Bea's RV, Timmy & Tommy"
-	},
-	{
-		Name: 'Detour Arrow',
-		Price: '600',
-		'HHA Themes': 'None',
-		Source: "Boyd's RV, Timmy & Tommy"
-	},
-	{
-		Name: 'Dharma',
-		Price: '1,200',
-		'HHA Themes': 'Harmonious',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Dice Stereo',
-		Price: '2,150',
-		'HHA Themes': 'Toy Shop, Trendy',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Digital-Photo Frame',
-		Price: '1,200',
-		'HHA Themes': 'Trendy',
-		Source: 'Katie'
-	},
-	{
-		Name: 'Dinnerware',
-		Price: 'NFS',
-		Source: "Admiral's RV"
-	},
-	{
-		Name: "Director's Chair",
-		Price: '1,480',
-		'HHA Themes': 'None',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Dishwasher',
-		Price: '1,980',
-		'HHA Themes': 'None',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Disk Writer',
-		Price: 'NFS',
-		Source: "Hopkin's RV, Harvey's Shop"
-	},
-	{
-		Name: 'Display Shelf',
-		Price: '1,200',
-		'HHA Themes': 'None',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Display Stand',
-		Price: '1,500',
-		'HHA Themes': 'Trendy',
-		Source: 'Museum Shop'
-	},
-	{
-		Name: 'Diver Dan',
-		Price: '3,200',
-		'HHA Themes': 'Sci-Fi',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'DJ K.K. Booth',
-		Price: 'NFS',
-		Source: "K.K.'s RV"
-	},
-	{
-		Name: 'Djimbe Drum',
-		Price: '1,900',
-		'HHA Themes': 'None',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: "DJ's Turntable",
-		Price: '3,600',
-		'HHA Themes': 'Trendy',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: "Doctor's Desk",
-		Price: 'NFS',
-		Source: "Raddle's RV"
-	},
-	{
-		Name: 'Document Stack',
-		Price: 'NFS',
-		Source: "Cleo/Digby/Dobie's RV"
-	},
-	{
-		Name: 'Doghouse',
-		Price: '1,200',
-		'HHA Themes': 'None',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Dollhouse',
-		Price: '2,000',
-		'HHA Themes': 'Fairy Tale, Toy Shop',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Dolly',
-		Price: '6,800',
-		'HHA Themes': 'Fairy Tale, Toy Shop',
-		Source: 'Timmy & Tommy (Spotlight Item)'
-	},
-	{
-		Name: 'Donburi',
-		Price: 'NFS',
-		Source: "Sylvana/Zipper T. Bunny's RV"
-	},
-	{
-		Name: 'Do-Not-Enter sign',
-		Price: 'NFS',
-		Source: "Stu's RV, Harvey's Shop"
-	},
-	{
-		Name: 'Donut Box',
-		Price: 'NFS',
-		Source: "Claude's RV"
-	},
-	{
-		Name: 'Donut Cushion',
-		Price: 'NFS',
-		Source: "Filly's RV (7-11)"
-	},
-	{
-		Name: 'Donut Stool',
-		Price: '1,600',
-		'HHA Themes': 'None',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Double-Neck Guitar',
-		Price: '2,800',
-		'HHA Themes': 'None',
-		Source: "Sprocket's RV, DLC"
-	},
-	{
-		Name: 'Dracaena',
-		Price: '2,000',
-		'HHA Themes': 'Rustic',
-		Source: 'Gardening Store (TIY)'
-	},
-	{
-		Name: 'Drafting Table',
-		Price: 'NFS',
-		Source: "Lottie's RV"
-	},
-	{
-		Name: 'Dream Catcher',
-		Price: '1,600',
-		'HHA Themes': 'Toy Shop',
-		Source: 'Gulliver (Answer Correct)'
-	},
-	{
-		Name: 'Drink Machine',
-		Price: 'NFS',
-		Source: "Buzz/Huck's RV"
-	},
-	{
-		Name: 'Drinking Fountain',
-		Price: '2,000',
-		'HHA Themes': 'Sci-Fi',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Drip Pail',
-		Price: '800',
-		'HHA Themes': 'Quirky',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Drum Set',
-		Price: '1,800',
-		'HHA Themes': 'Trendy',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Durian Flower Basket',
-		Price: 'NFS',
-		Source: "Kapp'n's RV"
-	},
-	{
-		Name: 'Eagle Pole',
-		Price: '1,400',
-		'HHA Themes': 'Rustic',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Ebony Piano',
-		Price: '3,800',
-		'HHA Themes': 'None',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: "Editor's Chair",
-		Price: '5,600',
-		'HHA Themes': 'Trendy',
-		Source: "Dobie's RV, Timmy & Tommy"
-	},
-	{
-		Name: "Editor's Desk",
-		Price: '5,200',
-		'HHA Themes': 'Trendy',
-		Source: "Dobie's RV, Timmy & Tommy"
-	},
-	{
-		Name: 'Effects Rack',
-		Price: '2,800',
-		'HHA Themes': 'Sci-Fi',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Egg Basket',
-		Price: 'NFS',
-		'HHA Themes': 'None',
-		Source: 'Zipper T. Bunny (Bunny Day)'
-	},
-	{
-		Name: 'Egg Bed',
-		Price: 'NFS',
-		'HHA Themes': 'Toy Shop',
-		Source: 'Zipper T. Bunny (Bunny Day)'
-	},
-	{
-		Name: 'Egg Bench',
-		Price: 'NFS',
-		'HHA Themes': 'Toy Shop',
-		Source: 'Zipper T. Bunny (Bunny Day)'
-	},
-	{
-		Name: 'Egg Chair',
-		Price: 'NFS',
-		'HHA Themes': 'Toy Shop',
-		Source: "Zipper T. Bunny's RV, Zipper T. Bunny (Bunny Day)"
-	},
-	{
-		Name: 'Egg Clock',
-		Price: 'NFS',
-		'HHA Themes': 'Toy Shop',
-		Source: 'Zipper T. Bunny (Bunny Day)'
-	},
-	{
-		Name: 'Egg Dresser',
-		Price: 'NFS',
-		'HHA Themes': 'Toy Shop',
-		Source: 'Zipper T. Bunny (Bunny Day)'
-	},
-	{
-		Name: 'Egg Lamp',
-		Price: 'NFS',
-		'HHA Themes': 'Toy Shop',
-		Source: 'Zipper T. Bunny (Bunny Day)'
-	},
-	{
-		Name: 'Egg Stereo',
-		Price: 'NFS',
-		'HHA Themes': 'Toy Shop',
-		Source: 'Zipper T. Bunny (Bunny Day)'
-	},
-	{
-		Name: 'Egg Table',
-		Price: 'NFS',
-		'HHA Themes': 'Toy Shop',
-		Source: "Zipper T. Bunny's RV, Zipper T. Bunny (Bunny Day)"
-	},
-	{
-		Name: 'Egg Toy Set',
-		Price: 'NFS',
-		'HHA Themes': 'Toy Shop',
-		Source: 'Zipper T. Bunny (Bunny Day)'
-	},
-	{
-		Name: 'Egg TV',
-		Price: 'NFS',
-		'HHA Themes': 'Toy Shop',
-		Source: 'Zipper T. Bunny (Bunny Day)'
-	},
-	{
-		Name: 'Egg Wardrobe',
-		Price: 'NFS',
-		'HHA Themes': 'Toy Shop',
-		Source: 'Zipper T. Bunny (Bunny Day)'
-	},
-	{
-		Name: 'Eggplant Cow',
-		Price: '500',
-		'HHA Themes': 'Harmonious, Quirky',
-		Source: 'Obon (Isabelle; Japan Only)'
-	},
-	{
-		Name: 'Eiffel Tower',
-		Price: '4,000',
-		'HHA Themes': 'Toy Shop',
-		Source: 'Gulliver (Answer Correct)'
-	},
-	{
-		Name: 'Eight Lamp',
-		Price: '8,000',
-		'HHA Themes': 'Trendy',
-		Source: 'Timmy & Tommy (Spotlight Item)'
-	},
-	{
-		Name: 'EKG Machine',
-		Price: 'NFS',
-		Source: "Raddle's RV"
-	},
-	{
-		Name: 'Elder Mask',
-		Price: '1,600',
-		'HHA Themes': 'Antique, Harmonious, Quirky',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Electric Bass',
-		Price: 'NFS',
-		Source: "Sprocket's RV"
-	},
-	{
-		Name: 'Electric Guitar',
-		Price: '1,900',
-		'HHA Themes': 'None',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Electric Kettle',
-		Price: '1,280',
-		'HHA Themes': 'Trendy',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Electric Sign',
-		Price: 'NFS',
-		Source: "Harvey's Shop"
-	},
-	{
-		Name: 'Elegant Bench',
-		Price: 'NFS',
-		Source: "Claude's RV"
-	},
-	{
-		Name: 'Elegant Chair',
-		Price: 'NFS',
-		Source: "Claude's RV"
-	},
-	{
-		Name: 'Elephant Slide',
-		Price: '1,200',
-		'HHA Themes': 'Toy Shop',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Eraser Sofa',
-		Price: '23,760',
-		'HHA Themes': 'Trendy',
-		Source: 'DLC (Japan)'
-	},
-	{
-		Name: 'Espresso Machine',
-		Price: 'NFS',
-		Source: "Ellie's RV"
-	},
-	{
-		Name: 'Espresso Maker',
-		Price: 'NFS',
-		'HHA Themes': 'Trendy',
-		Source: 'Brewster (Work at The Roost)'
-	},
-	{
-		Name: 'Exam Table',
-		Price: 'NFS',
-		Source: "Raddle's RV"
-	},
-	{
-		Name: 'Executive Toy',
-		Price: '1,100',
-		'HHA Themes': 'Toy Shop, Trendy',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Exercise Ball',
-		Price: 'NFS',
-		Source: "Louie's RV, Harvey's Shop"
-	},
-	{
-		Name: 'Exercise Bike',
-		Price: '2,400',
-		'HHA Themes': 'Sci-Fi',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Exhibit Partition',
-		Price: '3,000',
-		'HHA Themes': 'Trendy',
-		Source: 'Museum Shop'
-	},
-	{
-		Name: 'Exit Sign',
-		Price: '1,600',
-		'HHA Themes': 'Quirky, Sci-Fi',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Exotic Bed',
-		Price: '2,540',
-		'HHA Themes': 'Harmonious',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Exotic Bench',
-		Price: '1,900',
-		'HHA Themes': 'Harmonious',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Exotic Bureau',
-		Price: '2,400',
-		'HHA Themes': 'Harmonious',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Exotic Chair',
-		Price: '1,400',
-		'HHA Themes': 'Harmonious',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Exotic Chest',
-		Price: '1,800',
-		'HHA Themes': 'Harmonious',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Exotic End Table',
-		Price: '1,600',
-		'HHA Themes': 'Harmonious',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Exotic Lamp',
-		Price: '1,800',
-		'HHA Themes': 'Harmonious',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Exotic Screen',
-		Price: '2,250',
-		'HHA Themes': 'Harmonious',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Exotic Table',
-		Price: '2,300',
-		'HHA Themes': 'Harmonious',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Exotic Wall Shelf',
-		Price: '2,400',
-		'HHA Themes': 'Harmonious',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Exotic Wardrobe',
-		Price: '2,180',
-		'HHA Themes': 'Harmonious',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Extinguisher',
-		Price: '1,300',
-		'HHA Themes': 'Sci-Fi',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Fairy Bottle',
-		Price: 'NFS',
-		Source: "Medli's RV"
-	},
-	{
-		Name: 'Fan',
-		Price: '1,200',
-		'HHA Themes': 'Sci-Fi',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Fan Palm',
-		Price: '1,300',
-		'HHA Themes': 'Rustic',
-		Source: 'Gardening Store (TIY)'
-	},
-	{
-		Name: 'Fancy Display Case',
-		Price: 'NFS',
-		Source: "Bitty's RV"
-	},
-	{
-		Name: 'Fancy Display Stand',
-		Price: 'NFS',
-		Source: "Bitty/June's RV, Harvey's Shop"
-	},
-	{
-		Name: 'Fancy Doll',
-		Price: '1,400',
-		'HHA Themes': 'Fairy Tale, Quirky',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Fancy Frame',
-		Price: '10,000',
-		'HHA Themes': 'Antique',
-		Source: 'Museum Shop'
-	},
-	{
-		Name: 'Fancy Tea Set',
-		Price: 'NFS',
-		Source: "Sandy's RV"
-	},
-	{
-		Name: 'Fedora Chair',
-		Price: '3,200',
-		'HHA Themes': 'Trendy',
-		Source: 'DLC (Europe)'
-	},
-	{
-		Name: 'Felyne Guardian',
-		Price: 'NFS',
-		Source: "Felyne's RV"
-	},
-	{
-		Name: 'Female Mask',
-		Price: '1,600',
-		'HHA Themes': 'Antique, Harmonious, Quirky',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Festival Lantern',
-		Price: '900',
-		'HHA Themes': 'Harmonious',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Festive Candle',
-		Price: '1,600',
-		'HHA Themes': 'None',
-		Source: 'Timmy & Tommy (12/1 - 12/23)'
-	},
-	{
-		Name: 'Festive Flag',
-		Price: '680',
-		'HHA Themes': 'None',
-		Source: 'Timmy & Tommy (12/1 - 12/23)'
-	},
-	{
-		Name: 'Festive Tree',
-		Price: '1,300',
-		'HHA Themes': 'Rustic, Toy Shop',
-		Source: 'Timmy & Tommy (12/1 - 12/23)'
-	},
-	{
-		Name: 'Festive Wreath',
-		Price: '1,280',
-		'HHA Themes': 'Toy Shop',
-		Source: 'Jingle (Toy Day)'
-	},
-	{
-		Name: 'File Cabinet (L)',
-		Price: 'NFS',
-		Source: "Blathers/Cleo's RV"
-	},
-	{
-		Name: 'File Cabinet (M)',
-		Price: 'NFS',
-		Source: "Murphy's RV"
-	},
-	{
-		Name: 'Fire Bar',
-		Price: '840',
-		'HHA Themes': 'Toy Shop',
-		Source: 'Fortune Cookie #27'
-	},
-	{
-		Name: 'Fire Flower',
-		Price: '840',
-		'HHA Themes': 'Toy Shop',
-		Source: 'Fortune Cookie #20'
-	},
-	{
-		Name: 'Fire Hydrant',
-		Price: '960',
-		'HHA Themes': 'None',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Firefly Lamp',
-		Price: 'NFS',
-		'HHA Themes': 'Toy Shop',
-		Source: 'Bug Off'
-	},
-	{
-		Name: 'Fireplace',
-		Price: '2,200',
-		'HHA Themes': 'None',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Firewood',
-		Price: 'NFS',
-		Source: "Ketchup's RV, Harvey's Shop"
-	},
-	{
-		Name: 'Fireworks Table',
-		Price: '4,320',
-		'HHA Themes': 'None',
-		Source: 'DLC (Japan)'
-	},
-	{
-		Name: 'First-aid Kit',
-		Price: 'NFS',
-		Source: "Raddle's RV"
-	},
-	{
-		Name: 'Fish and Chips',
-		Price: 'NFS',
-		Source: "Piper's RV"
-	},
-	{
-		Name: 'Fish Grill',
-		Price: '2,800',
-		'HHA Themes': 'Harmonious',
-		Source: 'Camping NPC (Igloo)'
-	},
-	{
-		Name: 'Fish on a Board',
-		Price: 'NFS',
-		Source: "Chip's RV, Harvey's Shop"
-	},
-	{
-		Name: 'Five Lamp',
-		Price: '5,500',
-		'HHA Themes': 'Trendy',
-		Source: 'Timmy & Tommy (Spotlight Item)'
-	},
-	{
-		Name: 'Flashy-Flower Sign',
-		Price: '1,200',
-		'HHA Themes': 'Harmonious',
-		Source: 'Timmy & Tommy (JP)'
-	},
-	{
-		Name: 'Flat Display Case',
-		Price: '2,500',
-		'HHA Themes': 'Trendy',
-		Source: 'Museum Shop'
-	},
-	{
-		Name: 'Flat-Screen TV',
-		Price: '4,800',
-		'HHA Themes': 'Sci-Fi, Trendy',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Floor light',
-		Price: 'NFS',
-		Source: "Boris/Sprocket's RV"
-	},
-	{
-		Name: 'Floor Monitor',
-		Price: 'NFS',
-		Source: "Sprocket's RV"
-	},
-	{
-		Name: 'Floor Seat',
-		Price: 'NFS',
-		Source: "Joan/Kapp'n/Wade's RV"
-	},
-	{
-		Name: 'Florence Flask',
-		Price: '1,600',
-		'HHA Themes': 'Quirky, Sci-Fi',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Flounder Table',
-		Price: 'NFS',
-		'HHA Themes': 'Toy Shop',
-		Source: 'Fishing Tourney'
-	},
-	{
-		Name: 'Flower Bed',
-		Price: 'NFS',
-		Source: "Maggie's RV, Harvey's Shop"
-	},
-	{
-		Name: 'Flower Bouquet',
-		Price: '1,800',
-		'HHA Themes': 'Rustic',
-		Source: 'Leif (Weeding Day; Happy Generosity Award)'
-	},
-	{
-		Name: 'Flower Chair',
-		Price: '1,400',
-		'HHA Themes': 'Fairy Tale, Rustic',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Flower Display Case',
-		Price: 'NFS',
-		Source: "Ursala's RV, Harvey's Shop"
-	},
-	{
-		Name: 'Flower Table',
-		Price: '1,900',
-		'HHA Themes': 'Fairy Tale, Rustic',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Flower Wreath',
-		Price: 'NFS',
-		Source: "Harvey's Shop"
-	},
-	{
-		Name: 'Flying Saucer',
-		Price: '2,400',
-		'HHA Themes': 'Sci-Fi',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Folding Chair',
-		Price: '600',
-		'HHA Themes': 'None',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Folk Guitar',
-		Price: '1,600',
-		'HHA Themes': 'None',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Foosball Table',
-		Price: '1,800',
-		'HHA Themes': 'Toy Shop',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Football-Fish Lamp',
-		Price: 'NFS',
-		'HHA Themes': 'Toy Shop',
-		Source: 'Fishing Tourney'
-	},
-	{
-		Name: 'Forklift',
-		Price: 'NFS',
-		Source: "Boyd's RV"
-	},
-	{
-		Name: 'Four Lamp',
-		Price: '4,000',
-		'HHA Themes': 'Trendy',
-		Source: 'Timmy & Tommy (Spotlight Item)'
-	},
-	{
-		Name: 'Freezer',
-		Price: '2,400',
-		'HHA Themes': 'Sci-Fi',
-		Source: "Chip/Copper's RV, Timmy & Tommy"
-	},
-	{
-		Name: 'Froggy Chair',
-		Price: '1,200',
-		'HHA Themes': 'Rustic',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Frog-Woman Pole',
-		Price: '1,400',
-		'HHA Themes': 'Rustic',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Fruit Basket',
-		Price: '800',
-		'HHA Themes': 'Rustic',
-		Source: 'Harvest Festival'
-	},
-	{
-		Name: 'Fruit Drink',
-		Price: 'NFS',
-		Source: "Ellie/Tasha's RV"
-	},
-	{
-		Name: 'Fruit-Panel Cushion',
-		Price: 'NFS',
-		Source: 'Complete Story Mode in Puzzle League'
-	},
-	{
-		Name: 'Frying Pan',
-		Price: 'NFS',
-		Source: 'Desert Island Escape achievement'
-	},
-	{
-		Name: 'Fueki Chair',
-		Price: 'NFS',
-		Source: "Holden's RV (Fueki)"
-	},
-	{
-		Name: 'Fueki Drawers',
-		Price: 'NFS',
-		Source: "Holden's RV (Fueki)"
-	},
-	{
-		Name: 'Fueki Pot',
-		Price: 'NFS',
-		Source: "Holden's RV (Fueki)"
-	},
-	{
-		Name: 'Fueki Stereo',
-		Price: 'NFS',
-		Source: "Holden's RV (Fueki)"
-	},
-	{
-		Name: 'Fueki Table',
-		Price: 'NFS',
-		Source: "Holden's RV (Fueki)"
-	},
-	{
-		Name: 'Full-Moon Vanity',
-		Price: '4,360',
-		'HHA Themes': 'None',
-		Source: 'DLC (Japan)'
-	},
-	{
-		Name: 'Futon Mattress',
-		Price: 'NFS',
-		Source: "Hornsby/Kapp'n/Wade's RV"
-	},
-	{
-		Name: 'Gadget Shelf',
-		Price: 'NFS',
-		Source: "Celeste's RV"
-	},
-	{
-		Name: 'Game Shelf',
-		Price: '980',
-		'HHA Themes': 'None',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Gamecube Drawer',
-		Price: 'NFS',
-		Source: "Villager's RV"
-	},
-	{
-		Name: 'Game-Show Stand',
-		Price: '2,400',
-		'HHA Themes': 'Toy Shop',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Garbage Bin',
-		Price: 'NFS',
-		Source: "Boyd/Jacob/Stu's RV, Harvey's Shop"
-	},
-	{
-		Name: 'Garbage Can',
-		Price: '500',
-		'HHA Themes': 'Quirky',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Garbage Pail',
-		Price: '1,100',
-		'HHA Themes': 'Quirky',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Garden Chair',
-		Price: 'NFS',
-		Source: "Maddie/Olive's RV, Harvey's Shop"
-	},
-	{
-		Name: 'Garden Faucet',
-		Price: 'NFS',
-		Source: "Maddie's RV, Harvey's Shop"
-	},
-	{
-		Name: 'Garden Gnome',
-		Price: '3,380',
-		'HHA Themes': 'None',
-		Source: "Maddie's RV, Timmy & Tommy (Spotlight Item)"
-	},
-	{
-		Name: 'Garden Lantern',
-		Price: 'NFS',
-		Source: "Maddie's RV, Harvey's Shop"
-	},
-	{
-		Name: 'Garden Rock',
-		Price: 'NFS',
-		Source: "Boot's RV, Harvey's Shop"
-	},
-	{
-		Name: 'Garden Table',
-		Price: 'NFS',
-		Source: "Maddie/Olive's RV, Harvey's Shop"
-	},
-	{
-		Name: 'Garden Tools',
-		Price: 'NFS',
-		Source: "Maggie's RV"
-	},
-	{
-		Name: 'Gas Pump',
-		Price: '1,280',
-		'HHA Themes': 'Sci-Fi',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: "Gaudi's Lizard",
-		Price: '1,200',
-		'HHA Themes': 'Trendy',
-		Source: 'Gulliver (Answer Correct)'
-	},
-	{
-		Name: 'Gemini Closet',
-		Price: '4,800',
-		'HHA Themes': 'None',
-		Source: 'DLC'
-	},
-	{
-		Name: "General's Fan",
-		Price: '1,600',
-		'HHA Themes': 'Harmonious',
-		Source: 'Timmy & Tommy (JP)'
-	},
-	{
-		Name: "General's Stool",
-		Price: '1,200',
-		'HHA Themes': 'Harmonious',
-		Source: 'Timmy & Tommy (JP)'
-	},
-	{
-		Name: "Genie's Lamp",
-		Price: '1,500',
-		'HHA Themes': 'Antique, Fairy Tale, Quirky',
-		Source: "Sahara's RV, Timmy & Tommy"
-	},
-	{
-		Name: 'Gerbera',
-		Price: '780',
-		'HHA Themes': 'Rustic',
-		Source: 'Gardening Store (TIY)'
-	},
-	{
-		Name: 'Giant Ant',
-		Price: '6,000',
-		Source: 'Happy Home Designer Save Data'
-	},
-	{
-		Name: 'Giant Dharma',
-		Price: '1,600',
-		'HHA Themes': 'Harmonious',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Giant Game Boy',
-		Price: 'NFS',
-		Source: "Hopkin's RV"
-	},
-	{
-		Name: 'Giant Stew Pot',
-		Price: '8,000',
-		Source: 'Happy Home Designer Save Data'
-	},
-	{
-		Name: 'Giant Teddy Bear',
-		Price: '8,000',
-		Source: 'Happy Home Designer Save Data'
-	},
-	{
-		Name: 'Gift Pile',
-		Price: 'NFS',
-		Source: "Jingle's RV"
-	},
-	{
-		Name: 'Giraffe Ruler',
-		Price: '1,600',
-		'HHA Themes': 'None',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Glass Display Case',
-		Price: '2,000',
-		'HHA Themes': 'Trendy',
-		Source: 'Museum Shop'
-	},
-	{
-		Name: 'Glass Partition',
-		Price: 'NFS',
-		Source: "Gonzo/Paolo's RV"
-	},
-	{
-		Name: 'Glass Screen',
-		Price: 'NFS',
-		Source: "Cashmere/Kick's RV"
-	},
-	{
-		Name: 'Glass Teapot',
-		Price: 'NFS',
-		Source: "Claude/Ketchup's RV"
-	},
-	{
-		Name: 'Glass-Top Table',
-		Price: '2,200',
-		'HHA Themes': 'Harmonious',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Globe',
-		Price: '1,200',
-		'HHA Themes': 'Sci-Fi',
-		Source: 'Katie'
-	},
-	{
-		Name: 'Go Board',
-		Price: '1,200',
-		'HHA Themes': 'Harmonious, Toy Shop',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Goal Pole',
-		Price: '840',
-		'HHA Themes': 'Toy Shop',
-		Source: 'Fortune Cookie #19'
-	},
-	{
-		Name: 'Gold Bug Trophy',
-		Price: 'NFS',
-		'HHA Themes': 'None',
-		Source: 'Bug Off'
-	},
-	{
-		Name: 'Gold Fish Trophy',
-		Price: 'NFS',
-		'HHA Themes': 'None',
-		Source: 'Fishing Tourney'
-	},
-	{
-		Name: 'Gold HHA Plaque',
-		Price: '1,800',
-		'HHA Themes': 'None',
-		Source: 'HHA (70,000 Points)'
-	},
-	{
-		Name: 'Gold HHA Trophy',
-		Price: '1,800',
-		'HHA Themes': 'None',
-		Source: 'HHA (100,000 Points)'
-	},
-	{
-		Name: 'Gold House Model',
-		Price: '1,800',
-		'HHA Themes': 'None',
-		Source: 'HHA (150,000 Points)'
-	},
-	{
-		Name: 'Gold Stereo',
-		Price: '2,640',
-		'HHA Themes': 'Trendy',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Golden Bed',
-		Price: '10,000 + 3 Gold Nuggets',
-		'HHA Themes': 'Antique',
-		Source: 'Re-Tail (Refurbish)'
-	},
-	{
-		Name: 'Golden Bench',
-		Price: '10,000 + 3 Gold Nuggets',
-		'HHA Themes': 'Antique',
-		Source: 'Re-Tail (Refurbish)'
-	},
-	{
-		Name: 'Golden Chair',
-		Price: '10,000 + 3 Gold Nuggets',
-		'HHA Themes': 'Antique',
-		Source: 'Re-Tail (Refurbish)'
-	},
-	{
-		Name: 'Golden Clock',
-		Price: '10,000 + 3 Gold Nuggets',
-		'HHA Themes': 'Antique',
-		Source: 'Re-Tail (Refurbish)'
-	},
-	{
-		Name: 'Golden Closet',
-		Price: '10,000 + 3 Gold Nuggets',
-		'HHA Themes': 'Antique',
-		Source: 'Re-Tail (Refurbish)'
-	},
-	{
-		Name: 'Golden Dresser',
-		Price: '10,000 + 3 Gold Nuggets',
-		'HHA Themes': 'Antique',
-		Source: 'Re-Tail (Refurbish)'
-	},
-	{
-		Name: 'Golden Man',
-		Price: '10,000 + 3 Gold Nuggets',
-		'HHA Themes': 'Antique',
-		Source: 'Re-Tail (Refurbish)'
-	},
-	{
-		Name: 'Golden Screen',
-		Price: '10,000 + 3 Gold Nuggets',
-		'HHA Themes': 'Antique',
-		Source: 'Re-Tail (Refurbish)'
-	},
-	{
-		Name: 'Golden Table',
-		Price: '10,000 + 3 Gold Nuggets',
-		'HHA Themes': 'Antique',
-		Source: 'Re-Tail (Refurbish)'
-	},
-	{
-		Name: 'Golden Wall Torch',
-		Price: '10,000 + 3 Gold Nuggets',
-		'HHA Themes': 'Antique',
-		Source: 'Re-Tail (Refurbish)'
-	},
-	{
-		Name: 'Golden Woman',
-		Price: '10,000 + 3 Gold Nuggets',
-		'HHA Themes': 'Antique',
-		Source: 'Re-Tail (Refurbish)'
-	},
-	{
-		Name: 'Golf Bag',
-		Price: '1,600',
-		'HHA Themes': 'None',
-		Source: "Tom Nook's RV, Timmy & Tommy"
-	},
-	{
-		Name: 'Good Luck Charm',
-		Price: 'NFS',
-		Source: 'Complete every level in Desert Island Escape'
-	},
-	{
-		Name: 'Gorgeous Bed',
-		Price: '300,000',
-		'HHA Themes': 'Trendy',
-		Source: 'Gracie Grace (Winter)'
-	},
-	{
-		Name: 'Gorgeous Chest',
-		Price: '90,000',
-		'HHA Themes': 'Trendy',
-		Source: 'Gracie Grace (Winter)'
-	},
-	{
-		Name: 'Gorgeous Closet',
-		Price: '140,000',
-		'HHA Themes': 'Trendy',
-		Source: 'Gracie Grace (Winter)'
-	},
-	{
-		Name: 'Gorgeous Counter',
-		Price: '180,000',
-		'HHA Themes': 'Trendy',
-		Source: 'Gracie Grace (Winter)'
-	},
-	{
-		Name: 'Gorgeous Desk',
-		Price: '250,000',
-		'HHA Themes': 'Trendy',
-		Source: 'Gracie Grace (Winter)'
-	},
-	{
-		Name: 'Gorgeous Lamp',
-		Price: '60,000',
-		'HHA Themes': 'Trendy',
-		Source: 'Gracie Grace (Winter)'
-	},
-	{
-		Name: 'Gorgeous Seat',
-		Price: '90,000',
-		'HHA Themes': 'Trendy',
-		Source: 'Gracie Grace (Winter)'
-	},
-	{
-		Name: 'Gorgeous Sofa',
-		Price: '120,000',
-		'HHA Themes': 'Trendy',
-		Source: 'Gracie Grace (Winter)'
-	},
-	{
-		Name: 'Gorgeous Stool',
-		Price: '80,000',
-		'HHA Themes': 'Trendy',
-		Source: 'Gracie Grace (Winter)'
-	},
-	{
-		Name: 'Gorgeous Table',
-		Price: '250,000',
-		'HHA Themes': 'Trendy',
-		Source: 'Gracie Grace (Winter)'
-	},
-	{
-		Name: 'Gorgeous Wall Clock',
-		Price: '350,000',
-		'HHA Themes': 'Trendy',
-		Source: 'Gracie Grace (Winter)'
-	},
-	{
-		Name: 'Gossip Stone',
-		Price: 'NFS',
-		Source: "Epona's RV"
-	},
-	{
-		Name: 'Gracie Bed',
-		Price: '250,000',
-		'HHA Themes': 'Trendy',
-		Source: 'Gracie Grace (Summer)'
-	},
-	{
-		Name: 'Gracie Bench',
-		Price: '110,000',
-		'HHA Themes': 'Trendy',
-		Source: 'Gracie Grace (Summer)'
-	},
-	{
-		Name: 'Gracie Chair',
-		Price: '150,000',
-		'HHA Themes': 'Trendy',
-		Source: 'Gracie Grace (Summer)'
-	},
-	{
-		Name: 'Gracie Chest',
-		Price: '300,000',
-		'HHA Themes': 'Trendy',
-		Source: 'Gracie Grace (Summer)'
-	},
-	{
-		Name: 'Gracie Desk',
-		Price: '250,000',
-		'HHA Themes': 'Trendy',
-		Source: 'Gracie Grace (Summer)'
-	},
-	{
-		Name: 'Gracie Lamp',
-		Price: '120,000',
-		'HHA Themes': 'Trendy',
-		Source: 'Gracie Grace (Summer)'
-	},
-	{
-		Name: 'Gracie Low Table',
-		Price: '68,000',
-		'HHA Themes': 'Trendy',
-		Source: 'Gracie Grace (Summer)'
-	},
-	{
-		Name: 'Gracie Shelf',
-		Price: '350,000',
-		'HHA Themes': 'Trendy',
-		Source: 'Gracie Grace (Summer)'
-	},
-	{
-		Name: 'Gracie Wagon',
-		Price: '300,000',
-		'HHA Themes': 'Trendy',
-		Source: 'Gracie Grace (Summer)'
-	},
-	{
-		Name: 'Gracie Wall Clock',
-		Price: '150,000',
-		'HHA Themes': 'Trendy',
-		Source: 'Gracie Grace (Summer)'
-	},
-	{
-		Name: 'Gracie Wardrobe',
-		Price: '350,000',
-		'HHA Themes': 'Trendy',
-		Source: 'Gracie Grace (Summer)'
-	},
-	{
-		Name: 'Grapefruit Table',
-		Price: '1,500',
-		'HHA Themes': 'Rustic',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Grass Standee',
-		Price: '1,200',
-		'HHA Themes': 'None',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Green Bed',
-		Price: '2,160',
-		'HHA Themes': 'Rustic',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Green Bench',
-		Price: '1,800',
-		'HHA Themes': 'Rustic',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Green Chair',
-		Price: '1,200',
-		'HHA Themes': 'Rustic',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Green Counter',
-		Price: '2,400',
-		'HHA Themes': 'Rustic',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Green Desk',
-		Price: '2,000',
-		'HHA Themes': 'Rustic',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Green Dresser',
-		Price: '2,320',
-		'HHA Themes': 'Rustic',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Green Lamp',
-		Price: '1,800',
-		'HHA Themes': 'Rustic',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Green Net',
-		Price: 'NFS',
-		Source: "Tybalt's RV, Harvey's Shop"
-	},
-	{
-		Name: 'Green Pantry',
-		Price: '2,290',
-		'HHA Themes': 'Rustic',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Green Shell',
-		Price: '840',
-		'HHA Themes': 'Toy Shop',
-		Source: 'Fortune Cookie #22'
-	},
-	{
-		Name: 'Green Table',
-		Price: '1,700',
-		'HHA Themes': 'Rustic',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Green Wall Clock',
-		Price: '1,680',
-		'HHA Themes': 'Rustic',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Green Wardrobe',
-		Price: '2,300',
-		'HHA Themes': 'Rustic',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Greenhouse Box',
-		Price: 'NFS',
-		Source: "Maggie's RV, Harvey's Shop"
-	},
-	{
-		Name: 'Guitar Case',
-		Price: 'NFS',
-		Source: "K.K.'s RV"
-	},
-	{
-		Name: 'Hagoita',
-		Price: '2,400',
-		'HHA Themes': 'Harmonious',
-		Source: 'DLC (Japan)'
-	},
-	{
-		Name: 'Half-Eaten Pizza',
-		Price: 'NFS',
-		Source: "Resetti's RV"
-	},
-	{
-		Name: 'Hammock',
-		Price: '1,320',
-		'HHA Themes': 'Rustic',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Hamster Cage',
-		Price: '2,290',
-		'HHA Themes': 'Sci-Fi',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Handbag',
-		Price: 'NFS',
-		Source: "Vivian's RV"
-	},
-	{
-		Name: 'Handcart',
-		Price: '800',
-		'HHA Themes': 'None',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Handwashing Area',
-		Price: 'NFS',
-		Source: "Maggie's RV, Harvey's Shop"
-	},
-	{
-		Name: 'Hanger Rack',
-		Price: 'NFS',
-		Source: "Bitty/Spike's RV"
-	},
-	{
-		Name: 'Hanging Chair',
-		Price: 'NFS',
-		Source: "Vivian's RV"
-	},
-	{
-		Name: 'Hanging Strap',
-		Price: 'NFS',
-		Source: "Rover's RV"
-	},
-	{
-		Name: 'Harp',
-		Price: '1,700',
-		'HHA Themes': 'Antique',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Harpsichord',
-		Price: '1,800',
-		'HHA Themes': 'Antique',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Harvest Bed',
-		Price: '3,333',
-		'HHA Themes': 'Trendy',
-		Source: 'Timmy & Tommy (11/1 - Harvest Festival)'
-	},
-	{
-		Name: 'Harvest Bureau',
-		Price: '3,333',
-		'HHA Themes': 'Trendy',
-		Source: 'Timmy & Tommy (11/1 - Harvest Festival)'
-	},
-	{
-		Name: 'Harvest Chair',
-		Price: '3,333',
-		'HHA Themes': 'Trendy',
-		Source: "Franklin's RV, Timmy & Tommy (11/1 - Harvest Festival)"
-	},
-	{
-		Name: 'Harvest Clock',
-		Price: '3,333',
-		'HHA Themes': 'Trendy',
-		Source: "Franklin's RV, Timmy & Tommy (11/1 - Harvest Festival)"
-	},
-	{
-		Name: 'Harvest Dresser',
-		Price: '3,333',
-		'HHA Themes': 'Trendy',
-		Source: 'Timmy & Tommy (11/1 - Harvest Festival)'
-	},
-	{
-		Name: 'Harvest Lamp',
-		Price: '3,333',
-		'HHA Themes': 'Trendy',
-		Source: 'Timmy & Tommy (11/1 - Harvest Festival)'
-	},
-	{
-		Name: 'Harvest Mirror',
-		Price: '3,333',
-		'HHA Themes': 'Trendy',
-		Source: 'Timmy & Tommy (11/1 - Harvest Festival)'
-	},
-	{
-		Name: 'Harvest Sofa',
-		Price: '3,333',
-		'HHA Themes': 'Trendy',
-		Source: 'Timmy & Tommy (11/1 - Harvest Festival)'
-	},
-	{
-		Name: 'Harvest Table',
-		Price: '3,333',
-		'HHA Themes': 'Trendy',
-		Source: 'Timmy & Tommy (11/1 - Harvest Festival)'
-	},
-	{
-		Name: 'Harvest TV',
-		Price: '3,333',
-		'HHA Themes': 'Trendy',
-		Source: 'Timmy & Tommy (11/1 - Harvest Festival)'
-	},
-	{
-		Name: 'Harvest Wall Lamp',
-		Price: '3,333',
-		'HHA Themes': 'Trendy',
-		Source: "Franklin's RV, Timmy & Tommy (11/1 - Harvest Festival)"
-	},
-	{
-		Name: 'Hawthorn Bonsai',
-		Price: '1,800',
-		'HHA Themes': 'Harmonious, Rustic',
-		Source: 'Gardening Store (TIY)'
-	},
-	{
-		Name: 'Heart',
-		Price: 'NFS',
-		Source: "Medli/Wolf Link's RV"
-	},
-	{
-		Name: 'Heart Container',
-		Price: 'NFS',
-		Source: "Wolf Link's RV"
-	},
-	{
-		Name: 'Hearth',
-		Price: '1,600',
-		'HHA Themes': 'Harmonious',
-		Source: "Joan's RV, Timmy & Tommy"
-	},
-	{
-		Name: 'Hearty Breakfast',
-		Price: 'NFS',
-		Source: "Reese's RV"
-	},
-	{
-		Name: 'Heavy Tome',
-		Price: 'NFS',
-		Source: "Blather's RV"
-	},
-	{
-		Name: 'Hedge Standee',
-		Price: '1,200',
-		'HHA Themes': 'None',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Hello Kitty Bed',
-		Price: 'NFS',
-		'HHA Themes': 'Cute',
-		Source: "Rilla's RV (Sanrio)"
-	},
-	{
-		Name: 'Hello Kitty Chair',
-		Price: 'NFS',
-		'HHA Themes': 'Cute',
-		Source: "Rilla's RV (Sanrio)"
-	},
-	{
-		Name: 'Hello Kitty Clock',
-		Price: 'NFS',
-		'HHA Themes': 'Cute',
-		Source: "Rilla's RV (Sanrio)"
-	},
-	{
-		Name: 'Hello Kitty Drawers',
-		Price: 'NFS',
-		'HHA Themes': 'Cute',
-		Source: "Rilla's RV (Sanrio)"
-	},
-	{
-		Name: 'Hello Kitty Planter',
-		Price: 'NFS',
-		'HHA Themes': 'Cute',
-		Source: "Rilla's RV (Sanrio)"
-	},
-	{
-		Name: 'Hello Kitty Table',
-		Price: 'NFS',
-		'HHA Themes': 'Cute',
-		Source: "Rilla's RV (Sanrio)"
-	},
-	{
-		Name: 'Helm',
-		Price: '1,120',
-		'HHA Themes': 'Toy Shop',
-		Source: 'Pascal'
-	},
-	{
-		Name: 'Hero of Time Scroll',
-		Price: 'NFS',
-		Source: "Medli's RV"
-	},
-	{
-		Name: 'HHA Pennant',
-		Price: '1,800',
-		'HHA Themes': 'None',
-		Source: 'HHA (20,000 Points)'
-	},
-	{
-		Name: 'Hibachi',
-		Price: '1,200',
-		'HHA Themes': 'Harmonious',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Hibiscus',
-		Price: '500',
-		'HHA Themes': 'Harmonious, Rustic',
-		Source: "Ursala's RV, Tree Day (Isabelle, Korea Only)"
-	},
-	{
-		Name: 'Hibiscus Clock',
-		Price: '2,200',
-		'HHA Themes': 'Fairy Tale, Rustic',
-		Source: 'Leif (Weeding Day; Happy Generosity Award)'
-	},
-	{
-		Name: 'Hi-Fi Stereo',
-		Price: '5,400',
-		'HHA Themes': 'Trendy',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'High-End Stereo',
-		Price: '2,750',
-		'HHA Themes': 'Trendy',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'High-Jump Mat',
-		Price: '2,980',
-		'HHA Themes': 'None',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Hinaningyo',
-		Price: '2,560',
-		'HHA Themes': 'Fairy Tale, Harmonious, Quirky',
-		Source: 'Timmy & Tommy (JP, 3/1 - 3/3)'
-	},
-	{
-		Name: 'Holiday Candle',
-		Price: '4,896',
-		'HHA Themes': 'Toy Shop',
-		Source: 'Timmy & Tommy (12/1 - 12/23)'
-	},
-	{
-		Name: 'Holiday Stocking',
-		Price: '800',
-		'HHA Themes': 'Toy Shop',
-		Source: 'Naughty or Nice Day (Europe Only)'
-	},
-	{
-		Name: 'Holly Bonsai',
-		Price: '1,600',
-		'HHA Themes': 'Harmonious, Rustic',
-		Source: 'Gardening Store (TIY)'
-	},
-	{
-		Name: 'Hologram Machine',
-		Price: '3,600',
-		'HHA Themes': 'Sci-Fi, Toy Shop',
-		Source: 'Timmy & Tommy (Spotlight Item)'
-	},
-	{
-		Name: 'Home-Computer Rack',
-		Price: '1,800',
-		'HHA Themes': 'Trendy',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Homework Set',
-		Price: '680',
-		'HHA Themes': 'Sci-Fi',
-		Source: "Blather's RV, Timmy & Tommy"
-	},
-	{
-		Name: 'Honeybee Chest',
-		Price: 'NFS',
-		'HHA Themes': 'Toy Shop',
-		Source: 'Bug Off'
-	},
-	{
-		Name: 'Hose Reel',
-		Price: 'NFS',
-		Source: "Maggie's RV, Harvey's Shop"
-	},
-	{
-		Name: 'Hospital Bed',
-		Price: '3,600',
-		'HHA Themes': 'Quirky, Sci-Fi',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Hospital Screen',
-		Price: '2,400',
-		'HHA Themes': 'Quirky, Sci-Fi',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Hospital TV',
-		Price: '1,000',
-		'HHA Themes': 'None',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Hot Plate',
-		Price: '1,680',
-		'HHA Themes': 'None',
-		Source: "Zipper T. Bunny's RV, Timmy & Tommy (JP)"
-	},
-	{
-		Name: 'Hot-Snack Case',
-		Price: 'NFS',
-		Source: "Filly's RV (7-11)"
-	},
-	{
-		Name: 'Hourglass',
-		Price: '480',
-		'HHA Themes': 'Sci-Fi',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Hula Doll',
-		Price: '1,800',
-		'HHA Themes': 'Fairy Tale, Quirky',
-		Source: 'Gulliver (Answer Correct)'
-	},
-	{
-		Name: 'Humidifier',
-		Price: '1,600',
-		'HHA Themes': 'Sci-Fi, Trendy',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Hunter',
-		Price: 'NFS',
-		Source: "Felyne's RV"
-	},
-	{
-		Name: "Hunter's Cart",
-		Price: 'NFS',
-		Source: "Felyne's RV"
-	},
-	{
-		Name: "Hunter's Hive",
-		Price: 'NFS',
-		Source: "Felyne's RV"
-	},
-	{
-		Name: 'Hurdle',
-		Price: '980',
-		'HHA Themes': 'None',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Hydrangea Bed',
-		Price: '2,480',
-		'HHA Themes': 'Fairy Tale, Rustic',
-		Source: 'Leif (Weeding Day; Happy Generosity Award)'
-	},
-	{
-		Name: 'Hylian Shield',
-		Price: 'NFS',
-		Source: "Wolf Link's RV"
-	},
-	{
-		Name: 'Hyrulean Treasure',
-		Price: 'NFS',
-		Source: "Ganon/Wolf Link's RV"
-	},
-	{
-		Name: 'Ice Bed',
-		Price: '35,552',
-		'HHA Themes': 'Fairy Tale',
-		Source: 'Snowmam'
-	},
-	{
-		Name: 'Ice Chair',
-		Price: '35,552',
-		'HHA Themes': 'Fairy Tale',
-		Source: 'Snowmam'
-	},
-	{
-		Name: 'Ice Clock',
-		Price: '35,552',
-		'HHA Themes': 'Fairy Tale',
-		Source: 'Snowmam'
-	},
-	{
-		Name: 'Ice Closet',
-		Price: '35,552',
-		'HHA Themes': 'Fairy Tale',
-		Source: 'Snowmam'
-	},
-	{
-		Name: 'Ice Dresser',
-		Price: '35,552',
-		'HHA Themes': 'Fairy Tale',
-		Source: 'Snowmam'
-	},
-	{
-		Name: 'Ice Lamp',
-		Price: '35,552',
-		'HHA Themes': 'Fairy Tale',
-		Source: 'Snowmam'
-	},
-	{
-		Name: 'Ice Shelf',
-		Price: '35,552',
-		'HHA Themes': 'Fairy Tale',
-		Source: 'Snowmam'
-	},
-	{
-		Name: 'Ice Side Table',
-		Price: '35,552',
-		'HHA Themes': 'Fairy Tale',
-		Source: 'Snowmam'
-	},
-	{
-		Name: 'Ice Sofa',
-		Price: '35,552',
-		'HHA Themes': 'Fairy Tale',
-		Source: 'Snowmam'
-	},
-	{
-		Name: 'Ice Table',
-		Price: '35,552',
-		'HHA Themes': 'Fairy Tale',
-		Source: 'Snowmam'
-	},
-	{
-		Name: 'Ice Vanity',
-		Price: '35,552',
-		'HHA Themes': 'Fairy Tale',
-		Source: 'Snowmam'
-	},
-	{
-		Name: 'Iceberg',
-		Price: '6,000',
-		Source: 'Happy Home Designer Save Data'
-	},
-	{
-		Name: 'Ice-Cream Case',
-		Price: '1,800',
-		'HHA Themes': 'Harmonious, Sci-Fi',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Ice-Cream Display',
-		Price: 'NFS',
-		Source: "Olive's RV"
-	},
-	{
-		Name: 'Ikada Trophy',
-		Price: 'NFS',
-		Source: 'Obtain high scores in all levels in Desert Island Escape'
-	},
-	{
-		Name: 'Ikebana Display',
-		Price: 'NFS',
-		Source: "Snooty's RV"
-	},
-	{
-		Name: 'Imperial Chair',
-		Price: 'NFS',
-		Source: "Harvey's Shop"
-	},
-	{
-		Name: 'Imperial Pot',
-		Price: 'NFS',
-		Source: "Admiral/Zipper T.Bunny's RV"
-	},
-	{
-		Name: 'Incense Burner',
-		Price: '680',
-		'HHA Themes': 'Harmonious',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Inflatable Resetti',
-		Price: '8,000',
-		Source: 'Happy Home Designer Save Data'
-	},
-	{
-		Name: 'Inkopolis Chair',
-		Price: 'NFS',
-		Source: "Cece/Viche's RV"
-	},
-	{
-		Name: 'Inkopolis Sign',
-		Price: 'NFS',
-		Source: "Cece/Viche's RV"
-	},
-	{
-		Name: 'Inkopolis Table',
-		Price: 'NFS',
-		Source: "Cece/Viche's RV"
-	},
-	{
-		Name: 'Instruction Manual',
-		Price: '420',
-		Source: 'Welcome Amiibo Update'
-	},
-	{
-		Name: 'Ionian Post',
-		Price: '3,600',
-		'HHA Themes': 'Antique, Quirky',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Iron Frame',
-		Price: '1,200',
-		'HHA Themes': 'None',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Iron Garden Chair',
-		Price: 'NFS',
-		Source: "Ellie's RV, Harvey's Shop"
-	},
-	{
-		Name: 'Iron Garden Table',
-		Price: 'NFS',
-		Source: "Ellie's RV, Harvey's Shop"
-	},
-	{
-		Name: 'Ironing Set',
-		Price: '1,400',
-		'HHA Themes': 'None',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Isabelle Scooter',
-		Price: 'NFS',
-		Source: "Isabelle's RV"
-	},
-	{
-		Name: 'Item Box',
-		Price: 'NFS',
-		Source: "Felyne's RV"
-	},
-	{
-		Name: 'IV Drip',
-		Price: '1,480',
-		'HHA Themes': 'Quirky, Sci-Fi',
-		Source: 'Timmy & Tommy (Spotlight Item)'
-	},
-	{
-		Name: 'Ivy Partition',
-		Price: 'NFS',
-		Source: "Tasha's RV"
-	},
-	{
-		Name: 'Jackhammer',
-		Price: '1,880',
-		'HHA Themes': 'None',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Jack-In-The-Box',
-		Price: '400',
-		'HHA Themes': 'Toy Shop',
-		Source: "Jack's RV, Halloween (Neighbor Trick)"
-	},
-	{
-		Name: 'Jail Bars',
-		Price: 'NFS',
-		Source: "Gonzo's RV"
-	},
-	{
-		Name: 'Jasmine Bonsai',
-		Price: '1,700',
-		'HHA Themes': 'Harmonious, Rustic',
-		Source: 'Gardening Store (TIY)'
-	},
-	{
-		Name: 'Jellyfish Lamp',
-		Price: 'NFS',
-		'HHA Themes': 'Fairy Tale',
-		Source: 'Fishing Tourney'
-	},
-	{
-		Name: 'Jewelry Case',
-		Price: 'NFS',
-		Source: "Bitty's RV"
-	},
-	{
-		Name: 'Jingle Bed',
-		Price: '4,896',
-		'HHA Themes': 'Toy Shop',
-		Source: 'Timmy & Tommy (12/1 - 12/23)'
-	},
-	{
-		Name: 'Jingle Chair',
-		Price: '4,896',
-		'HHA Themes': 'Toy Shop',
-		Source: 'Timmy & Tommy (12/1 - 12/23)'
-	},
-	{
-		Name: 'Jingle Clock',
-		Price: '4,896',
-		'HHA Themes': 'Toy Shop',
-		Source: 'Timmy & Tommy (12/1 - 12/23)'
-	},
-	{
-		Name: 'Jingle Dresser',
-		Price: '4,896',
-		'HHA Themes': 'Toy Shop',
-		Source: 'Timmy & Tommy (12/1 - 12/23)'
-	},
-	{
-		Name: 'Jingle Lamp',
-		Price: '4,896',
-		'HHA Themes': 'Toy Shop',
-		Source: 'Timmy & Tommy (12/1 - 12/23)'
-	},
-	{
-		Name: 'Jingle Piano',
-		Price: '4,896',
-		'HHA Themes': 'Toy Shop',
-		Source: 'Timmy & Tommy (12/1 - 12/23)'
-	},
-	{
-		Name: 'Jingle Shelves',
-		Price: '4,896',
-		'HHA Themes': 'Toy Shop',
-		Source: 'Timmy & Tommy (12/1 - 12/23)'
-	},
-	{
-		Name: 'Jingle Sofa',
-		Price: '4,896',
-		'HHA Themes': 'Toy Shop',
-		Source: 'Timmy & Tommy (12/1 - 12/23)'
-	},
-	{
-		Name: 'Jingle Table',
-		Price: '4,896',
-		'HHA Themes': 'Toy Shop',
-		Source: 'Timmy & Tommy (12/1 - 12/23)'
-	},
-	{
-		Name: 'Jingle TV',
-		Price: '4,896',
-		'HHA Themes': 'Toy Shop',
-		Source: 'Timmy & Tommy (12/1 - 12/23)'
-	},
-	{
-		Name: 'Jingle Wardrobe',
-		Price: '4,896',
-		'HHA Themes': 'Toy Shop',
-		Source: 'Timmy & Tommy (12/1 - 12/23)'
-	},
-	{
-		Name: 'Jolly Roger',
-		Price: '1,600',
-		'HHA Themes': 'Quirky, Toy Shop',
-		Source: 'Pascal'
-	},
-	{
-		Name: 'Jomon Pottery',
-		Price: '800',
-		'HHA Themes': 'Antique, Harmonious, Quirky',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: "Judge's Bell",
-		Price: '1,790',
-		'HHA Themes': 'None',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Juicy-Apple Clock',
-		Price: '1,200',
-		'HHA Themes': 'Rustic',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Juicy-Apple TV',
-		Price: '1,200',
-		'HHA Themes': 'Rustic',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Jukebox',
-		Price: '3,200',
-		'HHA Themes': 'Toy Shop',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Kadomatsu',
-		Price: '2,580',
-		'HHA Themes': 'Harmonious, Rustic',
-		Source: 'DLC'
-	},
-	{
-		Name: 'Kagamimochi',
-		Price: '1,800',
-		'HHA Themes': 'Harmonious',
-		Source: 'DLC (Japan)'
-	},
-	{
-		Name: 'Kaiseki Meal',
-		Price: 'NFS',
-		Source: "Wade's RV"
-	},
-	{
-		Name: 'Karaoke System',
-		Price: '2,400',
-		'HHA Themes': 'None',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Kart',
-		Price: '840',
-		'HHA Themes': 'Sci-Fi, Toy Shop',
-		Source: 'Fortune Cookie #32'
-	},
-	{
-		Name: 'Kayak',
-		Price: '3,460',
-		'HHA Themes': 'None',
-		Source: 'Camping NPC (Tent)'
-	},
-	{
-		Name: 'Keg',
-		Price: '800',
-		'HHA Themes': 'Toy Shop',
-		Source: 'Pascal'
-	},
-	{
-		Name: 'Kerokerokeroppi Cake',
-		Price: 'NFS',
-		'HHA Themes': 'Cute',
-		Source: "Toby's RV (Sanrio)"
-	},
-	{
-		Name: 'Kerokerokeroppi Doll',
-		Price: 'NFS',
-		'HHA Themes': 'Cute',
-		Source: "Toby's RV (Sanrio)"
-	},
-	{
-		Name: 'Kerokerokeroppi Tray',
-		Price: 'NFS',
-		'HHA Themes': 'Cute',
-		Source: "Toby's RV (Sanrio)"
-	},
-	{
-		Name: 'Kettle',
-		Price: '800',
-		'HHA Themes': 'None',
-		Source: "Copper's RV, Timmy & Tommy"
-	},
-	{
-		Name: 'Kick Scooter',
-		Price: 'NFS',
-		Source: "Stu/Tybalt's RV, Harvey's Shop"
-	},
-	{
-		Name: 'Kicks Mat',
-		Price: 'NFS',
-		Source: "Kicks' RV"
-	},
-	{
-		Name: 'Kiddie Bed',
-		Price: '2,100',
-		'HHA Themes': 'Toy Shop',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Kiddie Bookcase',
-		Price: '1,800',
-		'HHA Themes': 'Toy Shop',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Kiddie Bureau',
-		Price: '2,200',
-		'HHA Themes': 'Toy Shop',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Kiddie Chair',
-		Price: '1,400',
-		'HHA Themes': 'Toy Shop',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Kiddie Clock',
-		Price: '1,480',
-		'HHA Themes': 'Toy Shop',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Kiddie Couch',
-		Price: '2,200',
-		'HHA Themes': 'Toy Shop',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Kiddie Dresser',
-		Price: '2,150',
-		'HHA Themes': 'Toy Shop',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Kiddie Meal',
-		Price: 'NFS',
-		Source: "Carrie's RV, Harvey's Shop"
-	},
-	{
-		Name: 'Kiddie Stereo',
-		Price: '1,900',
-		'HHA Themes': 'Toy Shop',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Kiddie Table',
-		Price: '2,200',
-		'HHA Themes': 'Toy Shop',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Kiddie Wall Clock',
-		Price: '1,800',
-		'HHA Themes': 'Toy Shop',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Kiddie Wardrobe',
-		Price: '2,180',
-		'HHA Themes': 'Toy Shop',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Kiki and Lala Bed',
-		Price: 'NFS',
-		'HHA Themes': 'Cute',
-		Source: "Etoile's RV (Sanrio)"
-	},
-	{
-		Name: 'Kiki and Lala Clock',
-		Price: 'NFS',
-		'HHA Themes': 'Cute',
-		Source: "Etoile's RV (Sanrio)"
-	},
-	{
-		Name: 'Kiki and Lala Sofa',
-		Price: 'NFS',
-		'HHA Themes': 'Cute',
-		Source: "Etoile's RV (Sanrio)"
-	},
-	{
-		Name: 'Kiki and Lala Table',
-		Price: 'NFS',
-		'HHA Themes': 'Cute',
-		Source: "Etoile's RV (Sanrio)"
-	},
-	{
-		Name: 'Kimbap Plate',
-		Price: '800',
-		'HHA Themes': 'Harmonious',
-		Source: 'DLC (Korea)'
-	},
-	{
-		Name: 'Kinderdijk Windmill',
-		Price: '1,200',
-		'HHA Themes': 'Toy Shop',
-		Source: 'Gulliver (Answer Correct)'
-	},
-	{
-		Name: 'King',
-		Price: '8,000',
-		'HHA Themes': 'Toy Shop',
-		Source: 'Timmy & Tommy (Spotlight Item)'
-	},
-	{
-		Name: 'Kitchen Corner',
-		Price: '1,800',
-		'HHA Themes': 'Sci-Fi',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Kitchen Counter',
-		Price: 'NFS',
-		Source: "Admiral/Cashmere/Chip/Olive's RV"
-	},
-	{
-		Name: 'Kitchen Dishwasher',
-		Price: 'NFS',
-		Source: "Admiral's RV"
-	},
-	{
-		Name: 'Kitchen Island',
-		Price: '30 Medals',
-		'HHA Themes': 'None',
-		Source: "Franklin's RV, Island Gift Shop (Rare)"
-	},
-	{
-		Name: 'Kitchen Refrigerator',
-		Price: 'NFS',
-		Source: "Admiral/Franklin/Norma's RV"
-	},
-	{
-		Name: 'Kitchen Scale',
-		Price: '1,200',
-		'HHA Themes': 'Sci-Fi',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Kitchen Sink',
-		Price: '2,400',
-		'HHA Themes': 'Sci-Fi',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Kitchen Stove',
-		Price: 'NFS',
-		Source: "Admiral/Cashmere's RV"
-	},
-	{
-		Name: 'Kitschy Clock',
-		Price: '1,800',
-		'HHA Themes': 'None',
-		Source: "Candi's RV, Timmy & Tommy"
-	},
-	{
-		Name: 'Kiwi Stool',
-		Price: '1,500',
-		'HHA Themes': 'Rustic',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Knight',
-		Price: '2,800',
-		'HHA Themes': 'Toy Shop',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Kokeshi Doll',
-		Price: '800',
-		'HHA Themes': 'Harmonious, Quirky, Toy Shop',
-		Source: 'Timmy & Tommy (JP)'
-	},
-	{
-		Name: 'Kotatsu',
-		Price: '1,200',
-		'HHA Themes': 'Harmonious',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Lab Bench',
-		Price: '4,800',
-		'HHA Themes': 'Quirky, Sci-Fi',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Lab Chair',
-		Price: '2,200',
-		'HHA Themes': 'Quirky, Sci-Fi',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Laboratory Capsule',
-		Price: 'NFS',
-		Source: "Murphy's RV"
-	},
-	{
-		Name: 'Labrador Ornament',
-		Price: 'NFS',
-		Source: 'Fortune Cookie #56'
-	},
-	{
-		Name: 'Lady Palm',
-		Price: '1,200',
-		'HHA Themes': 'Rustic',
-		Source: 'Gardening Store (TIY)'
-	},
-	{
-		Name: 'Ladybug Chair',
-		Price: 'NFS',
-		'HHA Themes': 'Toy Shop',
-		Source: 'Bug Off'
-	},
-	{
-		Name: 'Lantern',
-		Price: '1,180',
-		'HHA Themes': 'None',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Laptop',
-		Price: '2,000',
-		'HHA Themes': 'Sci-Fi, Trendy',
-		Source: "Cleo's RV, Timmy & Tommy"
-	},
-	{
-		Name: 'Large Alpine Table',
-		Price: '2,400',
-		'HHA Themes': 'Rustic',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Large Bookshelf',
-		Price: '2,400',
-		'HHA Themes': 'None',
-		Source: "Dobie/Pascal's RV, Timmy & Tommy"
-	},
-	{
-		Name: 'Large Egg',
-		Price: '8,000',
-		Source: 'Happy Home Designer Save Data'
-	},
-	{
-		Name: 'Large Magazine Rack',
-		Price: '2,200',
-		'HHA Themes': 'Trendy',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Large Space Console',
-		Price: '3,200',
-		'HHA Themes': 'Sci-Fi, Toy Shop',
-		Source: 'Timmy & Tommy (Spotlight Item)'
-	},
-	{
-		Name: 'Large Tea Table',
-		Price: 'NFS',
-		Source: "Resetti's RV, Harvey's Shop"
-	},
-	{
-		Name: 'Lat Pulldown Machine',
-		Price: '2,380',
-		'HHA Themes': 'Sci-Fi',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Lava Lamp',
-		Price: '1,800',
-		'HHA Themes': 'Sci-Fi, Toy Shop, Trendy',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Lawn Chair',
-		Price: '1,180',
-		'HHA Themes': 'None',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Lawn Mower',
-		Price: '2,760',
-		'HHA Themes': 'None',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Lazy-Susan Table',
-		Price: '2,400',
-		'HHA Themes': 'Harmonious',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Leaf Bed',
-		Price: '4,200',
-		'HHA Themes': 'Rustic',
-		Source: "Nat's RV, DLC"
-	},
-	{
-		Name: 'Lectern with Mic',
-		Price: 'NFS',
-		Source: "Harvey's Shop"
-	},
-	{
-		Name: 'Lecture-Hall Desk',
-		Price: 'NFS',
-		Source: "Leopold's RV"
-	},
-	{
-		Name: 'LED Display',
-		Price: '3,000',
-		'HHA Themes': 'Toy Shop',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Left Platform',
-		Price: '1,600',
-		'HHA Themes': 'Sci-Fi',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Left Splatfest Sign',
-		Price: 'NFS',
-		Source: "Cece/Viche's RV"
-	},
-	{
-		Name: 'Lefty Desk',
-		Price: '1,240',
-		'HHA Themes': 'None',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Lefty Lucky Cat',
-		Price: '1,700',
-		'HHA Themes': 'Harmonious',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Lemon Table',
-		Price: '1,500',
-		'HHA Themes': 'Rustic',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Leo Sculpture',
-		Price: '4,800',
-		'HHA Themes': 'Quirky',
-		Source: 'DLC'
-	},
-	{
-		Name: 'Letter Set',
-		Price: 'NFS',
-		'HHA Themes': 'None',
-		Source: '500k Bells in Savings Account'
-	},
-	{
-		Name: 'Levture-Hall Bench',
-		Price: 'NFS',
-		Source: "Leopold's RV"
-	},
-	{
-		Name: 'Libra Scale',
-		Price: '4,800',
-		'HHA Themes': 'None',
-		Source: 'DLC (Japan)'
-	},
-	{
-		Name: 'Life Preserver',
-		Price: '25 Medals',
-		'HHA Themes': 'None',
-		Source: 'Island Gift Shop'
-	},
-	{
-		Name: 'Life Ring',
-		Price: '20 Medals',
-		'HHA Themes': 'None',
-		Source: 'Island Gift Shop'
-	},
-	{
-		Name: 'Lift Chair',
-		Price: '4,800',
-		'HHA Themes': 'None',
-		Source: 'Snowman'
-	},
-	{
-		Name: 'Light Breakfast',
-		Price: 'NFS',
-		Source: "Cyrus' RV"
-	},
-	{
-		Name: 'Lily Lamp',
-		Price: '2,800',
-		'HHA Themes': 'Antique, Fairy Tale',
-		Source: 'Leif (Weeding Day; Happy Generosity Award)'
-	},
-	{
-		Name: 'Lily Record Player',
-		Price: '2,480',
-		'HHA Themes': 'Fairy Tale, Rustic',
-		Source: 'Leif (Weeding Day; The Town Cleanup Prize)'
-	},
-	{
-		Name: 'Lily-Pad Table',
-		Price: '1,600',
-		'HHA Themes': 'Rustic',
-		Source: "Pascal's RV, Timmy & Tommy"
-	},
-	{
-		Name: 'Locker Stack',
-		Price: 'NFS',
-		Source: "Louie's RV"
-	},
-	{
-		Name: 'Lon Lon Milk',
-		Price: 'NFS',
-		Source: "Epona's RV"
-	},
-	{
-		Name: 'Loom',
-		Price: '3,000',
-		'HHA Themes': 'None',
-		Source: "Sahara's RV, Timmy & Tommy"
-	},
-	{
-		Name: 'Lotus Lamp',
-		Price: '1,600',
-		'HHA Themes': 'Harmonious, Rustic',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Love Tester',
-		Price: '1,024',
-		'HHA Themes': 'Sci-Fi, Toy Shop',
-		Source: 'Redd (Fireworks Show; Pow Ticket)'
-	},
-	{
-		Name: 'Lovely Armoire',
-		Price: '2,240',
-		'HHA Themes': 'Fairy Tale',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Lovely Bed',
-		Price: '2,000',
-		'HHA Themes': 'Fairy Tale',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Lovely Chair',
-		Price: '1,600',
-		'HHA Themes': 'Fairy Tale',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Lovely Doll',
-		Price: '2,400',
-		'HHA Themes': 'Fairy Tale, Harmonious, Quirky',
-		Source: "Snooty's RV, Timmy & Tommy"
-	},
-	{
-		Name: 'Lovely Dresser',
-		Price: '2,160',
-		'HHA Themes': 'Fairy Tale',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Lovely End Table',
-		Price: '1,800',
-		'HHA Themes': 'Fairy Tale',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Lovely Kitchen',
-		Price: '2,280',
-		'HHA Themes': 'Fairy Tale',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Lovely Lamp',
-		Price: '1,600',
-		'HHA Themes': 'Fairy Tale',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Lovely Love Seat',
-		Price: '2,000',
-		'HHA Themes': 'Fairy Tale',
-		Source: "Lottie's RV, Timmy & Tommy"
-	},
-	{
-		Name: 'Lovely Phone',
-		Price: '10,400',
-		'HHA Themes': 'Fairy Tale',
-		Source: 'Redd (Fireworks Show; Flash Ticket)'
-	},
-	{
-		Name: 'Lovely Table',
-		Price: '1,800',
-		'HHA Themes': 'Fairy Tale',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Lovely Vanity',
-		Price: '2,200',
-		'HHA Themes': 'Fairy Tale',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Lovely Wall Clock',
-		Price: '1,960',
-		'HHA Themes': 'Fairy Tale',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Low Screen',
-		Price: '1,480',
-		'HHA Themes': 'Harmonious',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Lucky Black Cat',
-		Price: '1,700',
-		'HHA Themes': 'Harmonious',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Lucky Cat',
-		Price: '1,700',
-		'HHA Themes': 'Harmonious',
-		Source: "Joan's RV, Timmy & Tommy"
-	},
-	{
-		Name: 'Lucky Doll',
-		Price: 'NFS',
-		Source: "Billy's RV"
-	},
-	{
-		Name: 'Lucky Frog',
-		Price: '1,350',
-		'HHA Themes': 'Harmonious',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Lucky Gold Cat',
-		Price: '6,200',
-		'HHA Themes': 'Harmonious',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Lunar Lander',
-		Price: '3,200',
-		'HHA Themes': 'Sci-Fi, Toy Shop',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Lunar Rover',
-		Price: '2,560',
-		'HHA Themes': 'Sci-Fi, Toy Shop',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Lunch Box',
-		Price: 'NFS',
-		Source: "Rex's RV"
-	},
-	{
-		Name: 'Lunch Pack',
-		Price: 'NFS',
-		Source: "Kicks/Maddie's RV"
-	},
-	{
-		Name: 'Lunch Tray',
-		Price: '800',
-		'HHA Themes': 'None',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Luxury Car',
-		Price: '8,000',
-		Source: 'Happy Home Designer save data'
-	},
-	{
-		Name: 'Mahjong Table',
-		Price: '4,200',
-		'HHA Themes': 'Harmonious, Toy Shop',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Makeup Case',
-		Price: '1,200',
-		'HHA Themes': 'Fairy Tale',
-		Source: "Blanca/Lottie's RV, Timmy & Tommy"
-	},
-	{
-		Name: 'Mama Bear',
-		Price: '1,600',
-		'HHA Themes': 'Fairy Tale, Toy Shop',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Mama Panda',
-		Price: '960',
-		'HHA Themes': 'Fairy Tale, Harmonious, Toy Shop',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Mama Polar Bear',
-		Price: '1,800',
-		'HHA Themes': 'Fairy Tale, Toy Shop',
-		Source: 'Timmy & Tommy (Spotlight Item)'
-	},
-	{
-		Name: 'Manhole Cover',
-		Price: '1,000',
-		'HHA Themes': 'None',
-		Source: "Boyd's RV, Timmy & Tommy"
-	},
-	{
-		Name: 'Manneken Pis',
-		Price: '5,200',
-		'HHA Themes': 'None',
-		Source: 'Gulliver (Answer Correct)'
-	},
-	{
-		Name: 'Maple Bonsai',
-		Price: '1,700',
-		'HHA Themes': 'Harmonious, Rustic',
-		Source: 'Gardening Store (TIY)'
-	},
-	{
-		Name: 'Marshmallow Chair',
-		Price: '1,200',
-		'HHA Themes': 'Fairy Tale',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Massage Chair',
-		Price: '2,400',
-		'HHA Themes': 'Sci-Fi',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Massage Recliner',
-		Price: 'NFS',
-		Source: "Louie's RV"
-	},
-	{
-		Name: 'Massive Cake',
-		Price: '6,000',
-		Source: 'Happy Home Designer save data'
-	},
-	{
-		Name: 'Master Sword',
-		Price: '840',
-		'HHA Themes': 'Quirky, Toy Shop',
-		Source: 'Fortune Cookie #35'
-	},
-	{
-		Name: 'Matryoshka',
-		Price: '3,920',
-		'HHA Themes': 'Fairy Tale, Toy Shop',
-		Source: 'Gulliver (Answer Correct)'
-	},
-	{
-		Name: 'Medicine Cabinet',
-		Price: 'NFS',
-		Source: "June's RV"
-	},
-	{
-		Name: 'Medicine Chest',
-		Price: '2,280',
-		'HHA Themes': 'Quirky, Sci-Fi',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Meeting-Room Chair',
-		Price: 'NFS',
-		Source: "Huck's RV"
-	},
-	{
-		Name: 'Meeting-Room Table',
-		Price: 'NFS',
-		Source: "Cleo/Gonzo's RV"
-	},
-	{
-		Name: "Men's Toilet",
-		Price: '1,600',
-		'HHA Themes': 'None',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Menu Chalkboard',
-		Price: 'NFS',
-		Source: "Bea/Santy's RV, Harvey's Shop"
-	},
-	{
-		Name: 'Merchandise Table',
-		Price: 'NFS',
-		Source: "Candi's RV"
-	},
-	{
-		Name: 'Merlion',
-		Price: '9,200',
-		'HHA Themes': 'Harmonious',
-		Source: 'Gulliver (Answer Correct)'
-	},
-	{
-		Name: 'Mermaid Bed',
-		Price: '40 Medals',
-		'HHA Themes': 'Fairy Tale',
-		Source: 'Island Gift Shop'
-	},
-	{
-		Name: 'Mermaid Chair',
-		Price: '40 Medals',
-		'HHA Themes': 'Fairy Tale',
-		Source: "Reese's RV, Island Gift Shop"
-	},
-	{
-		Name: 'Mermaid Clock',
-		Price: '40 Medals',
-		'HHA Themes': 'Fairy Tale',
-		Source: 'Island Gift Shop'
-	},
-	{
-		Name: 'Mermaid Closet',
-		Price: '40 Medals',
-		'HHA Themes': 'Fairy Tale',
-		Source: 'Island Gift Shop'
-	},
-	{
-		Name: 'Mermaid Dresser',
-		Price: '40 Medals',
-		'HHA Themes': 'Fairy Tale',
-		Source: 'Island Gift Shop'
-	},
-	{
-		Name: 'Mermaid Lamp',
-		Price: '40 Medals',
-		'HHA Themes': 'Fairy Tale',
-		Source: 'Island Gift Shop'
-	},
-	{
-		Name: 'Mermaid Screen',
-		Price: '40 Medals',
-		'HHA Themes': 'Fairy Tale',
-		Source: 'Island Gift Shop'
-	},
-	{
-		Name: 'Mermaid Shelf',
-		Price: '40 Medals',
-		'HHA Themes': 'Fairy Tale',
-		Source: 'Island Gift Shop'
-	},
-	{
-		Name: 'Mermaid Sofa',
-		Price: '40 Medals',
-		'HHA Themes': 'Fairy Tale',
-		Source: 'Island Gift Shop'
-	},
-	{
-		Name: 'Mermaid Statue',
-		Price: '7,600',
-		'HHA Themes': 'None',
-		Source: 'Gulliver (Answer Correct)'
-	},
-	{
-		Name: 'Mermaid Table',
-		Price: '40 Medals',
-		'HHA Themes': 'Fairy Tale',
-		Source: 'Island Gift Shop'
-	},
-	{
-		Name: 'Mermaid Vanity',
-		Price: '40 Medals',
-		'HHA Themes': 'Fairy Tale',
-		Source: "Reese's RV, Island Gift Shop"
-	},
-	{
-		Name: 'Merry-Go-Round',
-		Price: '640',
-		'HHA Themes': 'Fairy Tale, Toy Shop',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Metal Box',
-		Price: 'NFS',
-		Source: "Admiral's RV"
-	},
-	{
-		Name: 'Metal Can',
-		Price: 'NFS',
-		Source: "Boyd/Ike's RV, Harvey's Shop"
-	},
-	{
-		Name: 'Metal Flagpole',
-		Price: 'NFS',
-		Source: "Harvey's Shop"
-	},
-	{
-		Name: 'Metal Guitar',
-		Price: '1,800',
-		'HHA Themes': 'Trendy',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Metal-and-Wood Chair',
-		Price: 'NFS',
-		Source: "Ketchup/Tasha's RV, Harvey's Shop"
-	},
-	{
-		Name: 'Metal-and-Wood Table',
-		Price: 'NFS',
-		Source: "Ketchup/Plucky/Tasha's RV, Harvey's Shop"
-	},
-	{
-		Name: 'Metal-Rim Table',
-		Price: 'NFS',
-		Source: "Boris/K.K./Rover's TV"
-	},
-	{
-		Name: 'Metroid',
-		Price: '840',
-		'HHA Themes': 'Quirky, Sci-Fi, Toy Shop',
-		Source: 'Fortune Cookie #47'
-	},
-	{
-		Name: 'Metronome',
-		Price: '1,000',
-		'HHA Themes': 'None',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Mic Stand',
-		Price: '1,800',
-		'HHA Themes': 'None',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Microscope',
-		Price: '1,600',
-		'HHA Themes': 'Sci-Fi',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Microwave',
-		Price: '2,300',
-		'HHA Themes': 'Sci-Fi',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Milk Can',
-		Price: '980',
-		'HHA Themes': 'None',
-		Source: "Norma's RV, Timmy & Tommy"
-	},
-	{
-		Name: 'Milk Canister',
-		Price: 'NFS',
-		Source: "Norma's RV, Harvey's Shop"
-	},
-	{
-		Name: 'Milk Carton',
-		Price: 'NFS',
-		Source: "Hopkins/Jacob/Norma's RV"
-	},
-	{
-		Name: 'Milk Case',
-		Price: '1,800',
-		'HHA Themes': 'Harmonious, Sci-Fi',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Mini Butterfly Table',
-		Price: 'NFS',
-		'HHA Themes': 'Toy Shop',
-		Source: 'Bug Off'
-	},
-	{
-		Name: 'Mini Cactus',
-		Price: '800',
-		'HHA Themes': 'Rustic',
-		Source: 'Gardening Store (TIY)'
-	},
-	{
-		Name: 'Mini Circuit',
-		Price: '1,600',
-		'HHA Themes': 'Toy Shop',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Mini Dharma',
-		Price: '800',
-		'HHA Themes': 'Harmonious',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Mini Lamp',
-		Price: '1,280',
-		'HHA Themes': 'Sci-Fi',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Miniature Car',
-		Price: '10,000',
-		'HHA Themes': 'Toy Shop',
-		Source: 'Redd (Fireworks Show; Sparkle Ticket)'
-	},
-	{
-		Name: 'Minifridge',
-		Price: 'NFS',
-		Source: "Hornsby/Piper's TV"
-	},
-	{
-		Name: 'Minimalist Bed',
-		Price: '1,000',
-		'HHA Themes': 'Trendy',
-		Source: "Lottie's RV, Timmy & Tommy"
-	},
-	{
-		Name: 'Minimalist Chair',
-		Price: '2,000',
-		'HHA Themes': 'Trendy',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Minimalist Clock',
-		Price: '3,500',
-		'HHA Themes': 'Trendy',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Minimalist Dresser',
-		Price: '2,500',
-		'HHA Themes': 'Trendy',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Minimalist Lamp',
-		Price: '1,000',
-		'HHA Themes': 'Trendy',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Minimalist Minitable',
-		Price: '2,500',
-		'HHA Themes': 'Trendy',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Minimalist Ottoman',
-		Price: '1,500',
-		'HHA Themes': 'Trendy',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Minimalist Sofa',
-		Price: '1,500',
-		'HHA Themes': 'Trendy',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Minimalist Table',
-		Price: '2,000',
-		'HHA Themes': 'Trendy',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Minimalist Vanity',
-		Price: '3,000',
-		'HHA Themes': 'Trendy',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Minimalist Wardrobe',
-		Price: '3,000',
-		'HHA Themes': 'Trendy',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Mixer',
-		Price: '1,000',
-		'HHA Themes': 'None',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Moai Statue',
-		Price: '7,600',
-		'HHA Themes': 'Quirky',
-		Source: 'Gulliver (Answer Correct)'
-	},
-	{
-		Name: 'Mobile',
-		Price: '1,200',
-		'HHA Themes': 'Toy Shop',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Mochi Pestle',
-		Price: '1,400',
-		'HHA Themes': 'Harmonious',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Model Bus',
-		Price: 'NFS',
-		Source: "Kapp'n's RV"
-	},
-	{
-		Name: 'Model Sailor',
-		Price: 'NFS',
-		Source: "Kapp'n's RV"
-	},
-	{
-		Name: 'Modern Bed',
-		Price: '2,320',
-		'HHA Themes': 'Trendy',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Modern Cabinet',
-		Price: '2,580',
-		'HHA Themes': 'Trendy',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Modern Cash Register',
-		Price: 'NFS',
-		Source: "Candi's RV"
-	},
-	{
-		Name: 'Modern Chair',
-		Price: '1,500',
-		'HHA Themes': 'Trendy',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Modern Desk',
-		Price: '2,480',
-		'HHA Themes': 'Trendy',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Modern Dresser',
-		Price: '2,250',
-		'HHA Themes': 'Trendy',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Modern End Table',
-		Price: '1,900',
-		'HHA Themes': 'Trendy',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Modern Hospital Bed',
-		Price: 'NFS',
-		Source: "Harvey's Shop"
-	},
-	{
-		Name: 'Modern Lamp',
-		Price: '1,400',
-		'HHA Themes': 'Trendy',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Modern Office Chair',
-		Price: 'NFS',
-		Source: "Cleo/Raddle's RV"
-	},
-	{
-		Name: 'Modern Sofa',
-		Price: '2,620',
-		'HHA Themes': 'Trendy',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Modern Table',
-		Price: '1,800',
-		'HHA Themes': 'Trendy',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Modern Wall Clock',
-		Price: '2,000',
-		'HHA Themes': 'Trendy',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Modern Wardrobe',
-		Price: '2,560',
-		'HHA Themes': 'Trendy',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Modern Wash Station',
-		Price: 'NFS',
-		Source: "Paolo's RV"
-	},
-	{
-		Name: 'Modern Wood Bed',
-		Price: '1,680',
-		'HHA Themes': 'Rustic',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Modern Wood Chair',
-		Price: '1,200',
-		'HHA Themes': 'Rustic',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Modern Wood Chest',
-		Price: '1,480',
-		'HHA Themes': 'Rustic',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Modern Wood Clock',
-		Price: '1,400',
-		'HHA Themes': 'Rustic',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Modern Wood Closet',
-		Price: '1,600',
-		'HHA Themes': 'Rustic',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Modern Wood Lamp',
-		Price: '1,680',
-		'HHA Themes': 'Rustic',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Modern Wood Shelf',
-		Price: '1,840',
-		'HHA Themes': 'Rustic',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Modern Wood Sofa',
-		Price: '1,600',
-		'HHA Themes': 'Rustic',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Modern Wood Stool',
-		Price: '1,480',
-		'HHA Themes': 'Rustic',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Modern Wood Table',
-		Price: '1,980',
-		'HHA Themes': 'Rustic',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Modern Wood TV',
-		Price: '1,800',
-		'HHA Themes': 'Rustic',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Money Box',
-		Price: 'NFS',
-		Source: "Buzz/Gonzo/Timmy & Tommy's RV, Harvey's Shop"
-	},
-	{
-		Name: 'Monitor Tower',
-		Price: '8,000',
-		Source: 'Happy Home Designer save data'
-	},
-	{
-		Name: 'Moon',
-		Price: '320',
-		'HHA Themes': 'Sci-Fi, Toy Shop',
-		Source: 'Timmy & Tommy (Spotlight Item)'
-	},
-	{
-		Name: 'Mop',
-		Price: '900',
-		'HHA Themes': 'None',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Morning Glory',
-		Price: '1,600',
-		'HHA Themes': 'Rustic',
-		Source: 'Gardening Store (TIY)'
-	},
-	{
-		Name: 'Moss Ball',
-		Price: 'NFS',
-		Source: "Snooty's RV, Harvey's Shop"
-	},
-	{
-		Name: 'Moth Orchid',
-		Price: '2,480',
-		'HHA Themes': 'Rustic',
-		Source: 'Gardening Store (TIY)'
-	},
-	{
-		Name: 'Mountain',
-		Price: '6,000',
-		Source: 'Happy Home Designer save data'
-	},
-	{
-		Name: 'Mountain Bike',
-		Price: '3,380',
-		'HHA Themes': 'None',
-		Source: "Spike's RV, Timmy & Tommy"
-	},
-	{
-		Name: 'Mountain of Money',
-		Price: '6,000',
-		Source: 'Happy Home Designer save data'
-	},
-	{
-		Name: 'Mountain Standee',
-		Price: '1,200',
-		'HHA Themes': 'None',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Mouth of Truth',
-		Price: '7,600',
-		'HHA Themes': 'Quirky',
-		Source: 'Gulliver (Answer Correct)'
-	},
-	{
-		Name: 'Mr. Flamingo',
-		Price: '1,530',
-		'HHA Themes': 'None',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Mrs. Flamingo',
-		Price: '1,530',
-		'HHA Themes': 'None',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Mug',
-		Price: 'NFS',
-		Source: "Norma/Rex's RV"
-	},
-	{
-		Name: 'Mugho Bonsai',
-		Price: '1,800',
-		'HHA Themes': 'Harmonious, Rustic',
-		Source: 'Gardening Store (TIY)'
-	},
-	{
-		Name: "Mummy's Casket",
-		Price: '4,400',
-		'HHA Themes': 'Antique, Quirky',
-		Source: 'Gulliver'
-	},
-	{
-		Name: 'Museum Chair',
-		Price: '3,000',
-		'HHA Themes': 'Trendy',
-		Source: 'Museum Shop'
-	},
-	{
-		Name: 'Museum Clock',
-		Price: 'NFS',
-		Source: "Blather's RV"
-	},
-	{
-		Name: 'Museum Mat',
-		Price: 'NFS',
-		Source: "Blather's RV"
-	},
-	{
-		Name: 'Museum Model',
-		Price: '1,800',
-		'HHA Themes': 'Toy Shop',
-		Source: 'Museum Shop (Complete Museum)'
-	},
-	{
-		Name: 'Mush Bed',
-		Price: '12,000',
-		'HHA Themes': 'Fairy Tale, Rustic',
-		Source: 'Pick Mushroom During November'
-	},
-	{
-		Name: 'Mush Chair',
-		Price: '7,600',
-		'HHA Themes': 'Fairy Tale, Rustic',
-		Source: 'Pick Mushroom During November'
-	},
-	{
-		Name: 'Mush Closet',
-		Price: '9,800',
-		'HHA Themes': 'Fairy Tale, Rustic',
-		Source: 'Pick Mushroom During November'
-	},
-	{
-		Name: 'Mush Dresser',
-		Price: '9,800',
-		'HHA Themes': 'Fairy Tale, Rustic',
-		Source: 'Pick Mushroom During November'
-	},
-	{
-		Name: 'Mush End Table',
-		Price: '8,800',
-		'HHA Themes': 'Fairy Tale, Rustic',
-		Source: 'Pick Mushroom During November'
-	},
-	{
-		Name: 'Mush Hanger',
-		Price: '8,000',
-		'HHA Themes': 'Fairy Tale, Rustic',
-		Source: 'Pick Mushroom During November'
-	},
-	{
-		Name: 'Mush Lamp',
-		Price: '9,600',
-		'HHA Themes': 'Fairy Tale, Rustic',
-		Source: 'Pick Mushroom During November'
-	},
-	{
-		Name: 'Mush Stool',
-		Price: '7,200',
-		'HHA Themes': 'Fairy Tale, Rustic',
-		Source: 'Pick Mushroom During November'
-	},
-	{
-		Name: 'Mush Table',
-		Price: '10,000',
-		'HHA Themes': 'Fairy Tale, Rustic',
-		Source: 'Pick Mushroom During November'
-	},
-	{
-		Name: 'Mush TV',
-		Price: '10,000',
-		'HHA Themes': 'Fairy Tale, Rustic',
-		Source: 'Pick Mushroom During November'
-	},
-	{
-		Name: 'Mush Wall Lamp',
-		Price: '9,600',
-		'HHA Themes': 'Fairy Tale, Rustic',
-		Source: 'Pick Mushroom During November'
-	},
-	{
-		Name: 'Music Stand',
-		Price: '1,280',
-		'HHA Themes': 'None',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'My Melody Bed',
-		Price: 'NFS',
-		'HHA Themes': 'Cute',
-		Source: "Chelsea's RV (Sanrio)"
-	},
-	{
-		Name: 'My Melody Chair',
-		Price: 'NFS',
-		'HHA Themes': 'Cute',
-		Source: "Chelsea's RV (Sanrio)"
-	},
-	{
-		Name: 'My Melody Clock',
-		Price: 'NFS',
-		'HHA Themes': 'Cute',
-		Source: "Chelsea's RV (Sanrio)"
-	},
-	{
-		Name: 'My Melody Dresser',
-		Price: 'NFS',
-		'HHA Themes': 'Cute',
-		Source: "Chelsea's RV (Sanrio)"
-	},
-	{
-		Name: 'My Melody Table',
-		Price: 'NFS',
-		'HHA Themes': 'Cute',
-		Source: "Chelsea's RV (Sanrio)"
-	},
-	{
-		Name: 'Nabiru Ornament',
-		Price: 'NFS',
-		Source: "Felyne's RV"
-	},
-	{
-		Name: 'Narrow Clock',
-		Price: '23,760'
-	},
-	{
-		Name: 'Natural Bench',
-		Price: 'NFS',
-		Source: "Reese/Sandy's RV"
-	},
-	{
-		Name: 'Natural Chair',
-		Price: 'NFS',
-		Source: "Cyrus/Sandy's RV"
-	},
-	{
-		Name: 'Natural Lamp',
-		Price: 'NFS',
-		Source: "Claude/Isabelle/Vivian's RV"
-	},
-	{
-		Name: 'Natural Low Table',
-		Price: 'NFS',
-		Source: "Cyrus/Reese/Sandy/Stella/Vivian's RV"
-	},
-	{
-		Name: 'Natural Table',
-		Price: 'NFS',
-		Source: "Claude's RV"
-	},
-	{
-		Name: 'NDS Lite Bench',
-		Price: 'NFS',
-		Source: "Villager's RV"
-	},
-	{
-		Name: 'Neon Sign',
-		Price: '2,400',
-		'HHA Themes': 'Toy Shop',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Neutral Corner',
-		Price: '5,500',
-		'HHA Themes': 'None',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'New 3DS - K.K.',
-		Price: 'NFS',
-		Source: "K.K.'s RV"
-	},
-	{
-		Name: 'New 3DS - Mabel',
-		Price: 'NFS',
-		Source: "Mabel's RV"
-	},
-	{
-		Name: 'New 3DS - Sable',
-		Price: 'NFS',
-		Source: "Sabel's RV"
-	},
-	{
-		Name: 'New 3DS - T&T',
-		Price: 'NFS',
-		Source: "Timmy & Tommy's RV"
-	},
-	{
-		Name: 'New 3DS Isabelle',
-		Price: 'NFS',
-		Source: "Isabelle's RV"
-	},
-	{
-		Name: 'New 3DS XL - HHD',
-		Price: 'NFS',
-		Source: "Lottie's RV"
-	},
-	{
-		Name: 'New Nintendo 3DS',
-		Price: 'NFS',
-		Source:
-			"Blathers/Celeste/Cyrus/Digby/Kapp'n/Kicks/Reese/Resetti/Rover/Tom Nook's RV, Fortune Cookie #57"
-	},
-	{
-		Name: 'New Nintendo 3DS XL',
-		Price: 'NFS',
-		Source: "Hopkins' RV"
-	},
-	{
-		Name: "New Year's Noodles",
-		Price: 'NFS',
-		'HHA Themes': 'Harmonious',
-		Source: 'Countdown (JP)'
-	},
-	{
-		Name: 'Nine Lamp',
-		Price: '9,000',
-		'HHA Themes': 'Trendy',
-		Source: 'Timmy & Tommy (Spotlight Item)'
-	},
-	{
-		Name: 'Ninja Sword',
-		Price: '9,600',
-		'HHA Themes': 'Antique, Harmonious, Quirky',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Nintendo 3DS Shelf',
-		Price: 'NFS',
-		Source: 'Destroy a "HUGE amount" of blocks at once in Puzzle League'
-	},
-	{
-		Name: 'Nintendo 3DS Station',
-		Price: 'NFS',
-		Source: 'Get a chain of at least 5 in Puzzle League'
-	},
-	{
-		Name: 'Nintendo Bench',
-		Price: 'NFS',
-		Source: "Villager's RV"
-	},
-	{
-		Name: 'Nintendo DSI Bench',
-		Price: 'NFS',
-		Source: "Villager's RV"
-	},
-	{
-		Name: "Nook's Homes Car",
-		Price: 'NFS',
-		Source: "Tom Nook's RV"
-	},
-	{
-		Name: "Nook's Homes Mat",
-		Price: 'NFS',
-		Source: "Tom Nook's RV"
-	},
-	{
-		Name: "Nook's Homes Model",
-		Price: 'NFS',
-		Source: "Tom Nook's RV"
-	},
-	{
-		Name: 'Notebook Bed',
-		Price: '23,760',
-		'HHA Themes': 'Trendy',
-		Source: 'DLC (Japan)'
-	},
-	{
-		Name: 'Notebook Wardrobe',
-		Price: '23,760',
-		'HHA Themes': 'Trendy',
-		Source: 'DLC (Japan)'
-	},
-	{
-		Name: 'Nutcracker',
-		Price: '1,200',
-		'HHA Themes': 'Fairy Tale, Quirky, Toy Shop',
-		Source: 'Gulliver (Answer Correct)'
-	},
-	{
-		Name: 'Octopus Chair',
-		Price: 'NFS',
-		'HHA Themes': 'Toy Shop',
-		Source: 'Fishing Tourney'
-	},
-	{
-		Name: 'Odd Clock',
-		Price: '1,800',
-		'HHA Themes': 'Antique, Harmonious',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Office Cabinet',
-		Price: 'NFS',
-		Source: "Raddle's RV"
-	},
-	{
-		Name: 'Office Chair',
-		Price: '1,100',
-		'HHA Themes': 'None',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Office Clock',
-		Price: 'NFS',
-		Source: "Harvey's Shop"
-	},
-	{
-		Name: 'Office Desk',
-		Price: '1,600',
-		'HHA Themes': 'None',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Office Locker',
-		Price: '1,200',
-		'HHA Themes': 'None',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Office Phone',
-		Price: 'NFS',
-		Source: "Cleo/Murphy's RV"
-	},
-	{
-		Name: 'Ogre Mask',
-		Price: '1,600',
-		'HHA Themes': 'Antique, Harmonious, Quirky',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Oil Barrel',
-		Price: '800',
-		'HHA Themes': 'None',
-		Source: "Boyd's RV, Timmy & Tommy"
-	},
-	{
-		Name: 'Oil Lamp',
-		Price: '680',
-		'HHA Themes': 'Quirky, Sci-Fi',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Old Sewing Machine',
-		Price: '1,350',
-		'HHA Themes': 'None',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Omelet',
-		Price: 'NFS',
-		Source: "Zipper T. Bunny's RV"
-	},
-	{
-		Name: 'One Lamp',
-		Price: '1,000',
-		'HHA Themes': 'Trendy',
-		Source: 'Timmy & Tommy (Spotlight Item)'
-	},
-	{
-		Name: 'Operating Room Cart',
-		Price: 'NFS',
-		Source: "Raddle's RV"
-	},
-	{
-		Name: 'Operating Table',
-		Price: 'NFS',
-		Source: "Harvey's Shop"
-	},
-	{
-		Name: 'Orange Cone',
-		Price: '600',
-		'HHA Themes': 'None',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Organ',
-		Price: 'NFS',
-		Source: "Weber's RV"
-	},
-	{
-		Name: 'Otomon Egg',
-		Price: 'NFS',
-		Source: "Felyne's RV"
-	},
-	{
-		Name: 'Outdoor Bath',
-		Price: '4,900',
-		'HHA Themes': 'Harmonious',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Outdoor Sign',
-		Price: 'NFS',
-		Source: "Huck's RV, Harvey's Shop"
-	},
-	{
-		Name: 'Oval Clock',
-		Price: '800',
-		'HHA Themes': 'None',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Overflowing Trash',
-		Price: 'NFS',
-		Source: "Resetti's RV"
-	},
-	{
-		Name: 'Owl Clock',
-		Price: '1,300',
-		'HHA Themes': 'Fairy Tale',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'PA System',
-		Price: 'NFS',
-		Source: "Isabelle's RV"
-	},
-	{
-		Name: 'Pachira',
-		Price: '1,200',
-		'HHA Themes': 'Rustic',
-		Source: 'Gardening Store (TIY)'
-	},
-	{
-		Name: 'Paella',
-		Price: 'NFS',
-		Source: "Cashmere's RV"
-	},
-	{
-		Name: 'Pagoda',
-		Price: '5,120',
-		'HHA Themes': 'Harmonious',
-		Source: 'Gulliver (Answer Correct)'
-	},
-	{
-		Name: 'Painting Set',
-		Price: '680',
-		'HHA Themes': 'Toy Shop',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Palico Board',
-		Price: 'NFS',
-		Source: "Felyne's RV"
-	},
-	{
-		Name: 'Palm-Tree Lamp',
-		Price: '4,280',
-		'HHA Themes': 'Rustic',
-		Source: "Plucky's RV, DLC"
-	},
-	{
-		Name: 'Pancakes',
-		Price: 'NFS',
-		Source: "Franklin's RV"
-	},
-	{
-		Name: 'Pansy Table',
-		Price: '2,400',
-		'HHA Themes': 'Fairy Tale, Rustic',
-		Source: 'Leif (Weeding Day; Happy Generosity Award)'
-	},
-	{
-		Name: 'Pantheon Post',
-		Price: '3,600',
-		'HHA Themes': 'Antique, Quirky',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Papa Bear',
-		Price: '2,200',
-		'HHA Themes': 'Fairy Tale, Toy Shop',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Papa Panda',
-		Price: '1,920',
-		'HHA Themes': 'Fairy Tale, Harmonious, Toy Shop',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Paper Lantern',
-		Price: '800',
-		'HHA Themes': 'Harmonious, Quirky',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Paper Tiger',
-		Price: '680',
-		'HHA Themes': 'Harmonious',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Paper Wall Lamp',
-		Price: '800',
-		'HHA Themes': 'Harmonious, Quirky',
-		Source: "Joan's RV, Timmy & Tommy"
-	},
-	{
-		Name: 'Partition Screen',
-		Price: '1,600',
-		'HHA Themes': 'Trendy',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Pasta',
-		Price: 'NFS',
-		Source: "Wendell's RV"
-	},
-	{
-		Name: 'Pastel Low Table',
-		Price: 'NFS',
-		Source: "Carrie/Hopkins/Lottie's RV"
-	},
-	{
-		Name: 'Patchwork Chair',
-		Price: '1,600',
-		'HHA Themes': 'Fairy Tale',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Patchwork Dresser',
-		Price: '1,800',
-		'HHA Themes': 'Fairy Tale',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Patchwork Lamp',
-		Price: '1,480',
-		'HHA Themes': 'Fairy Tale',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Patchwork Sofa',
-		Price: '1,800',
-		'HHA Themes': 'Fairy Tale',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Patchwork Table',
-		Price: '2,000',
-		'HHA Themes': 'Fairy Tale',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Paulownia Closet',
-		Price: '1,300',
-		'HHA Themes': 'Harmonious, Rustic',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Pavé Bed',
-		Price: '480',
-		'HHA Themes': 'None',
-		Source: 'Pavé (Festivale)'
-	},
-	{
-		Name: 'Pavé Bookshelf',
-		Price: '480',
-		'HHA Themes': 'None',
-		Source: 'Pavé (Festivale)'
-	},
-	{
-		Name: 'Pavé Bureau',
-		Price: '480',
-		'HHA Themes': 'None',
-		Source: 'Pavé (Festivale)'
-	},
-	{
-		Name: 'Pavé Chair',
-		Price: '480',
-		'HHA Themes': 'None',
-		Source: 'Pavé (Festivale)'
-	},
-	{
-		Name: 'Pavé Chest',
-		Price: '480',
-		'HHA Themes': 'None',
-		Source: "Pave's RV, Pavé (Festivale)"
-	},
-	{
-		Name: 'Pavé Clock',
-		Price: '480',
-		'HHA Themes': 'None',
-		Source: "Pave's RV, Pavé (Festivale)"
-	},
-	{
-		Name: 'Pavé Closet',
-		Price: '480',
-		'HHA Themes': 'None',
-		Source: 'Pavé (Festivale)'
-	},
-	{
-		Name: 'Pavé End Table',
-		Price: '480',
-		'HHA Themes': 'None',
-		Source: "Pave's RV, Pavé (Festivale)"
-	},
-	{
-		Name: 'Pavé Lamp',
-		Price: '480',
-		'HHA Themes': 'None',
-		Source: "Pave's RV, Pavé (Festivale)"
-	},
-	{
-		Name: 'Pavé Sofa',
-		Price: '480',
-		'HHA Themes': 'None',
-		Source: "Pave's RV, Pavé (Festivale)"
-	},
-	{
-		Name: 'Pavé Table',
-		Price: '480',
-		'HHA Themes': 'None',
-		Source: 'Pavé (Festivale)'
-	},
-	{
-		Name: 'Pawn',
-		Price: '1,100',
-		'HHA Themes': 'Toy Shop',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Peacock Chair',
-		Price: '3,600',
-		'HHA Themes': 'None',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Pear Dresser',
-		Price: '1,600',
-		'HHA Themes': 'Rustic',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Pear Wardrobe',
-		Price: '1,400',
-		'HHA Themes': 'Rustic',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Pen-Case Chair',
-		Price: '23,760'
-	},
-	{
-		Name: 'Pencil Screen',
-		Price: '23,760',
-		'HHA Themes': 'Trendy',
-		Source: 'DLC (Japan)'
-	},
-	{
-		Name: 'Pendulum Clock',
-		Price: '1,600',
-		'HHA Themes': 'Antique',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Pepper Mill',
-		Price: '800',
-		'HHA Themes': 'None',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Perfume Bottles',
-		Price: 'NFS',
-		Source: "Bitty/Lottie's RV"
-	},
-	{
-		Name: 'Phone Box',
-		Price: '2,400',
-		'HHA Themes': 'None',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Phonograph',
-		Price: '1,840',
-		'HHA Themes': 'Antique',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Pickle Jar',
-		Price: '800',
-		'HHA Themes': 'None',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Picnic Basket',
-		Price: '1,960',
-		'HHA Themes': 'None',
-		Source: "Maddie/Rex's RV, Labor Day (Isabelle; NA Only)"
-	},
-	{
-		Name: 'Picnic Table',
-		Price: '1,390',
-		'HHA Themes': 'None',
-		Source: "Booker's RV, Timmy & Tommy"
-	},
-	{
-		Name: 'Piece of Heart',
-		Price: 'NFS',
-		Source: "Epona/Medli's RV"
-	},
-	{
-		Name: 'Piggy Bank',
-		Price: 'NFS',
-		'HHA Themes': 'Harmonious',
-		Source: '1Mil Bells in Savings Account'
-	},
-	{
-		Name: 'Pikmin',
-		Price: 'NFS',
-		'HHA Themes': 'Toy Shop',
-		Source: 'Fortune Cooke #33'
-	},
-	{
-		Name: 'Pile of Cash',
-		Price: 'NFS',
-		Source: "Gonzo's RV"
-	},
-	{
-		Name: 'Pile of Leaves',
-		Price: '400',
-		'HHA Themes': 'Rustic',
-		Source: "Nat's RV, DLC (NA)"
-	},
-	{
-		Name: 'Pinball Machine',
-		Price: '1,960',
-		'HHA Themes': 'Toy Shop',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Pine Bonsai',
-		Price: '1,800',
-		'HHA Themes': 'Harmonious, Rustic',
-		Source: 'Gardening Store (TIY)'
-	},
-	{
-		Name: 'Pine Chair',
-		Price: '1,800',
-		'HHA Themes': 'Rustic',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Pine Table',
-		Price: '2,280',
-		'HHA Themes': 'Rustic',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Pineapple Bed',
-		Price: '1,990',
-		'HHA Themes': 'Rustic',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Pink Velvet Stool',
-		Price: '1,400',
-		'HHA Themes': 'None',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Pipe',
-		Price: '840',
-		'HHA Themes': 'Toy Shop',
-		Source: 'Fortune Cookie #26'
-	},
-	{
-		Name: 'Pipe Organ',
-		Price: '3,600',
-		'HHA Themes': 'None',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Pipe Stool',
-		Price: '1,000',
-		'HHA Themes': 'Sci-Fi',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: "Pirate's Armor",
-		Price: '2,400',
-		'HHA Themes': 'Antique, Quirky, Toy Shop',
-		Source: 'Pascal'
-	},
-	{
-		Name: 'Pisces Lamp',
-		Price: '4,800',
-		'HHA Themes': 'None',
-		Source: 'DLC'
-	},
-	{
-		Name: 'Pitcher Plant',
-		Price: 'NFS',
-		Source: "Kicks' RV, Harvey's Shop"
-	},
-	{
-		Name: 'Plant Partition',
-		Price: 'NFS',
-		Source: "Ursala's RV"
-	},
-	{
-		Name: 'Planter',
-		Price: '1,200',
-		'HHA Themes': 'Rustic',
-		Source: 'Gardening Store (TIY)'
-	},
-	{
-		Name: 'Plastic Canister',
-		Price: 'NFS',
-		Source: "Booker/Boyd/Copper/Ike's RV"
-	},
-	{
-		Name: 'Plastic File Box',
-		Price: 'NFS',
-		Source: "Dobie's RV"
-	},
-	{
-		Name: 'Plate Armor',
-		Price: '6,400',
-		'HHA Themes': 'Antique, Quirky',
-		Source: 'Timmy & Tommy (Spotlight Item)'
-	},
-	{
-		Name: 'Platform',
-		Price: 'NFS',
-		Source: "Harvey's Shop"
-	},
-	{
-		Name: 'Plum Bonsai',
-		Price: '1,900',
-		'HHA Themes': 'Harmonious, Rustic',
-		Source: 'Gardening Store (TIY)'
-	},
-	{
-		Name: 'Podium',
-		Price: '1,280',
-		'HHA Themes': 'Sci-Fi',
-		Source: 'Timmy & Tommy (Spotlight Item)'
-	},
-	{
-		Name: 'Poinsettia',
-		Price: '1,200',
-		'HHA Themes': 'Rustic',
-		Source: "Jingle's RV, Gardening Store"
-	},
-	{
-		Name: 'Polka-Dot Bed',
-		Price: '2,400',
-		'HHA Themes': 'Trendy',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Polka-Dot Chair',
-		Price: '2,400',
-		'HHA Themes': 'Trendy',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Polka-Dot Clock',
-		Price: '2,400',
-		'HHA Themes': 'Trendy',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Polka-Dot Closet',
-		Price: '2,400',
-		'HHA Themes': 'Trendy',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Polka-Dot Dresser',
-		Price: '2,400',
-		'HHA Themes': 'Trendy',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Polka-Dot Lamp',
-		Price: '2,400',
-		'HHA Themes': 'Trendy',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Polka-Dot Low Table',
-		Price: '2,400',
-		'HHA Themes': 'Trendy',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Polka-Dot Sofa',
-		Price: '2,400',
-		'HHA Themes': 'Trendy',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Polka-Dot Stool',
-		Price: '2,400',
-		'HHA Themes': 'Trendy',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Polka-Dot Table',
-		Price: '2,400',
-		'HHA Themes': 'Trendy',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Polka-Dot TV',
-		Price: '2,400',
-		'HHA Themes': 'Trendy',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Pompompurin Bed',
-		Price: 'NFS',
-		'HHA Themes': 'Cute',
-		Source: "Marty's RV (Sanrio)"
-	},
-	{
-		Name: 'Pompompurin Chair',
-		Price: 'NFS',
-		'HHA Themes': 'Cute',
-		Source: "Marty's RV (Sanrio)"
-	},
-	{
-		Name: 'Pompompurin Pudding',
-		Price: 'NFS',
-		'HHA Themes': 'Cute',
-		Source: "Marty's RV (Sanrio)"
-	},
-	{
-		Name: 'Pompompurin Rack',
-		Price: 'NFS',
-		'HHA Themes': 'Cute',
-		Source: "Marty's RV (Sanrio)"
-	},
-	{
-		Name: 'Pompompurin Table',
-		Price: 'NFS',
-		'HHA Themes': 'Cute',
-		Source: "Marty's RV (Sanrio)"
-	},
-	{
-		Name: 'Pompompurin TV',
-		Price: 'NFS',
-		'HHA Themes': 'Cute',
-		Source: "Marty's RV (Sanrio)"
-	},
-	{
-		Name: 'Ponderosa Bonsai',
-		Price: '1,800',
-		'HHA Themes': 'Harmonious, Rustic',
-		Source: 'Gardening Store (TIY)'
-	},
-	{
-		Name: 'Poogie',
-		Price: 'NFS',
-		Source: "Felyne's RV"
-	},
-	{
-		Name: 'Popcorn',
-		Price: 'NFS',
-		Source: "Boris' RV"
-	},
-	{
-		Name: 'Popcorn Machine',
-		Price: '3,200',
-		'HHA Themes': 'Toy Shop',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Pop-Up Book',
-		Price: '1,000',
-		'HHA Themes': 'Toy Shop',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Portable Toilet',
-		Price: '2,000',
-		'HHA Themes': 'None',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Poster Stand',
-		Price: '2,500',
-		'HHA Themes': 'Trendy',
-		Source: 'Museum Shop'
-	},
-	{
-		Name: 'Post-Office Poster',
-		Price: 'NFS',
-		'HHA Themes': 'None',
-		Source: '10Mil Bells in Savings Account'
-	},
-	{
-		Name: 'Pot Rack',
-		Price: '980',
-		'HHA Themes': 'None',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Potato Gratin',
-		Price: 'NFS',
-		Source: "Franklin's RV"
-	},
-	{
-		Name: 'Potbelly Stove',
-		Price: '2,000',
-		'HHA Themes': 'None',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Pothos',
-		Price: '1,300',
-		'HHA Themes': 'Rustic',
-		Source: 'Gardening Store (TIY)'
-	},
-	{
-		Name: 'Potted Ivy',
-		Price: '800',
-		'HHA Themes': 'Rustic',
-		Source: "Nat's RV, Timmy & Tommy"
-	},
-	{
-		Name: 'Potty',
-		Price: '1,200',
-		'HHA Themes': 'None',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Princess Bed',
-		Price: '80,000',
-		'HHA Themes': 'Antique, Fairy Tale',
-		Source: 'Gracie Grace (Spring)'
-	},
-	{
-		Name: 'Princess Cage',
-		Price: '90,000',
-		'HHA Themes': 'Antique, Fairy Tale',
-		Source: 'Gracie Grace (Spring)'
-	},
-	{
-		Name: 'Princess Chair',
-		Price: '120,000',
-		'HHA Themes': 'Antique, Fairy Tale',
-		Source: 'Gracie Grace (Spring)'
-	},
-	{
-		Name: 'Princess Chest',
-		Price: '220,000',
-		'HHA Themes': 'Antique, Fairy Tale',
-		Source: 'Gracie Grace (Spring)'
-	},
-	{
-		Name: 'Princess Clock',
-		Price: '200,000',
-		'HHA Themes': 'Antique, Fairy Tale',
-		Source: 'Gracie Grace (Spring)'
-	},
-	{
-		Name: 'Princess Closet',
-		Price: '180,000',
-		'HHA Themes': 'Antique, Fairy Tale',
-		Source: 'Gracie Grace (Spring)'
-	},
-	{
-		Name: 'Princess Curio',
-		Price: '300,000',
-		'HHA Themes': 'Antique, Fairy Tale',
-		Source: 'Gracie Grace (Spring)'
-	},
-	{
-		Name: 'Princess Dresser',
-		Price: '80,000',
-		'HHA Themes': 'Antique, Fairy Tale',
-		Source: 'Gracie Grace (Spring)'
-	},
-	{
-		Name: 'Princess Lamp',
-		Price: '68,000',
-		'HHA Themes': 'Antique, Fairy Tale',
-		Source: 'Gracie Grace (Spring)'
-	},
-	{
-		Name: 'Princess Sofa',
-		Price: '100,000',
-		'HHA Themes': 'Antique, Fairy Tale',
-		Source: 'Gracie Grace (Spring)'
-	},
-	{
-		Name: 'Princess Table',
-		Price: '240,000',
-		'HHA Themes': 'Antique, Fairy Tale',
-		Source: 'Gracie Grace (Spring)'
-	},
-	{
-		Name: 'Propane Stove',
-		Price: '1,470',
-		'HHA Themes': 'None',
-		Source: "Booker's RV, Camping NPC (Tent)"
-	},
-	{
-		Name: 'Propane Tanks',
-		Price: 'NFS',
-		Source: "Buzz's RV, Harvey Shop"
-	},
-	{
-		Name: 'Propeller Plane',
-		Price: '8,000',
-		Source: 'Happy Home Designer save data'
-	},
-	{
-		Name: 'Public Telephone',
-		Price: 'NFS',
-		Source: "June's RV"
-	},
-	{
-		Name: 'Puffer-Fish TV',
-		Price: 'NFS',
-		'HHA Themes': 'Toy Shop',
-		Source: 'Fishing Tourney'
-	},
-	{
-		Name: 'Pumpkin Pie',
-		Price: '1,500',
-		'HHA Themes': 'Fairy Tale',
-		Source: "Jack's RV, DLC (NA)"
-	},
-	{
-		Name: 'Pylon Set',
-		Price: 'NFS',
-		Source: 'Boyd/s RV'
-	},
-	{
-		Name: 'Pyramid',
-		Price: '3,800',
-		'HHA Themes': 'Antique, Quirky',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Queen',
-		Price: '8,000',
-		'HHA Themes': 'Toy Shop',
-		Source: 'Timmy & Tommy (Spotlight Item)'
-	},
-	{
-		Name: 'Quilted Tapestry',
-		Price: 'NFS',
-		Source: "Mabel's RV"
-	},
-	{
-		Name: 'Quince Bonsai',
-		Price: '1,600',
-		'HHA Themes': 'Harmonious, Rustic',
-		Source: 'Gardening Store (TIY)'
-	},
-	{
-		Name: 'Raccoon Figurine',
-		Price: '2,000',
-		'HHA Themes': 'Harmonious',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Raccoon Wall Clock',
-		Price: '1,600',
-		'HHA Themes': 'Toy Shop',
-		Source: "Tom Nook's RV, DLC"
-	},
-	{
-		Name: 'Radiator',
-		Price: '2,380',
-		'HHA Themes': 'Sci-Fi',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Rainbow Screen',
-		Price: '4,240',
-		'HHA Themes': 'Sci-Fi',
-		Source: 'DLC'
-	},
-	{
-		Name: 'Ramen',
-		Price: 'NFS',
-		Source: "Admiral's RV"
-	},
-	{
-		Name: 'Ramen Cup',
-		Price: 'NFS',
-		Source: "Hornsby/Jacob's RV, Harvey's Shop"
-	},
-	{
-		Name: 'Ranch Armchair',
-		Price: '2,000',
-		'HHA Themes': 'Rustic',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Ranch Bed',
-		Price: '2,300',
-		'HHA Themes': 'Rustic',
-		Source: "Mabel's RV, Timmy & Tommy"
-	},
-	{
-		Name: 'Ranch Bookcase',
-		Price: '2,000',
-		'HHA Themes': 'Rustic',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Ranch Chair',
-		Price: '1,400',
-		'HHA Themes': 'Rustic',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Ranch Couch',
-		Price: '2,400',
-		'HHA Themes': 'Rustic',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Ranch Dresser',
-		Price: '2,720',
-		'HHA Themes': 'Rustic',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Ranch Hutch',
-		Price: '2,560',
-		'HHA Themes': 'Rustic',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Ranch Table',
-		Price: '1,700',
-		'HHA Themes': 'Rustic',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Ranch Tea Table',
-		Price: '1,800',
-		'HHA Themes': 'Rustic',
-		Source: "Mabel's RV, Timmy & Tommy"
-	},
-	{
-		Name: 'Ranch Wall Rack',
-		Price: '2,400',
-		'HHA Themes': 'Rustic',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Ranch Wardrobe',
-		Price: '3,050',
-		'HHA Themes': 'Rustic',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Range',
-		Price: '1,800',
-		'HHA Themes': 'Sci-Fi',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Raven Pole',
-		Price: '1,400',
-		'HHA Themes': 'Rustic',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Reception Chair',
-		Price: 'NFS',
-		Source: "Julia/Piper's RV"
-	},
-	{
-		Name: 'Reception Counter',
-		Price: 'NFS',
-		Source: "June's RV"
-	},
-	{
-		Name: 'Reception Table',
-		Price: '2,000',
-		'HHA Themes': 'None',
-		Source: 'Museum Shop'
-	},
-	{
-		Name: 'Reception Window',
-		Price: 'NFS',
-		Source: "June's RV"
-	},
-	{
-		Name: 'Record Box',
-		Price: 'NFS',
-		Source: "Hornsby/Weber's RV"
-	},
-	{
-		Name: 'Record Player',
-		Price: '1,400',
-		'HHA Themes': 'None',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Red Cash Register',
-		Price: 'NFS',
-		Source: "Ursala's RV"
-	},
-	{
-		Name: 'Red Corner',
-		Price: '6,800',
-		'HHA Themes': 'None',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Red Vase',
-		Price: '2,450',
-		'HHA Themes': 'Antique, Harmonious',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Red Wing',
-		Price: 'NFS',
-		Source: "Felyne's RV"
-	},
-	{
-		Name: 'Red-Snapper Chair',
-		Price: 'NFS',
-		'HHA Themes': 'Toy Shop',
-		Source: 'Fishing Tourney'
-	},
-	{
-		Name: 'Red-Tasseled Lantern',
-		Price: '2,400',
-		'HHA Themes': 'Harmonious',
-		Source: 'Gulliver (Answer Correct)'
-	},
-	{
-		Name: 'Reel-To-Reel',
-		Price: '2,000',
-		'HHA Themes': 'Sci-Fi',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Refrigerator',
-		Price: '1,200',
-		'HHA Themes': 'Sci-Fi',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Regal Armoire',
-		Price: '3,820',
-		'HHA Themes': 'Antique, Fairy Tale',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Regal Bed',
-		Price: '3,120',
-		'HHA Themes': 'Antique, Fairy Tale',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Regal Bookcase',
-		Price: '3,120',
-		'HHA Themes': 'Antique, Fairy Tale',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Regal Chair',
-		Price: '2,100',
-		'HHA Themes': 'Antique, Fairy Tale',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Regal Clock',
-		Price: '3,360',
-		'HHA Themes': 'Antique, Fairy Tale',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Regal Dresser',
-		Price: '3,520',
-		'HHA Themes': 'Antique, Fairy Tale',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Regal Lamp',
-		Price: '2,400',
-		'HHA Themes': 'Antique, Fairy Tale',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Regal Sofa',
-		Price: '3,100',
-		'HHA Themes': 'Antique, Fairy Tale',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Regal Table',
-		Price: '2,540',
-		'HHA Themes': 'Antique, Fairy Tale',
-		Source: 'Gulliver (Answer Correct)'
-	},
-	{
-		Name: 'Regal Vanity',
-		Price: '3,200',
-		'HHA Themes': 'Antique, Fairy Tale',
-		Source: 'Gulliver (Answer Correct)'
-	},
-	{
-		Name: 'Regal Wall Lamp',
-		Price: '3,600',
-		'HHA Themes': 'Antique, Fairy Tale',
-		Source: 'Gulliver (Answer Correct)'
-	},
-	{
-		Name: 'Resetti Model',
-		Price: '2,400',
-		'HHA Themes': 'Toy Shop',
-		Source: "Resetti's RV, Ground Hog's Day (Isabelle; NA Only)"
-	},
-	{
-		Name: 'Re-Tail Clock',
-		Price: 'NFS',
-		Source: "Reese's RV"
-	},
-	{
-		Name: 'Re-Tail Mat',
-		Price: 'NFS',
-		Source: "Reese's RV"
-	},
-	{
-		Name: 'Retro Fridge',
-		Price: '2,300',
-		'HHA Themes': 'Antique',
-		Source: "Wendell's RV, Timmy & Tommy"
-	},
-	{
-		Name: 'Retro Screen',
-		Price: 'NFS',
-		Source: "Billy's RV"
-	},
-	{
-		Name: 'Retro Sign',
-		Price: 'NFS',
-		Source: "Timmy & Tommy's RV"
-	},
-	{
-		Name: 'Retro Sink',
-		Price: 'NFS',
-		Source: "Timmy & Tommy's RV"
-	},
-	{
-		Name: 'Retro Stereo',
-		Price: '5,500',
-		'HHA Themes': 'Antique',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Retro TV',
-		Price: '1,600',
-		'HHA Themes': 'Antique',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Reversi Piece',
-		Price: '1,200',
-		'HHA Themes': 'Toy Shop',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Revolving Spice Rack',
-		Price: '8,000',
-		'HHA Themes': 'None',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Rice Bales',
-		Price: 'NFS',
-		Source: "Boot's RV, Harvey's Shop"
-	},
-	{
-		Name: 'Rice Balls',
-		Price: 'NFS',
-		Source: "Tad/Wendell's RV, Harvey's Shop"
-	},
-	{
-		Name: 'Rice Cake',
-		Price: '1,200',
-		'HHA Themes': 'Harmonious',
-		Source: "Girl's Day (Isabelle; Japan Only)"
-	},
-	{
-		Name: 'Rice Cooker',
-		Price: '2,000',
-		'HHA Themes': 'None',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Rice-Plant Bed',
-		Price: '4,400',
-		'HHA Themes': 'Rustic',
-		Source: 'DLC (Japan)'
-	},
-	{
-		Name: 'Right Platform',
-		Price: '1,600',
-		'HHA Themes': 'Sci-Fi',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Right Splatfest Sign',
-		Price: 'NFS',
-		Source: "Cece/Viche's RV"
-	},
-	{
-		Name: 'Righty Desk',
-		Price: '1,240',
-		'HHA Themes': 'None',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Ring',
-		Price: 'NFS',
-		Source: "Bitty's RV"
-	},
-	{
-		Name: 'Ringside Table',
-		Price: '1,320',
-		'HHA Themes': 'None',
-		Source: "Chip's RV, Timmy & Tommy"
-	},
-	{
-		Name: 'Ringtoss',
-		Price: 'NFS',
-		Source: "Carrie's RV, Harvey's Shop"
-	},
-	{
-		Name: 'Roasted Dino Meat',
-		Price: 'NFS',
-		Source: "Wendell's RV, Harvey's Shop"
-	},
-	{
-		Name: 'Robo-Bed',
-		Price: '2,000',
-		'HHA Themes': 'Sci-Fi, Toy Shop',
-		Source: 'Gulliver (Answer Correct)'
-	},
-	{
-		Name: 'Robo-Chair',
-		Price: '1,600',
-		'HHA Themes': 'Sci-Fi, Toy Shop',
-		Source: 'Gulliver (Answer Correct)'
-	},
-	{
-		Name: 'Robo-Clock',
-		Price: '1,400',
-		'HHA Themes': 'Sci-Fi, Toy Shop',
-		Source: 'Gulliver (Answer Correct)'
-	},
-	{
-		Name: 'Robo-Closet',
-		Price: '2,400',
-		'HHA Themes': 'Sci-Fi, Toy Shop',
-		Source: 'Gulliver (Answer Correct)'
-	},
-	{
-		Name: 'Robo-Dresser',
-		Price: '2,560',
-		'HHA Themes': 'Sci-Fi, Toy Shop',
-		Source: 'Gulliver (Answer Correct)'
-	},
-	{
-		Name: 'Robo-Lamp',
-		Price: '1,800',
-		'HHA Themes': 'Sci-Fi, Toy Shop',
-		Source: 'Gulliver (Answer Correct)'
-	},
-	{
-		Name: 'Robo-Sofa',
-		Price: '2,000',
-		'HHA Themes': 'Sci-Fi, Toy Shop',
-		Source: 'Gulliver (Answer Correct)'
-	},
-	{
-		Name: 'Robo-Stereo',
-		Price: '2,200',
-		'HHA Themes': 'Sci-Fi, Toy Shop',
-		Source: 'Gulliver (Answer Correct)'
-	},
-	{
-		Name: 'Robot Hero',
-		Price: '8,000',
-		Source: 'Happy Home Designer save data'
-	},
-	{
-		Name: 'Robo-Table',
-		Price: '2,200',
-		'HHA Themes': 'Sci-Fi, Toy Shop',
-		Source: 'Gulliver (Answer Correct)'
-	},
-	{
-		Name: 'Robo-TV',
-		Price: '2,360',
-		'HHA Themes': 'Sci-Fi, Toy Shop',
-		Source: 'Gulliver (Answer Correct)'
-	},
-	{
-		Name: 'Robo-Wall Clock',
-		Price: '2,000',
-		'HHA Themes': 'Sci-Fi, Toy Shop',
-		Source: 'Gulliver (Answer Correct)'
-	},
-	{
-		Name: 'Rock Guitar',
-		Price: '1,800',
-		'HHA Themes': 'None',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Rocket',
-		Price: '2,400',
-		'HHA Themes': 'Sci-Fi, Toy Shop',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Rocking Chair',
-		Price: '1,400',
-		'HHA Themes': 'Rustic',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Rocking Horse',
-		Price: '600',
-		'HHA Themes': 'Fairy Tale, Rustic, Toy Shop',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Rococo Bed',
-		Price: '3,520',
-		'HHA Themes': 'Antique, Fairy Tale',
-		Source: 'Timmy & Tommy (Spotlight Item)'
-	},
-	{
-		Name: 'Rococo Candlestick',
-		Price: '3,120',
-		'HHA Themes': 'Antique, Fairy Tale',
-		Source: 'Timmy & Tommy (Spotlight Item)'
-	},
-	{
-		Name: 'Rococo Chair',
-		Price: '3,100',
-		'HHA Themes': 'Antique, Fairy Tale',
-		Source: 'Timmy & Tommy (Spotlight Item)'
-	},
-	{
-		Name: 'Rococo Clock',
-		Price: '3,360',
-		'HHA Themes': 'Antique, Fairy Tale',
-		Source: 'Timmy & Tommy (Spotlight Item)'
-	},
-	{
-		Name: 'Rococo Dresser',
-		Price: '2,540',
-		'HHA Themes': 'Antique, Fairy Tale',
-		Source: 'Timmy & Tommy (Spotlight Item)'
-	},
-	{
-		Name: 'Rococo Lamp',
-		Price: '3,200',
-		'HHA Themes': 'Antique, Fairy Tale',
-		Source: 'Timmy & Tommy (Spotlight Item)'
-	},
-	{
-		Name: 'Rococo Shelf',
-		Price: '3,820',
-		'HHA Themes': 'Antique, Fairy Tale',
-		Source: 'Timmy & Tommy (Spotlight Item)'
-	},
-	{
-		Name: 'Rococo Sofa',
-		Price: '2,100',
-		'HHA Themes': 'Antique, Fairy Tale',
-		Source: 'Timmy & Tommy (Spotlight Item)'
-	},
-	{
-		Name: 'Rococo Table',
-		Price: '3,600',
-		'HHA Themes': 'Antique, Fairy Tale',
-		Source: 'Timmy & Tommy (Spotlight Item)'
-	},
-	{
-		Name: 'Rococo Vanity',
-		Price: '3,120',
-		'HHA Themes': 'Antique, Fairy Tale',
-		Source: 'Timmy & Tommy (Spotlight Item)'
-	},
-	{
-		Name: 'Rococo Wardrobe',
-		Price: '2,400',
-		'HHA Themes': 'Antique, Fairy Tale',
-		Source: 'Timmy & Tommy (Spotlight Item)'
-	},
-	{
-		Name: 'Rolling Cart',
-		Price: 'NFS',
-		Source: "Cleo/Cyrus/Murphy's RV"
-	},
-	{
-		Name: 'Rolling Closet',
-		Price: 'NFS',
-		Source: "Cashmere/Copper/Tasha's RV"
-	},
-	{
-		Name: 'Rolling File Cart',
-		Price: 'NFS',
-		Source: "Cleo's RV"
-	},
-	{
-		Name: 'Rolling Suitcase',
-		Price: '1,000',
-		'HHA Themes': 'None',
-		Source: "Rover's RV, DLC"
-	},
-	{
-		Name: 'Rook',
-		Price: '2,800',
-		'HHA Themes': 'Toy Shop',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Rooster of Barcelos',
-		Price: '1,200',
-		'HHA Themes': 'Toy Shop',
-		Source: 'Gulliver (Answer Correct)'
-	},
-	{
-		Name: 'Rope Partition',
-		Price: '1,800',
-		'HHA Themes': 'Trendy',
-		Source: 'Museum Shop'
-	},
-	{
-		Name: 'Rose Sofa',
-		Price: '2,400',
-		'HHA Themes': 'Fairy Tale, Rustic',
-		Source: 'Leif (Weeding Day; The Town Cleanup Prize)'
-	},
-	{
-		Name: 'Round Cactus',
-		Price: '1,700',
-		'HHA Themes': 'Rustic',
-		Source: 'Gardening Store (TIY)'
-	},
-	{
-		Name: 'Round Clock',
-		Price: '960',
-		'HHA Themes': 'None',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Round Cushion',
-		Price: 'NFS',
-		Source: "Carrie/Hopkins/Vivian's RV"
-	},
-	{
-		Name: 'Round Electric Sign',
-		Price: 'NFS',
-		Source: "Harvey's Shop"
-	},
-	{
-		Name: 'Round Mini Cactus',
-		Price: '800',
-		'HHA Themes': 'Rustic',
-		Source: "Sahara's RV, Gardening Store (TIY)"
-	},
-	{
-		Name: 'Round Pillow',
-		Price: 'NFS',
-		Source: "Jacob/Stella/Wade's RV"
-	},
-	{
-		Name: 'Round-Cloth Table',
-		Price: 'NFS',
-		Source: "Julia/Piper's RV"
-	},
-	{
-		Name: 'Rover Suitcase',
-		Price: 'NFS',
-		Source: "Rover's RV"
-	},
-	{
-		Name: 'Rubber Tree',
-		Price: '1,300',
-		'HHA Themes': 'Rustic',
-		Source: 'Gardening Store (TIY)'
-	},
-	{
-		Name: 'Rupee',
-		Price: 'NFS',
-		Source: "Ganon/Medli's RV"
-	},
-	{
-		Name: 'S.S. Dolphin',
-		Price: '840',
-		'HHA Themes': 'Sci-Fi, Toy Shop',
-		Source: 'Fortune Cookie #39'
-	},
-	{
-		Name: 'Sacks of Money',
-		Price: 'NFS',
-		Source: "Tom Nook's RV"
-	},
-	{
-		Name: 'Saddle Fence',
-		Price: '2,180',
-		'HHA Themes': 'Rustic',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Safe',
-		Price: 'NFS',
-		'HHA Themes': 'Sci-Fi',
-		Source: '20Mil Bell in Savings Account'
-	},
-	{
-		Name: 'Sagittarius Arrow',
-		Price: '4,800',
-		'HHA Themes': 'Quirky',
-		Source: 'DLC'
-	},
-	{
-		Name: 'Sailboat Model',
-		Price: '500',
-		'HHA Themes': 'Toy Shop',
-		Source: "Explorer's Day (Isabelle; NA Only)"
-	},
-	{
-		Name: 'Salad Bar',
-		Price: '3,000',
-		'HHA Themes': 'None',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Sales Graph',
-		Price: 'NFS',
-		Source: "Tom Nook's RV"
-	},
-	{
-		Name: 'Salon Chair',
-		Price: 'NFS',
-		Source: "Tasha's RV"
-	},
-	{
-		Name: 'Salon Mirror Stand',
-		Price: 'NFS',
-		Source: "Tasha's RV"
-	},
-	{
-		Name: 'Samgyetang',
-		Price: '1,200',
-		'HHA Themes': 'Harmonious',
-		Source: 'Gulliver (Answer Correct)'
-	},
-	{
-		Name: 'Sample Case',
-		Price: 'NFS',
-		Source: "Sylvana's RV"
-	},
-	{
-		Name: 'Samurai Suit',
-		Price: '4,500',
-		'HHA Themes': 'Antique, Harmonious, Quirky',
-		Source: 'Timmy & Tommy (Spotlight Item)'
-	},
-	{
-		Name: 'Sand Castle',
-		Price: '400',
-		'HHA Themes': 'None',
-		Source: "Plucky's RV, Island Gift Shop (Rare)"
-	},
-	{
-		Name: 'Sandbag',
-		Price: '3,190',
-		'HHA Themes': 'None',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Sandbox',
-		Price: 'NFS'
-	},
-	{
-		Name: 'Sandwich Display',
-		Price: '2,844',
-		'HHA Themes': 'None',
-		Source: 'DLC (Japan)'
-	},
-	{
-		Name: 'Sanshin',
-		Price: '40 Medals',
-		'HHA Themes': 'Harmonious',
-		Source: 'Island Gift Shop (Rare)'
-	},
-	{
-		Name: 'Sapling Clock',
-		Price: 'NFS',
-		Source: 'Town Anniversary Gift'
-	},
-	{
-		Name: 'Satellite',
-		Price: '2,600',
-		'HHA Themes': 'Sci-Fi, Toy Shop',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Sausage',
-		Price: 'NFS',
-		Source: "Julia's RV"
-	},
-	{
-		Name: 'Sawhorse',
-		Price: '1,200',
-		'HHA Themes': 'None',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Scale',
-		Price: '1,200',
-		'HHA Themes': 'Sci-Fi',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Scarecrow',
-		Price: '420',
-		'HHA Themes': 'Harmonious',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Scattered Papers',
-		Price: 'NFS',
-		Source: "Dobie/Jacob/Murphy/Wendell's RV"
-	},
-	{
-		Name: 'School Chair',
-		Price: '800',
-		'HHA Themes': 'Sci-Fi',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'School Desk',
-		Price: '1,200',
-		'HHA Themes': 'Sci-Fi',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'School Locker',
-		Price: 'NFS',
-		Source: "Leopold's RV"
-	},
-	{
-		Name: 'School Speaker',
-		Price: '1,600',
-		'HHA Themes': 'Sci-Fi',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Science Table',
-		Price: '1,900',
-		'HHA Themes': 'Sci-Fi',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Sconce',
-		Price: '1,600',
-		'HHA Themes': 'Antique',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Scooter',
-		Price: 'NFS',
-		Source: "Isabelle's RV (Winter Outfit amiibo), Stu's RV"
-	},
-	{
-		Name: 'Scoreboard',
-		Price: '2,200',
-		'HHA Themes': 'None',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Scorpio Lamp',
-		Price: '4,800',
-		'HHA Themes': 'Quirky',
-		Source: 'DLC'
-	},
-	{
-		Name: 'Screen',
-		Price: '1,650',
-		'HHA Themes': 'Harmonious',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Sea Globe',
-		Price: '20 Medals',
-		'HHA Themes': 'Rustic',
-		Source: "Pascal's RV, Island Gift Shop (Club Tortimer)"
-	},
-	{
-		Name: 'Sea-Anemone Bed',
-		Price: 'NFS',
-		'HHA Themes': 'Toy Shop',
-		Source: 'Fishing Tourney'
-	},
-	{
-		Name: 'Server',
-		Price: '3,400',
-		'HHA Themes': 'Sci-Fi',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Serving Cart',
-		Price: 'NFS',
-		Source: "Ellie/Sandy's RV"
-	},
-	{
-		Name: 'Set Lunch',
-		Price: 'NFS',
-		Source: "Sylvana's RV"
-	},
-	{
-		Name: 'Set Square Table',
-		Price: '23,760',
-		'HHA Themes': 'Trendy',
-		Source: 'DLC (Japan)'
-	},
-	{
-		Name: 'Seven Lamp',
-		Price: '7,000',
-		'HHA Themes': 'Trendy',
-		Source: 'Timmy & Tommy (Spotlight Item)'
-	},
-	{
-		Name: 'Sewing Kit',
-		Price: 'NFS',
-		Source: "Mabel's RV"
-	},
-	{
-		Name: 'Sewing Machine',
-		Price: '1,480',
-		'HHA Themes': 'None',
-		Source: "Stella's RV, Timmy & Tommy"
-	},
-	{
-		Name: 'Shamrock Clock',
-		Price: '1,800',
-		'HHA Themes': 'Rustic',
-		Source: 'Gulliver (Answer Correct)'
-	},
-	{
-		Name: 'Shaved Ice',
-		Price: 'NFS',
-		Source: "Olive's RV"
-	},
-	{
-		Name: 'Shaved-Ice Lamp',
-		Price: '2,400',
-		'HHA Themes': 'Fairy Tale',
-		Source: 'DLC (Korea)'
-	},
-	{
-		Name: 'Shaved-Ice Maker',
-		Price: '1,200',
-		'HHA Themes': 'None',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Ship Cannon',
-		Price: '1,820',
-		'HHA Themes': 'Toy Shop',
-		Source: 'Pascal'
-	},
-	{
-		Name: 'Ship Compass',
-		Price: '1,600',
-		'HHA Themes': 'Toy Shop',
-		Source: 'Pascal'
-	},
-	{
-		Name: 'Shoe Boxes',
-		Price: 'NFS',
-		Source: "Kicks' RV"
-	},
-	{
-		Name: 'Shoe Locker',
-		Price: 'NFS',
-		Source: "Kicks' RV"
-	},
-	{
-		Name: 'Shoe-Polishing Set',
-		Price: 'NFS',
-		Source: "Kicks' RV"
-	},
-	{
-		Name: 'Shogi Board',
-		Price: '1,200',
-		'HHA Themes': 'Harmonious, Toy Shop',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Shogi Piece',
-		Price: '1,200',
-		'HHA Themes': 'Harmonious, Toy Shop',
-		Source: 'Timmy & Tommy (JP)'
-	},
-	{
-		Name: 'Shoji Bench',
-		Price: 'NFS',
-		Source: "Toby's RV (Sanrio)"
-	},
-	{
-		Name: 'Shop Coffee Machine',
-		Price: 'NFS',
-		Source: "Filly's RV (7-11)"
-	},
-	{
-		Name: 'Shop Ice-Cream Case',
-		Price: 'NFS',
-		Source: "Filly's RV (7-11)"
-	},
-	{
-		Name: 'Shop Mat',
-		Price: 'NFS',
-		Source: "Timmy & Tommy's RV"
-	},
-	{
-		Name: 'Shopping Bag',
-		Price: 'NFS',
-		Source: "Bea/Candi's RV, Harvey's Shop"
-	},
-	{
-		Name: 'Shopping Cart',
-		Price: '3,980',
-		'HHA Themes': 'None',
-		Source: "Candi's RV, Timmy & Tommy (Spotlight)"
-	},
-	{
-		Name: 'Shower',
-		Price: '880',
-		'HHA Themes': 'Sci-Fi, Trendy',
-		Source: "Plucky's RV, Timmy & Tommy"
-	},
-	{
-		Name: 'Shower Stall',
-		Price: '2,200',
-		'HHA Themes': 'Sci-Fi, Trendy',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Silver Bug Trophy',
-		Price: 'NFS',
-		'HHA Themes': 'None',
-		Source: 'Bug Off'
-	},
-	{
-		Name: 'Silver Fish Trophy',
-		Price: 'NFS',
-		'HHA Themes': 'None',
-		Source: 'Fishing Tourney'
-	},
-	{
-		Name: 'Silver HHA Plaque',
-		Price: '1,800',
-		'HHA Themes': 'None',
-		Source: 'HHA (50,000 Points)'
-	},
-	{
-		Name: 'Silver HHA Trophy',
-		Price: '1,800',
-		'HHA Themes': 'None',
-		Source: 'HHA (90,000 Points)'
-	},
-	{
-		Name: 'Silver Mic',
-		Price: 'NFS',
-		Source: "Sprocket's RV"
-	},
-	{
-		Name: 'Silver Teapot',
-		Price: 'NFS',
-		Source: "Ellie/Piper's RV, Harvey's Shop"
-	},
-	{
-		Name: 'Simple Armchair',
-		Price: '1,800',
-		'HHA Themes': 'Trendy',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Simple Kettle',
-		Price: '1,200',
-		'HHA Themes': 'None',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Simple Love Seat',
-		Price: '2,050',
-		'HHA Themes': 'Trendy',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Simple Panel',
-		Price: 'NFS',
-		Source: "Spike/Timmy & Tommy's RV"
-	},
-	{
-		Name: 'Single Rose',
-		Price: 'NFS',
-		Source: "Piper's RV"
-	},
-	{
-		Name: 'Sink',
-		Price: '1,960',
-		'HHA Themes': 'Sci-Fi',
-		Source: "Copper's RV, Timmy & Tommy"
-	},
-	{
-		Name: 'Siphon',
-		Price: 'NFS',
-		'HHA Themes': 'Trendy',
-		Source: 'Brewster (Work at The Roost)'
-	},
-	{
-		Name: 'Sitar',
-		Price: '1,200',
-		'HHA Themes': 'Harmonious',
-		Source: 'Gulliver (Answer Correct)'
-	},
-	{
-		Name: 'Six Lamp',
-		Price: '6,000',
-		'HHA Themes': 'Trendy',
-		Source: 'Timmy & Tommy (Spotlight Item)'
-	},
-	{
-		Name: 'Skateboard Rack',
-		Price: 'NFS',
-		Source: "Spike's RV"
-	},
-	{
-		Name: 'Skeleton',
-		Price: '3,360',
-		'HHA Themes': 'Quirky, Sci-Fi',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Skeleton Figurine',
-		Price: '1,680',
-		'HHA Themes': 'Quirky, Toy Shop',
-		Source: 'Gulliver (Answer Correct)'
-	},
-	{
-		Name: 'Sketchbook',
-		Price: '960',
-		'HHA Themes': 'None',
-		Source: 'Katie'
-	},
-	{
-		Name: 'Ski Rack',
-		Price: '2,000',
-		'HHA Themes': 'None',
-		Source: 'Snowman'
-	},
-	{
-		Name: 'Slalom Gate',
-		Price: '2,400',
-		'HHA Themes': 'None',
-		Source: 'Snowman'
-	},
-	{
-		Name: 'Sleek Bed',
-		Price: '1,640',
-		'HHA Themes': 'Sci-Fi, Trendy',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Sleek Chair',
-		Price: '1,400',
-		'HHA Themes': 'Sci-Fi, Trendy',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Sleek Clock',
-		Price: '1,580',
-		'HHA Themes': 'Sci-Fi, Trendy',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Sleek Closet',
-		Price: '1,800',
-		'HHA Themes': 'Sci-Fi, Trendy',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Sleek Dresser',
-		Price: '1,600',
-		'HHA Themes': 'Sci-Fi, Trendy',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Sleek Lamp',
-		Price: '1,680',
-		'HHA Themes': 'Sci-Fi, Trendy',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Sleek Side Table',
-		Price: '1,900',
-		'HHA Themes': 'Sci-Fi, Trendy',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Sleek Sideboard',
-		Price: '1,800',
-		'HHA Themes': 'Sci-Fi, Trendy',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Sleek Sofa',
-		Price: '1,600',
-		'HHA Themes': 'Sci-Fi, Trendy',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Sleek Stereo',
-		Price: '1,680',
-		'HHA Themes': 'Sci-Fi, Trendy',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Sleek Table',
-		Price: '1,600',
-		'HHA Themes': 'Sci-Fi, Trendy',
-		Source: "Boris' RV, Timmy & Tommy"
-	},
-	{
-		Name: 'Sleeping Bag',
-		Price: '1,960',
-		'HHA Themes': 'None',
-		Source: "Booker's RV, Camping NPC (Tent)"
-	},
-	{
-		Name: 'Sleigh',
-		Price: '1,200',
-		'HHA Themes': 'None',
-		Source: 'Snowtyke'
-	},
-	{
-		Name: 'Slide Puzzle',
-		Price: '800',
-		'HHA Themes': 'Toy Shop',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Slipper Rack',
-		Price: 'NFS',
-		Source: "Carrie's RV"
-	},
-	{
-		Name: 'Sloppy Bed',
-		Price: '520',
-		'HHA Themes': 'Quirky, Sci-Fi',
-		Source: 'Re-Tail (Flea Market) or Police Station (Lost and Found)'
-	},
-	{
-		Name: 'Sloppy Chair',
-		Price: '400',
-		'HHA Themes': 'Quirky, Sci-Fi',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Sloppy Clock',
-		Price: '480',
-		'HHA Themes': 'Quirky, Sci-Fi',
-		Source: 'Re-Tail (Flea Market) or Police Station (Lost and Found)'
-	},
-	{
-		Name: 'Sloppy Closet',
-		Price: '520',
-		'HHA Themes': 'Quirky, Sci-Fi',
-		Source: 'Re-Tail (Flea Market) or Police Station (Lost and Found)'
-	},
-	{
-		Name: 'Sloppy Dresser',
-		Price: '500',
-		'HHA Themes': 'Quirky, Sci-Fi',
-		Source: 'Re-Tail (Flea Market) or Police Station (Lost and Found)'
-	},
-	{
-		Name: 'Sloppy Lamp',
-		Price: '400',
-		'HHA Themes': 'Quirky, Sci-Fi',
-		Source: 'Re-Tail (Flea Market) or Police Station (Lost and Found)'
-	},
-	{
-		Name: 'Sloppy Sink',
-		Price: '480',
-		'HHA Themes': 'Quirky, Sci-Fi',
-		Source: "Wendell's RV, Re-Tail (Flea Market) or Police Station (Lost and Found)"
-	},
-	{
-		Name: 'Sloppy Sofa',
-		Price: '600',
-		'HHA Themes': 'Quirky, Sci-Fi',
-		Source: 'Re-Tail (Flea Market) or Police Station (Lost and Found)'
-	},
-	{
-		Name: 'Sloppy Stereo',
-		Price: '540',
-		'HHA Themes': 'Quirky, Sci-Fi',
-		Source: 'Re-Tail (Flea Market) or Police Station (Lost and Found)'
-	},
-	{
-		Name: 'Sloppy Table',
-		Price: '540',
-		'HHA Themes': 'Quirky, Sci-Fi',
-		Source: "Wendell's RV, Re-Tail (Flea Market) or Police Station (Lost and Found)"
-	},
-	{
-		Name: 'Sloppy TV',
-		Price: '600',
-		'HHA Themes': 'Quirky, Sci-Fi',
-		Source: 'Re-Tail (Flea Market) or Police Station (Lost and Found)'
-	},
-	{
-		Name: 'Slushie Machine',
-		Price: '2,400',
-		'HHA Themes': 'None',
-		Source: 'DLC'
-	},
-	{
-		Name: 'Small Igloo',
-		Price: '600',
-		'HHA Themes': 'Harmonious',
-		Source: 'Snowtyke'
-	},
-	{
-		Name: 'Small LED Display',
-		Price: '2,500',
-		'HHA Themes': 'Sci-Fi, Toy Shop',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Small Magazine Rack',
-		Price: '1,780',
-		'HHA Themes': 'Trendy',
-		Source: "Tasha's RV, Timmy & Tommy"
-	},
-	{
-		Name: 'Small Space Console',
-		Price: '2,680',
-		'HHA Themes': 'Sci-Fi, Toy Shop',
-		Source: 'Timmy & Tommy (Spotlight Item)'
-	},
-	{
-		Name: 'Small Spotlight',
-		Price: '1,400',
-		'HHA Themes': 'Trendy',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Smoker',
-		Price: '3,000',
-		'HHA Themes': 'None',
-		Source: "Booker's RV, Camping NPC (Igloo)"
-	},
-	{
-		Name: 'Snack Machine',
-		Price: 'NFS',
-		Source: "Huck's RV"
-	},
-	{
-		Name: 'Snail Clock',
-		Price: 'NFS',
-		'HHA Themes': 'Toy Shop',
-		Source: 'Bug Off'
-	},
-	{
-		Name: 'Snake Plant',
-		Price: '1,200',
-		'HHA Themes': 'Rustic',
-		Source: 'Gardening Store (TIY)'
-	},
-	{
-		Name: 'Snare Drum',
-		Price: 'NFS',
-		Source: "Weber's RV"
-	},
-	{
-		Name: 'Snow Bunny',
-		Price: '600',
-		'HHA Themes': 'Fairy Tale, Harmonious',
-		Source: 'Snowtyke'
-	},
-	{
-		Name: 'Snow Globe',
-		Price: '500',
-		'HHA Themes': 'Fairy Tale',
-		Source: "Jingle's RV, Timmy & Tommy (12/1 - 12/23)"
-	},
-	{
-		Name: 'Snow Machine',
-		Price: '5,600',
-		'HHA Themes': 'None',
-		Source: 'Snowman'
-	},
-	{
-		Name: 'Snowboard',
-		Price: '1,400',
-		'HHA Themes': 'None',
-		Source: 'Snowman'
-	},
-	{
-		Name: 'Snowman',
-		Price: '12,000',
-		'HHA Themes': 'Fairy Tale',
-		Source: 'Snowboy'
-	},
-	{
-		Name: 'Snowman Bed',
-		Price: '35,552',
-		'HHA Themes': 'Fairy Tale',
-		Source: 'Snowboy'
-	},
-	{
-		Name: 'Snowman Chair',
-		Price: '35,552',
-		'HHA Themes': 'Fairy Tale',
-		Source: 'Snowboy'
-	},
-	{
-		Name: 'Snowman Clock',
-		Price: '35,552',
-		'HHA Themes': 'Fairy Tale',
-		Source: 'Snowboy'
-	},
-	{
-		Name: 'Snowman Dresser',
-		Price: '35,552',
-		'HHA Themes': 'Fairy Tale',
-		Source: 'Snowboy'
-	},
-	{
-		Name: 'Snowman Fridge',
-		Price: '35,552',
-		'HHA Themes': 'Fairy Tale',
-		Source: 'Snowboy'
-	},
-	{
-		Name: 'Snowman Lamp',
-		Price: '35,552',
-		'HHA Themes': 'Fairy Tale',
-		Source: 'Snowboy'
-	},
-	{
-		Name: 'Snowman Matryoshka',
-		Price: '8,000',
-		'HHA Themes': 'Fairy Tale, Toy Shop',
-		Source: 'Snowtyke'
-	},
-	{
-		Name: 'Snowman Sofa',
-		Price: '35,552',
-		'HHA Themes': 'Fairy Tale',
-		Source: 'Snowboy'
-	},
-	{
-		Name: 'Snowman Table',
-		Price: '35,552',
-		'HHA Themes': 'Fairy Tale',
-		Source: 'Snowboy'
-	},
-	{
-		Name: 'Snowman TV',
-		Price: '35,552',
-		'HHA Themes': 'Fairy Tale',
-		Source: 'Snowboy'
-	},
-	{
-		Name: 'Snowman Vanity',
-		Price: '35,552',
-		'HHA Themes': 'Fairy Tale',
-		Source: 'Snowboy'
-	},
-	{
-		Name: 'Snowman Wardrobe',
-		Price: '35,552',
-		'HHA Themes': 'Fairy Tale',
-		Source: 'Snowboy'
-	},
-	{
-		Name: 'Snowmobile',
-		Price: '3,600',
-		'HHA Themes': 'None',
-		Source: 'Snowman'
-	},
-	{
-		Name: 'Soccer Goal',
-		Price: 'NFS'
-	},
-	{
-		Name: 'Soda Case',
-		Price: '1,800',
-		'HHA Themes': 'None',
-		Source: "Bea's RV, Timmy & Tommy"
-	},
-	{
-		Name: 'Soda Fountain',
-		Price: '2,400',
-		'HHA Themes': 'None',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Soft-Drink Display',
-		Price: '2,844',
-		'HHA Themes': 'None',
-		Source: "Filly's RV (7-11), DLC (Japan)"
-	},
-	{
-		Name: 'Soft-Serve Lamp',
-		Price: '1,120',
-		'HHA Themes': 'Fairy Tale',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Songpyeon',
-		Price: '1,200',
-		'HHA Themes': 'Harmonious',
-		Source: 'Tsukimi (Isabelle; Korea Only)'
-	},
-	{
-		Name: 'Sound Mixer',
-		Price: 'NFS',
-		Source: "Sprocket's RV"
-	},
-	{
-		Name: 'Spa Chair',
-		Price: '600',
-		'HHA Themes': 'Harmonious',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: "Space Captain's Seat",
-		Price: '3,680',
-		'HHA Themes': 'Sci-Fi, Toy Shop',
-		Source: 'Timmy & Tommy (Spotlight Item)'
-	},
-	{
-		Name: 'Space Console',
-		Price: '3,000',
-		'HHA Themes': 'Sci-Fi, Toy Shop',
-		Source: 'Timmy & Tommy (Spotlight Item)'
-	},
-	{
-		Name: 'Space Heater',
-		Price: '1,700',
-		'HHA Themes': 'Sci-Fi',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Space Shuttle',
-		Price: '2,780',
-		'HHA Themes': 'Sci-Fi, Toy Shop',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Space Station',
-		Price: '2,800',
-		'HHA Themes': 'Sci-Fi, Toy Shop',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Spaceman Sam',
-		Price: '2,800',
-		'HHA Themes': 'Sci-Fi, Toy Shop',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: "Sparrow's Nest",
-		Price: 'NFS',
-		Source: "Nat's RV, Harvey's Shop"
-	},
-	{
-		Name: 'Speaker',
-		Price: 'NFS',
-		Source: "Boris' RV"
-	},
-	{
-		Name: 'Speed Bag',
-		Price: '2,990',
-		'HHA Themes': 'None',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Spherical Radar',
-		Price: '3,000',
-		'HHA Themes': 'Sci-Fi, Toy Shop',
-		Source: 'Timmy & Tommy (Spotlight Item)'
-	},
-	{
-		Name: 'Sphinx',
-		Price: '3,200',
-		'HHA Themes': 'Antique, Quirky',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Spiderweb Clock',
-		Price: 'NFS',
-		'HHA Themes': 'Quirky, Toy Shop',
-		Source: 'Bug Off'
-	},
-	{
-		Name: 'Spinning Wheel',
-		Price: '2,200',
-		'HHA Themes': 'Quirky, Rustic',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Splatoon Spawn Point',
-		Price: 'NFS',
-		Source: "Inkwell's RV"
-	},
-	{
-		Name: 'Splatoon Tower',
-		Price: 'NFS',
-		Source: "Inkwell's RV"
-	},
-	{
-		Name: 'Splattershot',
-		Price: 'NFS',
-		Source: "Inkwell's RV"
-	},
-	{
-		Name: 'Spooky Bed',
-		Price: '4,124',
-		'HHA Themes': 'Quirky',
-		Source: 'Timmy & Tommy (10/1 - 10/31)'
-	},
-	{
-		Name: 'Spooky Bookcase',
-		Price: '4,124',
-		'HHA Themes': 'Quirky',
-		Source: 'Timmy & Tommy (10/1 - 10/31)'
-	},
-	{
-		Name: 'Spooky Chair',
-		Price: '4,124',
-		'HHA Themes': 'Quirky',
-		Source: 'Timmy & Tommy (10/1 - 10/31)'
-	},
-	{
-		Name: 'Spooky Clock',
-		Price: '4,124',
-		'HHA Themes': 'Quirky',
-		Source: 'Timmy & Tommy (10/1 - 10/31)'
-	},
-	{
-		Name: 'Spooky Dresser',
-		Price: '4,124',
-		'HHA Themes': 'Quirky',
-		Source: 'Timmy & Tommy (10/1 - 10/31)'
-	},
-	{
-		Name: 'Spooky Lamp',
-		Price: '4,124',
-		'HHA Themes': 'Quirky',
-		Source: 'Timmy & Tommy (10/1 - 10/31)'
-	},
-	{
-		Name: 'Spooky Sofa',
-		Price: '4,124',
-		'HHA Themes': 'Quirky',
-		Source: 'Timmy & Tommy (10/1 - 10/31)'
-	},
-	{
-		Name: 'Spooky Table',
-		Price: '4,124',
-		'HHA Themes': 'Quirky',
-		Source: 'Timmy & Tommy (10/1 - 10/31)'
-	},
-	{
-		Name: 'Spooky Vanity',
-		Price: '4,124',
-		'HHA Themes': 'Quirky',
-		Source: 'Timmy & Tommy (10/1 - 10/31)'
-	},
-	{
-		Name: 'Spooky Wall Lamp',
-		Price: '4,124',
-		'HHA Themes': 'Quirky',
-		Source: "Jack's Rv, Timmy & Tommy (10/1 - 10/31)"
-	},
-	{
-		Name: 'Spooky Wardrobe',
-		Price: '4,124',
-		'HHA Themes': 'Quirky',
-		Source: 'Timmy & Tommy (10/1 - 10/31)'
-	},
-	{
-		Name: 'Sports Car',
-		Price: 'NFS',
-		Source: "Ike's RV"
-	},
-	{
-		Name: 'Sprinkler',
-		Price: '1,640',
-		'HHA Themes': 'None',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Sprout Table',
-		Price: '4,120',
-		'HHA Themes': 'Rustic',
-		Source: "Nat's RV, DLC (Japan)"
-	},
-	{
-		Name: 'Square Minitable',
-		Price: 'NFS',
-		Source: "Huck/Spike's RV"
-	},
-	{
-		Name: 'Squid Bumber',
-		Price: 'NFS',
-		Source: "Inkwell's RV"
-	},
-	{
-		Name: 'Squid Chair',
-		Price: 'NFS',
-		'HHA Themes': 'Toy Shop',
-		Source: 'Fishing Tourney'
-	},
-	{
-		Name: 'Stack of Books',
-		Price: 'NFS',
-		Source: "Blathers/Dobie/Jacob/Pascal's RV"
-	},
-	{
-		Name: 'Stack of Clothes',
-		Price: 'NFS',
-		Source: "Stella's RV"
-	},
-	{
-		Name: 'Stacked Magazines',
-		Price: 'NFS',
-		Source: "Candi/Hornsby/Jacob's RV"
-	},
-	{
-		Name: 'Stadiometer',
-		Price: '1,680',
-		'HHA Themes': 'Sci-Fi',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Stag-Beetle Chair',
-		Price: 'NFS',
-		'HHA Themes': 'Toy Shop',
-		Source: 'Bug Off'
-	},
-	{
-		Name: 'Stained Glass',
-		Price: '1,200',
-		'HHA Themes': 'Fairy Tale',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Stained-Glass Lamp',
-		Price: '2,400',
-		'HHA Themes': 'Antique',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Stair Dresser',
-		Price: '2,250',
-		'HHA Themes': 'Harmonious, Rustic',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Standing Sink',
-		Price: 'NFS',
-		Source: "Cashmere/Paolo's RV"
-	},
-	{
-		Name: 'Standing Spotlight',
-		Price: '1,800',
-		'HHA Themes': 'Trendy',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Standing TV',
-		Price: 'NFS',
-		Source: "Boris/Hopkin's RV"
-	},
-	{
-		Name: 'Star Globe',
-		Price: '2,400',
-		'HHA Themes': 'Sci-Fi',
-		Source: "Celeste's RV, Timmy & Tommy"
-	},
-	{
-		Name: 'Star Projector',
-		Price: '2,400',
-		'HHA Themes': 'Sci-Fi',
-		Source: "Celeste's RV, Timmy & Tommy"
-	},
-	{
-		Name: 'Statue of Liberty',
-		Price: '1,200',
-		'HHA Themes': 'None',
-		Source: 'Gulliver (Answer Correct)'
-	},
-	{
-		Name: 'Steamed Lobster',
-		Price: 'NFS',
-		Source: "Julia's RV"
-	},
-	{
-		Name: 'Steamed-Bun Case',
-		Price: '2,844',
-		'HHA Themes': 'Harmonious',
-		Source: "Filly's RV (7-11), DLC (Japan)"
-	},
-	{
-		Name: 'Steamroller',
-		Price: '4,500',
-		'HHA Themes': 'None',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Stepladder',
-		Price: '1,200',
-		'HHA Themes': 'None',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Stewpot',
-		Price: '960',
-		'HHA Themes': 'None',
-		Source: "Franklin's RV, Camping NPC (Igloo)"
-	},
-	{
-		Name: 'Sticker Tape Liner',
-		Price: '23,760',
-		'HHA Themes': 'Trendy',
-		Source: 'DLC (Japan)'
-	},
-	{
-		Name: 'Stone Lantern',
-		Price: 'NFS',
-		Source: "Toby's RV (Sanrio)"
-	},
-	{
-		Name: 'Stool',
-		Price: '1,360',
-		'HHA Themes': 'None',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Storage Case',
-		Price: '980',
-		'HHA Themes': 'None',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Store Shelf',
-		Price: 'NFS',
-		Source: "Candi's RV, Harvey's Shop"
-	},
-	{
-		Name: 'Storefront',
-		Price: '3,680',
-		'HHA Themes': 'Rustic',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Stove',
-		Price: '1,980',
-		'HHA Themes': 'None',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Strapped Books',
-		Price: 'NFS',
-		Source: "Hornsby/Leopold/Rover's RV"
-	},
-	{
-		Name: 'Stretcher',
-		Price: 'NFS',
-		Source: "Raddle's RV"
-	},
-	{
-		Name: 'Stripe Bathroom Sink',
-		Price: '2,020',
-		'HHA Themes': 'Trendy',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Stripe Bed',
-		Price: '2,020',
-		'HHA Themes': 'Trendy',
-		Source: "Digby's RV, Timmy & Tommy"
-	},
-	{
-		Name: 'Stripe Chair',
-		Price: '2,020',
-		'HHA Themes': 'Trendy',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Stripe Clock',
-		Price: '2,020',
-		'HHA Themes': 'Trendy',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Stripe Closet',
-		Price: '2,020',
-		'HHA Themes': 'Trendy',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Stripe Dresser',
-		Price: '2,020',
-		'HHA Themes': 'Trendy',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Stripe Lamp',
-		Price: '2,020',
-		'HHA Themes': 'Trendy',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Stripe Shelf',
-		Price: '2,020',
-		'HHA Themes': 'Trendy',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Stripe Sofa',
-		Price: '2,020',
-		'HHA Themes': 'Trendy',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Stripe Table',
-		Price: '2,020',
-		'HHA Themes': 'Trendy',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Stripe TV',
-		Price: '2,020',
-		'HHA Themes': 'Trendy',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Striped Cone',
-		Price: '800',
-		'HHA Themes': 'None',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Stroller',
-		Price: '1,960',
-		'HHA Themes': 'Fairy Tale',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Stuffed Stocking',
-		Price: '500',
-		'HHA Themes': 'Toy Shop',
-		Source: 'Timmy & Tommy (12/1 - 12/23)'
-	},
-	{
-		Name: 'Submarine',
-		Price: '8,000',
-		Source: 'Happy Home Designer save data'
-	},
-	{
-		Name: 'Succulent Plant',
-		Price: 'NFS',
-		Source: "Kicks/Spike's RV, Harvey's RV"
-	},
-	{
-		Name: 'Sun',
-		Price: '6,000',
-		Source: 'Happy Home Designer save data'
-	},
-	{
-		Name: 'Sunflower',
-		Price: '980',
-		'HHA Themes': 'Rustic',
-		Source: 'Gardening Store (TIY)'
-	},
-	{
-		Name: 'Sunflower Stereo',
-		Price: '2,480',
-		'HHA Themes': 'Fairy Tale, Rustic',
-		Source: 'Leif (Weeding Day; Happy Generosity Award)'
-	},
-	{
-		Name: 'Sunrise Lamp',
-		Price: '4,040',
-		'HHA Themes': 'None',
-		Source: 'DLC'
-	},
-	{
-		Name: 'Super Mushroom',
-		Price: '840',
-		'HHA Themes': 'Toy Shop',
-		Source: 'Fortune Cookie #21'
-	},
-	{
-		Name: 'Super Sea Snail',
-		Price: 'NFS',
-		Source: "Inkwell's RV"
-	},
-	{
-		Name: 'Super Star',
-		Price: '840',
-		'HHA Themes': 'Toy Shop',
-		Source: 'Fortune Cookie #23'
-	},
-	{
-		Name: 'Super Toilet',
-		Price: '1,980',
-		'HHA Themes': 'None',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Surfboard',
-		Price: '1,400',
-		'HHA Themes': 'None',
-		Source: "Plucky's RV, Camping NPC (Tent)"
-	},
-	{
-		Name: 'Surveillance Camera',
-		Price: '1,800',
-		'HHA Themes': 'Sci-Fi, Trendy',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Sushi Bench',
-		Price: 'NFS',
-		Source: "Filly's RV (7-11)"
-	},
-	{
-		Name: 'Sushi Container',
-		Price: 'NFS',
-		Source: "Chip's RV, Harvey's Shop"
-	},
-	{
-		Name: 'Sushi Menu',
-		Price: 'NFS',
-		Source: "Harvey's Shop"
-	},
-	{
-		Name: 'Sushi Platter',
-		Price: '1,680',
-		'HHA Themes': 'Harmonious',
-		Source: "Chip's RV, Timmy & Tommy (JP)"
-	},
-	{
-		Name: 'Sushi Tray',
-		Price: 'NFS',
-		Source: "Chip's RV"
-	},
-	{
-		Name: 'Sweets Bed',
-		Price: '80,000',
-		'HHA Themes': 'Fairy Tale',
-		Source: 'Gracie Grace (Fall)'
-	},
-	{
-		Name: 'Sweets Bookcase',
-		Price: '90,000',
-		'HHA Themes': 'Fairy Tale',
-		Source: 'Gracie Grace (Fall)'
-	},
-	{
-		Name: 'Sweets Chair',
-		Price: '120,000',
-		'HHA Themes': 'Fairy Tale',
-		Source: 'Gracie Grace (Fall)'
-	},
-	{
-		Name: 'Sweets Closet',
-		Price: '68,000',
-		'HHA Themes': 'Fairy Tale',
-		Source: 'Gracie Grace (Fall)'
-	},
-	{
-		Name: 'Sweets Dresser',
-		Price: '220,000',
-		'HHA Themes': 'Fairy Tale',
-		Source: 'Gracie Grace (Fall)'
-	},
-	{
-		Name: 'Sweets Lamp',
-		Price: '98,000',
-		'HHA Themes': 'Fairy Tale',
-		Source: 'Gracie Grace (Fall)'
-	},
-	{
-		Name: 'Sweets Minilamp',
-		Price: '110,000',
-		'HHA Themes': 'Fairy Tale',
-		Source: 'Gracie Grace (Fall)'
-	},
-	{
-		Name: 'Sweets Minitable',
-		Price: '80,000',
-		'HHA Themes': 'Fairy Tale',
-		Source: 'Gracie Grace (Fall)'
-	},
-	{
-		Name: 'Sweets Player',
-		Price: '100,000',
-		'HHA Themes': 'Fairy Tale',
-		Source: 'Gracie Grace (Fall)'
-	},
-	{
-		Name: 'Sweets Sofa',
-		Price: '80,000',
-		'HHA Themes': 'Fairy Tale',
-		Source: 'Gracie Grace (Fall)'
-	},
-	{
-		Name: 'Sweets Table',
-		Price: '240,000',
-		'HHA Themes': 'Fairy Tale',
-		Source: 'Gracie Grace (Fall)'
-	},
-	{
-		Name: 'Swinging Bench',
-		Price: 'NFS',
-		Source: "Maddie's RV, Harvey's Shop"
-	},
-	{
-		Name: 'Sword',
-		Price: '1,400',
-		'HHA Themes': 'Antique, Harmonious, Quirky',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Synthesizer',
-		Price: 'NFS',
-		Source: "Sprocket's RV"
-	},
-	{
-		Name: 'Table Lamp',
-		Price: '640',
-		'HHA Themes': 'Sci-Fi',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Table with Cloth',
-		Price: 'NFS',
-		Source: "Julia's RV"
-	},
-	{
-		Name: 'Tabletop Game',
-		Price: '2,480',
-		'HHA Themes': 'Toy Shop',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Tacos',
-		Price: 'NFS',
-		Source: "Wendell's RV"
-	},
-	{
-		Name: 'Taiko Drum',
-		Price: '1,300',
-		'HHA Themes': 'Harmonious',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Tall Cactus',
-		Price: '1,700',
-		'HHA Themes': 'Rustic',
-		Source: 'Gardening Store (TIY)'
-	},
-	{
-		Name: 'Tall Display Case',
-		Price: '2,500',
-		'HHA Themes': 'Trendy',
-		Source: 'Museum Shop'
-	},
-	{
-		Name: 'Tall Garden Rock',
-		Price: 'NFS',
-		Source: "Boots' RV, Harvey's Shop"
-	},
-	{
-		Name: 'Tall Lantern',
-		Price: '1,980',
-		'HHA Themes': 'Harmonious, Quirky',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Tall Mini Cactus',
-		Price: '800',
-		'HHA Themes': 'Rustic',
-		Source: 'Gardening Store (TIY)'
-	},
-	{
-		Name: 'Tangerine Chair',
-		Price: '1,300',
-		'HHA Themes': 'Rustic',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Tape Deck',
-		Price: '700',
-		'HHA Themes': 'None',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Tapestry',
-		Price: '800',
-		'HHA Themes': 'Antique',
-		Source: 'Gulliver (Answer Correct)'
-	},
-	{
-		Name: 'Tart',
-		Price: 'NFS',
-		Source: "Olive's RV"
-	},
-	{
-		Name: 'Tatami Bed',
-		Price: '2,400',
-		'HHA Themes': 'Harmonious',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Taurus Bathtub',
-		Price: '4,800',
-		'HHA Themes': 'None',
-		Source: 'DLC'
-	},
-	{
-		Name: 'Tea Set',
-		Price: '300',
-		'HHA Themes': 'None',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Tea Table',
-		Price: '1,000',
-		'HHA Themes': 'Harmonious',
-		Source: "Jack's RV, Timmy & Tommy"
-	},
-	{
-		Name: 'Tea Tansu',
-		Price: '1,600',
-		'HHA Themes': 'Harmonious, Rustic',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Tea Vase',
-		Price: '2,400',
-		'HHA Themes': 'Antique, Harmonious',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: "Teacher's Chair",
-		Price: '1,440',
-		'HHA Themes': 'Sci-Fi',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: "Teacher's Desk",
-		Price: '1,580',
-		'HHA Themes': 'Sci-Fi',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Teacup Ride',
-		Price: '8,000',
-		Source: 'Happy Home Designer save data'
-	},
-	{
-		Name: 'Telescope',
-		Price: '5,800',
-		'HHA Themes': 'Sci-Fi, Toy Shop',
-		Source: "Celeste's RV, Timmy & Tommy"
-	},
-	{
-		Name: 'Ten Billion Barrel',
-		Price: '1,024',
-		'HHA Themes': 'Sci-Fi, Toy Shop',
-		Source: 'Redd (Fireworks Show; Whiz Ticket)'
-	},
-	{
-		Name: 'Tennis Racket',
-		Price: 'NFS',
-		Source: "Tybalt's RV, Harvey's Shop"
-	},
-	{
-		Name: 'Tennis Table',
-		Price: '1,800',
-		'HHA Themes': 'Toy Shop',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Tent',
-		Price: '8,000',
-		Source: 'Happy Home Designer save data'
-	},
-	{
-		Name: 'Teppanyaki Grill',
-		Price: 'NFS',
-		Source: "Buzz's RV, Harvey's Shop"
-	},
-	{
-		Name: "Termina's Moon",
-		Price: 'NFS',
-		Source: "Epona's RV"
-	},
-	{
-		Name: 'Theater Seat',
-		Price: 'NFS',
-		Source: "Boris' RV"
-	},
-	{
-		Name: 'Theremin',
-		Price: '2,000',
-		'HHA Themes': 'Sci-Fi',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Thermohygrometer',
-		Price: '1,500',
-		'HHA Themes': 'Sci-Fi',
-		Source: 'Museum Shop'
-	},
-	{
-		Name: 'Three Lamp',
-		Price: '3,000',
-		'HHA Themes': 'Trendy',
-		Source: 'Timmy & Tommy (Spotlight Item)'
-	},
-	{
-		Name: 'Throne',
-		Price: '800,000',
-		'HHA Themes': 'Antique, Fairy Tale',
-		Source: 'Timmy & Tommy (Spotlight Item)'
-	},
-	{
-		Name: 'Tiki Torch',
-		Price: '870',
-		'HHA Themes': 'Rustic',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Tile Screen',
-		Price: 'NFS',
-		Source: "Sahara's RV"
-	},
-	{
-		Name: 'Time Clock',
-		Price: '1,800',
-		'HHA Themes': 'Sci-Fi',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Timpano Drum',
-		Price: '2,100',
-		'HHA Themes': 'None',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Tin Watering Can',
-		Price: 'NFS',
-		Source: "Maggie's RV, Harvey's Shop"
-	},
-	{
-		Name: 'Tire Stack',
-		Price: 'NFS',
-		Source: "Ike's RV, Harvey's Shop"
-	},
-	{
-		Name: 'Toaster',
-		Price: '720',
-		'HHA Themes': 'None',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Toilet',
-		Price: '1,800',
-		'HHA Themes': 'None',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Tokonoma',
-		Price: '2,300',
-		'HHA Themes': 'Harmonious',
-		Source: "Joan's RV, Timmy & Tommy (JP)"
-	},
-	{
-		Name: 'Tong-and-Tray Stand',
-		Price: 'NFS',
-		Source: "Bea's RV"
-	},
-	{
-		Name: 'Tool Cart',
-		Price: 'NFS',
-		Source: "Cyrus/Ike's RV"
-	},
-	{
-		Name: 'Tool Shelf',
-		Price: 'NFS',
-		Source: "Ike's RV"
-	},
-	{
-		Name: 'Tool Stand',
-		Price: 'NFS',
-		Source: "Cyrus' RV"
-	},
-	{
-		Name: 'Toolbox',
-		Price: 'NFS',
-		Source: "Ike/Kicks' RV, Harvey's Shop"
-	},
-	{
-		Name: 'Top',
-		Price: '2,000',
-		'HHA Themes': 'Harmonious',
-		Source: 'DLC (Japan)'
-	},
-	{
-		Name: 'Towel Basket',
-		Price: 'NFS',
-		Source: "Paolo/Plucky's RV"
-	},
-	{
-		Name: 'Towel Rack',
-		Price: 'NFS',
-		Source: "Leopold's RV, Harvey's Shop"
-	},
-	{
-		Name: 'Tower of Pisa',
-		Price: '9,200',
-		'HHA Themes': 'Toy Shop',
-		Source: 'Timmy & Tommy (Spotlight Item)'
-	},
-	{
-		Name: 'Toy Camera',
-		Price: '960',
-		'HHA Themes': 'Toy Shop, Trendy',
-		Source: 'Katie'
-	},
-	{
-		Name: 'Toy Piano',
-		Price: 'NFS',
-		Source: "Carrie/Weber's RV"
-	},
-	{
-		Name: 'Tractor',
-		Price: 'NFS',
-		Source: "Tad's RV"
-	},
-	{
-		Name: 'Traffic Cone',
-		Price: '800',
-		'HHA Themes': 'None',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Train Seat',
-		Price: 'NFS',
-		Source: "Rover's RV"
-	},
-	{
-		Name: 'Train Set',
-		Price: '1,600',
-		'HHA Themes': 'Toy Shop',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Tranquil Bridge',
-		Price: 'NFS',
-		Source: "Toby's RV (Sanrio)"
-	},
-	{
-		Name: 'Trash Bags',
-		Price: 'NFS',
-		Source: "Buzz/Hornsby/Jacob's RV, Harvey's Shop"
-	},
-	{
-		Name: 'Trash Bin',
-		Price: '400',
-		'HHA Themes': 'Quirky',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Trash Can',
-		Price: '1,400',
-		'HHA Themes': 'Quirky',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Treadmill',
-		Price: '2,400',
-		'HHA Themes': 'Sci-Fi',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Treasure Chest',
-		Price: '150 Medals',
-		'HHA Themes': 'Toy Shop',
-		Source: "Pascal's RV, Island Gift Shop"
-	},
-	{
-		Name: 'Tree Standee',
-		Price: '1,200',
-		'HHA Themes': 'None',
-		Source: "Nat's RV, Timmy & Tommy"
-	},
-	{
-		Name: 'Tree-Stump Chair',
-		Price: '4,480',
-		'HHA Themes': 'Rustic',
-		Source: "Jingle's RV, DLC (Japan)"
-	},
-	{
-		Name: 'Trellis',
-		Price: 'NFS',
-		Source: "Boot's RV"
-	},
-	{
-		Name: 'Tribal Mask',
-		Price: '4,400',
-		'HHA Themes': 'Antique, Quirky',
-		Source: 'Gulliver (Answer Correct)'
-	},
-	{
-		Name: 'Tricycle',
-		Price: '1,120',
-		'HHA Themes': 'None',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Triforce',
-		Price: '840',
-		'HHA Themes': 'Toy Shop',
-		Source: 'Fortune Cookie #37'
-	},
-	{
-		Name: 'Triple Bananas',
-		Price: '840',
-		'HHA Themes': 'Toy Shop',
-		Source: 'Fortune Cookie #48'
-	},
-	{
-		Name: 'Triple Red Shells',
-		Price: '840',
-		'HHA Themes': 'Toy Shop',
-		Source: 'Fortune Cookie #31'
-	},
-	{
-		Name: 'Trumpet',
-		Price: 'NFS',
-		Source: "Weber's RV"
-	},
-	{
-		Name: 'Trunk',
-		Price: '1,000',
-		'HHA Themes': 'None',
-		Source: "Piper's RV, Timmy & Tommy"
-	},
-	{
-		Name: 'Trunk Measure',
-		Price: '1,680',
-		'HHA Themes': 'Sci-Fi',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Tteok Plate',
-		Price: '320',
-		'HHA Themes': 'Harmonious',
-		Source: "Wade's RV, DLC (Korea)"
-	},
-	{
-		Name: 'Tuk-Tuk',
-		Price: '1,200',
-		'HHA Themes': 'Harmonious',
-		Source: 'Gulliver (Answer Correct)'
-	},
-	{
-		Name: 'Tulip Dresser',
-		Price: '2,200',
-		'HHA Themes': 'Fairy Tale, Rustic',
-		Source: 'Leif (Weeding Day; Happy Generosity Award)'
-	},
-	{
-		Name: 'Tumbleweed',
-		Price: '520',
-		'HHA Themes': 'Rustic',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Turkey',
-		Price: '3,000',
-		'HHA Themes': 'None',
-		Source: 'DLC (Japan)'
-	},
-	{
-		Name: 'Turntable',
-		Price: '2,580',
-		'HHA Themes': 'Antique',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'TV Camera',
-		Price: '5,600',
-		'HHA Themes': 'Sci-Fi, Trendy',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'TV with VCR',
-		Price: '2,000',
-		'HHA Themes': 'Sci-Fi',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Twelve-Grape Plate',
-		Price: 'NFS',
-		'HHA Themes': 'None',
-		Source: 'Countdown (Isabelle; NA and EU Spanish)'
-	},
-	{
-		Name: 'Two Lamp',
-		Price: '2,000',
-		'HHA Themes': 'Trendy',
-		Source: 'Timmy & Tommy (Spotlight Item)'
-	},
-	{
-		Name: 'Typewriter',
-		Price: '2,400',
-		'HHA Themes': 'None',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Udon Soup',
-		Price: 'NFS',
-		Source: "Sylvana's RV"
-	},
-	{
-		Name: 'UFO',
-		Price: '6,000',
-		Source: 'Happy Home Designer save data'
-	},
-	{
-		Name: 'Ukulele',
-		Price: '30 Medals',
-		'HHA Themes': 'None',
-		Source: 'Island Gift Shop (Club Tortimer)'
-	},
-	{
-		Name: 'Ultra Hand',
-		Price: '1,024',
-		'HHA Themes': 'Sci-Fi, Toy Shop',
-		Source: 'Redd (Fireworks Show; Crackle Ticket)'
-	},
-	{
-		Name: 'Ultra Machine',
-		Price: '1,024',
-		'HHA Themes': 'Sci-Fi, Toy Shop',
-		Source: 'Redd (Fireworks Show; Pop Ticket)'
-	},
-	{
-		Name: 'Ultra Scope',
-		Price: '1,024',
-		'HHA Themes': 'Sci-Fi, Toy Shop',
-		Source: 'Redd (Fireworks Show; Kaboom Ticket)'
-	},
-	{
-		Name: 'Umbrella Stand',
-		Price: 'NFS',
-		Source: "June's RV"
-	},
-	{
-		Name: 'Unicycle',
-		Price: 'NFS',
-		Source: "Tybalt's RV, Harvey's Shop"
-	},
-	{
-		Name: 'Unknown Machine',
-		Price: '4,800',
-		'HHA Themes': 'Quirky, Sci-Fi',
-		Source: 'Timmy & Tommy (Spotlight Item)'
-	},
-	{
-		Name: 'Upright Piano',
-		Price: '3,200',
-		'HHA Themes': 'None',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Upright Vacuum',
-		Price: '1,800',
-		'HHA Themes': 'Sci-Fi',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Vacuum Cleaner',
-		Price: '1,200',
-		'HHA Themes': 'Sci-Fi',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Vaulting Horse',
-		Price: '1,200',
-		'HHA Themes': 'None',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Veggie Basket',
-		Price: 'NFS',
-		'HHA Themes': 'None',
-		Source: 'Autumn Moon (Isabelle; Europe only)'
-	},
-	{
-		Name: 'Ventilation Fan',
-		Price: '1,120',
-		'HHA Themes': 'Sci-Fi',
-		Source: "Copper's RV, Timmy & Tommy"
-	},
-	{
-		Name: 'Vibraphone',
-		Price: '1,900',
-		'HHA Themes': 'None',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Video Camera',
-		Price: 'NFS',
-		Source: "Murphy's RV"
-	},
-	{
-		Name: 'Villager Statue',
-		Price: 'NFS',
-		Source: "Villager's RV"
-	},
-	{
-		Name: 'Vintage Camera',
-		Price: '1,800',
-		'HHA Themes': 'Antique',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Vintage Radio',
-		Price: '1,280',
-		'HHA Themes': 'Antique',
-		Source: 'Timmy & Tommy (Spotlight Item)'
-	},
-	{
-		Name: 'Vintage Telephone',
-		Price: '1,800',
-		'HHA Themes': 'Antique',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Vintage Telescope',
-		Price: '1,880',
-		'HHA Themes': 'Antique',
-		Source: 'Pascal'
-	},
-	{
-		Name: 'Violet Screen',
-		Price: '2,380',
-		'HHA Themes': 'Fairy Tale, Rustic',
-		Source: 'Leif (Weeding Day; The Town Cleanup Prize)'
-	},
-	{
-		Name: 'Violin',
-		Price: '2,200',
-		'HHA Themes': 'None',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Virgo Harp',
-		Price: '4,800',
-		'HHA Themes': 'None',
-		Source: 'DLC'
-	},
-	{
-		Name: 'Virtual Boy',
-		Price: '840',
-		'HHA Themes': 'Sci-Fi, Toy Shop',
-		Source: 'Fortune Cookie #40'
-	},
-	{
-		Name: 'Vision Tester',
-		Price: '2,280',
-		'HHA Themes': 'Sci-Fi',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Volleyball Net',
-		Price: '1,800',
-		'HHA Themes': 'None',
-		Source: "Gulliver's RV, Timmy & Tommy"
-	},
-	{
-		Name: 'Wagon Wheel',
-		Price: '1,230',
-		'HHA Themes': 'Rustic',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Waiting Room Bench',
-		Price: 'NFS',
-		Source: "June's RV"
-	},
-	{
-		Name: 'Wall Fan',
-		Price: '1,680',
-		'HHA Themes': 'None',
-		Source: "Resetti's RV, Timmy & Tommy"
-	},
-	{
-		Name: 'Wall Flowerpot',
-		Price: '800',
-		'HHA Themes': 'Rustic',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Wall-Mounted Monitor',
-		Price: '3,800',
-		'HHA Themes': 'Sci-Fi, Toy Shop',
-		Source: 'Timmy & Tommy (Spotlight Item)'
-	},
-	{
-		Name: 'Wall-Mounted Speaker',
-		Price: '1,600',
-		'HHA Themes': 'Sci-Fi, Trendy',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Wall-Mounted TV',
-		Price: 'NFS',
-		Source: "Resetti's RV"
-	},
-	{
-		Name: 'Warming Buffet',
-		Price: 'NFS',
-		Source: "Julia's RV"
-	},
-	{
-		Name: 'Wash Station',
-		Price: '2,880',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Washbasin (Bathroom)',
-		Price: '2,880',
-		'HHA Themes': 'Harmonious',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Washbasin (Medical)',
-		Price: '1,200',
-		'HHA Themes': 'Sci-Fi',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Washer/Dryer',
-		Price: '1,800',
-		'HHA Themes': 'Sci-Fi',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Washing Machine',
-		Price: '2,800',
-		'HHA Themes': 'Sci-Fi',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Water Bird',
-		Price: '1,400',
-		'HHA Themes': 'Toy Shop',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Water Cooler',
-		Price: '2,200',
-		'HHA Themes': 'Sci-Fi, Trendy',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Water Pot',
-		Price: 'NFS',
-		Source: "Sylvana's RV, Harvey's Shop"
-	},
-	{
-		Name: 'Watering Trough',
-		Price: '1,100',
-		'HHA Themes': 'Rustic',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Watermelon',
-		Price: 'NFS',
-		Source: "Plucky's RV, Harvey's Shop"
-	},
-	{
-		Name: 'Watermelon Chair',
-		Price: '1,300',
-		'HHA Themes': 'Rustic',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Watermelon Table',
-		Price: '1,800',
-		'HHA Themes': 'Rustic',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Wave Breaker',
-		Price: '1,760',
-		'HHA Themes': 'None',
-		Source: "Gulliver's RV, Timmy & Tommy"
-	},
-	{
-		Name: 'Wedding Cake',
-		Price: '600',
-		'HHA Themes': 'Fairy Tale',
-		Source: 'Gracie Grace (during sales)'
-	},
-	{
-		Name: 'Weeping Fig',
-		Price: '1,200',
-		'HHA Themes': 'Rustic',
-		Source: "Franklin's RV, Gardening Store (TIY)"
-	},
-	{
-		Name: 'Weight Bench',
-		Price: '3,590',
-		'HHA Themes': 'None',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Well',
-		Price: '2,700',
-		'HHA Themes': 'Quirky, Rustic',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: "Wendell's Painting",
-		Price: 'NFS',
-		Source: "Wendell's RV"
-	},
-	{
-		Name: 'Western Fence',
-		Price: '880',
-		'HHA Themes': 'Rustic',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Wet-Road Sign',
-		Price: '850',
-		'HHA Themes': 'None',
-		Source: "Boyd's RV, Timmy & Tommy"
-	},
-	{
-		Name: 'Wheat Bundle',
-		Price: 'NFS',
-		'HHA Themes': 'Rustic',
-		Source: "Boots' RV, Autumn Moon (Isabelle; NA only)"
-	},
-	{
-		Name: 'Wheat Field',
-		Price: '380',
-		'HHA Themes': 'Rustic',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Whirlpool Bath',
-		Price: '70 Medals',
-		'HHA Themes': 'Sci-Fi, Trendy',
-		Source: 'Island Gift Shop (Club Tortimer Members)'
-	},
-	{
-		Name: 'White Festive Tree',
-		Price: 'NFS',
-		Source: 'DLC'
-	},
-	{
-		Name: 'White Katana',
-		Price: '36,800',
-		'HHA Themes': 'Antique, Harmonious, Quirky',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'White Office Desk',
-		Price: 'NFS',
-		Source: "Cleo's RV"
-	},
-	{
-		Name: 'White Pot',
-		Price: '1,200',
-		'HHA Themes': 'None',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Whiteboard',
-		Price: '1,800',
-		'HHA Themes': 'Sci-Fi',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Whole Pizza',
-		Price: 'NFS',
-		Source: "Ketchup's RV, Harvey's Shop"
-	},
-	{
-		Name: 'Wide-Screen TV',
-		Price: '2,200',
-		'HHA Themes': 'Sci-Fi',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Wii Balance Board',
-		Price: '840',
-		'HHA Themes': 'Toy Shop, Trendy',
-		Source: 'Fortune Cookie #41'
-	},
-	{
-		Name: 'Wii Remote Cabinet',
-		Price: 'NFS',
-		Source: "Villager's RV"
-	},
-	{
-		Name: 'Wii U Console',
-		Price: 'NFS',
-		Source:
-			"Celeste/Cyrus/Digby/Hopkins/Isabelle/K.K./Kapp'n/Kicks/Lottie/Mabel/Reese/Resetti/Rover/Timmy & Tommy/Tom Nook/ Villager's RV, Fortune cookie #51, Fortune cookie #52"
-	},
-	{
-		Name: 'Wii U Game Shelf',
-		Price: 'NFS',
-		Source: 'Clear all intemediate levels in Desert Island Escape'
-	},
-	{
-		Name: 'Wii U Station',
-		Price: 'NFS',
-		Source: 'Clear all beginner levels in Desert Island Escape'
-	},
-	{
-		Name: 'Wobbelina',
-		Price: '700',
-		'HHA Themes': 'Fairy Tale, Toy Shop',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Wood Display Stand',
-		Price: 'NFS',
-		Source: "Buzz/Jack/Norma/Rex's RV, Harvey's Shop"
-	},
-	{
-		Name: 'Wooden Bear',
-		Price: 'NFS',
-		Source: "Wade's RV, Harvey's Shop"
-	},
-	{
-		Name: 'Wooden Box',
-		Price: '200',
-		'HHA Themes': 'None',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Wooden Bucket',
-		Price: 'NFS',
-		Source: "Maggie's RV, Harvey's Shop"
-	},
-	{
-		Name: 'Wooden Counter',
-		Price: 'NFS',
-		Source: "Bea's RV, Bitty's RV"
-	},
-	{
-		Name: 'Wooden Duckboards',
-		Price: 'NFS',
-		Source: "Louie/Paolo's RV, Harvey's Shop"
-	},
-	{
-		Name: 'Wooden Stool',
-		Price: '1,000',
-		'HHA Themes': 'Rustic',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Wood-Plank Table',
-		Price: 'NFS',
-		Source: "Kapp'n/Snooty/Ursala's RV, Harvey's Shop"
-	},
-	{
-		Name: 'Worktable',
-		Price: 'NFS',
-		Source: "Buzz/Cyrus/Ketchup/Norma's RV, Harvey's Shop"
-	},
-	{
-		Name: 'World Map',
-		Price: '1,200',
-		'HHA Themes': 'None',
-		Source: 'Katie'
-	},
-	{
-		Name: 'Writing Chair',
-		Price: '1,000',
-		'HHA Themes': 'Sci-Fi',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Writing Desk',
-		Price: '1,900',
-		'HHA Themes': 'Sci-Fi',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Wyvern Eggs',
-		Price: 'NFS',
-		Source: "Felyne's RV"
-	},
-	{
-		Name: 'Xylophone',
-		Price: 'NFS',
-		Source: "Weber's RV"
-	},
-	{
-		Name: 'Yarn Basket',
-		Price: 'NFS',
-		Source: "Mabel/Stella's RV"
-	},
-	{
-		Name: 'Yellow Certificate',
-		Price: '960',
-		'HHA Themes': 'None',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: "Yoshi's Egg",
-		Price: '840',
-		'HHA Themes': 'Toy Shop',
-		Source: 'Fortune Cookie #29'
-	},
-	{
-		Name: 'Yule Log',
-		Price: '1,000',
-		'HHA Themes': 'Fairy Tale',
-		Source: "Jingle's RV, DLC (Japan)"
-	},
-	{
-		Name: 'Yut Board',
-		Price: '500',
-		'HHA Themes': 'Harmonious, Toy Shop',
-		Source: "Lunar New Year's Day (Isabelle; Korea Only)"
-	},
-	{
-		Name: 'Zen Backpack',
-		Price: 'NFS',
-		Source: "Leopold's RV"
-	},
-	{
-		Name: 'Zen Barrel',
-		Price: 'NFS',
-		Source: "Boots/Tad's RV, Harvey's Shop"
-	},
-	{
-		Name: 'Zen Chair',
-		Price: 'NFS',
-		Source: "Blathers/Sylvana's RV"
-	},
-	{
-		Name: 'Zen Cupboard',
-		Price: 'NFS',
-		Source: "Snooty's RV"
-	},
-	{
-		Name: 'Zen Cushion',
-		Price: 'NFS',
-		Source: "Snooty's RV"
-	},
-	{
-		Name: 'Zen Desk',
-		Price: 'NFS',
-		Source: "Hornsby/Snooty's RV"
-	},
-	{
-		Name: 'Zen Low Table',
-		Price: 'NFS',
-		Source: "Billy/Timmy & Tommy/Wade's RV"
-	},
-	{
-		Name: 'Zen Phone Stand',
-		Price: 'NFS',
-		Source: "Billy's RV"
-	},
-	{
-		Name: 'Zen Screen',
-		Price: 'NFS',
-		Source: "Wade's RV"
-	},
-	{
-		Name: 'Zen Tea Set',
-		Price: 'NFS',
-		Source: "Joan/Snooty's RV"
-	},
-	{
-		Name: 'Zero Lamp',
-		Price: '10,000',
-		'HHA Themes': 'Trendy',
-		Source: 'Timmy & Tommy (Spotlight Item)'
-	},
-	{
-		Name: 'Zodiac Boar',
-		Price: '480',
-		'HHA Themes': 'Harmonious',
-		Source: "Joan's RV, New Year's (Isabelle)"
-	},
-	{
-		Name: 'Zodiac Dog',
-		Price: '480',
-		'HHA Themes': 'Harmonious',
-		Source: "New Year's (Isabelle)"
-	},
-	{
-		Name: 'Zodiac Dragon',
-		Price: '480',
-		'HHA Themes': 'Harmonious',
-		Source: "New Year's (Isabelle)"
-	},
-	{
-		Name: 'Zodiac Goat',
-		Price: '480',
-		'HHA Themes': 'Harmonious',
-		Source: "New Year's (Isabelle)"
-	},
-	{
-		Name: 'Zodiac Horse',
-		Price: '480',
-		'HHA Themes': 'Harmonious',
-		Source: "New Year's (Isabelle)"
-	},
-	{
-		Name: 'Zodiac Monkey',
-		Price: '480',
-		'HHA Themes': 'Harmonious',
-		Source: "New Year's (Isabelle)"
-	},
-	{
-		Name: 'Zodiac Ox',
-		Price: '480',
-		'HHA Themes': 'Harmonious',
-		Source: "New Year's (Isabelle)"
-	},
-	{
-		Name: 'Zodiac Rabbit',
-		Price: '480',
-		'HHA Themes': 'Harmonious',
-		Source: "New Year's (Isabelle)"
-	},
-	{
-		Name: 'Zodiac Rat',
-		Price: '480',
-		'HHA Themes': 'Harmonious',
-		Source: "New Year's (Isabelle)"
-	},
-	{
-		Name: 'Zodiac Rooster',
-		Price: '480',
-		'HHA Themes': 'Harmonious',
-		Source: "New Year's (Isabelle)"
-	},
-	{
-		Name: 'Zodiac Snake',
-		Price: '480',
-		'HHA Themes': 'Harmonious',
-		Source: "New Year's (Isabelle)"
-	}
+    {
+        "Name": "? Block",
+        "Source": "Fortune Cookie",
+        "Price": "NFS",
+        "SalePrice": 210,
+        "Theme": "Hobby",
+        "Style": "Fancy",
+        "Color": "Orange/Brown"
+    },
+    {
+        "Name": "1-Up Mushroom",
+        "Source": "Fortune Cookie",
+        "Price": "NFS",
+        "SalePrice": 210,
+        "Theme": "Hobby",
+        "Style": "Fancy",
+        "Color": "Green/Orange"
+    },
+    {
+        "Name": "2017 Cake",
+        "Price": "NFS",
+        "Source": "DLC",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "24-Hour-Shop ABD",
+        "Price": "NFS",
+        "Theme": "None",
+        "Source": "DLC (Japan)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "24-Hour-Shop Banner",
+        "Price": "NFS",
+        "Source": "Filly's RV (7-11)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "24-Hour-Shop Baskets",
+        "Price": "NFS",
+        "Source": "Filly's RV (7-11)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "24-Hour-Shop Clock",
+        "Price": "NFS",
+        "Source": "Filly's RV (7-11)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "24-Hour-Shop Counter",
+        "Price": "NFS",
+        "Theme": "None",
+        "Source": "Filly's RV, DLC (Japan)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "24-Hour-Shop Model",
+        "Price": "NFS",
+        "Theme": "Toy Shop",
+        "Source": "Filly's RV, DLC (Japan)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "24-Hour-Shop Sign",
+        "Price": "NFS",
+        "Theme": "None",
+        "Source": "Filly's RV, DLC (Japan)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "ABD",
+        "Source": "Savings",
+        "Price": "NFS",
+        "SalePrice": 250,
+        "Theme": "N/A",
+        "Style": "Safe",
+        "Color": "Gray/Gray"
+    },
+    {
+        "Name": "Accordion Screen",
+        "Price": "NFS",
+        "Source": "Resetti's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Afternoon-Tea Set",
+        "Price": "NYR",
+        "Theme": "Fairy Tale",
+        "Source": "Sandy's RV, DLC (Japan)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Air Conditioner",
+        "Source": "Nooklings Shop",
+        "Price": 2500,
+        "SalePrice": 625,
+        "Theme": "Science",
+        "Style": "Safe",
+        "Color": "N/A/N/A"
+    },
+    {
+        "Name": "Air Pump",
+        "Price": "NFS",
+        "Source": "Tybalt's RV, Harvey's Shop",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Air Purifier",
+        "Price": "NFS",
+        "Source": "Murphy's RV, Harvey's Shop",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Alarm Clock",
+        "Source": "Nooklings Shop",
+        "Price": 1000,
+        "SalePrice": 250,
+        "Theme": "N/A",
+        "Style": "Safe",
+        "Color": "Beige/Beige"
+    },
+    {
+        "Name": "Aloe",
+        "Source": "Garden Center",
+        "Price": 1200,
+        "SalePrice": 300,
+        "Theme": "Natural",
+        "Style": "Safe",
+        "Color": "Green/Brown"
+    },
+    {
+        "Name": "Alpine Bed",
+        "Source": "Nooklings Shop",
+        "Price": 2400,
+        "SalePrice": 600,
+        "Theme": "Natural",
+        "Style": "Traditional",
+        "Color": "Brown/Gray"
+    },
+    {
+        "Name": "Alpine Chair",
+        "Source": "Nooklings Shop",
+        "Price": 2000,
+        "SalePrice": 500,
+        "Theme": "Natural",
+        "Style": "Traditional",
+        "Color": "Brown/Gray"
+    },
+    {
+        "Name": "Alpine Closet",
+        "Source": "Nooklings Shop",
+        "Price": 2380,
+        "SalePrice": 595,
+        "Theme": "Natural",
+        "Style": "Traditional",
+        "Color": "Brown/Gray"
+    },
+    {
+        "Name": "Alpine Dresser",
+        "Source": "Nooklings Shop",
+        "Price": 2200,
+        "SalePrice": 550,
+        "Theme": "Natural",
+        "Style": "",
+        "Color": "Brown/Gray"
+    },
+    {
+        "Name": "Alpine Kitchen Cart",
+        "Price": "1,960",
+        "Theme": "Rustic",
+        "Source": "Timmy & Tommy",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Alpine Lamp",
+        "Source": "Nooklings Shop",
+        "Price": 2000,
+        "SalePrice": 500,
+        "Theme": "Natural",
+        "Style": "Traditional",
+        "Color": "Brown/Gray"
+    },
+    {
+        "Name": "Alpine Low Table",
+        "Price": "2,000",
+        "Theme": "Rustic",
+        "Source": "Isabelle/Jingle's RV, Timmy & Tommy",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Alpine Panel",
+        "Source": "Nooklings Shop",
+        "Price": 1800,
+        "SalePrice": 450,
+        "Theme": "Natural",
+        "Style": "Traditional",
+        "Color": "Brown/Gray"
+    },
+    {
+        "Name": "Alpine Shelf",
+        "Price": "2,100",
+        "Theme": "Rustic",
+        "Source": "Timmy & Tommy",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Alpine Sofa",
+        "Source": "Nooklings Shop",
+        "Price": 2360,
+        "SalePrice": 590,
+        "Theme": "Natural",
+        "Style": "Traditional",
+        "Color": "Brown/Gray"
+    },
+    {
+        "Name": "Alto Saxophone",
+        "Price": "NFS",
+        "Source": "Weber's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Aluminum Briefcase",
+        "Price": "NFS",
+        "Theme": "Sci-Fi, Trendy",
+        "Source": "5Mil Bells in Savings Account",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Amazing Machine",
+        "Source": "Nooklings Shop",
+        "Price": 3600,
+        "SalePrice": 900,
+        "Theme": "Horror/Science",
+        "Style": "Crazy",
+        "Color": "Black/Black"
+    },
+    {
+        "Name": "Amiibo Shelf",
+        "Price": "NFS",
+        "Source": "Complete every Advanced level in Desert Island Escape",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Amp",
+        "Source": "Nooklings Shop",
+        "Price": 2400,
+        "SalePrice": 600,
+        "Theme": "Science",
+        "Style": "Rock",
+        "Color": "Black/Black"
+    },
+    {
+        "Name": "Anatomical Model",
+        "Source": "Nooklings Shop",
+        "Price": 3360,
+        "SalePrice": 840,
+        "Theme": "Horror/Science",
+        "Style": "Fancy",
+        "Color": "Colorful/Colorful"
+    },
+    {
+        "Name": "Anchor",
+        "Source": "Pascal",
+        "Price": "NFS",
+        "SalePrice": 475,
+        "Theme": "Hobby",
+        "Style": "Old",
+        "Color": "Brown/Black"
+    },
+    {
+        "Name": "Antique Clock",
+        "Source": "Nooklings Shop",
+        "Price": 2350,
+        "SalePrice": 587,
+        "Theme": "Antique",
+        "Style": "Old",
+        "Color": "Brown/Brown"
+    },
+    {
+        "Name": "Antique Shelf",
+        "Price": "NFS",
+        "Source": "Reese's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Aquarius Urn",
+        "Price": "4,800",
+        "Theme": "None",
+        "Source": "Sahara's RV, DLC (Japan)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Arc de Triomphe",
+        "Source": "Spotlight Item/Wishy",
+        "Price": 9200,
+        "SalePrice": 2300,
+        "Theme": "Hobby",
+        "Style": "Traditional",
+        "Color": "Gray/Gray"
+    },
+    {
+        "Name": "Arcade Machine",
+        "Source": "Nooklings Shop",
+        "Price": 4400,
+        "SalePrice": 1100,
+        "Theme": "Hobby",
+        "Style": "Rock",
+        "Color": "Colorful/White"
+    },
+    {
+        "Name": "Aries Rocking Chair",
+        "Price": "4,800",
+        "Theme": "None",
+        "Source": "DLC (Japan)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Aroma Pot",
+        "Source": "Nooklings Shop",
+        "Price": 1200,
+        "SalePrice": 300,
+        "Theme": "Stylish",
+        "Style": "Fancy",
+        "Color": "Gray/Gray"
+    },
+    {
+        "Name": "Arrow Sign",
+        "Source": "Museum Shop",
+        "Price": 3500,
+        "SalePrice": 875,
+        "Theme": "Stylish",
+        "Style": "Formal",
+        "Color": "Blue/White"
+    },
+    {
+        "Name": "Arwing",
+        "Source": "Fortune Cookie",
+        "Price": "NFS",
+        "SalePrice": 210,
+        "Theme": "Hobby/Science",
+        "Style": "Modern",
+        "Color": "Blue/Gray"
+    },
+    {
+        "Name": "Asteroid",
+        "Source": "Nooklings Shop",
+        "Price": 1800,
+        "SalePrice": 450,
+        "Theme": "Hobby/Science",
+        "Style": "Crazy",
+        "Color": "Brown/Gray"
+    },
+    {
+        "Name": "Astro Bed",
+        "Source": "Nooklings Shop",
+        "Price": 3200,
+        "SalePrice": 800,
+        "Theme": "Science/Stylish",
+        "Style": "Crazy",
+        "Color": "Orange/White"
+    },
+    {
+        "Name": "Astro CD Player",
+        "Price": "3,600",
+        "Theme": "Sci-Fi, Trendy",
+        "Source": "Timmy & Tommy",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Astro Chair",
+        "Source": "Nooklings Shop",
+        "Price": 2800,
+        "SalePrice": 700,
+        "Theme": "Science/Stylish",
+        "Style": "Crazy",
+        "Color": "Orange/White"
+    },
+    {
+        "Name": "Astro Clock",
+        "Source": "Nooklings Shop",
+        "Price": 2980,
+        "SalePrice": 745,
+        "Theme": "Science/Stylish",
+        "Style": "Crazy",
+        "Color": "Orange/White"
+    },
+    {
+        "Name": "Astro Closet",
+        "Source": "Nooklings Shop",
+        "Price": 3480,
+        "SalePrice": 870,
+        "Theme": "Science/Stylish",
+        "Style": "Crazy",
+        "Color": "Orange/White"
+    },
+    {
+        "Name": "Astro Dresser",
+        "Price": "3,400",
+        "Theme": "Sci-Fi, Trendy",
+        "Source": "Timmy & Tommy",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Astro Lamp",
+        "Source": "Nooklings Shop",
+        "Price": 2680,
+        "SalePrice": 670,
+        "Theme": "Science/Stylish",
+        "Style": "Crazy",
+        "Color": "Orange/White"
+    },
+    {
+        "Name": "Astro Shelf",
+        "Source": "Nooklings Shop",
+        "Price": 2800,
+        "SalePrice": 700,
+        "Theme": "Science/Stylish",
+        "Style": "Crazy",
+        "Color": "Orange/White"
+    },
+    {
+        "Name": "Astro Sofa",
+        "Source": "Nooklings Shop",
+        "Price": 3280,
+        "SalePrice": 820,
+        "Theme": "Science/Stylish",
+        "Style": "Crazy",
+        "Color": "Orange/White"
+    },
+    {
+        "Name": "Astro Table",
+        "Source": "Nooklings Shoop",
+        "Price": 3000,
+        "SalePrice": 750,
+        "Theme": "Science/Stylish",
+        "Style": "Crazy",
+        "Color": "Orange/White"
+    },
+    {
+        "Name": "Astro TV",
+        "Source": "Nooklings Shop",
+        "Price": 32000,
+        "SalePrice": 800,
+        "Theme": "Science/Stylish",
+        "Style": "Crazy",
+        "Color": "Orange/White"
+    },
+    {
+        "Name": "Aurora Screen",
+        "Source": "DLC",
+        "Price": 4080,
+        "SalePrice": 1020,
+        "Theme": "???",
+        "Style": "???",
+        "Color": "???/???"
+    },
+    {
+        "Name": "Autograph Cards",
+        "Price": "NFS",
+        "Source": "Harvey's Shop",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Automatic Washer",
+        "Source": "Nooklings Shop",
+        "Price": 4800,
+        "SalePrice": 1200,
+        "Theme": "Science",
+        "Style": "Safe",
+        "Color": "White/White"
+    },
+    {
+        "Name": "Autumn-Leaf Chair",
+        "Price": "4,440",
+        "Theme": "Rustic",
+        "Source": "Nat's RV, DLC (Japan)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Ayers Rock",
+        "Price": "1,200",
+        "Theme": "None",
+        "Source": "Gulliver (Answer Correct)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Azalea Bonsai",
+        "Source": "Garden Center",
+        "Price": 1500,
+        "SalePrice": 375,
+        "Theme": "Natural/Oriental",
+        "Style": "Traditional",
+        "Color": "Blue/Pink"
+    },
+    {
+        "Name": "Azalea Stool",
+        "Source": "Grass Day",
+        "Price": "NFS",
+        "SalePrice": 550,
+        "Theme": "Fairytale/Natural",
+        "Style": "Fancy",
+        "Color": "Pink/Pink"
+    },
+    {
+        "Name": "Baby Bear",
+        "Source": "Nooklings Shop",
+        "Price": 800,
+        "SalePrice": 200,
+        "Theme": "Fairytale/Hobby",
+        "Style": "Fancy",
+        "Color": "Orange/Orange"
+    },
+    {
+        "Name": "Baby Bed",
+        "Source": "Nooklings Shop",
+        "Price": 2900,
+        "SalePrice": 725,
+        "Theme": "Fairytale",
+        "Style": "Fancy",
+        "Color": "Colorful/White"
+    },
+    {
+        "Name": "Baby Panda",
+        "Source": "Nooklings Shop",
+        "Price": 480,
+        "SalePrice": 120,
+        "Theme": "Fairytale/Hobby/Oriental",
+        "Style": "Fancy",
+        "Color": "Green/White"
+    },
+    {
+        "Name": "Backpack",
+        "Source": "Tent Camper",
+        "Price": 1980,
+        "SalePrice": 495,
+        "Theme": "N/A",
+        "Style": "Sporty",
+        "Color": "Blue/Brown"
+    },
+    {
+        "Name": "Backyard Pool",
+        "Source": "Nooklings Shop",
+        "Price": 990,
+        "SalePrice": 247,
+        "Theme": "N/A",
+        "Style": "Sporty",
+        "Color": "Aqua/Aqua"
+    },
+    {
+        "Name": "Bagpipes",
+        "Source": "Gulliver",
+        "Price": 1200,
+        "SalePrice": 300,
+        "Theme": "N/A",
+        "Style": "Traditional",
+        "Color": "Brown/Black"
+    },
+    {
+        "Name": "Balance Beam",
+        "Price": "NFS",
+        "Source": "Louie's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Ball",
+        "Price": "NFS",
+        "Source": "Gulliver/Tybalt's RV, Harvey's Shop",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Ball Catcher",
+        "Source": "Nooklings Shop",
+        "Price": 2040,
+        "SalePrice": 510,
+        "Theme": "N/A",
+        "Style": "Sporty",
+        "Color": "Blue/Brown"
+    },
+    {
+        "Name": "Ball Return",
+        "Source": "Nooklings Shop",
+        "Price": 6200,
+        "SalePrice": 1550,
+        "Theme": "Hobby",
+        "Style": "Sporty",
+        "Color": "Colorful/White"
+    },
+    {
+        "Name": "Balloon Bed",
+        "Source": "Balloon",
+        "Price": "NFS",
+        "SalePrice": 800,
+        "Theme": "Hobby",
+        "Style": "Fancy",
+        "Color": "Colorful/Colorful"
+    },
+    {
+        "Name": "Balloon Chair",
+        "Source": "Balloon",
+        "Price": "NFS",
+        "SalePrice": 620,
+        "Theme": "Hobby",
+        "Style": "Fancy",
+        "Color": "Colorful/Colorful"
+    },
+    {
+        "Name": "Balloon Clock",
+        "Source": "Balloon",
+        "Price": "NFS",
+        "SalePrice": 620,
+        "Theme": "Hobby",
+        "Style": "Fancy",
+        "Color": "Colorful/Colorful"
+    },
+    {
+        "Name": "Balloon Closet",
+        "Source": "Balloon",
+        "Price": "NFS",
+        "SalePrice": 745,
+        "Theme": "Hobby",
+        "Style": "Fancy",
+        "Color": "Colorful/Colorful"
+    },
+    {
+        "Name": "Balloon Dresser",
+        "Source": "Balloon",
+        "Price": "NFS",
+        "SalePrice": 670,
+        "Theme": "Hobby",
+        "Style": "Fancy",
+        "Color": "Colorful/Colorful"
+    },
+    {
+        "Name": "Balloon Lamp",
+        "Source": "Balloon",
+        "Price": "NFS",
+        "SalePrice": 640,
+        "Theme": "Hobby",
+        "Style": "Fancy",
+        "Color": "Colorful/Colorful"
+    },
+    {
+        "Name": "Balloon Sofa",
+        "Source": "Balloon",
+        "Price": "NFS",
+        "SalePrice": 670,
+        "Theme": "Hobby",
+        "Style": "Fancy",
+        "Color": "Colorful/Colorful"
+    },
+    {
+        "Name": "Balloon Table",
+        "Source": "Balloon",
+        "Price": "NFS",
+        "SalePrice": 720,
+        "Theme": "Hobby",
+        "Style": "Fancy",
+        "Color": "Colorful/Colorful"
+    },
+    {
+        "Name": "Balloon TV",
+        "Source": "Balloon",
+        "Price": "NFS",
+        "SalePrice": 700,
+        "Theme": "Hobby",
+        "Style": "Fancy",
+        "Color": "Colorful/Colorful"
+    },
+    {
+        "Name": "Balloon Vanity",
+        "Source": "Balloon",
+        "Price": "NFS",
+        "SalePrice": 700,
+        "Theme": "Hobby",
+        "Style": "Fancy",
+        "Color": "Colorful/Colorful"
+    },
+    {
+        "Name": "Balloon-Dog Lamp",
+        "Price": "3,000",
+        "Theme": "Toy Shop",
+        "Source": "Gift Balloon",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Bamboo Bench",
+        "Price": "NFS",
+        "Source": "Boot's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Bamboo Fence",
+        "Price": "NFS",
+        "Source": "Tad's RV, Harvey's Shop",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Bamboo Grass",
+        "Source": "Tanabata",
+        "Price": "NFS",
+        "SalePrice": 770,
+        "Theme": "Oriental",
+        "Style": "Traditional",
+        "Color": "Green/Colorful"
+    },
+    {
+        "Name": "Banana Flower Basket",
+        "Price": "NFS",
+        "Source": "Kapp'n's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Barbecue",
+        "Source": "Nooklings Shop",
+        "Price": 1760,
+        "SalePrice": 440,
+        "Theme": "N/A",
+        "Style": "Sporty",
+        "Color": "Red/Red"
+    },
+    {
+        "Name": "Barbecue Bed",
+        "Price": "2,844",
+        "Theme": "None",
+        "Source": "Filly's RV (7-11), DLC (Japan)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Barbecue Spit",
+        "Price": "NFS",
+        "Source": "Felyne's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Barbell",
+        "Price": "NFS",
+        "Source": "Louie's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Barber's Pole",
+        "Source": "Nooklings Shop",
+        "Price": 1600,
+        "SalePrice": 400,
+        "Theme": "N/A",
+        "Style": "Fancy",
+        "Color": "Colorful/Colorful"
+    },
+    {
+        "Name": "Barrel",
+        "Source": "Pascal",
+        "Price": "NFS",
+        "SalePrice": 200,
+        "Theme": "Hobby",
+        "Style": "Old",
+        "Color": "Brown/Brown"
+    },
+    {
+        "Name": "Barrel Planter",
+        "Price": "NFS",
+        "Source": "Maggie's RV, Harvey's Shop",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Baseball Set",
+        "Price": "NFS",
+        "Source": "Tybalt's RV, Harvey's Shop",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Basic Display Stand",
+        "Price": "NFS",
+        "Source": "Candi/Ursala/Weber's RV, Harvey's Shop",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Basic Teacher's Desk",
+        "Price": "NFS",
+        "Source": "Blathers/Leopold's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Basic Trash Can",
+        "Price": "NFS",
+        "Source": "Digby/Hornsby/Vivian's RV, Harvey's Shop",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Basket Chair",
+        "Price": "NFS",
+        "Source": "Isabelle/Stella/Tasha's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Basketball Hoop",
+        "Source": "Nooklings Shop",
+        "Price": 2120,
+        "SalePrice": 530,
+        "Theme": "N/A",
+        "Style": "Sporty",
+        "Color": "Gray/White"
+    },
+    {
+        "Name": "Bass",
+        "Source": "Nooklings Shop",
+        "Price": 2400,
+        "SalePrice": 600,
+        "Theme": "N/A",
+        "Style": "Safe",
+        "Color": "Brown/Brown"
+    },
+    {
+        "Name": "Bath Mat",
+        "Source": "Nooklings Shop",
+        "Price": 600,
+        "SalePrice": 150,
+        "Theme": "Oriental",
+        "Style": "Safe",
+        "Color": "Green/Green"
+    },
+    {
+        "Name": "Bath Set",
+        "Price": "NFS",
+        "Source": "Paolo's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Bathroom Shelf",
+        "Price": "NFS",
+        "Source": "Harvey's Shop",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Bathroom Sink",
+        "Price": "1,200",
+        "Theme": "None",
+        "Source": "Timmy & Tommy",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Bathroom Stall",
+        "Price": "2,000",
+        "Theme": "None",
+        "Source": "Resetti's RV, Timmy & Tommy",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Bathtub",
+        "Source": "Nooklings Shop",
+        "Price": 2400,
+        "SalePrice": 600,
+        "Theme": "Oriental",
+        "Style": "Safe",
+        "Color": "Aqua/Aqua"
+    },
+    {
+        "Name": "Beach Chair",
+        "Source": "Island",
+        "Price": 1750,
+        "SalePrice": 437,
+        "Theme": "N/A",
+        "Style": "Sporty",
+        "Color": "White/White"
+    },
+    {
+        "Name": "Beach Table",
+        "Source": "Island",
+        "Price": 1500,
+        "SalePrice": 375,
+        "Theme": "N/A",
+        "Style": "Sporty",
+        "Color": "Blue/White"
+    },
+    {
+        "Name": "Beacon Fire",
+        "Price": "1,000",
+        "Theme": "Harmonious",
+        "Source": "Timmy & Tommy",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Bear Pole",
+        "Source": "Nooklings Shop",
+        "Price": 1400,
+        "SalePrice": 350,
+        "Theme": "Natural",
+        "Style": "Traditional",
+        "Color": "Colorful/Brown"
+    },
+    {
+        "Name": "Beauty Salon Cart",
+        "Price": "NFS",
+        "Source": "Tasha's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Beetle Chair",
+        "Source": "Nat",
+        "Price": "NFS",
+        "SalePrice": 450,
+        "Theme": "Hobby",
+        "Style": "Fancy",
+        "Color": "Brown/Brown"
+    },
+    {
+        "Name": "Bell Knickknack",
+        "Price": "NFS",
+        "Theme": "Harmonious",
+        "Source": "Countdown (Isabelle; Korea Only)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Berliner",
+        "Source": "Countdown",
+        "Price": "NFS",
+        "SalePrice": "NFS",
+        "Theme": "Fairytale",
+        "Style": "Traditional",
+        "Color": "White/White"
+    },
+    {
+        "Name": "Big Amp",
+        "Price": "NFS",
+        "Source": "Sprocket's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Big Ben",
+        "Source": "Gulliver",
+        "Price": 1200,
+        "SalePrice": 300,
+        "Theme": "N/A",
+        "Style": "Traditional",
+        "Color": "Beige/Beige"
+    },
+    {
+        "Name": "Big Festive Tree",
+        "Source": "Nooklings Shop (Holiday)",
+        "Price": 2480,
+        "SalePrice": 620,
+        "Theme": "Hobby/Natural",
+        "Style": "Fancy",
+        "Color": "Green/Colorful"
+    },
+    {
+        "Name": "Bilboquet",
+        "Price": "2,000",
+        "Theme": "Harmonious, Toy Shop",
+        "Source": "Timmy & Tommy",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Bill Blaster",
+        "Price": "840",
+        "Theme": "Toy Shop",
+        "Source": "Fortune Cookie #28",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Billard Table",
+        "Price": "1,800",
+        "Theme": "Toy Shop",
+        "Source": "Timmy & Tommy",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Billboard",
+        "Price": "NFS",
+        "Source": "Copper's RV, Harvey's Shop",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Bingo Wheel",
+        "Source": "Nooklings Shop",
+        "Price": 2400,
+        "SalePrice": 600,
+        "Theme": "Hobby",
+        "Style": "Rock",
+        "Color": "Yellow/Black"
+    },
+    {
+        "Name": "Bird Feeder",
+        "Source": "Nooklings Shop",
+        "Price": 1260,
+        "SalePrice": 315,
+        "Theme": "N/A",
+        "Style": "Fancy",
+        "Color": "Brown/White"
+    },
+    {
+        "Name": "Birdbath",
+        "Price": "1,450",
+        "Theme": "None",
+        "Source": "Timmy & Tommy",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Birdcage",
+        "Source": "Nooklings Shop",
+        "Price": 1700,
+        "SalePrice": 425,
+        "Theme": "Fairytale/Natural",
+        "Style": "Safe",
+        "Color": "Brown/Brown"
+    },
+    {
+        "Name": "Birdhouse",
+        "Source": "Nooklings Shop",
+        "Price": 1620,
+        "SalePrice": 405,
+        "Theme": "Natural",
+        "Style": "Fancy",
+        "Color": "Brown/Brown"
+    },
+    {
+        "Name": "Birthday Cake",
+        "Source": "Birthday",
+        "Price": "NFS",
+        "SalePrice": 100,
+        "Theme": "Fairytale",
+        "Style": "Fancy",
+        "Color": "Red/White"
+    },
+    {
+        "Name": "Birthday Candles",
+        "Price": "NFS",
+        "Theme": "Fairy Tale",
+        "Source": "Birthday (Friendship Level At Maximum With The 3 Neighbors)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Birthday Sign",
+        "Price": "NFS",
+        "Theme": "Fairy Tale",
+        "Source": "Birthday (Friendship Level At Maximum With The 3 Neighbors)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Birthday Table",
+        "Source": "Birthday",
+        "Price": "NFS",
+        "SalePrice": 300,
+        "Theme": "Fairytale",
+        "Style": "Fancy",
+        "Color": "Red/White"
+    },
+    {
+        "Name": "Bishop",
+        "Source": "Nooklings Shop",
+        "Price": 2800,
+        "SalePrice": 700,
+        "Theme": "Hobby",
+        "Style": "Modern",
+        "Color": "Brown/Brown"
+    },
+    {
+        "Name": "Bistro Table",
+        "Price": "NFS",
+        "Source": "Olive's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Biwa Lute",
+        "Source": "Nooklings Shop",
+        "Price": 1800,
+        "SalePrice": 450,
+        "Theme": "Oriental",
+        "Style": "Traditional",
+        "Color": "Brown/Brown"
+    },
+    {
+        "Name": "Black Katana",
+        "Source": "Nooklings Shop",
+        "Price": 12000,
+        "SalePrice": 3000,
+        "Theme": "Antique/Horror/Oriental",
+        "Style": "Traditional",
+        "Color": "Black/Black"
+    },
+    {
+        "Name": "Black Phone",
+        "Price": "NFS",
+        "Source": "Billy's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Block",
+        "Source": "Fortune Cookie",
+        "Price": "NFS",
+        "SalePrice": 210,
+        "Theme": "Hobby",
+        "Style": "Fancy",
+        "Color": "Brown/Brown"
+    },
+    {
+        "Name": "Blossom Lantern",
+        "Source": "Nooklings Shop (March)",
+        "Price": 2400,
+        "SalePrice": 600,
+        "Theme": "Oriental",
+        "Style": "Traditional",
+        "Color": "White/Black"
+    },
+    {
+        "Name": "Blowfish Sashimi",
+        "Price": "NFS",
+        "Source": "Chip's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Blue Bed",
+        "Source": "Nooklings",
+        "Price": 2100,
+        "SalePrice": 525,
+        "Theme": "Natural",
+        "Style": "Safe",
+        "Color": "Yellow/Blue"
+    },
+    {
+        "Name": "Blue Bench",
+        "Source": "Nooklings Shop",
+        "Price": 1900,
+        "SalePrice": 475,
+        "Theme": "Natural",
+        "Style": "Safe",
+        "Color": "Blue/Blue"
+    },
+    {
+        "Name": "Blue Bookcase",
+        "Source": "Nooklings Shop",
+        "Price": 1900,
+        "SalePrice": 475,
+        "Theme": "Natural",
+        "Style": "Safe",
+        "Color": "Blue/Blue"
+    },
+    {
+        "Name": "Blue Bureau",
+        "Source": "Nooklings Shop",
+        "Price": 2160,
+        "SalePrice": 540,
+        "Theme": "Natural",
+        "Style": "Safe",
+        "Color": "Blue/Blue"
+    },
+    {
+        "Name": "Blue Cabinet",
+        "Source": "Nooklings Shop",
+        "Price": 2400,
+        "SalePrice": 600,
+        "Theme": "Natural",
+        "Style": "Safe",
+        "Color": "Blue/Blue"
+    },
+    {
+        "Name": "Blue Certificate",
+        "Price": "960",
+        "Theme": "None",
+        "Source": "Timmy & Tommy",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Blue Chair",
+        "Source": "Nooklings Shop",
+        "Price": 1200,
+        "SalePrice": 300,
+        "Theme": "Natural",
+        "Style": "Safe",
+        "Color": "Blue/Blue"
+    },
+    {
+        "Name": "Blue Clock",
+        "Source": "Nooklings Shop",
+        "Price": 1600,
+        "SalePrice": 400,
+        "Theme": "Natural",
+        "Style": "Safe",
+        "Color": "Blue/Blue"
+    },
+    {
+        "Name": "Blue Corner",
+        "Source": "Spotlight Item/Wishy",
+        "Price": 6800,
+        "SalePrice": 1700,
+        "Theme": "N/A",
+        "Style": "Sporty",
+        "Color": "Blue/White"
+    },
+    {
+        "Name": "Blue Dresser",
+        "Source": "Nooklings Shop",
+        "Price": 2100,
+        "SalePrice": 525,
+        "Theme": "Natural",
+        "Style": "Safe",
+        "Color": "Blue/White"
+    },
+    {
+        "Name": "Blue Falcon",
+        "Source": "Fortune Cookie",
+        "Price": "NFS",
+        "SalePrice": 210,
+        "Theme": "Hobby/Science",
+        "Style": "Sporty",
+        "Color": "Blue/Blue"
+    },
+    {
+        "Name": "Blue Table",
+        "Source": "Nooklings Shop",
+        "Price": 1800,
+        "SalePrice": 450,
+        "Theme": "Natural",
+        "Style": "Safe",
+        "Color": "Yellow/Blue"
+    },
+    {
+        "Name": "Blue Vase",
+        "Source": "Nooklings Shop",
+        "Price": 2500,
+        "SalePrice": 625,
+        "Theme": "Antique/Oriental",
+        "Style": "Old",
+        "Color": "Aqua/Aqua"
+    },
+    {
+        "Name": "Blue Wall Shelf",
+        "Source": "Nooklings Shop",
+        "Price": 2000,
+        "SalePrice": 500,
+        "Theme": "Natural",
+        "Style": "Safe",
+        "Color": "Blue/Blue"
+    },
+    {
+        "Name": "Blue Wardrobe",
+        "Source": "Nooklings Shop",
+        "Price": 1920,
+        "SalePrice": 480,
+        "Theme": "Natural",
+        "Style": "Safe",
+        "Color": "Blue/Blue"
+    },
+    {
+        "Name": "Blueprints",
+        "Price": "NFS",
+        "Source": "Digby's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Board Game",
+        "Price": "NFS",
+        "Source": "Claude's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Bobsled",
+        "Price": "4,800",
+        "Theme": "None",
+        "Source": "Snowman",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Bomb",
+        "Price": "NFS",
+        "Source": "Ganon's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Bonfire",
+        "Source": "Tent Camper",
+        "Price": 2240,
+        "SalePrice": 560,
+        "Theme": "N/A",
+        "Style": "Sporty",
+        "Color": "Red/Brown"
+    },
+    {
+        "Name": "Book Stands",
+        "Price": "NFS",
+        "Source": "Dobie/Leopold's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Boomerang",
+        "Source": "Nooklings Shop",
+        "Price": 1200,
+        "SalePrice": 300,
+        "Theme": "N/A",
+        "Style": "Traditional",
+        "Color": "Aqua/Brown"
+    },
+    {
+        "Name": "Boston Bag",
+        "Price": "NFS",
+        "Source": "Rex/Rover/Stu's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Bottled Ship",
+        "Source": "Club Tortimer",
+        "Price": 3000,
+        "SalePrice": 750,
+        "Theme": "Hobby",
+        "Style": "Traditional",
+        "Color": "Brown/Gray"
+    },
+    {
+        "Name": "Bow",
+        "Source": "Nooklings Shop",
+        "Price": 1400,
+        "SalePrice": 350,
+        "Theme": "Antique/Horror/Oriental",
+        "Style": "Traditional",
+        "Color": "Yellow/Black"
+    },
+    {
+        "Name": "Bowl Sink",
+        "Price": "NFS",
+        "Source": "Stella's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Bowling Pins",
+        "Source": "Nooklings Shop",
+        "Price": 1200,
+        "SalePrice": 300,
+        "Theme": "Hobby",
+        "Style": "Sporty",
+        "Color": "White/White"
+    },
+    {
+        "Name": "Box Corner Sofa",
+        "Source": "Nooklings Shop",
+        "Price": 1600,
+        "SalePrice": 400,
+        "Theme": "Stylish",
+        "Style": "Safe",
+        "Color": "Green/Green"
+    },
+    {
+        "Name": "Box of Chocolates",
+        "Price": "20 Medals",
+        "Theme": "None",
+        "Source": "Island Gift Shop (Club Tortimer Members)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Box of Tissues",
+        "Source": "Savings",
+        "Price": "NFS",
+        "SalePrice": 320,
+        "Theme": "N/A",
+        "Style": "Safe",
+        "Color": "White/White"
+    },
+    {
+        "Name": "Box Sofa",
+        "Source": "Re-Tail",
+        "Price": "NFS",
+        "SalePrice": 240,
+        "Theme": "Horror",
+        "Style": "Crazy",
+        "Color": "Brown/Brown"
+    },
+    {
+        "Name": "Box with Helmet",
+        "Price": "NFS",
+        "Source": "Resetti's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Boxed Figurine",
+        "Price": "1,200",
+        "Theme": "Toy Shop",
+        "Source": "Redd (Fireworks Show; Bang Ticket)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Boxing Barricade",
+        "Source": "Nooklings Shop",
+        "Price": 1050,
+        "SalePrice": 262,
+        "Theme": "N/A",
+        "Style": "Sporty",
+        "Color": "Blue/Blue"
+    },
+    {
+        "Name": "Boxing Mat",
+        "Source": "Nooklings Shop",
+        "Price": 1180,
+        "SalePrice": 295,
+        "Theme": "N/A",
+        "Style": "Sporty",
+        "Color": "Blue/Blue"
+    },
+    {
+        "Name": "Box-Shaped Seat",
+        "Price": "NFS",
+        "Source": "Rex/Tad's RV, Harvey's Shop",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Bread Basket",
+        "Price": "NFS",
+        "Source": "Bea/Ellie's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Bread Box",
+        "Price": "800",
+        "Theme": "None",
+        "Source": "Bea's RV, Timmy & Tommy",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Bread-Making Set",
+        "Price": "NFS",
+        "Source": "Bea's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Breaker",
+        "Source": "Nooklings Shop",
+        "Price": 800,
+        "SalePrice": 200,
+        "Theme": "Science",
+        "Style": "Safe",
+        "Color": "White/White"
+    },
+    {
+        "Name": "Brick Oven",
+        "Price": "NFS",
+        "Source": "Ketchup's RV, Harvey's Shop",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Broken Post",
+        "Source": "Nooklings Shop",
+        "Price": 1800,
+        "SalePrice": 450,
+        "Theme": "Antique/Horror",
+        "Style": "Old",
+        "Color": "Gray/Gray"
+    },
+    {
+        "Name": "Bromeliaceae",
+        "Source": "Garden Center",
+        "Price": 1300,
+        "SalePrice": 325,
+        "Theme": "Natural",
+        "Style": "Safe",
+        "Color": "Green/White"
+    },
+    {
+        "Name": "Bronze Bug Trophy",
+        "Price": "NFS",
+        "Theme": "None",
+        "Source": "Bug Off",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Bronze Fish Trophy",
+        "Source": "Chip",
+        "Price": "NFS",
+        "SalePrice": 1150,
+        "Theme": "N/A",
+        "Style": "Gorgeous",
+        "Color": "N/A/N/A"
+    },
+    {
+        "Name": "Brown Pot",
+        "Source": "Nooklings Shop",
+        "Price": 800,
+        "SalePrice": 200,
+        "Theme": "N/A",
+        "Style": "Safe",
+        "Color": "Brown/Brown"
+    },
+    {
+        "Name": "Brown Seat",
+        "Price": "NFS",
+        "Source": "Digby/K.K./Spike's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Bucket",
+        "Source": "Nooklings Shop",
+        "Price": 600,
+        "SalePrice": 150,
+        "Theme": "Oriental",
+        "Style": "Safe",
+        "Color": "Yellow/Yellow"
+    },
+    {
+        "Name": "Buffet Server",
+        "Price": "2,844",
+        "Theme": "Harmonious",
+        "Source": "Filly's RV (7-11), DLC (Japan)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Bug Zapper",
+        "Source": "Nooklings Shop",
+        "Price": 1200,
+        "SalePrice": 300,
+        "Theme": "N/A",
+        "Style": "Fancy",
+        "Color": "Blue/Blue"
+    },
+    {
+        "Name": "Bunk Bed",
+        "Price": "2,800",
+        "Theme": "None",
+        "Source": "Timmy & Tommy's RV, Timmy & Tommy",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Bureom",
+        "Source": "Daeboreum",
+        "Price": "NFS",
+        "SalePrice": "NFS",
+        "Theme": "Oriental",
+        "Style": "Traditional",
+        "Color": "Red/Brown"
+    },
+    {
+        "Name": "Burger Meal",
+        "Price": "NFS",
+        "Source": "Huck's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Busing Station",
+        "Price": "NFS",
+        "Source": "Huck's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Bus-Stop Stand",
+        "Price": "NFS",
+        "Source": "Boyd's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Butterfly Machine",
+        "Source": "Nooklings Shop",
+        "Price": 2680,
+        "SalePrice": 670,
+        "Theme": "Science",
+        "Style": "Sporty",
+        "Color": "Gray/Black"
+    },
+    {
+        "Name": "Cabana Armchair",
+        "Source": "Island",
+        "Price": "40M",
+        "SalePrice": 500,
+        "Theme": "Natural/Oriental",
+        "Style": "Traditional",
+        "Color": "Brown/White"
+    },
+    {
+        "Name": "Cabana Bed",
+        "Source": "Island",
+        "Price": "40MN",
+        "SalePrice": 500,
+        "Theme": "Natural/Oriental",
+        "Style": "Traditional",
+        "Color": "Brown/White"
+    },
+    {
+        "Name": "Cabana Bookcase",
+        "Source": "Island",
+        "Price": "40M",
+        "SalePrice": 500,
+        "Theme": "Natural/Oriental",
+        "Style": "Traditional",
+        "Color": "Brown/Brown"
+    },
+    {
+        "Name": "Cabana Chair",
+        "Source": "Island",
+        "Price": "40M",
+        "SalePrice": 500,
+        "Theme": "Natural/Oriental",
+        "Style": "Traditional",
+        "Color": "Brown/Brown"
+    },
+    {
+        "Name": "Cabana Dresser",
+        "Source": "Island",
+        "Price": "40M",
+        "SalePrice": 500,
+        "Theme": "Natural/Oriental",
+        "Style": "Traditional",
+        "Color": "Brown/Brown"
+    },
+    {
+        "Name": "Cabana Lamp",
+        "Source": "Island",
+        "Price": "40M",
+        "SalePrice": 500,
+        "Theme": "Natural/Oriental",
+        "Style": "Traditional",
+        "Color": "Blue/Brown"
+    },
+    {
+        "Name": "Cabana Screen",
+        "Source": "Island",
+        "Price": "40M",
+        "SalePrice": 500,
+        "Theme": "Natural/Oriental",
+        "Style": "Traditional",
+        "Color": "Brown/Brown"
+    },
+    {
+        "Name": "Cabana Table",
+        "Source": "Island",
+        "Price": "40M",
+        "SalePrice": 500,
+        "Theme": "Natural/Oriental",
+        "Style": "Traditional",
+        "Color": "Brown/Brown"
+    },
+    {
+        "Name": "Cabana Vanity",
+        "Source": "Island",
+        "Price": "40M",
+        "SalePrice": 500,
+        "Theme": "Natural/Oriental",
+        "Style": "Traditional",
+        "Color": "Brown/Brown"
+    },
+    {
+        "Name": "Cabana Wall Radio",
+        "Source": "Island",
+        "Price": "40M",
+        "SalePrice": 500,
+        "Theme": "Natural/Oriental",
+        "Style": "Traditional",
+        "Color": "Brown/Brown"
+    },
+    {
+        "Name": "Cabana Wardrobe",
+        "Source": "Island",
+        "Price": "40M",
+        "SalePrice": 500,
+        "Theme": "Natural/Oriental",
+        "Style": "Traditional",
+        "Color": "Brown/Brown"
+    },
+    {
+        "Name": "Cabin Armchair",
+        "Source": "Nooklings Shop",
+        "Price": 2280,
+        "SalePrice": 570,
+        "Theme": "Natural",
+        "Style": "Traditional",
+        "Color": "Colorful/Brown"
+    },
+    {
+        "Name": "Cabin Bed",
+        "Source": "Nooklings Shop",
+        "Price": 2400,
+        "SalePrice": 600,
+        "Theme": "Natural",
+        "Style": "Traditional",
+        "Color": "Colorful/Brown"
+    },
+    {
+        "Name": "Cabin Bookcase",
+        "Source": "Nooklings Shop",
+        "Price": 2300,
+        "SalePrice": 575,
+        "Theme": "Natural",
+        "Style": "Traditional",
+        "Color": "Colorful/Brown"
+    },
+    {
+        "Name": "Cabin Chair",
+        "Source": "Nooklings Shop",
+        "Price": 1700,
+        "SalePrice": 425,
+        "Theme": "Natural",
+        "Style": "Traditional",
+        "Color": "Brown/Brown"
+    },
+    {
+        "Name": "Cabin Clock",
+        "Source": "Nooklings Shop",
+        "Price": 2000,
+        "SalePrice": 500,
+        "Theme": "Natural",
+        "Style": "Traditional",
+        "Color": "Brown/Brown"
+    },
+    {
+        "Name": "Cabin Couch",
+        "Source": "Nooklings Shop",
+        "Price": 2480,
+        "SalePrice": 620,
+        "Theme": "Natural",
+        "Style": "Traditional",
+        "Color": "Colorful/Brown"
+    },
+    {
+        "Name": "Cabin Dresser",
+        "Source": "Nooklings Shop",
+        "Price": 2160,
+        "SalePrice": 540,
+        "Theme": "Natural",
+        "Style": "Traditional",
+        "Color": "Colorful/Brown"
+    },
+    {
+        "Name": "Cabin Low Table",
+        "Source": "Nooklings Shop",
+        "Price": 2100,
+        "SalePrice": 525,
+        "Theme": "Natural",
+        "Style": "Traditional",
+        "Color": "Colorful/Brown"
+    },
+    {
+        "Name": "Cabin Table",
+        "Source": "Nooklings Shop",
+        "Price": 2100,
+        "SalePrice": 525,
+        "Theme": "Natural",
+        "Style": "Traditional",
+        "Color": "Colorful/Brown"
+    },
+    {
+        "Name": "Cabin Wall Clock",
+        "Source": "Nooklings Shop",
+        "Price": 1800,
+        "SalePrice": 450,
+        "Theme": "Natural",
+        "Style": "Traditional",
+        "Color": "Brown/Brown"
+    },
+    {
+        "Name": "Cabin Wardrobe",
+        "Source": "Nooklings Shop",
+        "Price": 2480,
+        "SalePrice": 620,
+        "Theme": "Natural",
+        "Style": "Traditional",
+        "Color": "Brown/Brown"
+    },
+    {
+        "Name": "Cable Spool",
+        "Price": "NFS",
+        "Source": "Rex's RV, Harvey's Shop",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Cacao Tree",
+        "Price": "1,680",
+        "Theme": "Rustic",
+        "Source": "Sandy's RV, Valentine's Day (Letter From Mom)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Cactus",
+        "Source": "Garden Center",
+        "Price": 1700,
+        "SalePrice": 425,
+        "Theme": "Natural",
+        "Style": "Safe",
+        "Color": "Green/Brown"
+    },
+    {
+        "Name": "Cafeteria Table",
+        "Price": "NFS",
+        "Source": "Sylvana's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Caladium",
+        "Source": "Garden Center",
+        "Price": 1300,
+        "SalePrice": 325,
+        "Theme": "Natural",
+        "Style": "Safe",
+        "Color": "Green/Brown"
+    },
+    {
+        "Name": "Camp Stove",
+        "Price": "1,200",
+        "Theme": "None",
+        "Source": "Booker's RV, Camping NPC (Igloo)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Campfire",
+        "Source": "Igloo Camper",
+        "Price": 1360,
+        "SalePrice": 340,
+        "Theme": "N/A",
+        "Style": "Sporty",
+        "Color": "Red/Brown"
+    },
+    {
+        "Name": "Campfire Cookware",
+        "Price": "800",
+        "Theme": "None",
+        "Source": "Booker's RV, Camping NPC (Tent)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Cancer Table",
+        "Price": "4,800",
+        "Theme": "None",
+        "Source": "Celeste's RV, DLC",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Candelabra",
+        "Price": "NFS",
+        "Source": "Billy/Julia's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Candle",
+        "Source": "Nooklings Shop",
+        "Price": 1280,
+        "SalePrice": 320,
+        "Theme": "Horror",
+        "Style": "Safe",
+        "Color": "Yellow/White"
+    },
+    {
+        "Name": "Candy House",
+        "Price": "6,000",
+        "Source": "Happy Home Designer Save Data",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Candy Jar",
+        "Price": "2,200",
+        "Theme": "Fairy Tale",
+        "Source": "Timmy & Tommy",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Candy Machine",
+        "Source": "Nooklings Shop",
+        "Price": 980,
+        "SalePrice": 245,
+        "Theme": "Hobby",
+        "Style": "Fancy",
+        "Color": "Red/Colorful"
+    },
+    {
+        "Name": "Cans",
+        "Price": "NFS",
+        "Source": "Candi's RV, Harvey's Shop",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Capricorn Ornament",
+        "Price": "4,800",
+        "Theme": "None",
+        "Source": "DLC",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Capsule-Toy Machine",
+        "Source": "Nooklings Shop",
+        "Price": 1480,
+        "SalePrice": 370,
+        "Theme": "Hobby",
+        "Style": "Fancy",
+        "Color": "Red/Beige"
+    },
+    {
+        "Name": "Captain's Monitor",
+        "Source": "Spotlight Item/Wishy",
+        "Price": 2800,
+        "SalePrice": 700,
+        "Theme": "Hobby/Science",
+        "Style": "Modern",
+        "Color": "Red/Colorful"
+    },
+    {
+        "Name": "Card Bed",
+        "Source": "Gracie (Sales)",
+        "Price": 220000,
+        "SalePrice": 55000,
+        "Theme": "Hobby",
+        "Style": "Fancy",
+        "Color": "Red/White"
+    },
+    {
+        "Name": "Card Chair",
+        "Source": "Gracie (Sales)",
+        "Price": 100000,
+        "SalePrice": 25000,
+        "Theme": "Hobby",
+        "Style": "Fancy",
+        "Color": "Red/White"
+    },
+    {
+        "Name": "Card Closet",
+        "Source": "Gracie (Sales)",
+        "Price": 240000,
+        "SalePrice": 60000,
+        "Theme": "Hobby",
+        "Style": "Fancy",
+        "Color": "Red/White"
+    },
+    {
+        "Name": "Card Dresser",
+        "Price": "120,000",
+        "Theme": "Toy Shop",
+        "Source": "Gracie Grace (during sales)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Card Lamp",
+        "Source": "Gracie (Sales)",
+        "Price": 80000,
+        "SalePrice": 20000,
+        "Theme": "Hobby",
+        "Style": "Fancy",
+        "Color": "Red/White"
+    },
+    {
+        "Name": "Card Screen",
+        "Source": "Gracie (Sales)",
+        "Price": 90000,
+        "SalePrice": 22500,
+        "Theme": "Hobby",
+        "Style": "Fancy",
+        "Color": "Red/White"
+    },
+    {
+        "Name": "Card Shelf",
+        "Source": "Gracie (Sales)",
+        "Price": 68000,
+        "SalePrice": 17000,
+        "Theme": "Hobby",
+        "Style": "Fancy",
+        "Color": "Red/White"
+    },
+    {
+        "Name": "Card Sofa",
+        "Source": "Gracie (Sales)",
+        "Price": 180000,
+        "SalePrice": 45000,
+        "Theme": "Hobby",
+        "Style": "Fancy",
+        "Color": "Red/White"
+    },
+    {
+        "Name": "Card Table",
+        "Source": "Gracie (Sales)",
+        "Price": 200000,
+        "SalePrice": 50000,
+        "Theme": "Hobby",
+        "Style": "Fancy",
+        "Color": "Red/White"
+    },
+    {
+        "Name": "Card Tower",
+        "Source": "Gracie (Sales)",
+        "Price": 80000,
+        "SalePrice": 20000,
+        "Theme": "Hobby",
+        "Style": "Fancy",
+        "Color": "Red/White"
+    },
+    {
+        "Name": "Card Wall Clock",
+        "Source": "Gracie (Sales)",
+        "Price": 300000,
+        "SalePrice": 75000,
+        "Theme": "Hobby",
+        "Style": "Fancy",
+        "Color": "Red/White"
+    },
+    {
+        "Name": "Cardboard Bed",
+        "Price": "1,000",
+        "Theme": "Quirky",
+        "Source": "Jacob's RV, Re-Tail (Flea Market) or Police Station (Lost and Found)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Cardboard Box",
+        "Source": "Nooklings Shop",
+        "Price": 100,
+        "SalePrice": 25,
+        "Theme": "N/A",
+        "Style": "Crazy",
+        "Color": "Brown/Brown"
+    },
+    {
+        "Name": "Cardboard Chair",
+        "Price": "800",
+        "Theme": "Quirky",
+        "Source": "Re-Tail (Flea Market) or Police Station (Lost and Found)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Cardboard Closet",
+        "Price": "920",
+        "Theme": "Quirky",
+        "Source": "Re-Tail (Flea Market) or Police Station (Lost and Found)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Cardboard Sofa",
+        "Price": "960",
+        "Theme": "Quirky",
+        "Source": "Re-Tail (Flea Market) or Police Station (Lost and Found)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Cardboard Table",
+        "Price": "960",
+        "Theme": "Quirky",
+        "Source": "Jacob's RV; Re-Tail (Flea Market) or Police Station (Lost and Found)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Carp Banner",
+        "Source": "Nooklings Shop (May)",
+        "Price": 2020,
+        "SalePrice": 505,
+        "Theme": "Oriental",
+        "Style": "Traditional",
+        "Color": "Colorful/Colorful"
+    },
+    {
+        "Name": "Carpentry Set",
+        "Price": "NFS",
+        "Source": "Cyru's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Carriage",
+        "Price": "8,000",
+        "Source": "Happy Home Designer Save Data",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Cart Return",
+        "Price": "NFS",
+        "Source": "Timmy & Tommy's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Casablanca Lilies",
+        "Price": "NFS",
+        "Source": "Ursala's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Cash Register",
+        "Source": "Nooklings Shop",
+        "Price": 6480,
+        "SalePrice": 1620,
+        "Theme": "N/A",
+        "Style": "Old",
+        "Color": "Yellow/Brown"
+    },
+    {
+        "Name": "Cash Tray",
+        "Price": "NFS",
+        "Source": "June/Ursala's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Cassette Player",
+        "Price": "1,500",
+        "Theme": "None",
+        "Source": "Timmy & Tommy",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Casual Display Stand",
+        "Price": "NFS",
+        "Source": "Tybalt's RV, Harvey's Shop",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Cat Tower",
+        "Price": "1,600",
+        "Theme": "None",
+        "Source": "Blanca's RV, DLC",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Catepillar Sofa",
+        "Price": "NFS",
+        "Theme": "Toy Shop",
+        "Source": "Bug Off",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "CD Player",
+        "Source": "Nooklings Shop",
+        "Price": 1600,
+        "SalePrice": 400,
+        "Theme": "N/A",
+        "Style": "Old",
+        "Color": "Aqua/Aqua"
+    },
+    {
+        "Name": "CD Shelf",
+        "Price": "1,200",
+        "Theme": "Trendy",
+        "Source": "Timmy & Tommy",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Cello",
+        "Source": "Nooklings Shop",
+        "Price": 1800,
+        "SalePrice": 450,
+        "Theme": "N/A",
+        "Style": "Safe",
+        "Color": "Brown/Brown"
+    },
+    {
+        "Name": "Cement Mixer",
+        "Source": "Nooklings Shop",
+        "Price": 1600,
+        "SalePrice": 400,
+        "Theme": "N/A",
+        "Style": "Rock",
+        "Color": "Yellow/yellow"
+    },
+    {
+        "Name": "Ceramic Hot Pot",
+        "Price": "1,000",
+        "Theme": "Harmonious",
+        "Source": "Timmy & Tommy (JP)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Chain Divider",
+        "Price": "NFS",
+        "Source": "Gonzo's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Chaise Lounge",
+        "Price": "2,480",
+        "Theme": "Trendy",
+        "Source": "Timmy & Tommy",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Chalkboard",
+        "Source": "Nooklings Shop",
+        "Price": 1400,
+        "SalePrice": 350,
+        "Theme": "Science",
+        "Style": "Formal",
+        "Color": "Gray/Black"
+    },
+    {
+        "Name": "Changing Room",
+        "Price": "NFS",
+        "Source": "Bitty/Louie's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Checkout Counter",
+        "Source": "Nooklings Shop",
+        "Price": 3480,
+        "SalePrice": 870,
+        "Theme": "N/A",
+        "Style": "Old",
+        "Color": "Brown/Brown"
+    },
+    {
+        "Name": "Cheese",
+        "Price": "NFS",
+        "Source": "Norma's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Cherry-Blossom Clock",
+        "Price": "4,160",
+        "Theme": "Rustic",
+        "Source": "DLC (Japan)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Chihuahua Ornament",
+        "Price": "NFS",
+        "Source": "Fortune Cookie #53",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Chocolate Cake",
+        "Source": "Valentine's",
+        "Price": "NFS",
+        "SalePrice": 150,
+        "Theme": "Fairytale",
+        "Style": "Fancy",
+        "Color": "Brown/Brown"
+    },
+    {
+        "Name": "Chocolate Fountain",
+        "Price": "2,200",
+        "Theme": "Fairy Tale",
+        "Source": "Timmy & Tommy",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Cicada Stereo",
+        "Price": "NFS",
+        "Theme": "Toy Shop",
+        "Source": "Bug Off",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Cinnamoroll Parasol",
+        "Price": "NFS",
+        "Theme": "Cute",
+        "Source": "Chai's RV (Sanrio)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Cinnamoroll Sign",
+        "Price": "NFS",
+        "Theme": "Cute",
+        "Source": "Chai's RV (Sanrio)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Cinnamoroll Sofa",
+        "Price": "NFS",
+        "Theme": "Cute",
+        "Source": "Chai's RV (Sanrio)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Cinnamoroll Stool",
+        "Price": "NFS",
+        "Theme": "Cute",
+        "Source": "Chai's RV (Sanrio)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Cinnamoroll Table",
+        "Price": "NFS",
+        "Theme": "Cute",
+        "Source": "Chai's RV (Sanrio)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Cinnamoroll Tray",
+        "Price": "NFS",
+        "Theme": "Cute",
+        "Source": "Chai's RV (Sanrio)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Circle Banner",
+        "Price": "1,200",
+        "Theme": "Harmonious",
+        "Source": "Timmy & Tommy (JP)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Clackercart",
+        "Source": "Nooklings Shop",
+        "Price": 1380,
+        "SalePrice": 345,
+        "Theme": "Fairytale",
+        "Style": "Fancy",
+        "Color": "Colorful/Brown"
+    },
+    {
+        "Name": "Classic Bed",
+        "Source": "Nooklings Shop",
+        "Price": 2520,
+        "SalePrice": 630,
+        "Theme": "Natural",
+        "Style": "Safe",
+        "Color": "Brown/White"
+    },
+    {
+        "Name": "Classic Bookcase",
+        "Source": "Nooklings Shop",
+        "Price": 2560,
+        "SalePrice": 640,
+        "Theme": "Natural",
+        "Style": "Safe",
+        "Color": "Brown/Brown"
+    },
+    {
+        "Name": "Classic Buffet",
+        "Source": "Nooklings Shop",
+        "Price": 3360,
+        "SalePrice": 840,
+        "Theme": "Natural",
+        "Style": "Safe",
+        "Color": "Brown/Brown"
+    },
+    {
+        "Name": "Classic Chair",
+        "Source": "Nooklings Shop",
+        "Price": 1800,
+        "SalePrice": 450,
+        "Theme": "Natural",
+        "Style": "Safe",
+        "Color": "Brown/Brown"
+    },
+    {
+        "Name": "Classic Clock",
+        "Source": "Nooklings Shop",
+        "Price": 2180,
+        "SalePrice": 545,
+        "Theme": "Natural",
+        "Style": "Safe",
+        "Color": "Brown/Brown"
+    },
+    {
+        "Name": "Classic Desk",
+        "Source": "Nooklings Shop",
+        "Price": 2200,
+        "SalePrice": 550,
+        "Theme": "Natural",
+        "Style": "Safe",
+        "Color": "Brown/Brown"
+    },
+    {
+        "Name": "Classic Screen",
+        "Price": "NFS",
+        "Source": "Stella's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Classic Sofa",
+        "Source": "Nooklings Shop",
+        "Price": 2240,
+        "SalePrice": 560,
+        "Theme": "Natural",
+        "Style": "Safe",
+        "Color": "Yellow/Yellow"
+    },
+    {
+        "Name": "Classic Table",
+        "Source": "Nooklings Shop",
+        "Price": 1600,
+        "SalePrice": 400,
+        "Theme": "Natural",
+        "Style": "Safe",
+        "Color": "Brown/Brown"
+    },
+    {
+        "Name": "Classic Vanity",
+        "Source": "Nooklings Shop",
+        "Price": 2560,
+        "SalePrice": 640,
+        "Theme": "Natural",
+        "Style": "Safe",
+        "Color": "Brown/Brown"
+    },
+    {
+        "Name": "Classic Wall Shelf",
+        "Source": "Nooklings Shop",
+        "Price": 2400,
+        "SalePrice": 600,
+        "Theme": "Natural",
+        "Style": "Safe",
+        "Color": "Brown/Brown"
+    },
+    {
+        "Name": "Classic Wardrobe",
+        "Source": "Nooklings Shop",
+        "Price": 2560,
+        "SalePrice": 640,
+        "Theme": "Natural",
+        "Style": "Safe",
+        "Color": "Brown/Brown"
+    },
+    {
+        "Name": "Claw-Foot Tub",
+        "Source": "Nooklings Shop",
+        "Price": 1280,
+        "SalePrice": 320,
+        "Theme": "Fairytale",
+        "Style": "Fancy",
+        "Color": "White/White"
+    },
+    {
+        "Name": "Clay Furnace",
+        "Price": "1,800",
+        "Theme": "Harmonious",
+        "Source": "Timmy & Tommy",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Clear Model",
+        "Source": "Nooklings Shop",
+        "Price": 3360,
+        "SalePrice": 840,
+        "Theme": "Horror/Science",
+        "Style": "Crazy",
+        "Color": "Red/Blue"
+    },
+    {
+        "Name": "Clothes Closet",
+        "Source": "Nooklings Shop",
+        "Price": 1340,
+        "SalePrice": 335,
+        "Theme": "N/A",
+        "Style": "Fancy",
+        "Color": "Beige/Beige"
+    },
+    {
+        "Name": "Clothesline Pole",
+        "Source": "Nooklings Shop",
+        "Price": 960,
+        "SalePrice": 240,
+        "Theme": "N/A",
+        "Style": "Traditional",
+        "Color": "Aqua/White"
+    },
+    {
+        "Name": "Cloud-Making Machine",
+        "Price": "NFS",
+        "Theme": "Cute",
+        "Source": "Etoile's RV (Sanrio)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Coat Hanger",
+        "Source": "Nooklings Shop",
+        "Price": 1100,
+        "SalePrice": 275,
+        "Theme": "Stylish",
+        "Style": "Safe",
+        "Color": "Brown/Gray"
+    },
+    {
+        "Name": "Coconut Juice",
+        "Price": "NFS",
+        "Source": "Plucky's RV, Harvey's Shop",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Coconut Palm",
+        "Source": "Garden Center",
+        "Price": 1200,
+        "SalePrice": 300,
+        "Theme": "Natural",
+        "Style": "Safe",
+        "Color": "Green/Brown"
+    },
+    {
+        "Name": "Coffee Cup",
+        "Source": "Brewster",
+        "Price": "NFS",
+        "SalePrice": 500,
+        "Theme": "N/A",
+        "Style": "Formal",
+        "Color": "Brown/White"
+    },
+    {
+        "Name": "Coffee Grinder",
+        "Price": "NFS",
+        "Theme": "Trendy",
+        "Source": "Brewster (Work at The Roost)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Coffeemaker",
+        "Price": "NFS",
+        "Theme": "Trendy",
+        "Source": "Brewster (Work at The Roost)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Coin",
+        "Source": "Fortune Cookie",
+        "Price": "NFS",
+        "SalePrice": 210,
+        "Theme": "Hobby",
+        "Style": "Fancy",
+        "Color": "Yellow/Yellow"
+    },
+    {
+        "Name": "Coin Locker",
+        "Price": "NFS",
+        "Source": "Stu's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Colorful Wheel",
+        "Price": "2,000",
+        "Theme": "Toy Shop",
+        "Source": "Timmy & Tommy",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Common Bed",
+        "Source": "Nooklings Shop",
+        "Price": 800,
+        "SalePrice": 200,
+        "Theme": "N/A",
+        "Style": "Safe",
+        "Color": "Red/Brown"
+    },
+    {
+        "Name": "Common Chair",
+        "Source": "Nooklings Shop",
+        "Price": 800,
+        "SalePrice": 200,
+        "Theme": "N/A",
+        "Style": "Safe",
+        "Color": "Green/Green"
+    },
+    {
+        "Name": "Compact Car",
+        "Price": "NFS",
+        "Source": "Rex's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Compass",
+        "Source": "Nooklings Shop",
+        "Price": 1280,
+        "SalePrice": 320,
+        "Theme": "Science",
+        "Style": "Safe",
+        "Color": "Gray/Gray"
+    },
+    {
+        "Name": "Complex Machine",
+        "Source": "Nooklings Shop",
+        "Price": 3840,
+        "SalePrice": 960,
+        "Theme": "Horror/Science",
+        "Style": "Crazy",
+        "Color": "Gray/Black"
+    },
+    {
+        "Name": "Computer",
+        "Source": "Nooklings Shop",
+        "Price": 1720,
+        "SalePrice": 430,
+        "Theme": "Science",
+        "Style": "Safe",
+        "Color": "Brown/White"
+    },
+    {
+        "Name": "Computer Desk",
+        "Price": "3,600",
+        "Theme": "Sci-Fi, Trendy",
+        "Source": "Timmy & Tommy",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Conga Drum",
+        "Source": "Nooklings Shop",
+        "Price": 1600,
+        "SalePrice": 400,
+        "Theme": "N/A",
+        "Style": "Safe",
+        "Color": "Beige/Brown"
+    },
+    {
+        "Name": "Console Table",
+        "Price": "NFS",
+        "Source": "Digby/Dobie/Piper's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Conveyor Belt",
+        "Price": "NFS",
+        "Source": "Murphy's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Conveyor-Belt Sushi",
+        "Price": "3,600",
+        "Theme": "Harmonious",
+        "Source": "Timmy & Tommy",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Cool Globe",
+        "Source": "Nature Day",
+        "Price": "NFS",
+        "SalePrice": "NFS",
+        "Theme": "Antique/Science",
+        "Style": "Modern",
+        "Color": "Brown/Brown"
+    },
+    {
+        "Name": "Copy Machine",
+        "Source": "Nooklings Shop",
+        "Price": 3200,
+        "SalePrice": 800,
+        "Theme": "Science",
+        "Style": "Modern",
+        "Color": "White/White"
+    },
+    {
+        "Name": "Corinthian Post",
+        "Source": "Nooklings Shop",
+        "Price": 3600,
+        "SalePrice": 900,
+        "Theme": "Antique/Horror",
+        "Style": "Old",
+        "Color": "Gray/Gray"
+    },
+    {
+        "Name": "Corkboard",
+        "Source": "Nooklings Shop",
+        "Price": 1600,
+        "SalePrice": 400,
+        "Theme": "Science/Stylish",
+        "Style": "Safe",
+        "Color": "Orange/Brown"
+    },
+    {
+        "Name": "Corn Plant",
+        "Source": "Garden Center",
+        "Price": 1300,
+        "SalePrice": 325,
+        "Theme": "Natural",
+        "Style": "Safe",
+        "Color": "Green/White"
+    },
+    {
+        "Name": "Cornstalks",
+        "Price": "NFS",
+        "Source": "Tad's RV, Harvey's Shop",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Cornucopia",
+        "Source": "Harvest Festival",
+        "Price": "NFS",
+        "SalePrice": 875,
+        "Theme": "Natural",
+        "Style": "Traditional",
+        "Color": "Colorful/Brown"
+    },
+    {
+        "Name": "Cosmos Fan",
+        "Source": "Grass Day",
+        "Price": "NFS",
+        "SalePrice": 595,
+        "Theme": "Fairytale/Natural",
+        "Style": "Fancy",
+        "Color": "Green/White"
+    },
+    {
+        "Name": "Counter Table",
+        "Price": "NFS",
+        "Source": "Bea/Ellie/Kicks/Mabel/Sylvana's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Country Guitar",
+        "Source": "Nooklings Shop",
+        "Price": 1700,
+        "SalePrice": 425,
+        "Theme": "N/A",
+        "Style": "Safe",
+        "Color": "Brown/Brown"
+    },
+    {
+        "Name": "Covered Wagon",
+        "Source": "Spotlight Item/Wishy",
+        "Price": 3800,
+        "SalePrice": 950,
+        "Theme": "Natural",
+        "Style": "Old",
+        "Color": "Beige/Brown"
+    },
+    {
+        "Name": "Cow Skull",
+        "Source": "Nooklings Shop",
+        "Price": 1020,
+        "SalePrice": 255,
+        "Theme": "Horror",
+        "Style": "Old",
+        "Color": "White/Gray"
+    },
+    {
+        "Name": "Crab Clock",
+        "Price": "NFS",
+        "Theme": "Toy Shop",
+        "Source": "Fishing Tourney",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Cradle",
+        "Source": "Nooklings Shop",
+        "Price": 3800,
+        "SalePrice": 950,
+        "Theme": "Fairytale",
+        "Style": "Fancy",
+        "Color": "Pink/Pink"
+    },
+    {
+        "Name": "Crane Game",
+        "Source": "Nooklings Shop",
+        "Price": 1680,
+        "SalePrice": 420,
+        "Theme": "Hobby",
+        "Style": "Fancy",
+        "Color": "Pink/Pink"
+    },
+    {
+        "Name": "Crayons",
+        "Price": "NFS",
+        "Source": "Blanca/Carrie/Wendell's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Cream And Sugar",
+        "Price": "NFS",
+        "Theme": "Fairy Tale",
+        "Source": "Brewster (Work at The Roost)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Cream Sofa",
+        "Source": "Nooklings Shop",
+        "Price": 2000,
+        "SalePrice": 500,
+        "Theme": "N/A",
+        "Style": "Safe",
+        "Color": "White/White"
+    },
+    {
+        "Name": "Creepy Bat Stone",
+        "Source": "Halloween",
+        "Price": "NFS",
+        "SalePrice": 500,
+        "Theme": "Horror",
+        "Style": "Crazy",
+        "Color": "Gray/Gray"
+    },
+    {
+        "Name": "Creepy Cauldron",
+        "Source": "Halloween",
+        "Price": "NFS",
+        "SalePrice": 900,
+        "Theme": "Horror/Science",
+        "Style": "Crazy",
+        "Color": "Green/Purple"
+    },
+    {
+        "Name": "Creepy Clock",
+        "Source": "Halloween",
+        "Price": "NFS",
+        "SalePrice": 700,
+        "Theme": "Horror",
+        "Style": "Crazy",
+        "Color": "Brown/Brown"
+    },
+    {
+        "Name": "Creepy Coffin",
+        "Source": "Halloween",
+        "Price": "NFS",
+        "SalePrice": 500,
+        "Theme": "Horror",
+        "Style": "Crazy",
+        "Color": "Brown/Brown"
+    },
+    {
+        "Name": "Creepy Crystal",
+        "Source": "Halloween",
+        "Price": "NFS",
+        "SalePrice": 2000,
+        "Theme": "Horror/Science",
+        "Style": "Crazy",
+        "Color": "Red/Blue"
+    },
+    {
+        "Name": "Creepy Skeleton",
+        "Source": "Halloween",
+        "Price": "NFS",
+        "SalePrice": 500,
+        "Theme": "Horror/Science",
+        "Style": "Crazy",
+        "Color": "White/White"
+    },
+    {
+        "Name": "Creepy Statue",
+        "Source": "Halloween",
+        "Price": "NFS",
+        "SalePrice": 800,
+        "Theme": "Horror",
+        "Style": "Crazy",
+        "Color": "Gray/Gray"
+    },
+    {
+        "Name": "Creepy Stone",
+        "Source": "Halloween",
+        "Price": "NFS",
+        "SalePrice": 500,
+        "Theme": "Horror",
+        "Style": "Crazy",
+        "Color": "Gray/Gray"
+    },
+    {
+        "Name": "Crew Member's Seat",
+        "Price": "2,800",
+        "Theme": "Sci-Fi, Toy Shop",
+        "Source": "Timmy & Tommy (Spotlight Item)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Crew's Monitor",
+        "Price": "2,400",
+        "Theme": "Sci-Fi, Toy Shop",
+        "Source": "Timmy & Tommy (Spotlight Item)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Croton",
+        "Source": "Garden Center",
+        "Price": 1300,
+        "SalePrice": 325,
+        "Theme": "Natural",
+        "Style": "Safe",
+        "Color": "Green/White"
+    },
+    {
+        "Name": "Cruiser Bike",
+        "Price": "NFS",
+        "Source": "Maddie/Stu's RV, Harvey's Shop",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Cubbyhole",
+        "Price": "2,200",
+        "Theme": "None",
+        "Source": "Timmy & Tommy",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Cube Clock",
+        "Source": "Nooklings Shop",
+        "Price": 1100,
+        "SalePrice": 275,
+        "Theme": "Stylish",
+        "Style": "Modern",
+        "Color": "Yellow/White"
+    },
+    {
+        "Name": "Cucco Ornament",
+        "Price": "NFS",
+        "Source": "Medli's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Cuckoo Clock",
+        "Source": "Nooklings Shop",
+        "Price": 1800,
+        "SalePrice": 450,
+        "Theme": "Natural",
+        "Style": "Old",
+        "Color": "Red/Brown"
+    },
+    {
+        "Name": "Cucumber Horse",
+        "Source": "Obon",
+        "Price": "NFS",
+        "SalePrice": 100,
+        "Theme": "Horror/Oriental",
+        "Style": "Traditional",
+        "Color": "Green/Green"
+    },
+    {
+        "Name": "Cup of Tea",
+        "Price": "NFS",
+        "Source": "Boris/Claude's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Cupcake",
+        "Price": "NFS",
+        "Source": "Sandy's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Cupid Bench",
+        "Source": "Nooklings Shop",
+        "Price": 2000,
+        "SalePrice": 500,
+        "Theme": "Fairytale",
+        "Style": "Fancy",
+        "Color": "White/White"
+    },
+    {
+        "Name": "Curling Stone",
+        "Source": "SnowDad",
+        "Price": "NFS",
+        "SalePrice": 400,
+        "Theme": "N/A",
+        "Style": "Sporty",
+        "Color": "Yellow/Gray"
+    },
+    {
+        "Name": "Curry Plate",
+        "Price": "NFS",
+        "Source": "Cashmere's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Cushion",
+        "Source": "Nooklings Shop",
+        "Price": 800,
+        "SalePrice": 200,
+        "Theme": "N/A",
+        "Style": "Safe",
+        "Color": "White/White"
+    },
+    {
+        "Name": "Cutting-Board Set",
+        "Price": "NFS",
+        "Source": "Buzz/Cashmere/Ketchup's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Cypress Plant",
+        "Price": "NFS",
+        "Source": "Candi/Olive's RV, Harvey's Shop",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Dab Table",
+        "Source": "Chip",
+        "Price": "NFS",
+        "SalePrice": 600,
+        "Theme": "Hobby",
+        "Style": "Fancy",
+        "Color": "Brown/Brown"
+    },
+    {
+        "Name": "Dachsund Ornament",
+        "Price": "NFS",
+        "Source": "Fortune Cookie #55",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Daffodil",
+        "Source": "Garden Center",
+        "Price": 680,
+        "SalePrice": 170,
+        "Theme": "Natural",
+        "Style": "Safe",
+        "Color": "Brown/White"
+    },
+    {
+        "Name": "Daimyo's Tray",
+        "Price": "NFS",
+        "Source": "Nilly/Joan/Kapp'n/Wade's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Dala Horse",
+        "Source": "Gulliver",
+        "Price": 1200,
+        "SalePrice": 300,
+        "Theme": "Hobby/Natural",
+        "Style": "Traditional",
+        "Color": "Red/Colorful"
+    },
+    {
+        "Name": "Dalmatian Ornament",
+        "Price": "NFS",
+        "Source": "Fortune Cookie #54",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Dango",
+        "Source": "Autumn Moon",
+        "Price": "NFS",
+        "SalePrice": 888,
+        "Theme": "Oriental",
+        "Style": "Traditional",
+        "Color": "Brown/White"
+    },
+    {
+        "Name": "Dartboard",
+        "Price": "1,520",
+        "Theme": "Toy Shop",
+        "Source": "Timmy & Tommy",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Decorative Plate",
+        "Price": "NFS",
+        "Source": "Snooty's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Decoy Duck",
+        "Price": "NFS",
+        "Source": "Harvey's Shop",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Deer Scare",
+        "Source": "Nooklings Shop",
+        "Price": 1800,
+        "SalePrice": 450,
+        "Theme": "Natural/Oriental",
+        "Style": "Traditional",
+        "Color": "Green/Green"
+    },
+    {
+        "Name": "Deluxe Range",
+        "Source": "Nooklings Shop",
+        "Price": 3200,
+        "SalePrice": 800,
+        "Theme": "Science",
+        "Style": "Safe",
+        "Color": "White/Black"
+    },
+    {
+        "Name": "Deluxe Washer",
+        "Price": "5,200",
+        "Theme": "Sci-Fi",
+        "Source": "Timmy & Tommy (Spotlight Item)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Dentist's Chair",
+        "Price": "3,200",
+        "Theme": "Quirky, Sci-Fi",
+        "Source": "Timmy & Tommy",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Desert Cactus",
+        "Source": "Nooklings Shop",
+        "Price": 890,
+        "SalePrice": 222,
+        "Theme": "Natural",
+        "Style": "Old",
+        "Color": "Green/Green"
+    },
+    {
+        "Name": "Desert Island Map",
+        "Price": "NFS",
+        "Source": "Obtain high scores in the begginer levels in Desert Island Escape",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Desert Island Stool",
+        "Price": "NFS",
+        "Source": "Obtain high scores in the advanced levels in Desert Island Escape",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Desert Island Table",
+        "Price": "NFS",
+        "Source": "Obtain \"terrific scores\" in the intermediate levels in Desert Island Escape",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Desk Bell",
+        "Price": "NFS",
+        "Source": "Julia's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Desk Light",
+        "Source": "Nooklings Shop",
+        "Price": 1280,
+        "SalePrice": 320,
+        "Theme": "Science",
+        "Style": "Safe",
+        "Color": "Black/Black"
+    },
+    {
+        "Name": "Desk Mirror",
+        "Price": "NFS",
+        "Source": "Vivian's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Desktop Mic",
+        "Price": "NFS",
+        "Source": "Harvey's Shop",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Desktop TV",
+        "Price": "NFS",
+        "Source": "Spike's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Dessert Case",
+        "Price": "3,200",
+        "Theme": "Fairy Tale",
+        "Source": "Bea's RV, Timmy & Tommy",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Detour Arrow",
+        "Source": "Nooklings Shop",
+        "Price": 600,
+        "SalePrice": 150,
+        "Theme": "N/A",
+        "Style": "Rock",
+        "Color": "Red/White"
+    },
+    {
+        "Name": "Dharma",
+        "Source": "Nooklings Shop",
+        "Price": 1200,
+        "SalePrice": 300,
+        "Theme": "Oriental",
+        "Style": "Fancy",
+        "Color": "Red/Red"
+    },
+    {
+        "Name": "Dice Stereo",
+        "Source": "Nooklings Shop",
+        "Price": 2150,
+        "SalePrice": 537,
+        "Theme": "Hobby/Stylish",
+        "Style": "Fancy",
+        "Color": "White/White"
+    },
+    {
+        "Name": "Digital-Photo Frame",
+        "Price": "1,200",
+        "Theme": "Trendy",
+        "Source": "Katie",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Dinnerware",
+        "Price": "NFS",
+        "Source": "Admiral's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Director's Chair",
+        "Source": "Nooklings Shop",
+        "Price": 1480,
+        "SalePrice": 370,
+        "Theme": "N/A",
+        "Style": "Safe",
+        "Color": "Brown/White"
+    },
+    {
+        "Name": "Dishwasher",
+        "Source": "Nooklings Shop",
+        "Price": 1980,
+        "SalePrice": 495,
+        "Theme": "N/A",
+        "Style": "Modern",
+        "Color": "Gray/Gray"
+    },
+    {
+        "Name": "Disk Writer",
+        "Price": "NFS",
+        "Source": "Hopkin's RV, Harvey's Shop",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Display Shelf",
+        "Price": "1,200",
+        "Theme": "None",
+        "Source": "Timmy & Tommy",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Display Stand",
+        "Source": "Museum Shop",
+        "Price": 1500,
+        "SalePrice": 375,
+        "Theme": "Stylish",
+        "Style": "Formal",
+        "Color": "White/White"
+    },
+    {
+        "Name": "Diver Dan",
+        "Source": "Island",
+        "Price": "60M",
+        "SalePrice": 750,
+        "Theme": "Science",
+        "Style": "Sporty",
+        "Color": "Yellow/Colorful"
+    },
+    {
+        "Name": "DJ K.K. Booth",
+        "Price": "NFS",
+        "Source": "K.K.'s RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Djimbe Drum",
+        "Source": "Nooklings Shop",
+        "Price": 1900,
+        "SalePrice": 475,
+        "Theme": "N/A",
+        "Style": "Safe",
+        "Color": "Brown/White"
+    },
+    {
+        "Name": "DJ's Turntable",
+        "Price": "3,600",
+        "Theme": "Trendy",
+        "Source": "Timmy & Tommy",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Doctor's Desk",
+        "Price": "NFS",
+        "Source": "Raddle's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Document Stack",
+        "Price": "NFS",
+        "Source": "Cleo/Digby/Dobie's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Doghouse",
+        "Source": "Nooklings Shop",
+        "Price": 1200,
+        "SalePrice": 300,
+        "Theme": "N/A",
+        "Style": "Traditional",
+        "Color": "Red/Brown"
+    },
+    {
+        "Name": "Dollhouse",
+        "Source": "Nooklings Shop",
+        "Price": 2000,
+        "SalePrice": 500,
+        "Theme": "Fairytale/Hobby",
+        "Style": "Fancy",
+        "Color": "Pink/Brown"
+    },
+    {
+        "Name": "Dolly",
+        "Source": "Spotlight Item/Wishy",
+        "Price": 6800,
+        "SalePrice": 1700,
+        "Theme": "Fairytale/Hobby",
+        "Style": "Fancy",
+        "Color": "Red/Red"
+    },
+    {
+        "Name": "Donburi",
+        "Price": "NFS",
+        "Source": "Sylvana/Zipper T. Bunny's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Do-Not-Enter sign",
+        "Price": "NFS",
+        "Source": "Stu's RV, Harvey's Shop",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Donut Box",
+        "Price": "NFS",
+        "Source": "Claude's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Donut Cushion",
+        "Price": "NFS",
+        "Source": "Filly's RV (7-11)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Donut Stool",
+        "Price": "1,600",
+        "Theme": "None",
+        "Source": "Timmy & Tommy",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Double-Neck Guitar",
+        "Price": "2,800",
+        "Theme": "None",
+        "Source": "Sprocket's RV, DLC",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Dracaena",
+        "Source": "Garden Center",
+        "Price": 2000,
+        "SalePrice": 500,
+        "Theme": "Natural",
+        "Style": "Safe",
+        "Color": "Green/Brown"
+    },
+    {
+        "Name": "Drafting Table",
+        "Price": "NFS",
+        "Source": "Lottie's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Dream Catcher",
+        "Source": "Gulliver",
+        "Price": 1600,
+        "SalePrice": 400,
+        "Theme": "Hobby",
+        "Style": "Traditional",
+        "Color": "Red/Brown"
+    },
+    {
+        "Name": "Drink Machine",
+        "Price": "NFS",
+        "Source": "Buzz/Huck's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Drinking Fountain",
+        "Source": "Nooklings Shop",
+        "Price": 2000,
+        "SalePrice": 500,
+        "Theme": "Science",
+        "Style": "Modern",
+        "Color": "Gray/Gray"
+    },
+    {
+        "Name": "Drip Pail",
+        "Price": "800",
+        "Theme": "Quirky",
+        "Source": "Timmy & Tommy",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Drum Set",
+        "Source": "Nooklings Shop",
+        "Price": 1800,
+        "SalePrice": 450,
+        "Theme": "Stylish",
+        "Style": "Safe",
+        "Color": "Yellow/White"
+    },
+    {
+        "Name": "Durian Flower Basket",
+        "Price": "NFS",
+        "Source": "Kapp'n's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Eagle Pole",
+        "Source": "Nooklings Shop",
+        "Price": 1400,
+        "SalePrice": 350,
+        "Theme": "Natural",
+        "Style": "Traditional",
+        "Color": "Colorful/Brown"
+    },
+    {
+        "Name": "Ebony Piano",
+        "Source": "Nooklings Shop",
+        "Price": 3800,
+        "SalePrice": 950,
+        "Theme": "N/A",
+        "Style": "Safe",
+        "Color": "Black/Black"
+    },
+    {
+        "Name": "Editor's Chair",
+        "Price": "5,600",
+        "Theme": "Trendy",
+        "Source": "Dobie's RV, Timmy & Tommy",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Editor's Desk",
+        "Price": "5,200",
+        "Theme": "Trendy",
+        "Source": "Dobie's RV, Timmy & Tommy",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Effects Rack",
+        "Price": "2,800",
+        "Theme": "Sci-Fi",
+        "Source": "Timmy & Tommy",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Egg Basket",
+        "Price": "NFS",
+        "Theme": "None",
+        "Source": "Zipper T. Bunny (Bunny Day)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Egg Bed",
+        "Source": "Easter",
+        "Price": "NFS",
+        "SalePrice": 9000,
+        "Theme": "Hobby",
+        "Style": "Fancy",
+        "Color": "Colorful/White"
+    },
+    {
+        "Name": "Egg Bench",
+        "Source": "Easter",
+        "Price": "NFS",
+        "SalePrice": 9000,
+        "Theme": "Hobby",
+        "Style": "Fancy",
+        "Color": "Colorful/White"
+    },
+    {
+        "Name": "Egg Chair",
+        "Source": "Easter",
+        "Price": "NFS",
+        "SalePrice": 9000,
+        "Theme": "Hobby",
+        "Style": "Fancy",
+        "Color": "Colorful/White"
+    },
+    {
+        "Name": "Egg Clock",
+        "Source": "Easter",
+        "Price": "NFS",
+        "SalePrice": 9000,
+        "Theme": "Hobby",
+        "Style": "Fancy",
+        "Color": "Colorful/White"
+    },
+    {
+        "Name": "Egg Dresser",
+        "Source": "Easter",
+        "Price": "NFS",
+        "SalePrice": 9000,
+        "Theme": "Hobby",
+        "Style": "Fancy",
+        "Color": "Colorful/White"
+    },
+    {
+        "Name": "Egg Lamp",
+        "Source": "Easter",
+        "Price": "NFS",
+        "SalePrice": 9000,
+        "Theme": "Hobby",
+        "Style": "Fancy",
+        "Color": "Aqua/Colorful"
+    },
+    {
+        "Name": "Egg Stereo",
+        "Source": "Easter",
+        "Price": "NFS",
+        "SalePrice": 9000,
+        "Theme": "Hobby",
+        "Style": "Fancy",
+        "Color": "Colorful/White"
+    },
+    {
+        "Name": "Egg Table",
+        "Source": "Easter",
+        "Price": "NFS",
+        "SalePrice": 9000,
+        "Theme": "Hobby",
+        "Style": "Fancy",
+        "Color": "Colorful/White"
+    },
+    {
+        "Name": "Egg Toy Set",
+        "Source": "Easter",
+        "Price": "NFS",
+        "SalePrice": 9000,
+        "Theme": "Hobby",
+        "Style": "Fancy",
+        "Color": "Colorful/White"
+    },
+    {
+        "Name": "Egg TV",
+        "Price": "NFS",
+        "Theme": "Toy Shop",
+        "Source": "Zipper T. Bunny (Bunny Day)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Egg Wardrobe",
+        "Source": "Easter",
+        "Price": "NFS",
+        "SalePrice": 9000,
+        "Theme": "Hobby",
+        "Style": "Fancy",
+        "Color": "Colorful/White"
+    },
+    {
+        "Name": "Eggplant Cow",
+        "Source": "Obon",
+        "Price": "NFS",
+        "SalePrice": 125,
+        "Theme": "Horror/Oriental",
+        "Style": "Traditional",
+        "Color": "Purple/Purple"
+    },
+    {
+        "Name": "Eiffel Tower",
+        "Source": "Gulliver",
+        "Price": 4000,
+        "SalePrice": 1000,
+        "Theme": "Hobby",
+        "Style": "Traditional",
+        "Color": "Gray/Gray"
+    },
+    {
+        "Name": "Eight Lamp",
+        "Price": "8,000",
+        "Theme": "Trendy",
+        "Source": "Timmy & Tommy (Spotlight Item)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "EKG Machine",
+        "Price": "NFS",
+        "Source": "Raddle's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Elder Mask",
+        "Price": "1,600",
+        "Theme": "Antique, Harmonious, Quirky",
+        "Source": "Timmy & Tommy",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Electric Bass",
+        "Price": "NFS",
+        "Source": "Sprocket's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Electric Guitar",
+        "Price": "1,900",
+        "Theme": "None",
+        "Source": "Timmy & Tommy",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Electric Kettle",
+        "Source": "Nooklings Shop",
+        "Price": 1280,
+        "SalePrice": 320,
+        "Theme": "Stylish",
+        "Style": "Modern",
+        "Color": "White/White"
+    },
+    {
+        "Name": "Electric Sign",
+        "Price": "NFS",
+        "Source": "Harvey's Shop",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Elegant Bench",
+        "Price": "NFS",
+        "Source": "Claude's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Elegant Chair",
+        "Price": "NFS",
+        "Source": "Claude's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Elephant Slide",
+        "Source": "Nooklings Shop",
+        "Price": 1200,
+        "SalePrice": 300,
+        "Theme": "Hobby",
+        "Style": "Fancy",
+        "Color": "Yellow/Blue"
+    },
+    {
+        "Name": "Eraser Sofa",
+        "Price": "23,760",
+        "Theme": "Trendy",
+        "Source": "DLC (Japan)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Espresso Machine",
+        "Price": "NFS",
+        "Source": "Ellie's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Espresso Maker",
+        "Source": "Brewster",
+        "Price": "NFS",
+        "SalePrice": 125,
+        "Theme": "Stylish",
+        "Style": "Modern",
+        "Color": "Gray/Gray"
+    },
+    {
+        "Name": "Exam Table",
+        "Price": "NFS",
+        "Source": "Raddle's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Executive Toy",
+        "Source": "Nooklings Shop",
+        "Price": 1100,
+        "SalePrice": 275,
+        "Theme": "Hobby/Stylish",
+        "Style": "Fancy",
+        "Color": "Red/Red"
+    },
+    {
+        "Name": "Exercise Ball",
+        "Price": "NFS",
+        "Source": "Louie's RV, Harvey's Shop",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Exercise Bike",
+        "Source": "Nooklings Shop",
+        "Price": 2400,
+        "SalePrice": 600,
+        "Theme": "Science",
+        "Style": "Sporty",
+        "Color": "Gray/Gray"
+    },
+    {
+        "Name": "Exhibit Partition",
+        "Price": "3,000",
+        "Theme": "Trendy",
+        "Source": "Museum Shop",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Exit Sign",
+        "Price": "1,600",
+        "Theme": "Quirky, Sci-Fi",
+        "Source": "Timmy & Tommy",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Exotic Bed",
+        "Source": "Nooklings Shop",
+        "Price": 2540,
+        "SalePrice": 635,
+        "Theme": "Oriental",
+        "Style": "Traditional",
+        "Color": "Brown/Gray"
+    },
+    {
+        "Name": "Exotic Bench",
+        "Source": "Nooklings Shop",
+        "Price": 1900,
+        "SalePrice": 475,
+        "Theme": "Oriental",
+        "Style": "Traditional",
+        "Color": "Brown/Brown"
+    },
+    {
+        "Name": "Exotic Bureau",
+        "Source": "Nooklings Shop",
+        "Price": 2400,
+        "SalePrice": 600,
+        "Theme": "Oriental",
+        "Style": "Traditional",
+        "Color": "Brown/Brown"
+    },
+    {
+        "Name": "Exotic Chair",
+        "Source": "Nooklings Shop",
+        "Price": 1400,
+        "SalePrice": 350,
+        "Theme": "Oriental",
+        "Style": "Tradtional",
+        "Color": "Brown/White"
+    },
+    {
+        "Name": "Exotic Chest",
+        "Source": "Nooklings Shop",
+        "Price": 1800,
+        "SalePrice": 450,
+        "Theme": "Oriental",
+        "Style": "Traditional",
+        "Color": "Brown/Brown"
+    },
+    {
+        "Name": "Exotic End Table",
+        "Source": "Nooklings Shop",
+        "Price": 1600,
+        "SalePrice": 400,
+        "Theme": "Oriental",
+        "Style": "Traditional",
+        "Color": "Brown/Brown"
+    },
+    {
+        "Name": "Exotic Lamp",
+        "Source": "Nooklings Shop",
+        "Price": 1800,
+        "SalePrice": 450,
+        "Theme": "Oriental",
+        "Style": "Traditional",
+        "Color": "Yellow/Beige"
+    },
+    {
+        "Name": "Exotic Screen",
+        "Source": "Nooklings Shop",
+        "Price": 2250,
+        "SalePrice": 562,
+        "Theme": "Oriental",
+        "Style": "Traditional",
+        "Color": "Brown/Brown"
+    },
+    {
+        "Name": "Exotic Table",
+        "Source": "Nooklings Shop",
+        "Price": 2300,
+        "SalePrice": 575,
+        "Theme": "Oriental",
+        "Style": "Traditional",
+        "Color": "Brown/Brown"
+    },
+    {
+        "Name": "Exotic Wall Shelf",
+        "Price": "2,400",
+        "Theme": "Harmonious",
+        "Source": "Timmy & Tommy",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Exotic Wardrobe",
+        "Source": "Nooklings Shop",
+        "Price": 2180,
+        "SalePrice": 545,
+        "Theme": "Oriental",
+        "Style": "Traditional",
+        "Color": "Brown/Brown"
+    },
+    {
+        "Name": "Extinguisher",
+        "Source": "Nooklings Shop",
+        "Price": 1300,
+        "SalePrice": 325,
+        "Theme": "Science",
+        "Style": "Safe",
+        "Color": "Red/Red"
+    },
+    {
+        "Name": "Fairy Bottle",
+        "Price": "NFS",
+        "Source": "Medli's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Fan",
+        "Source": "Nooklings Shop",
+        "Price": 1200,
+        "SalePrice": 300,
+        "Theme": "Science",
+        "Style": "Traditional",
+        "Color": "Green/Aqua"
+    },
+    {
+        "Name": "Fan Palm",
+        "Source": "Garden Center",
+        "Price": 1300,
+        "SalePrice": 325,
+        "Theme": "Natural",
+        "Style": "Safe",
+        "Color": "Green/Brown"
+    },
+    {
+        "Name": "Fancy Display Case",
+        "Price": "NFS",
+        "Source": "Bitty's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Fancy Display Stand",
+        "Price": "NFS",
+        "Source": "Bitty/June's RV, Harvey's Shop",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Fancy Doll",
+        "Price": "1,400",
+        "Theme": "Fairy Tale, Quirky",
+        "Source": "Timmy & Tommy",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Fancy Frame",
+        "Source": "Museum Shop",
+        "Price": 10000,
+        "SalePrice": 2500,
+        "Theme": "Antique",
+        "Style": "Gorgeous",
+        "Color": "Yellow/Red"
+    },
+    {
+        "Name": "Fancy Tea Set",
+        "Price": "NFS",
+        "Source": "Sandy's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Fedora Chair",
+        "Price": "3,200",
+        "Theme": "Trendy",
+        "Source": "DLC (Europe)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Felyne Guardian",
+        "Price": "NFS",
+        "Source": "Felyne's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Female Mask",
+        "Source": "Nooklings Shop",
+        "Price": 1600,
+        "SalePrice": 400,
+        "Theme": "Horror/Antique/Oriental",
+        "Style": "Traditional",
+        "Color": "White/White"
+    },
+    {
+        "Name": "Festival Lantern",
+        "Price": "900",
+        "Theme": "Harmonious",
+        "Source": "Timmy & Tommy",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Festive Candle",
+        "Source": "Nooklings Shop (Holiday)",
+        "Price": 1600,
+        "SalePrice": 400,
+        "Theme": "???",
+        "Style": "Traditional",
+        "Color": "Orange/Colorful"
+    },
+    {
+        "Name": "Festive Flag",
+        "Source": "Nooklings Shop (Holiday)",
+        "Price": 680,
+        "SalePrice": 170,
+        "Theme": "???",
+        "Style": "Traditional",
+        "Color": "Colorful/Colorful"
+    },
+    {
+        "Name": "Festive Tree",
+        "Source": "Nooklings Shop (Holiday)",
+        "Price": 1300,
+        "SalePrice": 325,
+        "Theme": "Hobby/Natural",
+        "Style": "Fancy",
+        "Color": "Green/Colorful"
+    },
+    {
+        "Name": "Festive Wreath",
+        "Source": "Jingle",
+        "Price": "NFS",
+        "SalePrice": 320,
+        "Theme": "Hobby",
+        "Style": "Fancy",
+        "Color": "Green/Green"
+    },
+    {
+        "Name": "File Cabinet (L)",
+        "Price": "NFS",
+        "Source": "Blathers/Cleo's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "File Cabinet (M)",
+        "Price": "NFS",
+        "Source": "Murphy's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Fire Bar",
+        "Source": "Fortune Cookie",
+        "Price": "NFS",
+        "SalePrice": 210,
+        "Theme": "Hobby",
+        "Style": "Fancy",
+        "Color": "Red/Brown"
+    },
+    {
+        "Name": "Fire Flower",
+        "Source": "Fortune Cookie",
+        "Price": "NFS",
+        "SalePrice": 210,
+        "Theme": "Hobby",
+        "Style": "Fancy",
+        "Color": "Colorful/White"
+    },
+    {
+        "Name": "Fire Hydrant",
+        "Source": "Nooklings Shop",
+        "Price": 960,
+        "SalePrice": 240,
+        "Theme": "N/A",
+        "Style": "Safe",
+        "Color": "Red/Red"
+    },
+    {
+        "Name": "Firefly Lamp",
+        "Source": "Nat",
+        "Price": "NFS",
+        "SalePrice": 450,
+        "Theme": "Hobby",
+        "Style": "Fancy",
+        "Color": "Yellow/Green"
+    },
+    {
+        "Name": "Fireplace",
+        "Source": "Nooklings Shop",
+        "Price": 2200,
+        "SalePrice": 550,
+        "Theme": "N/A",
+        "Style": "Old",
+        "Color": "Brown/Brown"
+    },
+    {
+        "Name": "Firewood",
+        "Price": "NFS",
+        "Source": "Ketchup's RV, Harvey's Shop",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Fireworks Table",
+        "Source": "DLC (America)",
+        "Price": 4320,
+        "SalePrice": 1080,
+        "Theme": "???",
+        "Style": "???",
+        "Color": "???/???"
+    },
+    {
+        "Name": "First-aid Kit",
+        "Price": "NFS",
+        "Source": "Raddle's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Fish and Chips",
+        "Price": "NFS",
+        "Source": "Piper's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Fish Grill",
+        "Price": "2,800",
+        "Theme": "Harmonious",
+        "Source": "Camping NPC (Igloo)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Fish on a Board",
+        "Price": "NFS",
+        "Source": "Chip's RV, Harvey's Shop",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Five Lamp",
+        "Price": "5,500",
+        "Theme": "Trendy",
+        "Source": "Timmy & Tommy (Spotlight Item)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Flashy-Flower Sign",
+        "Price": "1,200",
+        "Theme": "Harmonious",
+        "Source": "Timmy & Tommy (JP)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Flat Display Case",
+        "Source": "Museum Shop",
+        "Price": 2500,
+        "SalePrice": 625,
+        "Theme": "Stylish",
+        "Style": "Formal",
+        "Color": "Beige/White"
+    },
+    {
+        "Name": "Flat-Screen TV",
+        "Source": "Nooklings Shop",
+        "Price": 4800,
+        "SalePrice": 1200,
+        "Theme": "Science/Stylish",
+        "Style": "Modern",
+        "Color": "Black/Black"
+    },
+    {
+        "Name": "Floor light",
+        "Price": "NFS",
+        "Source": "Boris/Sprocket's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Floor Monitor",
+        "Price": "NFS",
+        "Source": "Sprocket's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Floor Seat",
+        "Price": "NFS",
+        "Source": "Joan/Kapp'n/Wade's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Florence Flask",
+        "Source": "Nooklings Shop",
+        "Price": 1600,
+        "SalePrice": 400,
+        "Theme": "Horror/Science",
+        "Style": "Crazy",
+        "Color": "Green/Gray"
+    },
+    {
+        "Name": "Flounder Table",
+        "Source": "Chip",
+        "Price": "NFS",
+        "SalePrice": 600,
+        "Theme": "Hobby",
+        "Style": "Fancy",
+        "Color": "Green/Green"
+    },
+    {
+        "Name": "Flower Bed",
+        "Price": "NFS",
+        "Source": "Maggie's RV, Harvey's Shop",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Flower Bouquet",
+        "Price": "1,800",
+        "Theme": "Rustic",
+        "Source": "Leif (Weeding Day; Happy Generosity Award)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Flower Chair",
+        "Price": "1,400",
+        "Theme": "Fairy Tale, Rustic",
+        "Source": "Timmy & Tommy",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Flower Display Case",
+        "Price": "NFS",
+        "Source": "Ursala's RV, Harvey's Shop",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Flower Table",
+        "Price": "1,900",
+        "Theme": "Fairy Tale, Rustic",
+        "Source": "Timmy & Tommy",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Flower Wreath",
+        "Source": "Nooklings Shop",
+        "Price": 1200,
+        "SalePrice": 300,
+        "Theme": "Oriental",
+        "Style": "Traditional",
+        "Color": "Colorful/Colorful"
+    },
+    {
+        "Name": "Flying Saucer",
+        "Source": "Nooklings Shop",
+        "Price": 2400,
+        "SalePrice": 600,
+        "Theme": "Hobby/Science",
+        "Style": "Crazy",
+        "Color": "Yellow/Gray"
+    },
+    {
+        "Name": "Folding Chair",
+        "Source": "Nooklings Shop",
+        "Price": 600,
+        "SalePrice": 150,
+        "Theme": "N/A",
+        "Style": "Formal",
+        "Color": "Aqua/Gray"
+    },
+    {
+        "Name": "Folk Guitar",
+        "Source": "Nooklings Shop",
+        "Price": 1600,
+        "SalePrice": 400,
+        "Theme": "N/A",
+        "Style": "Safe",
+        "Color": "Brown/Brown"
+    },
+    {
+        "Name": "Foosball Table",
+        "Price": "1,800",
+        "Theme": "Toy Shop",
+        "Source": "Timmy & Tommy",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Football-Fish Lamp",
+        "Price": "NFS",
+        "Theme": "Toy Shop",
+        "Source": "Fishing Tourney",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Forklift",
+        "Price": "NFS",
+        "Source": "Boyd's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Four Lamp",
+        "Price": "4,000",
+        "Theme": "Trendy",
+        "Source": "Timmy & Tommy (Spotlight Item)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Freezer",
+        "Source": "Nooklings Shop",
+        "Price": 2400,
+        "SalePrice": 600,
+        "Theme": "Science",
+        "Style": "Safe",
+        "Color": "White/White"
+    },
+    {
+        "Name": "Froggy Chair",
+        "Source": "Nooklings Shop",
+        "Price": 1200,
+        "SalePrice": 300,
+        "Theme": "Natural",
+        "Style": "Fancy",
+        "Color": "Green/Green"
+    },
+    {
+        "Name": "Frog-Woman Pole",
+        "Source": "Nooklings Shop",
+        "Price": 1400,
+        "SalePrice": 350,
+        "Theme": "Natural",
+        "Style": "Traditional",
+        "Color": "Colorful/Brown"
+    },
+    {
+        "Name": "Fruit Basket",
+        "Source": "Harvest Festival",
+        "Price": "NFS",
+        "SalePrice": 200,
+        "Theme": "Natural",
+        "Style": "Traditional",
+        "Color": "Yellow/Red"
+    },
+    {
+        "Name": "Fruit Drink",
+        "Price": "NFS",
+        "Source": "Ellie/Tasha's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Fruit-Panel Cushion",
+        "Price": "NFS",
+        "Source": "Complete Story Mode in Puzzle League",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Frying Pan",
+        "Price": "NFS",
+        "Source": "Desert Island Escape achievement",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Fueki Chair",
+        "Price": "NFS",
+        "Source": "Holden's RV (Fueki)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Fueki Drawers",
+        "Price": "NFS",
+        "Source": "Holden's RV (Fueki)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Fueki Pot",
+        "Price": "NFS",
+        "Source": "Holden's RV (Fueki)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Fueki Stereo",
+        "Price": "NFS",
+        "Source": "Holden's RV (Fueki)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Fueki Table",
+        "Price": "NFS",
+        "Source": "Holden's RV (Fueki)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Full-Moon Vanity",
+        "Price": "4,360",
+        "Theme": "None",
+        "Source": "DLC (Japan)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Futon Mattress",
+        "Price": "NFS",
+        "Source": "Hornsby/Kapp'n/Wade's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Gadget Shelf",
+        "Price": "NFS",
+        "Source": "Celeste's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Game Shelf",
+        "Price": "980",
+        "Theme": "None",
+        "Source": "Timmy & Tommy",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Gamecube Drawer",
+        "Price": "NFS",
+        "Source": "Villager's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Game-Show Stand",
+        "Price": "2,400",
+        "Theme": "Toy Shop",
+        "Source": "Timmy & Tommy",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Garbage Bin",
+        "Price": "NFS",
+        "Source": "Boyd/Jacob/Stu's RV, Harvey's Shop",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Garbage Can",
+        "Source": "Nooklings Shop",
+        "Price": 500,
+        "SalePrice": 125,
+        "Theme": "Horror",
+        "Style": "Safe",
+        "Color": "Gray/Gray"
+    },
+    {
+        "Name": "Garbage Pail",
+        "Source": "Nooklings Shop",
+        "Price": 1100,
+        "SalePrice": 275,
+        "Theme": "Horror",
+        "Style": "Safe",
+        "Color": "Blue/Blue"
+    },
+    {
+        "Name": "Garden Chair",
+        "Price": "NFS",
+        "Source": "Maddie/Olive's RV, Harvey's Shop",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Garden Faucet",
+        "Price": "NFS",
+        "Source": "Maddie's RV, Harvey's Shop",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Garden Gnome",
+        "Source": "Spotlight Item/Wishy",
+        "Price": 3380,
+        "SalePrice": 845,
+        "Theme": "N/A",
+        "Style": "Fancy",
+        "Color": "Red/Orange"
+    },
+    {
+        "Name": "Garden Lantern",
+        "Price": "NFS",
+        "Source": "Maddie's RV, Harvey's Shop",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Garden Rock",
+        "Price": "NFS",
+        "Source": "Boot's RV, Harvey's Shop",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Garden Table",
+        "Price": "NFS",
+        "Source": "Maddie/Olive's RV, Harvey's Shop",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Garden Tools",
+        "Price": "NFS",
+        "Source": "Maggie's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Gas Pump",
+        "Source": "Nooklings Shop",
+        "Price": 1280,
+        "SalePrice": 320,
+        "Theme": "Science",
+        "Style": "Safe",
+        "Color": "Red/Red"
+    },
+    {
+        "Name": "Gaudi's Lizard",
+        "Price": "1,200",
+        "Theme": "Trendy",
+        "Source": "Gulliver (Answer Correct)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Gemini Closet",
+        "Price": "4,800",
+        "Theme": "None",
+        "Source": "DLC",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "General's Fan",
+        "Price": "1,600",
+        "Theme": "Harmonious",
+        "Source": "Timmy & Tommy (JP)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "General's Stool",
+        "Price": "1,200",
+        "Theme": "Harmonious",
+        "Source": "Timmy & Tommy (JP)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Genie's Lamp",
+        "Price": "1,500",
+        "Theme": "Antique, Fairy Tale, Quirky",
+        "Source": "Sahara's RV, Timmy & Tommy",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Gerbera",
+        "Source": "Garden Center",
+        "Price": 780,
+        "SalePrice": 195,
+        "Theme": "Natural",
+        "Style": "Safe",
+        "Color": "Orange/Blue"
+    },
+    {
+        "Name": "Giant Ant",
+        "Price": "6,000",
+        "Source": "Happy Home Designer Save Data",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Giant Dharma",
+        "Source": "Spotlight Item/Wishy",
+        "Price": 1600,
+        "SalePrice": 400,
+        "Theme": "Oriental",
+        "Style": "Fancy",
+        "Color": "Red/Red"
+    },
+    {
+        "Name": "Giant Game Boy",
+        "Price": "NFS",
+        "Source": "Hopkin's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Giant Stew Pot",
+        "Price": "8,000",
+        "Source": "Happy Home Designer Save Data",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Giant Teddy Bear",
+        "Price": "8,000",
+        "Source": "Happy Home Designer Save Data",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Gift Pile",
+        "Price": "NFS",
+        "Source": "Jingle's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Giraffe Ruler",
+        "Price": "1,600",
+        "Theme": "None",
+        "Source": "Timmy & Tommy",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Glass Display Case",
+        "Source": "Museum Shop",
+        "Price": 2000,
+        "SalePrice": 500,
+        "Theme": "Stylish",
+        "Style": "Formal",
+        "Color": "White/White"
+    },
+    {
+        "Name": "Glass Partition",
+        "Price": "NFS",
+        "Source": "Gonzo/Paolo's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Glass Screen",
+        "Price": "NFS",
+        "Source": "Cashmere/Kick's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Glass Teapot",
+        "Price": "NFS",
+        "Source": "Claude/Ketchup's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Glass-Top Table",
+        "Source": "Nooklings Shop",
+        "Price": 2200,
+        "SalePrice": 550,
+        "Theme": "Oriental",
+        "Style": "Traditional",
+        "Color": "Brown/Bronw"
+    },
+    {
+        "Name": "Globe",
+        "Source": "Katie",
+        "Price": "NFS",
+        "SalePrice": 300,
+        "Theme": "Science",
+        "Style": "Formal",
+        "Color": "Aqua/Brown"
+    },
+    {
+        "Name": "Go Board",
+        "Source": "Nooklings Shop",
+        "Price": 1200,
+        "SalePrice": 300,
+        "Theme": "Hobby/Oriental",
+        "Style": "Traditional",
+        "Color": "Brown/Brown"
+    },
+    {
+        "Name": "Goal Pole",
+        "Price": "840",
+        "Theme": "Toy Shop",
+        "Source": "Fortune Cookie #19",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Gold Bug Trophy",
+        "Price": "NFS",
+        "Theme": "None",
+        "Source": "Bug Off",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Gold Fish Trophy",
+        "Price": "NFS",
+        "Theme": "None",
+        "Source": "Fishing Tourney",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Gold HHA Plaque",
+        "Price": "1,800",
+        "Theme": "None",
+        "Source": "HHA (70,000 Points)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Gold HHA Trophy",
+        "Price": "1,800",
+        "Theme": "None",
+        "Source": "HHA (100,000 Points)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Gold House Model",
+        "Price": "1,800",
+        "Theme": "None",
+        "Source": "HHA (150,000 Points)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Gold Stereo",
+        "Source": "Nooklings Shop",
+        "Price": 2640,
+        "SalePrice": 660,
+        "Theme": "Stylish",
+        "Style": "Safe",
+        "Color": "Yellow/Black"
+    },
+    {
+        "Name": "Golden Bed",
+        "Source": "Cyrus",
+        "Price": "NFS",
+        "SalePrice": 8000,
+        "Theme": "Antique",
+        "Style": "Gorgeous",
+        "Color": "Yellow/Yellow"
+    },
+    {
+        "Name": "Golden Bench",
+        "Price": "10,000 + 3 Gold Nuggets",
+        "Theme": "Antique",
+        "Source": "Re-Tail (Refurbish)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Golden Chair",
+        "Source": "Cyrus",
+        "Price": "NFS",
+        "SalePrice": 8000,
+        "Theme": "Antique",
+        "Style": "Gorgeous",
+        "Color": "Yellow/Yellow"
+    },
+    {
+        "Name": "Golden Clock",
+        "Source": "Cyrus",
+        "Price": "NFS",
+        "SalePrice": 8000,
+        "Theme": "Antique",
+        "Style": "Gorgeous",
+        "Color": "Yellow/Yellow"
+    },
+    {
+        "Name": "Golden Closet",
+        "Source": "Cyrus",
+        "Price": "NFS",
+        "SalePrice": 8000,
+        "Theme": "Antique",
+        "Style": "Gorgeous",
+        "Color": "Yellow/Yellow"
+    },
+    {
+        "Name": "Golden Dresser",
+        "Source": "Cyrus",
+        "Price": "NFS",
+        "SalePrice": 8000,
+        "Theme": "Antique",
+        "Style": "Gorgeous",
+        "Color": "Yellow/Yellow"
+    },
+    {
+        "Name": "Golden Man",
+        "Source": "Cyrus",
+        "Price": "NFS",
+        "SalePrice": 8000,
+        "Theme": "Antique",
+        "Style": "Gorgeous",
+        "Color": "Yellow/Yellow"
+    },
+    {
+        "Name": "Golden Screen",
+        "Source": "Cyrus",
+        "Price": "NFS",
+        "SalePrice": 8000,
+        "Theme": "Antique",
+        "Style": "Gorgeous",
+        "Color": "Yellow/Yellow"
+    },
+    {
+        "Name": "Golden Table",
+        "Source": "Cyrus",
+        "Price": "NFS",
+        "SalePrice": 8000,
+        "Theme": "Antique",
+        "Style": "Gorgeous",
+        "Color": "Yellow/Yellow"
+    },
+    {
+        "Name": "Golden Wall Torch",
+        "Price": "10,000 + 3 Gold Nuggets",
+        "Theme": "Antique",
+        "Source": "Re-Tail (Refurbish)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Golden Woman",
+        "Source": "Cyrus",
+        "Price": "NFS",
+        "SalePrice": 8000,
+        "Theme": "Antique",
+        "Style": "Gorgeous",
+        "Color": "Yellow/Yellow"
+    },
+    {
+        "Name": "Golf Bag",
+        "Price": "1,600",
+        "Theme": "None",
+        "Source": "Tom Nook's RV, Timmy & Tommy",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Good Luck Charm",
+        "Price": "NFS",
+        "Source": "Complete every level in Desert Island Escape",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Gorgeous Bed",
+        "Source": "Gracie (Winter)",
+        "Price": 300000,
+        "SalePrice": 75000,
+        "Theme": "Stylish",
+        "Style": "Gorgeous",
+        "Color": "Red/Black"
+    },
+    {
+        "Name": "Gorgeous Chest",
+        "Source": "Gracie (Winter)",
+        "Price": 90000,
+        "SalePrice": 22500,
+        "Theme": "Stylish",
+        "Style": "Gorgeous",
+        "Color": "Black/Black"
+    },
+    {
+        "Name": "Gorgeous Closet",
+        "Source": "Gracie (Winter)",
+        "Price": 140000,
+        "SalePrice": 35000,
+        "Theme": "Stylish",
+        "Style": "Gorgeous",
+        "Color": "Black/Black"
+    },
+    {
+        "Name": "Gorgeous Counter",
+        "Source": "Gracie (Winter)",
+        "Price": 180000,
+        "SalePrice": 45000,
+        "Theme": "Stylish",
+        "Style": "Gorgeous",
+        "Color": "Red/Black"
+    },
+    {
+        "Name": "Gorgeous Desk",
+        "Source": "Gracie (Winter)",
+        "Price": 250000,
+        "SalePrice": 62500,
+        "Theme": "Stylish",
+        "Style": "Gorgeous",
+        "Color": "Black/Black"
+    },
+    {
+        "Name": "Gorgeous Lamp",
+        "Source": "Gracie (Winter)",
+        "Price": 60000,
+        "SalePrice": 15000,
+        "Theme": "Stylish",
+        "Style": "Gorgeous",
+        "Color": "Red/Black"
+    },
+    {
+        "Name": "Gorgeous Seat",
+        "Source": "Gracie (Winter)",
+        "Price": 90000,
+        "SalePrice": 22500,
+        "Theme": "Stylish",
+        "Style": "Gorgeous",
+        "Color": "Red/Red"
+    },
+    {
+        "Name": "Gorgeous Sofa",
+        "Source": "Gracie (Winter)",
+        "Price": 120000,
+        "SalePrice": 30000,
+        "Theme": "Stylish",
+        "Style": "Gorgeous",
+        "Color": "Red/Red"
+    },
+    {
+        "Name": "Gorgeous Stool",
+        "Source": "Gracie (Winter)",
+        "Price": 80000,
+        "SalePrice": 20000,
+        "Theme": "Stylish",
+        "Style": "Gorgeous",
+        "Color": "Yellow/Red"
+    },
+    {
+        "Name": "Gorgeous Table",
+        "Source": "Gracie (Winter)",
+        "Price": 250000,
+        "SalePrice": 62500,
+        "Theme": "Stylish",
+        "Style": "Gorgeous",
+        "Color": "Black/Black"
+    },
+    {
+        "Name": "Gorgeous Wall Clock",
+        "Price": "350,000",
+        "Theme": "Trendy",
+        "Source": "Gracie Grace (Winter)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Gossip Stone",
+        "Price": "NFS",
+        "Source": "Epona's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Gracie Bed",
+        "Source": "Gracie (Summer)",
+        "Price": 250000,
+        "SalePrice": 62500,
+        "Theme": "Stylish",
+        "Style": "Modern",
+        "Color": "Blue/Brown"
+    },
+    {
+        "Name": "Gracie Bench",
+        "Source": "Gracie (Summer)",
+        "Price": 110000,
+        "SalePrice": 27500,
+        "Theme": "Stylish",
+        "Style": "Modern",
+        "Color": "Colorful/Brown"
+    },
+    {
+        "Name": "Gracie Chair",
+        "Source": "Gracie (Summer)",
+        "Price": 150000,
+        "SalePrice": 37500,
+        "Theme": "Stylish",
+        "Style": "Modern",
+        "Color": "Colorful/Brown"
+    },
+    {
+        "Name": "Gracie Chest",
+        "Source": "Gracie (Summer)",
+        "Price": 300000,
+        "SalePrice": 75000,
+        "Theme": "Stylish",
+        "Style": "Modern",
+        "Color": "Brown/Brown"
+    },
+    {
+        "Name": "Gracie Desk",
+        "Source": "Gracie (Summer)",
+        "Price": 250000,
+        "SalePrice": 62500,
+        "Theme": "Stylish",
+        "Style": "Modern",
+        "Color": "Brown/Brown"
+    },
+    {
+        "Name": "Gracie Lamp",
+        "Source": "Gracie (Summer)",
+        "Price": 120000,
+        "SalePrice": 30000,
+        "Theme": "Stylish",
+        "Style": "Modern",
+        "Color": "Blue/Colorful"
+    },
+    {
+        "Name": "Gracie Low Table",
+        "Source": "Gracie (Summer)",
+        "Price": 68000,
+        "SalePrice": 17000,
+        "Theme": "Stylish",
+        "Style": "Modern",
+        "Color": "Colorful/Brown"
+    },
+    {
+        "Name": "Gracie Shelf",
+        "Source": "Gracie (Summer)",
+        "Price": 350000,
+        "SalePrice": 87500,
+        "Theme": "Stylish",
+        "Style": "Modern",
+        "Color": "Colorful/Brown"
+    },
+    {
+        "Name": "Gracie Wagon",
+        "Source": "Gracie (Summer)",
+        "Price": 300000,
+        "SalePrice": 75000,
+        "Theme": "Stylish",
+        "Style": "Modern",
+        "Color": "Colorful/Brown"
+    },
+    {
+        "Name": "Gracie Wall Clock",
+        "Source": "Gracie (Summer)",
+        "Price": 150000,
+        "SalePrice": 37500,
+        "Theme": "Stylish",
+        "Style": "Modern",
+        "Color": "Colorful/Brown"
+    },
+    {
+        "Name": "Gracie Wardrobe",
+        "Source": "Gracie (Summer)",
+        "Price": 350000,
+        "SalePrice": 87500,
+        "Theme": "Stylish",
+        "Style": "Modern",
+        "Color": "Brown/Brown"
+    },
+    {
+        "Name": "Grapefruit Table",
+        "Source": "Nooklings Shoop",
+        "Price": 1500,
+        "SalePrice": 375,
+        "Theme": "Natural",
+        "Style": "Fancy",
+        "Color": "Orange/Blue"
+    },
+    {
+        "Name": "Grass Standee",
+        "Price": "1,200",
+        "Theme": "None",
+        "Source": "Timmy & Tommy",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Green Bed",
+        "Source": "Nooklings Shop",
+        "Price": 2160,
+        "SalePrice": 540,
+        "Theme": "Natural",
+        "Style": "Safe",
+        "Color": "Green/Orange"
+    },
+    {
+        "Name": "Green Bench",
+        "Source": "Nooklings Shop",
+        "Price": 1800,
+        "SalePrice": 450,
+        "Theme": "Natural",
+        "Style": "Safe",
+        "Color": "Green/Green"
+    },
+    {
+        "Name": "Green Chair",
+        "Source": "Nooklings Shop",
+        "Price": 1200,
+        "SalePrice": 300,
+        "Theme": "Natural",
+        "Style": "Safe",
+        "Color": "Green/Orange"
+    },
+    {
+        "Name": "Green Counter",
+        "Source": "Nooklings Shop",
+        "Price": 2400,
+        "SalePrice": 600,
+        "Theme": "Natural",
+        "Style": "Safe",
+        "Color": "Green/Green"
+    },
+    {
+        "Name": "Green Desk",
+        "Source": "Nooklings Shop",
+        "Price": 2000,
+        "SalePrice": 500,
+        "Theme": "Natural",
+        "Style": "Safe",
+        "Color": "Green/Green"
+    },
+    {
+        "Name": "Green Dresser",
+        "Source": "Nooklings Shop",
+        "Price": 2320,
+        "SalePrice": 580,
+        "Theme": "Natural",
+        "Style": "Safe",
+        "Color": "Green/Orange"
+    },
+    {
+        "Name": "Green Lamp",
+        "Source": "Nooklings Shop",
+        "Price": 1800,
+        "SalePrice": 450,
+        "Theme": "Natural",
+        "Style": "Safe",
+        "Color": "Green/Orange"
+    },
+    {
+        "Name": "Green Net",
+        "Price": "NFS",
+        "Source": "Tybalt's RV, Harvey's Shop",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Green Pantry",
+        "Source": "Nooklings Shop",
+        "Price": 2290,
+        "SalePrice": 572,
+        "Theme": "Natural",
+        "Style": "Safe",
+        "Color": "Green/Green"
+    },
+    {
+        "Name": "Green Shell",
+        "Source": "Fortune Cookie",
+        "Price": "NFS",
+        "SalePrice": 210,
+        "Theme": "Hobby",
+        "Style": "Fancy",
+        "Color": "Green/Green"
+    },
+    {
+        "Name": "Green Table",
+        "Source": "Nooklings Shop",
+        "Price": 1700,
+        "SalePrice": 425,
+        "Theme": "Natural",
+        "Style": "Safe",
+        "Color": "Green/Orange"
+    },
+    {
+        "Name": "Green Wall Clock",
+        "Source": "Nooklings Shop",
+        "Price": 1680,
+        "SalePrice": 420,
+        "Theme": "Natural",
+        "Style": "Safe",
+        "Color": "Green/Orange"
+    },
+    {
+        "Name": "Green Wardrobe",
+        "Source": "Nooklings Shop",
+        "Price": 2300,
+        "SalePrice": 575,
+        "Theme": "Natural",
+        "Style": "Safe",
+        "Color": "Green/Green"
+    },
+    {
+        "Name": "Greenhouse Box",
+        "Price": "NFS",
+        "Source": "Maggie's RV, Harvey's Shop",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Guitar Case",
+        "Price": "NFS",
+        "Source": "K.K.'s RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Hagoita",
+        "Price": "2,400",
+        "Theme": "Harmonious",
+        "Source": "DLC (Japan)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Half-Eaten Pizza",
+        "Price": "NFS",
+        "Source": "Resetti's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Hammock",
+        "Source": "Nooklings Shop",
+        "Price": 1320,
+        "SalePrice": 330,
+        "Theme": "Natural",
+        "Style": "Fancy",
+        "Color": "Purple/Purple"
+    },
+    {
+        "Name": "Hamster Cage",
+        "Source": "Nooklings Shop",
+        "Price": 2290,
+        "SalePrice": 572,
+        "Theme": "Science",
+        "Style": "Fancy",
+        "Color": "Brown/White"
+    },
+    {
+        "Name": "Handbag",
+        "Price": "NFS",
+        "Source": "Vivian's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Handcart",
+        "Source": "Nooklings Shop",
+        "Price": 800,
+        "SalePrice": 200,
+        "Theme": "N/A",
+        "Style": "Rock",
+        "Color": "Red/Red"
+    },
+    {
+        "Name": "Handwashing Area",
+        "Price": "NFS",
+        "Source": "Maggie's RV, Harvey's Shop",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Hanger Rack",
+        "Price": "NFS",
+        "Source": "Bitty/Spike's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Hanging Chair",
+        "Price": "NFS",
+        "Source": "Vivian's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Hanging Strap",
+        "Price": "NFS",
+        "Source": "Rover's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Harp",
+        "Source": "Nooklings Shop",
+        "Price": 1700,
+        "SalePrice": 425,
+        "Theme": "Antique",
+        "Style": "Safe",
+        "Color": "Brown/White"
+    },
+    {
+        "Name": "Harpsichord",
+        "Source": "Nooklings Shop",
+        "Price": 1800,
+        "SalePrice": 450,
+        "Theme": "Antique",
+        "Style": "Safe",
+        "Color": "Yellow/Brown"
+    },
+    {
+        "Name": "Harvest Bed",
+        "Source": "Nooklings Shop (November)",
+        "Price": 3333,
+        "SalePrice": 833,
+        "Theme": "Fairytale",
+        "Style": "Modern",
+        "Color": "Pink/Purple"
+    },
+    {
+        "Name": "Harvest Bureau",
+        "Source": "Nooklings Shop (November)",
+        "Price": 3333,
+        "SalePrice": 833,
+        "Theme": "Fairytale",
+        "Style": "Modern",
+        "Color": "Pink/Purple"
+    },
+    {
+        "Name": "Harvest Chair",
+        "Source": "Nooklings Shop (November)",
+        "Price": 3333,
+        "SalePrice": 833,
+        "Theme": "Fairytale",
+        "Style": "Modern",
+        "Color": "Pink/Purple"
+    },
+    {
+        "Name": "Harvest Clock",
+        "Source": "Nooklings Shop (November)",
+        "Price": 3333,
+        "SalePrice": 833,
+        "Theme": "Fairytale",
+        "Style": "Modern",
+        "Color": "Pink/Purple"
+    },
+    {
+        "Name": "Harvest Dresser",
+        "Source": "Nooklings Shop (November)",
+        "Price": 3333,
+        "SalePrice": 833,
+        "Theme": "Fairytale",
+        "Style": "Modern",
+        "Color": "Pink/Purple"
+    },
+    {
+        "Name": "Harvest Lamp",
+        "Source": "Nooklings Shop (November)",
+        "Price": 3333,
+        "SalePrice": 833,
+        "Theme": "Fairytale",
+        "Style": "Modern",
+        "Color": "Pink/Purple"
+    },
+    {
+        "Name": "Harvest Mirror",
+        "Source": "Nooklings Shop (November)",
+        "Price": 3333,
+        "SalePrice": 833,
+        "Theme": "Fairytale",
+        "Style": "Modern",
+        "Color": "Pink/Purple"
+    },
+    {
+        "Name": "Harvest Sofa",
+        "Source": "Nooklings Shop (November)",
+        "Price": 3333,
+        "SalePrice": 833,
+        "Theme": "Fairytale",
+        "Style": "Modern",
+        "Color": "Pink/Purple"
+    },
+    {
+        "Name": "Harvest Table",
+        "Source": "Nooklings Shop (November)",
+        "Price": 3333,
+        "SalePrice": 833,
+        "Theme": "Fairytale",
+        "Style": "Modern",
+        "Color": "Pink/Purple"
+    },
+    {
+        "Name": "Harvest TV",
+        "Source": "Nooklings Shop (November)",
+        "Price": 3333,
+        "SalePrice": 833,
+        "Theme": "Fairytale",
+        "Style": "Modern",
+        "Color": "Pink/Purple"
+    },
+    {
+        "Name": "Harvest Wall Lamp",
+        "Source": "Nooklings Shop (November)",
+        "Price": 3333,
+        "SalePrice": 833,
+        "Theme": "Fairytale",
+        "Style": "Modern",
+        "Color": "Pink/Purple"
+    },
+    {
+        "Name": "Hawthorn Bonsai",
+        "Source": "Garden Center",
+        "Price": 1800,
+        "SalePrice": 450,
+        "Theme": "Natural/Oriental",
+        "Style": "Traditional",
+        "Color": "Green/Brown"
+    },
+    {
+        "Name": "Heart",
+        "Price": "NFS",
+        "Source": "Medli/Wolf Link's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Heart Container",
+        "Price": "NFS",
+        "Source": "Wolf Link's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Hearth",
+        "Source": "Nooklings Shop",
+        "Price": 1600,
+        "SalePrice": 400,
+        "Theme": "Oriental",
+        "Style": "Old",
+        "Color": "Brown/Brown"
+    },
+    {
+        "Name": "Hearty Breakfast",
+        "Price": "NFS",
+        "Source": "Reese's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Heavy Tome",
+        "Price": "NFS",
+        "Source": "Blather's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Hedge Standee",
+        "Price": "1,200",
+        "Theme": "None",
+        "Source": "Timmy & Tommy",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Hello Kitty Bed",
+        "Price": "NFS",
+        "Theme": "Cute",
+        "Source": "Rilla's RV (Sanrio)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Hello Kitty Chair",
+        "Price": "NFS",
+        "Theme": "Cute",
+        "Source": "Rilla's RV (Sanrio)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Hello Kitty Clock",
+        "Price": "NFS",
+        "Theme": "Cute",
+        "Source": "Rilla's RV (Sanrio)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Hello Kitty Drawers",
+        "Price": "NFS",
+        "Theme": "Cute",
+        "Source": "Rilla's RV (Sanrio)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Hello Kitty Planter",
+        "Price": "NFS",
+        "Theme": "Cute",
+        "Source": "Rilla's RV (Sanrio)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Hello Kitty Table",
+        "Price": "NFS",
+        "Theme": "Cute",
+        "Source": "Rilla's RV (Sanrio)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Helm",
+        "Source": "Pascal",
+        "Price": "NFS",
+        "SalePrice": 280,
+        "Theme": "Hobby",
+        "Style": "Old",
+        "Color": "Brown/Brown"
+    },
+    {
+        "Name": "Hero of Time Scroll",
+        "Price": "NFS",
+        "Source": "Medli's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "HHA Pennant",
+        "Price": "1,800",
+        "Theme": "None",
+        "Source": "HHA (20,000 Points)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Hibachi",
+        "Source": "Nooklings Shop",
+        "Price": 1200,
+        "SalePrice": 300,
+        "Theme": "Oriental",
+        "Style": "Old",
+        "Color": "Brown/Brown"
+    },
+    {
+        "Name": "Hibiscus",
+        "Source": "Arbor Day",
+        "Price": "NFS",
+        "SalePrice": "NFS",
+        "Theme": "Natural/Oriental",
+        "Style": "Safe",
+        "Color": "Green/Colorful"
+    },
+    {
+        "Name": "Hibiscus Clock",
+        "Source": "Grass Day",
+        "Price": "NFS",
+        "SalePrice": 550,
+        "Theme": "Fairytale/Natural",
+        "Style": "Fancy",
+        "Color": "Red/Red"
+    },
+    {
+        "Name": "Hi-Fi Stereo",
+        "Source": "Spotlight Item/Wishy",
+        "Price": 5400,
+        "SalePrice": 1350,
+        "Theme": "Stylish",
+        "Style": "Safe",
+        "Color": "Brown/Black"
+    },
+    {
+        "Name": "High-End Stereo",
+        "Source": "Nooklings Shop",
+        "Price": 2750,
+        "SalePrice": 687,
+        "Theme": "Stylish",
+        "Style": "Safe",
+        "Color": "Brown/Black"
+    },
+    {
+        "Name": "High-Jump Mat",
+        "Source": "Nooklings Shop",
+        "Price": 2980,
+        "SalePrice": 745,
+        "Theme": "N/A",
+        "Style": "Sporty",
+        "Color": "Green/Brown"
+    },
+    {
+        "Name": "Hinaningyo",
+        "Source": "Nooklings Shop (March)",
+        "Price": 2560,
+        "SalePrice": 640,
+        "Theme": "Fairytale/Horror/Oriental",
+        "Style": "Traditional",
+        "Color": "Red/Colorful"
+    },
+    {
+        "Name": "Holiday Candle",
+        "Price": "4,896",
+        "Theme": "Toy Shop",
+        "Source": "Timmy & Tommy (12/1 - 12/23)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Holiday Stocking",
+        "Price": "800",
+        "Theme": "Toy Shop",
+        "Source": "Naughty or Nice Day (Europe Only)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Holly Bonsai",
+        "Source": "Garden Center",
+        "Price": 1600,
+        "SalePrice": 400,
+        "Theme": "Natural/Oriental",
+        "Style": "Traditional",
+        "Color": "Green/White"
+    },
+    {
+        "Name": "Hologram Machine",
+        "Price": "3,600",
+        "Theme": "Sci-Fi, Toy Shop",
+        "Source": "Timmy & Tommy (Spotlight Item)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Home-Computer Rack",
+        "Price": "1,800",
+        "Theme": "Trendy",
+        "Source": "Timmy & Tommy",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Homework Set",
+        "Price": "680",
+        "Theme": "Sci-Fi",
+        "Source": "Blather's RV, Timmy & Tommy",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Honeybee Chest",
+        "Price": "NFS",
+        "Theme": "Toy Shop",
+        "Source": "Bug Off",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Hose Reel",
+        "Price": "NFS",
+        "Source": "Maggie's RV, Harvey's Shop",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Hospital Bed",
+        "Source": "Nooklings Shop",
+        "Price": 3600,
+        "SalePrice": 900,
+        "Theme": "Horror/Science",
+        "Style": "Crazy",
+        "Color": "Green/White"
+    },
+    {
+        "Name": "Hospital Screen",
+        "Price": "2,400",
+        "Theme": "Quirky, Sci-Fi",
+        "Source": "Timmy & Tommy",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Hospital TV",
+        "Source": "Nooklings Shop",
+        "Price": 1000,
+        "SalePrice": 250,
+        "Theme": "N/A",
+        "Style": "Traditional",
+        "Color": "Red/Brown"
+    },
+    {
+        "Name": "Hot Plate",
+        "Source": "Nooklings Shop",
+        "Price": 1680,
+        "SalePrice": 420,
+        "Theme": "N/A",
+        "Style": "Modern",
+        "Color": "White/Black"
+    },
+    {
+        "Name": "Hot-Snack Case",
+        "Price": "NFS",
+        "Source": "Filly's RV (7-11)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Hourglass",
+        "Source": "Nooklings Shop",
+        "Price": 480,
+        "SalePrice": 120,
+        "Theme": "Science",
+        "Style": "Traditional",
+        "Color": "Green/Brown"
+    },
+    {
+        "Name": "Hula Doll",
+        "Source": "Gulliver",
+        "Price": 1800,
+        "SalePrice": 450,
+        "Theme": "Fairytale/Horror",
+        "Style": "Traditional",
+        "Color": "Red/Green"
+    },
+    {
+        "Name": "Humidifier",
+        "Source": "Nooklings Shop",
+        "Price": 1600,
+        "SalePrice": 400,
+        "Theme": "Science/Stylish",
+        "Style": "Modern",
+        "Color": "Aqua/White"
+    },
+    {
+        "Name": "Hunter",
+        "Price": "NFS",
+        "Source": "Felyne's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Hunter's Cart",
+        "Price": "NFS",
+        "Source": "Felyne's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Hunter's Hive",
+        "Price": "NFS",
+        "Source": "Felyne's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Hurdle",
+        "Source": "Nooklings Shop",
+        "Price": 980,
+        "SalePrice": 245,
+        "Theme": "N/A",
+        "Style": "Sporty",
+        "Color": "Blue/White"
+    },
+    {
+        "Name": "Hydrangea Bed",
+        "Source": "Grass Day",
+        "Price": "NFS",
+        "SalePrice": 620,
+        "Theme": "Fairytale/Natural",
+        "Style": "Fancy",
+        "Color": "Blue/Blue"
+    },
+    {
+        "Name": "Hylian Shield",
+        "Price": "NFS",
+        "Source": "Wolf Link's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Hyrulean Treasure",
+        "Price": "NFS",
+        "Source": "Ganon/Wolf Link's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Ice Bed",
+        "Source": "SnowMom",
+        "Price": "NFS",
+        "SalePrice": 8888,
+        "Theme": "Fairytale",
+        "Style": "Fancy",
+        "Color": "Aqua/Aqua"
+    },
+    {
+        "Name": "Ice Chair",
+        "Source": "SnowMom",
+        "Price": "NFS",
+        "SalePrice": 8888,
+        "Theme": "Fairytale",
+        "Style": "Fancy",
+        "Color": "Aqua/Aqua"
+    },
+    {
+        "Name": "Ice Clock",
+        "Source": "SnowMom",
+        "Price": "NFS",
+        "SalePrice": 8888,
+        "Theme": "Fairytale",
+        "Style": "Fancy",
+        "Color": "Aqua/Aqua"
+    },
+    {
+        "Name": "Ice Closet",
+        "Source": "SnowMom",
+        "Price": "NFS",
+        "SalePrice": 8888,
+        "Theme": "Fairytale",
+        "Style": "Fancy",
+        "Color": "Aqua/Aqua"
+    },
+    {
+        "Name": "Ice Dresser",
+        "Price": "35,552",
+        "Theme": "Fairy Tale",
+        "Source": "Snowmam",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Ice Lamp",
+        "Source": "SnowMom",
+        "Price": "NFS",
+        "SalePrice": 8888,
+        "Theme": "Fairytale",
+        "Style": "Fancy",
+        "Color": "Yellow/Aqua"
+    },
+    {
+        "Name": "Ice Shelf",
+        "Source": "SnowMom",
+        "Price": "NFS",
+        "SalePrice": 8888,
+        "Theme": "Fairytale",
+        "Style": "Fancy",
+        "Color": "Aqua/Aqua"
+    },
+    {
+        "Name": "Ice Side Table",
+        "Source": "SnowMom",
+        "Price": "NFS",
+        "SalePrice": 8888,
+        "Theme": "Fairytale",
+        "Style": "Fancy",
+        "Color": "Aqua/Aqua"
+    },
+    {
+        "Name": "Ice Sofa",
+        "Source": "SnowMom",
+        "Price": "NFS",
+        "SalePrice": 8888,
+        "Theme": "Fairytale",
+        "Style": "Fancy",
+        "Color": "Aqua/Aqua"
+    },
+    {
+        "Name": "Ice Table",
+        "Source": "SnowMom",
+        "Price": "NFS",
+        "SalePrice": 8888,
+        "Theme": "Fairytale",
+        "Style": "Fancy",
+        "Color": "Aqua/Aqua"
+    },
+    {
+        "Name": "Ice Vanity",
+        "Source": "SnowMom",
+        "Price": "NFS",
+        "SalePrice": 8888,
+        "Theme": "Fairytale",
+        "Style": "Fancy",
+        "Color": "Aqua/Aqua"
+    },
+    {
+        "Name": "Iceberg",
+        "Price": "6,000",
+        "Source": "Happy Home Designer Save Data",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Ice-Cream Case",
+        "Source": "Nooklings Shop",
+        "Price": 1800,
+        "SalePrice": 450,
+        "Theme": "Oriental/Science",
+        "Style": "Old",
+        "Color": "Beige/Colorful"
+    },
+    {
+        "Name": "Ice-Cream Display",
+        "Price": "NFS",
+        "Source": "Olive's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Ikada Trophy",
+        "Price": "NFS",
+        "Source": "Obtain high scores in all levels in Desert Island Escape",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Ikebana Display",
+        "Price": "NFS",
+        "Source": "Snooty's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Imperial Chair",
+        "Price": "NFS",
+        "Source": "Harvey's Shop",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Imperial Pot",
+        "Price": "NFS",
+        "Source": "Admiral/Zipper T.Bunny's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Incense Burner",
+        "Price": "680",
+        "Theme": "Harmonious",
+        "Source": "Timmy & Tommy",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Inflatable Resetti",
+        "Price": "8,000",
+        "Source": "Happy Home Designer Save Data",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Inkopolis Chair",
+        "Price": "NFS",
+        "Source": "Cece/Viche's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Inkopolis Sign",
+        "Price": "NFS",
+        "Source": "Cece/Viche's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Inkopolis Table",
+        "Price": "NFS",
+        "Source": "Cece/Viche's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Instruction Manual",
+        "Price": "420",
+        "Source": "Welcome Amiibo Update",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Ionian Post",
+        "Source": "Nooklings Shop",
+        "Price": 3600,
+        "SalePrice": 900,
+        "Theme": "Antique/Horror",
+        "Style": "Old",
+        "Color": "Gray/Gray"
+    },
+    {
+        "Name": "Iron Frame",
+        "Source": "Nooklings Shop",
+        "Price": 1200,
+        "SalePrice": 300,
+        "Theme": "N/A",
+        "Style": "Rock",
+        "Color": "Red/Red"
+    },
+    {
+        "Name": "Iron Garden Chair",
+        "Price": "NFS",
+        "Source": "Ellie's RV, Harvey's Shop",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Iron Garden Table",
+        "Price": "NFS",
+        "Source": "Ellie's RV, Harvey's Shop",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Ironing Set",
+        "Price": "1,400",
+        "Theme": "None",
+        "Source": "Timmy & Tommy",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Isabelle Scooter",
+        "Price": "NFS",
+        "Source": "Isabelle's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Item Box",
+        "Price": "NFS",
+        "Source": "Felyne's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "IV Drip",
+        "Source": "Nooklings Shop",
+        "Price": 1480,
+        "SalePrice": 370,
+        "Theme": "Horror/Science",
+        "Style": "Crazy",
+        "Color": "Aqua/Gray"
+    },
+    {
+        "Name": "Ivy Partition",
+        "Price": "NFS",
+        "Source": "Tasha's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Jackhammer",
+        "Source": "Nooklings Shop",
+        "Price": 1880,
+        "SalePrice": 470,
+        "Theme": "N/A",
+        "Style": "Rock",
+        "Color": "Red/Gray"
+    },
+    {
+        "Name": "Jack-In-The-Box",
+        "Price": "400",
+        "Theme": "Toy Shop",
+        "Source": "Jack's RV, Halloween (Neighbor Trick)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Jail Bars",
+        "Price": "NFS",
+        "Source": "Gonzo's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Jasmine Bonsai",
+        "Source": "Garden Center",
+        "Price": 1700,
+        "SalePrice": 425,
+        "Theme": "Natural/Oriental",
+        "Style": "Traditional",
+        "Color": "Yellow/Brown"
+    },
+    {
+        "Name": "Jellyfish Lamp",
+        "Source": "Chip",
+        "Price": "NFS",
+        "SalePrice": 625,
+        "Theme": "Hobby",
+        "Style": "Fancy",
+        "Color": "Aqua/Aqua"
+    },
+    {
+        "Name": "Jewelry Case",
+        "Price": "NFS",
+        "Source": "Bitty's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Jingle Bed",
+        "Source": "Nooklings Shop (December)",
+        "Price": 4896,
+        "SalePrice": 1224,
+        "Theme": "Hobby",
+        "Style": "Fancy",
+        "Color": "Green/Red"
+    },
+    {
+        "Name": "Jingle Chair",
+        "Source": "Nooklings Shop (December)",
+        "Price": 4896,
+        "SalePrice": 1224,
+        "Theme": "Hobby",
+        "Style": "Fancy",
+        "Color": "Red/Red"
+    },
+    {
+        "Name": "Jingle Clock",
+        "Source": "Nooklings Shop (December)",
+        "Price": 4896,
+        "SalePrice": 1224,
+        "Theme": "Hobby",
+        "Style": "Fancy",
+        "Color": "Green/Red"
+    },
+    {
+        "Name": "Jingle Dresser",
+        "Source": "Nooklings Shop (December)",
+        "Price": 4896,
+        "SalePrice": 1224,
+        "Theme": "Hobby",
+        "Style": "Fancy",
+        "Color": "Green/Red"
+    },
+    {
+        "Name": "Jingle Lamp",
+        "Source": "Nooklings Shop (December)",
+        "Price": 4896,
+        "SalePrice": 1224,
+        "Theme": "Hobby",
+        "Style": "Fancy",
+        "Color": "Red/Red"
+    },
+    {
+        "Name": "Jingle Piano",
+        "Source": "Nooklings Shop (December)",
+        "Price": 4896,
+        "SalePrice": 1224,
+        "Theme": "Hobby",
+        "Style": "Fancy",
+        "Color": "Green/Red"
+    },
+    {
+        "Name": "Jingle Shelves",
+        "Source": "Nooklings Shop (December)",
+        "Price": 4896,
+        "SalePrice": 1224,
+        "Theme": "Hobby",
+        "Style": "Fancy",
+        "Color": "Green/Red"
+    },
+    {
+        "Name": "Jingle Sofa",
+        "Price": "4,896",
+        "Theme": "Toy Shop",
+        "Source": "Timmy & Tommy (12/1 - 12/23)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Jingle Table",
+        "Source": "Nooklings Shop (December)",
+        "Price": 4896,
+        "SalePrice": 1224,
+        "Theme": "Hobby",
+        "Style": "Fancy",
+        "Color": "Green/Red"
+    },
+    {
+        "Name": "Jingle TV",
+        "Source": "Nooklings Shop (December)",
+        "Price": 4896,
+        "SalePrice": 1224,
+        "Theme": "Hobby",
+        "Style": "Fancy",
+        "Color": "Green/Red"
+    },
+    {
+        "Name": "Jingle Wardrobe",
+        "Source": "Nooklings Shop (December)",
+        "Price": 4896,
+        "SalePrice": 1224,
+        "Theme": "Hobby",
+        "Style": "Fancy",
+        "Color": "Green/Red"
+    },
+    {
+        "Name": "Jolly Roger",
+        "Price": "1,600",
+        "Theme": "Quirky, Toy Shop",
+        "Source": "Pascal",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Jomon Pottery",
+        "Source": "Nooklings Shop",
+        "Price": 800,
+        "SalePrice": 200,
+        "Theme": "Antique/Horror/Oriental",
+        "Style": "Old",
+        "Color": "Brown/Brown"
+    },
+    {
+        "Name": "Judge's Bell",
+        "Source": "Nooklings Shop",
+        "Price": 1790,
+        "SalePrice": 447,
+        "Theme": "N/A",
+        "Style": "Sporty",
+        "Color": "Yellow/Brown"
+    },
+    {
+        "Name": "Juicy-Apple Clock",
+        "Price": "1,200",
+        "Theme": "Rustic",
+        "Source": "Timmy & Tommy",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Juicy-Apple TV",
+        "Price": "1,200",
+        "Theme": "Rustic",
+        "Source": "Timmy & Tommy",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Jukebox",
+        "Source": "Nooklings Shop",
+        "Price": 3200,
+        "SalePrice": 800,
+        "Theme": "Hobby",
+        "Style": "Old",
+        "Color": "Colorful/Brown"
+    },
+    {
+        "Name": "Kadomatsu",
+        "Price": "2,580",
+        "Theme": "Harmonious, Rustic",
+        "Source": "DLC",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Kagamimochi",
+        "Source": "DLC",
+        "Price": 1800,
+        "SalePrice": 450,
+        "Theme": "???",
+        "Style": "???",
+        "Color": "???/???"
+    },
+    {
+        "Name": "Kaiseki Meal",
+        "Price": "NFS",
+        "Source": "Wade's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Karaoke System",
+        "Price": "2,400",
+        "Theme": "None",
+        "Source": "Timmy & Tommy",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Kart",
+        "Source": "Fortune Cookie",
+        "Price": "NFS",
+        "SalePrice": 210,
+        "Theme": "Hobby/Science",
+        "Style": "Fancy",
+        "Color": "Red/Black"
+    },
+    {
+        "Name": "Kayak",
+        "Source": "Tent Camper",
+        "Price": 3460,
+        "SalePrice": 865,
+        "Theme": "N/A",
+        "Style": "Sporty",
+        "Color": "Yellow/Yellow"
+    },
+    {
+        "Name": "Keg",
+        "Source": "Pascal",
+        "Price": "NFS",
+        "SalePrice": 200,
+        "Theme": "Hobby",
+        "Style": "Old",
+        "Color": "Brown/Brown"
+    },
+    {
+        "Name": "Kerokerokeroppi Cake",
+        "Price": "NFS",
+        "Theme": "Cute",
+        "Source": "Toby's RV (Sanrio)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Kerokerokeroppi Doll",
+        "Price": "NFS",
+        "Theme": "Cute",
+        "Source": "Toby's RV (Sanrio)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Kerokerokeroppi Tray",
+        "Price": "NFS",
+        "Theme": "Cute",
+        "Source": "Toby's RV (Sanrio)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Kettle",
+        "Source": "Nooklings Shop",
+        "Price": 1200,
+        "SalePrice": 300,
+        "Theme": "N/A",
+        "Style": "Safe",
+        "Color": "Red/Red"
+    },
+    {
+        "Name": "Kick Scooter",
+        "Price": "NFS",
+        "Source": "Stu/Tybalt's RV, Harvey's Shop",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Kicks Mat",
+        "Price": "NFS",
+        "Source": "Kicks' RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Kiddie Bed",
+        "Source": "Nooklings Shop",
+        "Price": 2100,
+        "SalePrice": 525,
+        "Theme": "Hobby",
+        "Style": "Fancy",
+        "Color": "Colorful/Colorful"
+    },
+    {
+        "Name": "Kiddie Bookcase",
+        "Source": "Nooklings Shop",
+        "Price": 1800,
+        "SalePrice": 450,
+        "Theme": "Hobby",
+        "Style": "Fancy",
+        "Color": "Colorful/Colorful"
+    },
+    {
+        "Name": "Kiddie Bureau",
+        "Source": "Nooklings Shop",
+        "Price": 2200,
+        "SalePrice": 550,
+        "Theme": "Hobby",
+        "Style": "Fancy",
+        "Color": "Colorful/Colorful"
+    },
+    {
+        "Name": "Kiddie Chair",
+        "Source": "Nooklings Shop",
+        "Price": 1400,
+        "SalePrice": 350,
+        "Theme": "Hobby",
+        "Style": "Fancy",
+        "Color": "Colorful/Colorful"
+    },
+    {
+        "Name": "Kiddie Clock",
+        "Source": "Nooklings Shop",
+        "Price": 1480,
+        "SalePrice": 370,
+        "Theme": "Hobby",
+        "Style": "Fancy",
+        "Color": "Colorful/Colorful"
+    },
+    {
+        "Name": "Kiddie Couch",
+        "Source": "Nooklings Shop",
+        "Price": 2200,
+        "SalePrice": 550,
+        "Theme": "Hobby",
+        "Style": "Fancy",
+        "Color": "Colorful/Colorful"
+    },
+    {
+        "Name": "Kiddie Dresser",
+        "Source": "Nooklings Shop",
+        "Price": 2150,
+        "SalePrice": 537,
+        "Theme": "Hobby",
+        "Style": "Fancy",
+        "Color": "Colorful/Colorful"
+    },
+    {
+        "Name": "Kiddie Meal",
+        "Price": "NFS",
+        "Source": "Carrie's RV, Harvey's Shop",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Kiddie Stereo",
+        "Source": "Nooklings Shop",
+        "Price": 1900,
+        "SalePrice": 475,
+        "Theme": "Hobby",
+        "Style": "Fancy",
+        "Color": "Colorful/Colorful"
+    },
+    {
+        "Name": "Kiddie Table",
+        "Source": "Nooklings Shop",
+        "Price": 2200,
+        "SalePrice": 550,
+        "Theme": "Hobby",
+        "Style": "Fancy",
+        "Color": "Colorful/Colorful"
+    },
+    {
+        "Name": "Kiddie Wall Clock",
+        "Source": "Nooklings Shop",
+        "Price": 1800,
+        "SalePrice": 450,
+        "Theme": "Hobby",
+        "Style": "Fancy",
+        "Color": "Colorful/Colorful"
+    },
+    {
+        "Name": "Kiddie Wardrobe",
+        "Source": "Nooklings Shop",
+        "Price": 2180,
+        "SalePrice": 545,
+        "Theme": "Hobby",
+        "Style": "Fancy",
+        "Color": "Colorful/Colorful"
+    },
+    {
+        "Name": "Kiki and Lala Bed",
+        "Price": "NFS",
+        "Theme": "Cute",
+        "Source": "Etoile's RV (Sanrio)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Kiki and Lala Clock",
+        "Price": "NFS",
+        "Theme": "Cute",
+        "Source": "Etoile's RV (Sanrio)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Kiki and Lala Sofa",
+        "Price": "NFS",
+        "Theme": "Cute",
+        "Source": "Etoile's RV (Sanrio)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Kiki and Lala Table",
+        "Price": "NFS",
+        "Theme": "Cute",
+        "Source": "Etoile's RV (Sanrio)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Kimbap Plate",
+        "Price": "800",
+        "Theme": "Harmonious",
+        "Source": "DLC (Korea)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Kinderdijk Windmill",
+        "Price": "1,200",
+        "Theme": "Toy Shop",
+        "Source": "Gulliver (Answer Correct)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "King",
+        "Source": "Spotlight Item/Wishy",
+        "Price": 8000,
+        "SalePrice": 2000,
+        "Theme": "Hobby",
+        "Style": "Modern",
+        "Color": "Brown/Brown"
+    },
+    {
+        "Name": "Kitchen Corner",
+        "Source": "Nooklings Shop",
+        "Price": 1800,
+        "SalePrice": 450,
+        "Theme": "Science",
+        "Style": "Safe",
+        "Color": "White/White"
+    },
+    {
+        "Name": "Kitchen Counter",
+        "Price": "NFS",
+        "Source": "Admiral/Cashmere/Chip/Olive's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Kitchen Dishwasher",
+        "Price": "NFS",
+        "Source": "Admiral's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Kitchen Island",
+        "Price": "30 Medals",
+        "Theme": "None",
+        "Source": "Franklin's RV, Island Gift Shop (Rare)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Kitchen Refrigerator",
+        "Price": "NFS",
+        "Source": "Admiral/Franklin/Norma's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Kitchen Scale",
+        "Price": "1,200",
+        "Theme": "Sci-Fi",
+        "Source": "Timmy & Tommy",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Kitchen Sink",
+        "Source": "Nooklings Shop",
+        "Price": 2400,
+        "SalePrice": 600,
+        "Theme": "Science",
+        "Style": "Safe",
+        "Color": "White/White"
+    },
+    {
+        "Name": "Kitchen Stove",
+        "Price": "NFS",
+        "Source": "Admiral/Cashmere's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Kitschy Clock",
+        "Source": "Nooklings Shop",
+        "Price": 1800,
+        "SalePrice": 450,
+        "Theme": "N/A",
+        "Style": "Sporty",
+        "Color": "Colorful/Gray"
+    },
+    {
+        "Name": "Kiwi Stool",
+        "Source": "Nooklings Shop",
+        "Price": 1500,
+        "SalePrice": 375,
+        "Theme": "Natural",
+        "Style": "Fancy",
+        "Color": "Green/Brown"
+    },
+    {
+        "Name": "Knight",
+        "Source": "Nooklings Shop",
+        "Price": 2800,
+        "SalePrice": 700,
+        "Theme": "Hobby",
+        "Style": "Modern",
+        "Color": "Brown/Brown"
+    },
+    {
+        "Name": "Kokeshi Doll",
+        "Price": "800",
+        "Theme": "Harmonious, Quirky, Toy Shop",
+        "Source": "Timmy & Tommy (JP)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Kotatsu",
+        "Source": "Nooklings Shop",
+        "Price": 1200,
+        "SalePrice": 300,
+        "Theme": "Oriental",
+        "Style": "Old",
+        "Color": "Blue/Brown"
+    },
+    {
+        "Name": "Lab Bench",
+        "Source": "Nooklings Shop",
+        "Price": 4800,
+        "SalePrice": 1200,
+        "Theme": "Horror/Science",
+        "Style": "Crazy",
+        "Color": "Gray/Gray"
+    },
+    {
+        "Name": "Lab Chair",
+        "Source": "Nooklings Shop",
+        "Price": 2200,
+        "SalePrice": 550,
+        "Theme": "Horror/Science",
+        "Style": "Crazy",
+        "Color": "Gray/Gray"
+    },
+    {
+        "Name": "Laboratory Capsule",
+        "Price": "NFS",
+        "Source": "Murphy's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Labrador Ornament",
+        "Price": "NFS",
+        "Source": "Fortune Cookie #56",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Lady Palm",
+        "Source": "Garden Center",
+        "Price": 1200,
+        "SalePrice": 300,
+        "Theme": "Natural",
+        "Style": "Safe",
+        "Color": "Green/Brown"
+    },
+    {
+        "Name": "Ladybug Chair",
+        "Source": "Nat",
+        "Price": "NFS",
+        "SalePrice": 450,
+        "Theme": "Hobby",
+        "Style": "Fancy",
+        "Color": "Red/Black"
+    },
+    {
+        "Name": "Lantern",
+        "Source": "Isabelle/Nooklings",
+        "Price": 1180,
+        "SalePrice": 295,
+        "Theme": "N/A",
+        "Style": "Sporty",
+        "Color": "Red/White"
+    },
+    {
+        "Name": "Laptop",
+        "Source": "Nooklings Shop",
+        "Price": 2000,
+        "SalePrice": 500,
+        "Theme": "Stylish/Science",
+        "Style": "Modern",
+        "Color": "White/White"
+    },
+    {
+        "Name": "Large Alpine Table",
+        "Price": "2,400",
+        "Theme": "Rustic",
+        "Source": "Timmy & Tommy",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Large Bookshelf",
+        "Price": "2,400",
+        "Theme": "None",
+        "Source": "Dobie/Pascal's RV, Timmy & Tommy",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Large Egg",
+        "Price": "8,000",
+        "Source": "Happy Home Designer Save Data",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Large Magazine Rack",
+        "Price": "2,200",
+        "Theme": "Trendy",
+        "Source": "Timmy & Tommy",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Large Space Console",
+        "Price": "3,200",
+        "Theme": "Sci-Fi, Toy Shop",
+        "Source": "Timmy & Tommy (Spotlight Item)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Large Tea Table",
+        "Price": "NFS",
+        "Source": "Resetti's RV, Harvey's Shop",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Lat Pulldown Machine",
+        "Price": "2,380",
+        "Theme": "Sci-Fi",
+        "Source": "Timmy & Tommy",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Lava Lamp",
+        "Price": "1,800",
+        "Theme": "Sci-Fi, Toy Shop, Trendy",
+        "Source": "Timmy & Tommy",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Lawn Chair",
+        "Source": "Nooklings Shop",
+        "Price": 1180,
+        "SalePrice": 295,
+        "Theme": "N/A",
+        "Style": "Fancy",
+        "Color": "Aqua/Gray"
+    },
+    {
+        "Name": "Lawn Mower",
+        "Source": "Nooklings Shop",
+        "Price": 2760,
+        "SalePrice": 690,
+        "Theme": "N/A",
+        "Style": "Traditional",
+        "Color": "Red/Red"
+    },
+    {
+        "Name": "Lazy-Susan Table",
+        "Price": "2,400",
+        "Theme": "Harmonious",
+        "Source": "Timmy & Tommy",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Leaf Bed",
+        "Price": "4,200",
+        "Theme": "Rustic",
+        "Source": "Nat's RV, DLC",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Lectern with Mic",
+        "Price": "NFS",
+        "Source": "Harvey's Shop",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Lecture-Hall Desk",
+        "Price": "NFS",
+        "Source": "Leopold's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "LED Display",
+        "Price": "3,000",
+        "Theme": "Toy Shop",
+        "Source": "Timmy & Tommy",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Left Platform",
+        "Source": "Nooklings Shop",
+        "Price": 1600,
+        "SalePrice": 400,
+        "Theme": "Science",
+        "Style": "Formal",
+        "Color": "Green/Brown"
+    },
+    {
+        "Name": "Left Splatfest Sign",
+        "Price": "NFS",
+        "Source": "Cece/Viche's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Lefty Desk",
+        "Source": "Nooklings Shop",
+        "Price": 1240,
+        "SalePrice": 310,
+        "Theme": "N/A",
+        "Style": "Safe",
+        "Color": "Blue/Brown"
+    },
+    {
+        "Name": "Lefty Lucky Cat",
+        "Source": "Nooklings Shop",
+        "Price": 1700,
+        "SalePrice": 425,
+        "Theme": "Oriental",
+        "Style": "Traditional",
+        "Color": "Yellow/White"
+    },
+    {
+        "Name": "Lemon Table",
+        "Source": "Nooklings Shop",
+        "Price": 1500,
+        "SalePrice": 375,
+        "Theme": "Natural",
+        "Style": "Fancy",
+        "Color": "Yellow/Green"
+    },
+    {
+        "Name": "Leo Sculpture",
+        "Price": "4,800",
+        "Theme": "Quirky",
+        "Source": "DLC",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Letter Set",
+        "Source": "Savings",
+        "Price": "NFS",
+        "SalePrice": 300,
+        "Theme": "N/A",
+        "Style": "Safe",
+        "Color": "N/A/N/A"
+    },
+    {
+        "Name": "Levture-Hall Bench",
+        "Price": "NFS",
+        "Source": "Leopold's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Libra Scale",
+        "Price": "4,800",
+        "Theme": "None",
+        "Source": "DLC (Japan)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Life Preserver",
+        "Price": "25 Medals",
+        "Theme": "None",
+        "Source": "Island Gift Shop",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Life Ring",
+        "Source": "Island",
+        "Price": "20M",
+        "SalePrice": 250,
+        "Theme": "N/A",
+        "Style": "Sporty",
+        "Color": "Red/White"
+    },
+    {
+        "Name": "Lift Chair",
+        "Price": "4,800",
+        "Theme": "None",
+        "Source": "Snowman",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Light Breakfast",
+        "Price": "NFS",
+        "Source": "Cyrus' RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Lily Lamp",
+        "Price": "2,800",
+        "Theme": "Antique, Fairy Tale",
+        "Source": "Leif (Weeding Day; Happy Generosity Award)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Lily Record Player",
+        "Source": "Grass Day",
+        "Price": "NFS",
+        "SalePrice": 620,
+        "Theme": "Fairytale/Natural",
+        "Style": "Fancy",
+        "Color": "White/White"
+    },
+    {
+        "Name": "Lily-Pad Table",
+        "Source": "Nooklings Shop",
+        "Price": 1600,
+        "SalePrice": 400,
+        "Theme": "Natural",
+        "Style": "Fancy",
+        "Color": "Green/Green"
+    },
+    {
+        "Name": "Locker Stack",
+        "Price": "NFS",
+        "Source": "Louie's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Lon Lon Milk",
+        "Price": "NFS",
+        "Source": "Epona's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Loom",
+        "Source": "Nooklings Shop",
+        "Price": 3000,
+        "SalePrice": 750,
+        "Theme": "N/A",
+        "Style": "Traditional",
+        "Color": "Pink/Brown"
+    },
+    {
+        "Name": "Lotus Lamp",
+        "Source": "Nooklings Shop",
+        "Price": 1600,
+        "SalePrice": 400,
+        "Theme": "Natural/Oriental",
+        "Style": "Fancy",
+        "Color": "Pink/Pink"
+    },
+    {
+		"Name": "Lotus Pond",
+		"Price": "???",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Love Tester",
+        "Source": "Fireworks",
+        "Price": "NFS",
+        "SalePrice": 256,
+        "Theme": "Hobby/Science",
+        "Style": "Modern",
+        "Color": "Red/White"
+    },
+    {
+        "Name": "Lovely Armoire",
+        "Source": "Nooklings Shop",
+        "Price": 2240,
+        "SalePrice": 560,
+        "Theme": "Fairytale",
+        "Style": "Fancy",
+        "Color": "Pink/Pink"
+    },
+    {
+        "Name": "Lovely Bed",
+        "Source": "Nooklings Shop",
+        "Price": 2000,
+        "SalePrice": 500,
+        "Theme": "Fairytale",
+        "Style": "Fancy",
+        "Color": "Pink/Pink"
+    },
+    {
+        "Name": "Lovely Chair",
+        "Source": "Nooklings Shop",
+        "Price": 1600,
+        "SalePrice": 400,
+        "Theme": "Fairytale",
+        "Style": "Fancy",
+        "Color": "Pink/Pink"
+    },
+    {
+        "Name": "Lovely Doll",
+        "Source": "Nooklings Shop",
+        "Price": 2400,
+        "SalePrice": 600,
+        "Theme": "Fairytale",
+        "Style": "Fancy",
+        "Color": "Yellow/Colorful"
+    },
+    {
+        "Name": "Lovely Dresser",
+        "Source": "Nooklings Shop",
+        "Price": 2160,
+        "SalePrice": 540,
+        "Theme": "Fairytale",
+        "Style": "Fancy",
+        "Color": "Pink/Pink"
+    },
+    {
+        "Name": "Lovely End Table",
+        "Source": "Nooklings Shop",
+        "Price": 1800,
+        "SalePrice": 450,
+        "Theme": "Fairytale",
+        "Style": "Fancy",
+        "Color": "Pink/Pink"
+    },
+    {
+        "Name": "Lovely Kitchen",
+        "Source": "Nooklings Shop",
+        "Price": 2280,
+        "SalePrice": 570,
+        "Theme": "Fairytale",
+        "Style": "Fancy",
+        "Color": "Pink/Pink"
+    },
+    {
+        "Name": "Lovely Lamp",
+        "Source": "Nooklings Shop",
+        "Price": 1600,
+        "SalePrice": 400,
+        "Theme": "Fairytale",
+        "Style": "Fancy",
+        "Color": "Pink/Pink"
+    },
+    {
+        "Name": "Lovely Love Seat",
+        "Price": "2,000",
+        "Theme": "Fairy Tale",
+        "Source": "Lottie's RV, Timmy & Tommy",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Lovely Phone",
+        "Source": "Fireworks",
+        "Price": "NFS",
+        "SalePrice": 2600,
+        "Theme": "Fairytale",
+        "Style": "Fancy",
+        "Color": "Pink/Pink"
+    },
+    {
+        "Name": "Lovely Table",
+        "Source": "Nooklings Shop",
+        "Price": 1800,
+        "SalePrice": 450,
+        "Theme": "Fairytale",
+        "Style": "Fancy",
+        "Color": "Pink/Pink"
+    },
+    {
+        "Name": "Lovely Vanity",
+        "Source": "Nooklings Shop",
+        "Price": 2200,
+        "SalePrice": 550,
+        "Theme": "Fairytale",
+        "Style": "Fancy",
+        "Color": "Pink/Pink"
+    },
+    {
+        "Name": "Lovely Wall Clock",
+        "Source": "Nooklings Shop",
+        "Price": 1960,
+        "SalePrice": 490,
+        "Theme": "Fairytale",
+        "Style": "Fancy",
+        "Color": "Pink/Pink"
+    },
+    {
+        "Name": "Low Screen",
+        "Source": "Nooklings Shop",
+        "Price": 1480,
+        "SalePrice": 370,
+        "Theme": "Oriental",
+        "Style": "Old",
+        "Color": "Beige/Brown"
+    },
+    {
+        "Name": "Lucky Black Cat",
+        "Source": "Nooklings Shop",
+        "Price": 1700,
+        "SalePrice": 425,
+        "Theme": "Oriental",
+        "Style": "Traditional",
+        "Color": "Black/Black"
+    },
+    {
+        "Name": "Lucky Cat",
+        "Source": "Nooklings Shop",
+        "Price": 1700,
+        "SalePrice": 425,
+        "Theme": "Oriental",
+        "Style": "Traditional",
+        "Color": "Yellow/White"
+    },
+    {
+        "Name": "Lucky Doll",
+        "Price": "NFS",
+        "Source": "Billy's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Lucky Frog",
+        "Source": "Nooklings Shop",
+        "Price": 1350,
+        "SalePrice": 337,
+        "Theme": "Oriental",
+        "Style": "Traditional",
+        "Color": "Brown/White"
+    },
+    {
+        "Name": "Lucky Gold Cat",
+        "Source": "Nooklings Shop",
+        "Price": 6200,
+        "SalePrice": 1550,
+        "Theme": "Oriental",
+        "Style": "Traditional",
+        "Color": "Yellow/Yellow"
+    },
+    {
+        "Name": "Lunar Lander",
+        "Source": "Nooklings Shop",
+        "Price": 3200,
+        "SalePrice": 800,
+        "Theme": "Hobby/Science",
+        "Style": "Crazy",
+        "Color": "Yellow/Gray"
+    },
+    {
+        "Name": "Lunar Rover",
+        "Source": "Nooklings Shop",
+        "Price": 2560,
+        "SalePrice": 640,
+        "Theme": "Hobby/Science",
+        "Style": "Crazy",
+        "Color": "Gray/Gray"
+    },
+    {
+        "Name": "Lunch Box",
+        "Price": "NFS",
+        "Source": "Rex's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Lunch Pack",
+        "Price": "NFS",
+        "Source": "Kicks/Maddie's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Lunch Tray",
+        "Price": "800",
+        "Theme": "None",
+        "Source": "Timmy & Tommy",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Luxury Car",
+        "Price": "8,000",
+        "Source": "Happy Home Designer save data",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Mahjong Table",
+        "Source": "Nooklings Shop",
+        "Price": 4200,
+        "SalePrice": 1050,
+        "Theme": "Hobby/Orietnal",
+        "Style": "Rock",
+        "Color": "Green/Brown"
+    },
+    {
+        "Name": "Makeup Case",
+        "Price": "1,200",
+        "Theme": "Fairy Tale",
+        "Source": "Blanca/Lottie's RV, Timmy & Tommy",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Mama Bear",
+        "Source": "Nooklings Shop",
+        "Price": 1600,
+        "SalePrice": 400,
+        "Theme": "Fairytale/Hobby",
+        "Style": "Fancy",
+        "Color": "Beige/Beige"
+    },
+    {
+        "Name": "Mama Panda",
+        "Source": "Nooklings Shop",
+        "Price": 960,
+        "SalePrice": 240,
+        "Theme": "Fairytale/Hobby/Oriental",
+        "Style": "Fancy",
+        "Color": "White/Black"
+    },
+    {
+        "Name": "Mama Polar Bear",
+        "Price": "1,800",
+        "Theme": "Fairy Tale, Toy Shop",
+        "Source": "Timmy & Tommy (Spotlight Item)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Manhole Cover",
+        "Price": "1,000",
+        "Theme": "None",
+        "Source": "Boyd's RV, Timmy & Tommy",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Manneken Pis",
+        "Price": "5,200",
+        "Theme": "None",
+        "Source": "Gulliver (Answer Correct)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Maple Bonsai",
+        "Source": "Garden Center",
+        "Price": 1700,
+        "SalePrice": 425,
+        "Theme": "Natural/Oriental",
+        "Style": "Traditional",
+        "Color": "Red/Brown"
+    },
+    {
+        "Name": "Marshmallow Chair",
+        "Source": "Nooklings Shop",
+        "Price": 1200,
+        "SalePrice": 300,
+        "Theme": "Fairytale",
+        "Style": "Fancy",
+        "Color": "White/White"
+    },
+    {
+        "Name": "Massage Chair",
+        "Source": "Nooklings Shop",
+        "Price": 2400,
+        "SalePrice": 600,
+        "Theme": "Science",
+        "Style": "Old",
+        "Color": "Brown/Brown"
+    },
+    {
+        "Name": "Massage Recliner",
+        "Price": "NFS",
+        "Source": "Louie's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Massive Cake",
+        "Price": "6,000",
+        "Source": "Happy Home Designer save data",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Master Sword",
+        "Source": "Fortune Cookie",
+        "Price": "NFS",
+        "SalePrice": 210,
+        "Theme": "Hobby/Horror",
+        "Style": "Old",
+        "Color": "Blue/Gray"
+    },
+    {
+        "Name": "Matryoshka",
+        "Source": "Gulliver",
+        "Price": 3920,
+        "SalePrice": 980,
+        "Theme": "Fairytale/Hobby",
+        "Style": "Traditional",
+        "Color": "Colorful/Colorful"
+    },
+    {
+        "Name": "Medicine Cabinet",
+        "Price": "NFS",
+        "Source": "June's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Medicine Chest",
+        "Source": "Nooklings Shop",
+        "Price": 2280,
+        "SalePrice": 570,
+        "Theme": "Horror/Science",
+        "Style": "Crazy",
+        "Color": "Gray/Gray"
+    },
+    {
+        "Name": "Meeting-Room Chair",
+        "Price": "NFS",
+        "Source": "Huck's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Meeting-Room Table",
+        "Price": "NFS",
+        "Source": "Cleo/Gonzo's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Men's Toilet",
+        "Source": "Nooklings Shop",
+        "Price": 1600,
+        "SalePrice": 400,
+        "Theme": "N/A",
+        "Style": "Safe",
+        "Color": "Aqua/Aqua"
+    },
+    {
+        "Name": "Menu Chalkboard",
+        "Price": "NFS",
+        "Source": "Bea/Santy's RV, Harvey's Shop",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Merchandise Table",
+        "Price": "NFS",
+        "Source": "Candi's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Merlion",
+        "Source": "Gulliver",
+        "Price": 9200,
+        "SalePrice": 2300,
+        "Theme": "Oriental",
+        "Style": "Traditional",
+        "Color": "White/White"
+    },
+    {
+        "Name": "Mermaid Bed",
+        "Source": "Island",
+        "Price": "40M",
+        "SalePrice": 500,
+        "Theme": "Fairytale",
+        "Style": "Fancy",
+        "Color": "Aqua/Pink"
+    },
+    {
+        "Name": "Mermaid Chair",
+        "Source": "Island",
+        "Price": "40M",
+        "SalePrice": 500,
+        "Theme": "Fairytale",
+        "Style": "Fancy",
+        "Color": "Aqua/Pink"
+    },
+    {
+        "Name": "Mermaid Clock",
+        "Source": "Island",
+        "Price": "40M",
+        "SalePrice": 500,
+        "Theme": "Fairytale",
+        "Style": "Fancy",
+        "Color": "Aqua/Pink"
+    },
+    {
+        "Name": "Mermaid Closet",
+        "Source": "Island",
+        "Price": "40M",
+        "SalePrice": 500,
+        "Theme": "Fairytale",
+        "Style": "Fancy",
+        "Color": "Aqua/Pink"
+    },
+    {
+        "Name": "Mermaid Dresser",
+        "Price": "40 Medals",
+        "Theme": "Fairy Tale",
+        "Source": "Island Gift Shop",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Mermaid Lamp",
+        "Source": "Island",
+        "Price": "40M",
+        "SalePrice": 500,
+        "Theme": "Fairytale",
+        "Style": "Fancy",
+        "Color": "Aqua/Pink"
+    },
+    {
+        "Name": "Mermaid Screen",
+        "Source": "Island",
+        "Price": "40M",
+        "SalePrice": 500,
+        "Theme": "Fairytale",
+        "Style": "Fancy",
+        "Color": "Aqua/Pink"
+    },
+    {
+        "Name": "Mermaid Shelf",
+        "Source": "Island",
+        "Price": "40M",
+        "SalePrice": 500,
+        "Theme": "Fairytale",
+        "Style": "Fancy",
+        "Color": "Aqua/Pink"
+    },
+    {
+        "Name": "Mermaid Sofa",
+        "Source": "Island",
+        "Price": "40M",
+        "SalePrice": 500,
+        "Theme": "Fairytale",
+        "Style": "Fancy",
+        "Color": "Aqua/Pink"
+    },
+    {
+        "Name": "Mermaid Statue",
+        "Source": "Gulliver",
+        "Price": 7600,
+        "SalePrice": 1900,
+        "Theme": "N/A",
+        "Style": "Traditional",
+        "Color": "Gray/Gray"
+    },
+    {
+        "Name": "Mermaid Table",
+        "Source": "Island",
+        "Price": "40M",
+        "SalePrice": 500,
+        "Theme": "Fairytale",
+        "Style": "Fancy",
+        "Color": "Aqua/Pink"
+    },
+    {
+        "Name": "Mermaid Vanity",
+        "Source": "Island",
+        "Price": "40M",
+        "SalePrice": 500,
+        "Theme": "Fairytale",
+        "Style": "Fancy",
+        "Color": "Aqua/Pink"
+    },
+    {
+        "Name": "Merry-Go-Round",
+        "Source": "Nooklings Shop",
+        "Price": 640,
+        "SalePrice": 160,
+        "Theme": "Fairytale/Hobby",
+        "Style": "Fancy",
+        "Color": "Colorful/Colorful"
+    },
+    {
+        "Name": "Metal Box",
+        "Price": "NFS",
+        "Source": "Admiral's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Metal Can",
+        "Price": "NFS",
+        "Source": "Boyd/Ike's RV, Harvey's Shop",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Metal Flagpole",
+        "Price": "NFS",
+        "Source": "Harvey's Shop",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Metal Guitar",
+        "Source": "Nooklings Shop",
+        "Price": 1900,
+        "SalePrice": 475,
+        "Theme": "Stylish",
+        "Style": "Rock",
+        "Color": "Red/Red"
+    },
+    {
+        "Name": "Metal-and-Wood Chair",
+        "Price": "NFS",
+        "Source": "Ketchup/Tasha's RV, Harvey's Shop",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Metal-and-Wood Table",
+        "Price": "NFS",
+        "Source": "Ketchup/Plucky/Tasha's RV, Harvey's Shop",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Metal-Rim Table",
+        "Price": "NFS",
+        "Source": "Boris/K.K./Rover's TV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Metroid",
+        "Source": "Fortune Cookie",
+        "Price": "NFS",
+        "SalePrice": 210,
+        "Theme": "Hobby/Horror/Science",
+        "Style": "Crazy",
+        "Color": "Blue/Gray"
+    },
+    {
+        "Name": "Metronome",
+        "Source": "Nooklings Shop",
+        "Price": 1000,
+        "SalePrice": 250,
+        "Theme": "N/A",
+        "Style": "Safe",
+        "Color": "Red/Red"
+    },
+    {
+        "Name": "Mic Stand",
+        "Price": "1,800",
+        "Theme": "None",
+        "Source": "Timmy & Tommy",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Microscope",
+        "Source": "Nooklings Shop",
+        "Price": 1600,
+        "SalePrice": 400,
+        "Theme": "Science",
+        "Style": "Safe",
+        "Color": "White/White"
+    },
+    {
+        "Name": "Microwave",
+        "Source": "Nooklings Shop",
+        "Price": 2300,
+        "SalePrice": 575,
+        "Theme": "Science",
+        "Style": "Safe",
+        "Color": "White/White"
+    },
+    {
+        "Name": "Milk Can",
+        "Source": "Nooklings Shop",
+        "Price": 980,
+        "SalePrice": 245,
+        "Theme": "N/A",
+        "Style": "Safe",
+        "Color": "Gray/Gray"
+    },
+    {
+        "Name": "Milk Canister",
+        "Price": "NFS",
+        "Source": "Norma's RV, Harvey's Shop",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Milk Carton",
+        "Price": "NFS",
+        "Source": "Hopkins/Jacob/Norma's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Milk Case",
+        "Source": "Nooklings Shop",
+        "Price": 1800,
+        "SalePrice": 450,
+        "Theme": "Oriental/Science",
+        "Style": "Old",
+        "Color": "Orange/Colorful"
+    },
+    {
+        "Name": "Mini Butterfly Table",
+        "Price": "NFS",
+        "Theme": "Toy Shop",
+        "Source": "Bug Off",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Mini Cactus",
+        "Price": "800",
+        "Theme": "Rustic",
+        "Source": "Gardening Store (TIY)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Mini Circuit",
+        "Price": "1,600",
+        "Theme": "Toy Shop",
+        "Source": "Timmy & Tommy",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Mini Dharma",
+        "Source": "Nooklings Shop",
+        "Price": 800,
+        "SalePrice": 200,
+        "Theme": "Oriental",
+        "Style": "Fancy",
+        "Color": "Red/Red"
+    },
+    {
+        "Name": "Mini Lamp",
+        "Price": "1,280",
+        "Theme": "Sci-Fi",
+        "Source": "Timmy & Tommy",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Miniature Car",
+        "Source": "Fireworks",
+        "Price": "NFS",
+        "SalePrice": 2500,
+        "Theme": "Hobby",
+        "Style": "Sporty",
+        "Color": "Red/Red"
+    },
+    {
+        "Name": "Minifridge",
+        "Price": "NFS",
+        "Source": "Hornsby/Piper's TV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Minimalist Bed",
+        "Price": "1,000",
+        "Theme": "Trendy",
+        "Source": "Lottie's RV, Timmy & Tommy",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Minimalist Chair",
+        "Price": "2,000",
+        "Theme": "Trendy",
+        "Source": "Timmy & Tommy",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Minimalist Clock",
+        "Price": "3,500",
+        "Theme": "Trendy",
+        "Source": "Timmy & Tommy",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Minimalist Dresser",
+        "Price": "2,500",
+        "Theme": "Trendy",
+        "Source": "Timmy & Tommy",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Minimalist Lamp",
+        "Price": "1,000",
+        "Theme": "Trendy",
+        "Source": "Timmy & Tommy",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Minimalist Minitable",
+        "Price": "2,500",
+        "Theme": "Trendy",
+        "Source": "Timmy & Tommy",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Minimalist Ottoman",
+        "Price": "1,500",
+        "Theme": "Trendy",
+        "Source": "Timmy & Tommy",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Minimalist Sofa",
+        "Price": "1,500",
+        "Theme": "Trendy",
+        "Source": "Timmy & Tommy",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Minimalist Table",
+        "Price": "2,000",
+        "Theme": "Trendy",
+        "Source": "Timmy & Tommy",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Minimalist Vanity",
+        "Price": "3,000",
+        "Theme": "Trendy",
+        "Source": "Timmy & Tommy",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Minimalist Wardrobe",
+        "Price": "3,000",
+        "Theme": "Trendy",
+        "Source": "Timmy & Tommy",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Mixer",
+        "Source": "Nooklings Shop",
+        "Price": 1000,
+        "SalePrice": 250,
+        "Theme": "N/A",
+        "Style": "Traditional",
+        "Color": "White/Black"
+    },
+    {
+        "Name": "Moai Statue",
+        "Source": "Gulliver",
+        "Price": 7600,
+        "SalePrice": 1900,
+        "Theme": "Horror",
+        "Style": "Traditional",
+        "Color": "Gray/Gray"
+    },
+    {
+        "Name": "Mobile",
+        "Source": "Nooklings Shop",
+        "Price": 1200,
+        "SalePrice": 300,
+        "Theme": "Hobby",
+        "Style": "Fancy",
+        "Color": "Colorful/Colorful"
+    },
+    {
+        "Name": "Mochi Pestle",
+        "Source": "Nooklings Shop",
+        "Price": 1400,
+        "SalePrice": 350,
+        "Theme": "Oriental",
+        "Style": "Traditional",
+        "Color": "Brown/Brown"
+    },
+    {
+        "Name": "Model Bus",
+        "Price": "NFS",
+        "Source": "Kapp'n's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Model Sailor",
+        "Price": "NFS",
+        "Source": "Kapp'n's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Modern Bed",
+        "Source": "Nooklings Shop",
+        "Price": 2320,
+        "SalePrice": 580,
+        "Theme": "Stylish",
+        "Style": "Modern",
+        "Color": "Black/Black"
+    },
+    {
+        "Name": "Modern Cabinet",
+        "Source": "Nooklings Shop",
+        "Price": 2580,
+        "SalePrice": 645,
+        "Theme": "Stylish",
+        "Style": "Modern",
+        "Color": "Black/Black"
+    },
+    {
+        "Name": "Modern Cash Register",
+        "Price": "NFS",
+        "Source": "Candi's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Modern Chair",
+        "Source": "Nooklings Shop",
+        "Price": 1500,
+        "SalePrice": 375,
+        "Theme": "Stylish",
+        "Style": "Modern",
+        "Color": "White/Black"
+    },
+    {
+        "Name": "Modern Desk",
+        "Source": "Nooklings Shop",
+        "Price": 2480,
+        "SalePrice": 620,
+        "Theme": "Stylish",
+        "Style": "Modern",
+        "Color": "White/Black"
+    },
+    {
+        "Name": "Modern Dresser",
+        "Source": "Nooklings Shop",
+        "Price": 2250,
+        "SalePrice": 562,
+        "Theme": "Stylish",
+        "Style": "Modern",
+        "Color": "White/Black"
+    },
+    {
+        "Name": "Modern End Table",
+        "Source": "Nooklings Shop",
+        "Price": 1900,
+        "SalePrice": 475,
+        "Theme": "Stylish",
+        "Style": "Modern",
+        "Color": "White/Black"
+    },
+    {
+        "Name": "Modern Hospital Bed",
+        "Price": "NFS",
+        "Source": "Harvey's Shop",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Modern Lamp",
+        "Source": "Nooklings Shop",
+        "Price": 1400,
+        "SalePrice": 350,
+        "Theme": "Stylish",
+        "Style": "Modern",
+        "Color": "Black/Black"
+    },
+    {
+        "Name": "Modern Office Chair",
+        "Price": "NFS",
+        "Source": "Cleo/Raddle's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Modern Sofa",
+        "Source": "Nooklings Shop",
+        "Price": 2620,
+        "SalePrice": 655,
+        "Theme": "Stylish",
+        "Style": "Modern",
+        "Color": "White/Black"
+    },
+    {
+        "Name": "Modern Table",
+        "Source": "Nooklings Shop",
+        "Price": 1800,
+        "SalePrice": 450,
+        "Theme": "Stylish",
+        "Style": "Modern",
+        "Color": "White/Black"
+    },
+    {
+        "Name": "Modern Wall Clock",
+        "Source": "Nooklings Shop",
+        "Price": 2000,
+        "SalePrice": 500,
+        "Theme": "Stylish",
+        "Style": "Modern",
+        "Color": "White/Black"
+    },
+    {
+        "Name": "Modern Wardrobe",
+        "Source": "Nooklings Shop",
+        "Price": 2560,
+        "SalePrice": 640,
+        "Theme": "Stylish",
+        "Style": "Modern",
+        "Color": "White/Black"
+    },
+    {
+        "Name": "Modern Wash Station",
+        "Price": "NFS",
+        "Source": "Paolo's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Modern Wood Bed",
+        "Source": "Nooklings Shop",
+        "Price": 1680,
+        "SalePrice": 420,
+        "Theme": "Natural",
+        "Style": "Fancy",
+        "Color": "Beige/Brown"
+    },
+    {
+        "Name": "Modern Wood Chair",
+        "Source": "Nooklings Shop",
+        "Price": 1200,
+        "SalePrice": 300,
+        "Theme": "Natural",
+        "Style": "Fancy",
+        "Color": "Beige/Brown"
+    },
+    {
+        "Name": "Modern Wood Chest",
+        "Price": "1,480",
+        "Theme": "Rustic",
+        "Source": "Timmy & Tommy",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Modern Wood Clock",
+        "Source": "Nooklings Shop",
+        "Price": 1400,
+        "SalePrice": 350,
+        "Theme": "Natural",
+        "Style": "Fancy",
+        "Color": "Beige/Brown"
+    },
+    {
+        "Name": "Modern Wood Closet",
+        "Source": "Nooklings Shop",
+        "Price": 1600,
+        "SalePrice": 400,
+        "Theme": "Natural",
+        "Style": "Fancy",
+        "Color": "Beige/Brown"
+    },
+    {
+        "Name": "Modern Wood Lamp",
+        "Source": "Nooklings Shop",
+        "Price": 1680,
+        "SalePrice": 420,
+        "Theme": "Natural",
+        "Style": "Fancy",
+        "Color": "Beige/Brown"
+    },
+    {
+        "Name": "Modern Wood Shelf",
+        "Source": "Nooklings Shop",
+        "Price": 1840,
+        "SalePrice": 460,
+        "Theme": "Natural",
+        "Style": "Fancy",
+        "Color": "Beige/Brown"
+    },
+    {
+        "Name": "Modern Wood Sofa",
+        "Price": "1,600",
+        "Theme": "Rustic",
+        "Source": "Timmy & Tommy",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Modern Wood Stool",
+        "Source": "Nooklings Shop",
+        "Price": 1480,
+        "SalePrice": 370,
+        "Theme": "Natural",
+        "Style": "Fancy",
+        "Color": "Beige/Brown"
+    },
+    {
+        "Name": "Modern Wood Table",
+        "Source": "Nooklings Shop",
+        "Price": 1980,
+        "SalePrice": 495,
+        "Theme": "Natural",
+        "Style": "Fancy",
+        "Color": "Beige/Brown"
+    },
+    {
+        "Name": "Modern Wood TV",
+        "Source": "Nooklings Shop",
+        "Price": 1800,
+        "SalePrice": 450,
+        "Theme": "Natural",
+        "Style": "Fancy",
+        "Color": "Beige/Brown"
+    },
+    {
+        "Name": "Money Box",
+        "Price": "NFS",
+        "Source": "Buzz/Gonzo/Timmy & Tommy's RV, Harvey's Shop",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Monitor Tower",
+        "Price": "8,000",
+        "Source": "Happy Home Designer save data",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Moon",
+        "Source": "Spotlight Item/Wishy",
+        "Price": 32000,
+        "SalePrice": 8000,
+        "Theme": "Hobby/Science",
+        "Style": "Crazy",
+        "Color": "Gray/Gray"
+    },
+    {
+        "Name": "Mop",
+        "Source": "Nooklings Shop",
+        "Price": 900,
+        "SalePrice": 225,
+        "Theme": "N/A",
+        "Style": "Formal",
+        "Color": "Brown/Gray"
+    },
+    {
+        "Name": "Morning Glory",
+        "Source": "Garden Center",
+        "Price": 1600,
+        "SalePrice": 400,
+        "Theme": "Natural",
+        "Style": "Safe",
+        "Color": "Blue/Brown"
+    },
+    {
+        "Name": "Moss Ball",
+        "Price": "NFS",
+        "Source": "Snooty's RV, Harvey's Shop",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Moth Orchid",
+        "Source": "Garden Center",
+        "Price": 2480,
+        "SalePrice": 620,
+        "Theme": "Natural",
+        "Style": "Gorgeous",
+        "Color": "Green/White"
+    },
+    {
+        "Name": "Mountain",
+        "Price": "6,000",
+        "Source": "Happy Home Designer save data",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Mountain Bike",
+        "Source": "Nooklings Shop",
+        "Price": 3380,
+        "SalePrice": 845,
+        "Theme": "N/A",
+        "Style": "Sporty",
+        "Color": "Yellow/Green"
+    },
+    {
+        "Name": "Mountain of Money",
+        "Price": "6,000",
+        "Source": "Happy Home Designer save data",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Mountain Standee",
+        "Price": "1,200",
+        "Theme": "None",
+        "Source": "Timmy & Tommy",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Mouth of Truth",
+        "Source": "Gulliver",
+        "Price": 7600,
+        "SalePrice": 1900,
+        "Theme": "Horror",
+        "Style": "Traditional",
+        "Color": "Gray/Gray"
+    },
+    {
+        "Name": "Mr. Flamingo",
+        "Source": "Nooklings Shop",
+        "Price": 1530,
+        "SalePrice": 382,
+        "Theme": "N/A",
+        "Style": "Fancy",
+        "Color": "Pink/Pink"
+    },
+    {
+        "Name": "Mrs. Flamingo",
+        "Source": "Nooklings Shop",
+        "Price": 1530,
+        "SalePrice": 382,
+        "Theme": "N/A",
+        "Style": "Fancy",
+        "Color": "Pink/Pink"
+    },
+    {
+        "Name": "Mug",
+        "Price": "NFS",
+        "Source": "Norma/Rex's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Mugho Bonsai",
+        "Source": "Garden Center",
+        "Price": 1800,
+        "SalePrice": 450,
+        "Theme": "Natural/Oriental",
+        "Style": "Traditional",
+        "Color": "Green/Black"
+    },
+    {
+        "Name": "Mummy's Casket",
+        "Source": "Gulliver",
+        "Price": 4400,
+        "SalePrice": 1100,
+        "Theme": "Antique/Horror",
+        "Style": "Old",
+        "Color": "Yellow/Colorful"
+    },
+    {
+        "Name": "Museum Chair",
+        "Source": "Museum Shop",
+        "Price": 3000,
+        "SalePrice": 750,
+        "Theme": "Stylish",
+        "Style": "Formal",
+        "Color": "White/White"
+    },
+    {
+        "Name": "Museum Clock",
+        "Price": "NFS",
+        "Source": "Blather's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Museum Mat",
+        "Price": "NFS",
+        "Source": "Blather's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Museum Model",
+        "Source": "Museum Shop",
+        "Price": 1800,
+        "SalePrice": 450,
+        "Theme": "N/A",
+        "Style": "Safe",
+        "Color": "N/A/N/A"
+    },
+    {
+        "Name": "Mush Bed",
+        "Price": "12,000",
+        "Theme": "Fairy Tale, Rustic",
+        "Source": "Pick Mushroom During November",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Mush Chair",
+        "Price": "7,600",
+        "Theme": "Fairy Tale, Rustic",
+        "Source": "Pick Mushroom During November",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Mush Closet",
+        "Price": "9,800",
+        "Theme": "Fairy Tale, Rustic",
+        "Source": "Pick Mushroom During November",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Mush Dresser",
+        "Price": "9,800",
+        "Theme": "Fairy Tale, Rustic",
+        "Source": "Pick Mushroom During November",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Mush End Table",
+        "Price": "8,800",
+        "Theme": "Fairy Tale, Rustic",
+        "Source": "Pick Mushroom During November",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Mush Hanger",
+        "Price": "8,000",
+        "Theme": "Fairy Tale, Rustic",
+        "Source": "Pick Mushroom During November",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Mush Lamp",
+        "Price": "9,600",
+        "Theme": "Fairy Tale, Rustic",
+        "Source": "Pick Mushroom During November",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Mush Stool",
+        "Price": "7,200",
+        "Theme": "Fairy Tale, Rustic",
+        "Source": "Pick Mushroom During November",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Mush Table",
+        "Price": "10,000",
+        "Theme": "Fairy Tale, Rustic",
+        "Source": "Pick Mushroom During November",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Mush TV",
+        "Price": "10,000",
+        "Theme": "Fairy Tale, Rustic",
+        "Source": "Pick Mushroom During November",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Mush Wall Lamp",
+        "Price": "9,600",
+        "Theme": "Fairy Tale, Rustic",
+        "Source": "Pick Mushroom During November",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Music Stand",
+        "Source": "Nooklings Shop",
+        "Price": 1280,
+        "SalePrice": 320,
+        "Theme": "N/A",
+        "Style": "Safe",
+        "Color": "Brown/White"
+    },
+    {
+        "Name": "My Melody Bed",
+        "Price": "NFS",
+        "Theme": "Cute",
+        "Source": "Chelsea's RV (Sanrio)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "My Melody Chair",
+        "Price": "NFS",
+        "Theme": "Cute",
+        "Source": "Chelsea's RV (Sanrio)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "My Melody Clock",
+        "Price": "NFS",
+        "Theme": "Cute",
+        "Source": "Chelsea's RV (Sanrio)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "My Melody Dresser",
+        "Price": "NFS",
+        "Theme": "Cute",
+        "Source": "Chelsea's RV (Sanrio)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "My Melody Table",
+        "Price": "NFS",
+        "Theme": "Cute",
+        "Source": "Chelsea's RV (Sanrio)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Nabiru Ornament",
+        "Price": "NFS",
+        "Source": "Felyne's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Narrow Clock",
+        "Price": "23,760",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Natural Bench",
+        "Price": "NFS",
+        "Source": "Reese/Sandy's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Natural Chair",
+        "Price": "NFS",
+        "Source": "Cyrus/Sandy's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Natural Lamp",
+        "Price": "NFS",
+        "Source": "Claude/Isabelle/Vivian's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Natural Low Table",
+        "Price": "NFS",
+        "Source": "Cyrus/Reese/Sandy/Stella/Vivian's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Natural Table",
+        "Price": "NFS",
+        "Source": "Claude's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "NDS Lite Bench",
+        "Price": "NFS",
+        "Source": "Villager's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Neon Sign",
+        "Source": "Nooklings Shop",
+        "Price": 2400,
+        "SalePrice": 600,
+        "Theme": "Hobby",
+        "Style": "Crazy",
+        "Color": "Colorful/Black"
+    },
+    {
+        "Name": "Neutral Corner",
+        "Source": "Nooklings Shop",
+        "Price": 5500,
+        "SalePrice": 1375,
+        "Theme": "N/A",
+        "Style": "Sporty",
+        "Color": "White/White"
+    },
+    {
+        "Name": "New 3DS - K.K.",
+        "Price": "NFS",
+        "Source": "K.K.'s RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "New 3DS - Mabel",
+        "Price": "NFS",
+        "Source": "Mabel's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "New 3DS - Sable",
+        "Price": "NFS",
+        "Source": "Sabel's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "New 3DS - T&T",
+        "Price": "NFS",
+        "Source": "Timmy & Tommy's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "New 3DS Isabelle",
+        "Price": "NFS",
+        "Source": "Isabelle's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "New 3DS XL - HHD",
+        "Price": "NFS",
+        "Source": "Lottie's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "New Nintendo 3DS",
+        "Price": "NFS",
+        "Source": "Blathers/Celeste/Cyrus/Digby/Kapp'n/Kicks/Reese/Resetti/Rover/Tom Nook's RV, Fortune Cookie #57",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "New Nintendo 3DS XL",
+        "Price": "NFS",
+        "Source": "Hopkins' RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "New Year's Noodles",
+        "Price": "NFS",
+        "Theme": "Harmonious",
+        "Source": "Countdown (JP)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Nine Lamp",
+        "Price": "9,000",
+        "Theme": "Trendy",
+        "Source": "Timmy & Tommy (Spotlight Item)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Ninja Sword",
+        "Source": "Nooklings Shop",
+        "Price": 9600,
+        "SalePrice": 2400,
+        "Theme": "Antique/Horror/Oriental",
+        "Style": "Traditional",
+        "Color": "Brown/Brown"
+    },
+    {
+        "Name": "Nintendo 3DS Shelf",
+        "Price": "NFS",
+        "Source": "Destroy a \"HUGE amount\" of blocks at once in Puzzle League",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Nintendo 3DS Station",
+        "Price": "NFS",
+        "Source": "Get a chain of at least 5 in Puzzle League",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Nintendo Bench",
+        "Price": "NFS",
+        "Source": "Villager's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Nintendo DSI Bench",
+        "Price": "NFS",
+        "Source": "Villager's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Nook's Homes Car",
+        "Price": "NFS",
+        "Source": "Tom Nook's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Nook's Homes Mat",
+        "Price": "NFS",
+        "Source": "Tom Nook's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Nook's Homes Model",
+        "Price": "NFS",
+        "Source": "Tom Nook's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Notebook Bed",
+        "Price": "23,760",
+        "Theme": "Trendy",
+        "Source": "DLC (Japan)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Notebook Wardrobe",
+        "Price": "23,760",
+        "Theme": "Trendy",
+        "Source": "DLC (Japan)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Nutcracker",
+        "Price": "1,200",
+        "Theme": "Fairy Tale, Quirky, Toy Shop",
+        "Source": "Gulliver (Answer Correct)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Octopus Chair",
+        "Source": "Chip",
+        "Price": "NFS",
+        "SalePrice": 600,
+        "Theme": "Hobby",
+        "Style": "Fancy",
+        "Color": "Red/Red"
+    },
+    {
+        "Name": "Odd Clock",
+        "Source": "Nooklings Shop",
+        "Price": 1800,
+        "SalePrice": 450,
+        "Theme": "Antique/Oriental",
+        "Style": "Old",
+        "Color": "Yellow/Yellow"
+    },
+    {
+        "Name": "Office Cabinet",
+        "Price": "NFS",
+        "Source": "Raddle's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Office Chair",
+        "Source": "Nooklings Shop",
+        "Price": 1100,
+        "SalePrice": 275,
+        "Theme": "N/A",
+        "Style": "Formal",
+        "Color": "Gray/Gray"
+    },
+    {
+        "Name": "Office Clock",
+        "Price": "NFS",
+        "Source": "Harvey's Shop",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Office Desk",
+        "Source": "Nooklings Shop",
+        "Price": 1600,
+        "SalePrice": 400,
+        "Theme": "N/A",
+        "Style": "Formal",
+        "Color": "Gray/Gray"
+    },
+    {
+        "Name": "Office Locker",
+        "Price": "1,200",
+        "Theme": "None",
+        "Source": "Timmy & Tommy",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Office Phone",
+        "Price": "NFS",
+        "Source": "Cleo/Murphy's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Ogre Mask",
+        "Source": "Nooklings Shop",
+        "Price": 1600,
+        "SalePrice": 400,
+        "Theme": "Antique/Horror/Oriental",
+        "Style": "Traditional",
+        "Color": "White/White"
+    },
+    {
+        "Name": "Oil Barrel",
+        "Price": "800",
+        "Theme": "None",
+        "Source": "Boyd's RV, Timmy & Tommy",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Oil Lamp",
+        "Source": "Nooklings Shop",
+        "Price": 680,
+        "SalePrice": 170,
+        "Theme": "Science/Horror",
+        "Style": "Formal",
+        "Color": "Red/Aqua"
+    },
+    {
+        "Name": "Old Sewing Machine",
+        "Price": "1,350",
+        "Theme": "None",
+        "Source": "Timmy & Tommy",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Omelet",
+        "Price": "NFS",
+        "Source": "Zipper T. Bunny's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "One Lamp",
+        "Price": "1,000",
+        "Theme": "Trendy",
+        "Source": "Timmy & Tommy (Spotlight Item)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Operating Room Cart",
+        "Price": "NFS",
+        "Source": "Raddle's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Operating Table",
+        "Price": "NFS",
+        "Source": "Harvey's Shop",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Orange Cone",
+        "Source": "Nooklings Shop",
+        "Price": 600,
+        "SalePrice": 150,
+        "Theme": "N/A",
+        "Style": "Rock",
+        "Color": "Red/Red"
+    },
+    {
+        "Name": "Organ",
+        "Price": "NFS",
+        "Source": "Weber's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Otomon Egg",
+        "Price": "NFS",
+        "Source": "Felyne's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Outdoor Bath",
+        "Source": "Nooklings Shop",
+        "Price": 4900,
+        "SalePrice": 1225,
+        "Theme": "Oriental",
+        "Style": "Traditional",
+        "Color": "Gray/Gray"
+    },
+    {
+        "Name": "Outdoor Sign",
+        "Price": "NFS",
+        "Source": "Huck's RV, Harvey's Shop",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Oval Clock",
+        "Source": "Nooklings Shop",
+        "Price": 800,
+        "SalePrice": 200,
+        "Theme": "N/A",
+        "Style": "Traditional",
+        "Color": "Yellow/Green"
+    },
+    {
+        "Name": "Overflowing Trash",
+        "Price": "NFS",
+        "Source": "Resetti's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Owl Clock",
+        "Source": "Nooklings Shop",
+        "Price": 1300,
+        "SalePrice": 325,
+        "Theme": "Fairytale",
+        "Style": "Old",
+        "Color": "Brown/Brown"
+    },
+    {
+        "Name": "PA System",
+        "Price": "NFS",
+        "Source": "Isabelle's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Pachira",
+        "Source": "Garden Center",
+        "Price": 1200,
+        "SalePrice": 300,
+        "Theme": "Natural",
+        "Style": "Safe",
+        "Color": "Green/Brown"
+    },
+    {
+        "Name": "Paella",
+        "Price": "NFS",
+        "Source": "Cashmere's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Pagoda",
+        "Source": "Gulliver",
+        "Price": 5120,
+        "SalePrice": 1280,
+        "Theme": "Oriental",
+        "Style": "Traditional",
+        "Color": "Red/Gray"
+    },
+    {
+        "Name": "Painting Set",
+        "Price": "680",
+        "Theme": "Toy Shop",
+        "Source": "Timmy & Tommy",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Palico Board",
+        "Price": "NFS",
+        "Source": "Felyne's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Palm-Tree Lamp",
+        "Price": "4,280",
+        "Theme": "Rustic",
+        "Source": "Plucky's RV, DLC",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Pancakes",
+        "Price": "NFS",
+        "Source": "Franklin's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Pansy Table",
+        "Source": "Grass Day",
+        "Price": "NFS",
+        "SalePrice": 600,
+        "Theme": "Fairytale/Natural",
+        "Style": "Fancy",
+        "Color": "Yellow/Brown"
+    },
+    {
+        "Name": "Pantheon Post",
+        "Source": "Nooklings Shop",
+        "Price": 3600,
+        "SalePrice": 900,
+        "Theme": "Antique/Horror",
+        "Style": "Old",
+        "Color": "Gray/Gray"
+    },
+    {
+        "Name": "Papa Bear",
+        "Source": "Nooklings Shop",
+        "Price": 2200,
+        "SalePrice": 550,
+        "Theme": "Fairytale/Hobby",
+        "Style": "Fancy",
+        "Color": "Brown/Brown"
+    },
+    {
+        "Name": "Papa Panda",
+        "Source": "Nooklings Shop",
+        "Price": 1920,
+        "SalePrice": 480,
+        "Theme": "Fairytale/Hobby/Oriental",
+        "Style": "Fancy",
+        "Color": "Pink/Purple"
+    },
+    {
+        "Name": "Paper Lantern",
+        "Source": "Nooklings Shop",
+        "Price": 800,
+        "SalePrice": 200,
+        "Theme": "Horror/Oriental",
+        "Style": "Old",
+        "Color": "Beige/Brown"
+    },
+    {
+        "Name": "Paper Tiger",
+        "Source": "Nooklings Shop",
+        "Price": 680,
+        "SalePrice": 170,
+        "Theme": "Oriental",
+        "Style": "Traditional",
+        "Color": "Yellow/Black"
+    },
+    {
+        "Name": "Paper Wall Lamp",
+        "Price": "800",
+        "Theme": "Harmonious, Quirky",
+        "Source": "Joan's RV, Timmy & Tommy",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Partition Screen",
+        "Price": "1,600",
+        "Theme": "Trendy",
+        "Source": "Timmy & Tommy",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Pasta",
+        "Price": "NFS",
+        "Source": "Wendell's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Pastel Low Table",
+        "Price": "NFS",
+        "Source": "Carrie/Hopkins/Lottie's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Patchwork Chair",
+        "Price": "1,600",
+        "Theme": "Fairy Tale",
+        "Source": "Timmy & Tommy",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Patchwork Dresser",
+        "Price": "1,800",
+        "Theme": "Fairy Tale",
+        "Source": "Timmy & Tommy",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Patchwork Lamp",
+        "Source": "Nooklings Shop",
+        "Price": 1480,
+        "SalePrice": 370,
+        "Theme": "Fairytale",
+        "Style": "Fancy",
+        "Color": "Colorful/Colorful"
+    },
+    {
+        "Name": "Patchwork Sofa",
+        "Source": "Nooklings Shop",
+        "Price": 1600,
+        "SalePrice": 400,
+        "Theme": "Fairytale",
+        "Style": "Fancy",
+        "Color": "Colorful/Colorful"
+    },
+    {
+        "Name": "Patchwork Table",
+        "Source": "Nooklings Shop",
+        "Price": 2000,
+        "SalePrice": 500,
+        "Theme": "Fairytale",
+        "Style": "Fancy",
+        "Color": "Colorful/Colorful"
+    },
+    {
+        "Name": "Paulownia Closet",
+        "Source": "Nooklings Shoop",
+        "Price": 1300,
+        "SalePrice": 325,
+        "Theme": "Natural/Oriental",
+        "Style": "Old",
+        "Color": "Beige/Beige"
+    },
+    {
+        "Name": "Pavé Bed",
+        "Source": "Festivale",
+        "Price": "NFS",
+        "SalePrice": 12000,
+        "Theme": "Stylish",
+        "Style": "Fancy",
+        "Color": "Blue/White"
+    },
+    {
+        "Name": "Pavé Bookshelf",
+        "Source": "Festivale",
+        "Price": "NFS",
+        "SalePrice": 12000,
+        "Theme": "Stylish",
+        "Style": "Fancy",
+        "Color": "Blue/White"
+    },
+    {
+        "Name": "Pavé Bureau",
+        "Source": "Festivale",
+        "Price": "NFS",
+        "SalePrice": 12000,
+        "Theme": "Stylish",
+        "Style": "Fancy",
+        "Color": "Blue/White"
+    },
+    {
+        "Name": "Pavé Chair",
+        "Source": "Festivale",
+        "Price": "NFS",
+        "SalePrice": 12000,
+        "Theme": "Stylish",
+        "Style": "Fancy",
+        "Color": "Blue/White"
+    },
+    {
+        "Name": "Pavé Chest",
+        "Source": "Festivale",
+        "Price": "NFS",
+        "SalePrice": 12000,
+        "Theme": "Stylish",
+        "Style": "Fancy",
+        "Color": "Blue/White"
+    },
+    {
+        "Name": "Pavé Clock",
+        "Source": "Festivale",
+        "Price": "NFS",
+        "SalePrice": 12000,
+        "Theme": "Stylish",
+        "Style": "Fancy",
+        "Color": "Blue/Brown"
+    },
+    {
+        "Name": "Pavé Closet",
+        "Source": "Festivale",
+        "Price": "NFS",
+        "SalePrice": 12000,
+        "Theme": "Stylish",
+        "Style": "Fancy",
+        "Color": "Blue/White"
+    },
+    {
+        "Name": "Pavé End Table",
+        "Source": "Festivale",
+        "Price": "NFS",
+        "SalePrice": 12000,
+        "Theme": "Stylish",
+        "Style": "Fancy",
+        "Color": "Blue/White"
+    },
+    {
+        "Name": "Pavé Lamp",
+        "Source": "Festivale",
+        "Price": "NFS",
+        "SalePrice": 12000,
+        "Theme": "Stylish",
+        "Style": "Fancy",
+        "Color": "Blue/Brown"
+    },
+    {
+        "Name": "Pavé Sofa",
+        "Source": "Festivale",
+        "Price": "NFS",
+        "SalePrice": 12000,
+        "Theme": "Stylish",
+        "Style": "Fancy",
+        "Color": "Blue/White"
+    },
+    {
+        "Name": "Pavé Table",
+        "Source": "Festivale",
+        "Price": "NFS",
+        "SalePrice": 12000,
+        "Theme": "Stylish",
+        "Style": "Fancy",
+        "Color": "Blue/White"
+    },
+    {
+        "Name": "Pawn",
+        "Source": "Nooklings Shop",
+        "Price": 1100,
+        "SalePrice": 275,
+        "Theme": "Hobby",
+        "Style": "Modern",
+        "Color": "Brown/Brown"
+    },
+    {
+        "Name": "Peacock Chair",
+        "Source": "Nooklings Shop",
+        "Price": 3600,
+        "SalePrice": 900,
+        "Theme": "N/A",
+        "Style": "Gorgeous",
+        "Color": "Green/Brown"
+    },
+    {
+        "Name": "Pear Dresser",
+        "Source": "Nooklings Shop",
+        "Price": 1600,
+        "SalePrice": 400,
+        "Theme": "Natural",
+        "Style": "Fancy",
+        "Color": "Green/Beige"
+    },
+    {
+        "Name": "Pear Wardrobe",
+        "Source": "Nooklings Shop",
+        "Price": 1400,
+        "SalePrice": 350,
+        "Theme": "Natural",
+        "Style": "Fancy",
+        "Color": "Green/Beige"
+    },
+    {
+        "Name": "Pen-Case Chair",
+        "Price": "23,760",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Pencil Screen",
+        "Price": "23,760",
+        "Theme": "Trendy",
+        "Source": "DLC (Japan)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Pendulum Clock",
+        "Source": "Nooklings Shop",
+        "Price": 1600,
+        "SalePrice": 400,
+        "Theme": "Antique",
+        "Style": "Safe",
+        "Color": "N/A/N/A"
+    },
+    {
+        "Name": "Pepper Mill",
+        "Source": "Nooklings Shop",
+        "Price": 800,
+        "SalePrice": 200,
+        "Theme": "N/A",
+        "Style": "Safe",
+        "Color": "Brown/Brown"
+    },
+    {
+        "Name": "Perfume Bottles",
+        "Price": "NFS",
+        "Source": "Bitty/Lottie's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Phone Box",
+        "Source": "Nooklings Shop",
+        "Price": 2400,
+        "SalePrice": 600,
+        "Theme": "N/A",
+        "Style": "Traditional",
+        "Color": "Red/Red"
+    },
+    {
+        "Name": "Phonograph",
+        "Source": "Nooklings Shop",
+        "Price": 1840,
+        "SalePrice": 460,
+        "Theme": "Antique",
+        "Style": "Old",
+        "Color": "Yellow/Brown"
+    },
+    {
+        "Name": "Pickle Jar",
+        "Source": "Nooklings Shop",
+        "Price": 800,
+        "SalePrice": 200,
+        "Theme": "N/A",
+        "Style": "Safe",
+        "Color": "Colorful/Colorful"
+    },
+    {
+        "Name": "Picnic Basket",
+        "Source": "Labor Day",
+        "Price": "NFS",
+        "SalePrice": "NFS",
+        "Theme": "???",
+        "Style": "???",
+        "Color": "???/???"
+    },
+    {
+        "Name": "Picnic Table",
+        "Source": "Nooklings Shop",
+        "Price": 1390,
+        "SalePrice": 347,
+        "Theme": "N/A",
+        "Style": "Fancy",
+        "Color": "Red/Brown"
+    },
+    {
+        "Name": "Piece of Heart",
+        "Price": "NFS",
+        "Source": "Epona/Medli's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Piggy Bank",
+        "Source": "Savings",
+        "Price": "NFS",
+        "SalePrice": 1120,
+        "Theme": "Oriental",
+        "Style": "Fancy",
+        "Color": "Pink/Beige"
+    },
+    {
+        "Name": "Pikmin",
+        "Source": "Fortune Cookie",
+        "Price": "NFS",
+        "SalePrice": 210,
+        "Theme": "Hobby",
+        "Style": "Fancy",
+        "Color": "Colorful/Brown"
+    },
+    {
+        "Name": "Pile of Cash",
+        "Price": "NFS",
+        "Source": "Gonzo's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Pile of Leaves",
+        "Price": "400",
+        "Theme": "Rustic",
+        "Source": "Nat's RV, DLC (NA)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Pinball Machine",
+        "Source": "Nooklings Shop",
+        "Price": 1960,
+        "SalePrice": 490,
+        "Theme": "Hobby",
+        "Style": "Rock",
+        "Color": "Colorful/Brown"
+    },
+    {
+        "Name": "Pine Bonsai",
+        "Source": "Garden Center",
+        "Price": 1800,
+        "SalePrice": 450,
+        "Theme": "Natural/Oriental",
+        "Style": "Traditional",
+        "Color": "Green/Blue"
+    },
+    {
+        "Name": "Pine Chair",
+        "Source": "Nooklings Shop",
+        "Price": 1800,
+        "SalePrice": 450,
+        "Theme": "Natural",
+        "Style": "Fancy",
+        "Color": "Beige/Beige"
+    },
+    {
+        "Name": "Pine Table",
+        "Source": "Nooklings Shop",
+        "Price": 2280,
+        "SalePrice": 570,
+        "Theme": "Natural",
+        "Style": "Fancy",
+        "Color": "Green/Beige"
+    },
+    {
+        "Name": "Pineapple Bed",
+        "Source": "Nooklings Shop",
+        "Price": 1990,
+        "SalePrice": 497,
+        "Theme": "Natural",
+        "Style": "Fancy",
+        "Color": "Yellow/Yellow"
+    },
+    {
+        "Name": "Pink Velvet Stool",
+        "Price": "1,400",
+        "Theme": "None",
+        "Source": "Timmy & Tommy",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Pipe",
+        "Price": "840",
+        "Theme": "Toy Shop",
+        "Source": "Fortune Cookie #26",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Pipe Organ",
+        "Source": "Nooklings Shop",
+        "Price": 3600,
+        "SalePrice": 900,
+        "Theme": "N/A",
+        "Style": "Traditional",
+        "Color": "Brown/Brown"
+    },
+    {
+        "Name": "Pipe Stool",
+        "Price": "1,000",
+        "Theme": "Sci-Fi",
+        "Source": "Timmy & Tommy",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Pirate's Armor",
+        "Price": "2,400",
+        "Theme": "Antique, Quirky, Toy Shop",
+        "Source": "Pascal",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Pisces Lamp",
+        "Price": "4,800",
+        "Theme": "None",
+        "Source": "DLC",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Pitcher Plant",
+        "Price": "NFS",
+        "Source": "Kicks' RV, Harvey's Shop",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Plant Partition",
+        "Price": "NFS",
+        "Source": "Ursala's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Planter",
+        "Source": "Garden Center",
+        "Price": 1200,
+        "SalePrice": 300,
+        "Theme": "Natural",
+        "Style": "Safe",
+        "Color": "Green/White"
+    },
+    {
+        "Name": "Plastic Canister",
+        "Price": "NFS",
+        "Source": "Booker/Boyd/Copper/Ike's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Plastic File Box",
+        "Price": "NFS",
+        "Source": "Dobie's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Plate Armor",
+        "Source": "Spotlight Item/WishY",
+        "Price": 6400,
+        "SalePrice": 1600,
+        "Theme": "Antique/Horror",
+        "Style": "Old",
+        "Color": "Gray/Gray"
+    },
+    {
+        "Name": "Platform",
+        "Price": "NFS",
+        "Source": "Harvey's Shop",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Plum Bonsai",
+        "Source": "Garden Center",
+        "Price": 1900,
+        "SalePrice": 475,
+        "Theme": "Natural/Oriental",
+        "Style": "Traditional",
+        "Color": "Pink/Brown"
+    },
+    {
+        "Name": "Podium",
+        "Source": "Spotlight Item/Wishy",
+        "Price": 1280,
+        "SalePrice": 320,
+        "Theme": "Science",
+        "Style": "Formal",
+        "Color": "Brown/Brown"
+    },
+    {
+        "Name": "Poinsettia",
+        "Source": "Garden Center",
+        "Price": 1200,
+        "SalePrice": 300,
+        "Theme": "Natural",
+        "Style": "Modern",
+        "Color": "Green/Red"
+    },
+    {
+        "Name": "Polka-Dot Bed",
+        "Source": "Nooklings Shop",
+        "Price": 2400,
+        "SalePrice": 600,
+        "Theme": "Stylish",
+        "Style": "Fancy",
+        "Color": "Red/White"
+    },
+    {
+        "Name": "Polka-Dot Chair",
+        "Source": "Nooklings Shop",
+        "Price": 2400,
+        "SalePrice": 600,
+        "Theme": "Stylish",
+        "Style": "Fancy",
+        "Color": "Red/White"
+    },
+    {
+        "Name": "Polka-Dot Clock",
+        "Source": "Nooklings Shop",
+        "Price": 2400,
+        "SalePrice": 600,
+        "Theme": "Stylish",
+        "Style": "Fancy",
+        "Color": "Red/White"
+    },
+    {
+        "Name": "Polka-Dot Closet",
+        "Source": "Nooklings Shop",
+        "Price": 2400,
+        "SalePrice": 600,
+        "Theme": "Stylish",
+        "Style": "Fancy",
+        "Color": "Red/White"
+    },
+    {
+        "Name": "Polka-Dot Dresser",
+        "Source": "Nooklings Shop",
+        "Price": 2400,
+        "SalePrice": 600,
+        "Theme": "Stylish",
+        "Style": "Fancy",
+        "Color": "Red/White"
+    },
+    {
+        "Name": "Polka-Dot Lamp",
+        "Source": "Nooklings Shop",
+        "Price": 2400,
+        "SalePrice": 600,
+        "Theme": "Stylish",
+        "Style": "Fancy",
+        "Color": "Red/White"
+    },
+    {
+        "Name": "Polka-Dot Low Table",
+        "Source": "Nooklings Shop",
+        "Price": 2400,
+        "SalePrice": 600,
+        "Theme": "Stylish",
+        "Style": "Fancy",
+        "Color": "Red/White"
+    },
+    {
+        "Name": "Polka-Dot Sofa",
+        "Source": "Nooklings Shop",
+        "Price": 2400,
+        "SalePrice": 600,
+        "Theme": "Stylish",
+        "Style": "Fancy",
+        "Color": "Red/White"
+    },
+    {
+        "Name": "Polka-Dot Stool",
+        "Source": "Nooklings Shop",
+        "Price": 2400,
+        "SalePrice": 600,
+        "Theme": "Stylish",
+        "Style": "Fancy",
+        "Color": "Red/White"
+    },
+    {
+        "Name": "Polka-Dot Table",
+        "Source": "Nooklings Shop",
+        "Price": 2400,
+        "SalePrice": 600,
+        "Theme": "Stylish",
+        "Style": "Fancy",
+        "Color": "Red/White"
+    },
+    {
+        "Name": "Polka-Dot TV",
+        "Source": "Nooklings Shop",
+        "Price": 2400,
+        "SalePrice": 600,
+        "Theme": "Stylish",
+        "Style": "Fancy",
+        "Color": "Red/White"
+    },
+    {
+        "Name": "Pompompurin Bed",
+        "Price": "NFS",
+        "Theme": "Cute",
+        "Source": "Marty's RV (Sanrio)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Pompompurin Chair",
+        "Price": "NFS",
+        "Theme": "Cute",
+        "Source": "Marty's RV (Sanrio)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Pompompurin Pudding",
+        "Price": "NFS",
+        "Theme": "Cute",
+        "Source": "Marty's RV (Sanrio)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Pompompurin Rack",
+        "Price": "NFS",
+        "Theme": "Cute",
+        "Source": "Marty's RV (Sanrio)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Pompompurin Table",
+        "Price": "NFS",
+        "Theme": "Cute",
+        "Source": "Marty's RV (Sanrio)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Pompompurin TV",
+        "Price": "NFS",
+        "Theme": "Cute",
+        "Source": "Marty's RV (Sanrio)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Ponderosa Bonsai",
+        "Source": "Garden Center",
+        "Price": 1800,
+        "SalePrice": 450,
+        "Theme": "Natural/Oriental",
+        "Style": "Traditional",
+        "Color": "Green/Red"
+    },
+    {
+        "Name": "Poogie",
+        "Price": "NFS",
+        "Source": "Felyne's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Popcorn",
+        "Price": "NFS",
+        "Source": "Boris' RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Popcorn Machine",
+        "Source": "Nooklings Shop",
+        "Price": 3200,
+        "SalePrice": 800,
+        "Theme": "Hobby",
+        "Style": "Fancy",
+        "Color": "Red/Beige"
+    },
+    {
+        "Name": "Pop-Up Book",
+        "Price": "1,000",
+        "Theme": "Toy Shop",
+        "Source": "Timmy & Tommy",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Portable Toilet",
+        "Price": "2,000",
+        "Theme": "None",
+        "Source": "Timmy & Tommy",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Poster Stand",
+        "Price": "2,500",
+        "Theme": "Trendy",
+        "Source": "Museum Shop",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Post-Office Poster",
+        "Price": "NFS",
+        "Theme": "None",
+        "Source": "10Mil Bells in Savings Account",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Pot Rack",
+        "Source": "Nooklings Shop",
+        "Price": 980,
+        "SalePrice": 245,
+        "Theme": "N/A",
+        "Style": "Safe",
+        "Color": "Colorful/Brown"
+    },
+    {
+        "Name": "Potato Gratin",
+        "Price": "NFS",
+        "Source": "Franklin's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Potbelly Stove",
+        "Source": "Nooklings Shop",
+        "Price": 2000,
+        "SalePrice": 500,
+        "Theme": "N/A",
+        "Style": "Old",
+        "Color": "Gray/Gray"
+    },
+    {
+        "Name": "Pothos",
+        "Source": "Garden Center",
+        "Price": 1300,
+        "SalePrice": 325,
+        "Theme": "Natural",
+        "Style": "Safe",
+        "Color": "Green/Brown"
+    },
+    {
+        "Name": "Potted Ivy",
+        "Source": "Nooklings Shop",
+        "Price": 800,
+        "SalePrice": 200,
+        "Theme": "Natural",
+        "Style": "Safe",
+        "Color": "Green/Green"
+    },
+    {
+        "Name": "Potty",
+        "Source": "Nooklings Shop",
+        "Price": 1200,
+        "SalePrice": 300,
+        "Theme": "N/A",
+        "Style": "Safe",
+        "Color": "White/White"
+    },
+    {
+        "Name": "Princess Bed",
+        "Source": "Gracie (Summer)",
+        "Price": 80000,
+        "SalePrice": 20000,
+        "Theme": "Antique/Fairytale",
+        "Style": "Fancy",
+        "Color": "Aqua/Aqua"
+    },
+    {
+        "Name": "Princess Cage",
+        "Source": "Gracie (Summer)",
+        "Price": 90000,
+        "SalePrice": 22500,
+        "Theme": "Antique/Fairytale",
+        "Style": "Fancy",
+        "Color": "White/White"
+    },
+    {
+        "Name": "Princess Chair",
+        "Source": "Gracie (Summer)",
+        "Price": 120000,
+        "SalePrice": 30000,
+        "Theme": "Antique/Fairytale",
+        "Style": "Fancy",
+        "Color": "Aqua/White"
+    },
+    {
+        "Name": "Princess Chest",
+        "Source": "Gracie (Summer)",
+        "Price": 220000,
+        "SalePrice": 55000,
+        "Theme": "Antique/Fairytale",
+        "Style": "Fancy",
+        "Color": "White/White"
+    },
+    {
+        "Name": "Princess Clock",
+        "Source": "Gracie (Summer)",
+        "Price": 200000,
+        "SalePrice": 50000,
+        "Theme": "Antique/Fairytale",
+        "Style": "Fancy",
+        "Color": "Aqua/White"
+    },
+    {
+        "Name": "Princess Closet",
+        "Source": "Gracie (Summer)",
+        "Price": 180000,
+        "SalePrice": 45000,
+        "Theme": "Antique/Fairytale",
+        "Style": "Fancy",
+        "Color": "White/White"
+    },
+    {
+        "Name": "Princess Curio",
+        "Source": "Gracie (Summer)",
+        "Price": 300000,
+        "SalePrice": 75000,
+        "Theme": "Antique/Fairytale",
+        "Style": "Fancy",
+        "Color": "White/White"
+    },
+    {
+        "Name": "Princess Dresser",
+        "Source": "Gracie (Summer)",
+        "Price": 80000,
+        "SalePrice": 20000,
+        "Theme": "Antique/Fairytale",
+        "Style": "Fancy",
+        "Color": "White/White"
+    },
+    {
+        "Name": "Princess Lamp",
+        "Source": "Gracie (Summer)",
+        "Price": 68000,
+        "SalePrice": 17000,
+        "Theme": "Antique/Fairytale",
+        "Style": "Fancy",
+        "Color": "Aqua/Aqua"
+    },
+    {
+        "Name": "Princess Sofa",
+        "Source": "Gracie (Summer)",
+        "Price": 100000,
+        "SalePrice": 25000,
+        "Theme": "Antique/Fairytale",
+        "Style": "Fancy",
+        "Color": "Aqua/White"
+    },
+    {
+        "Name": "Princess Table",
+        "Source": "Gracie (Summer)",
+        "Price": 240000,
+        "SalePrice": 60000,
+        "Theme": "Antique/Fairytale",
+        "Style": "Fancy",
+        "Color": "Aqua/White"
+    },
+    {
+        "Name": "Propane Stove",
+        "Source": "Igloo Camper",
+        "Price": 1470,
+        "SalePrice": 367,
+        "Theme": "N/A",
+        "Style": "Sporty",
+        "Color": "Gray/Gray"
+    },
+    {
+        "Name": "Propane Tanks",
+        "Price": "NFS",
+        "Source": "Buzz's RV, Harvey Shop",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Propeller Plane",
+        "Price": "8,000",
+        "Source": "Happy Home Designer save data",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Public Telephone",
+        "Price": "NFS",
+        "Source": "June's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Puffer-Fish TV",
+        "Price": "NFS",
+        "Theme": "Toy Shop",
+        "Source": "Fishing Tourney",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Pumpkin Pie",
+        "Price": "1,500",
+        "Theme": "Fairy Tale",
+        "Source": "Jack's RV, DLC (NA)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Pylon Set",
+        "Price": "NFS",
+        "Source": "Boyd/s RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Pyramid",
+        "Source": "Nooklings Shop",
+        "Price": 3800,
+        "SalePrice": 950,
+        "Theme": "Antique/Horror",
+        "Style": "Old",
+        "Color": "Yellow/Brown"
+    },
+    {
+        "Name": "Queen",
+        "Source": "Spotlight Item/Wishy",
+        "Price": 8000,
+        "SalePrice": 2000,
+        "Theme": "Hobby",
+        "Style": "Modern",
+        "Color": "Brown/Brown"
+    },
+    {
+        "Name": "Quilted Tapestry",
+        "Price": "NFS",
+        "Source": "Mabel's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Quince Bonsai",
+        "Source": "Garden Center",
+        "Price": 1600,
+        "SalePrice": 400,
+        "Theme": "Natural/Oriental",
+        "Style": "Traditional",
+        "Color": "Red/Blue"
+    },
+    {
+        "Name": "Raccoon Figurine",
+        "Source": "Nooklings Shop",
+        "Price": 2000,
+        "SalePrice": 500,
+        "Theme": "Oriental",
+        "Style": "Fancy",
+        "Color": "Brown/White"
+    },
+    {
+        "Name": "Raccoon Wall Clock",
+        "Price": "1,600",
+        "Theme": "Toy Shop",
+        "Source": "Tom Nook's RV, DLC",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Radiator",
+        "Source": "Nooklings Shop",
+        "Price": 2380,
+        "SalePrice": 595,
+        "Theme": "Science",
+        "Style": "Safe",
+        "Color": "White/White"
+    },
+    {
+        "Name": "Rainbow Screen",
+        "Price": "4,240",
+        "Theme": "Sci-Fi",
+        "Source": "DLC",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Ramen",
+        "Price": "NFS",
+        "Source": "Admiral's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Ramen Cup",
+        "Price": "NFS",
+        "Source": "Hornsby/Jacob's RV, Harvey's Shop",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Ranch Armchair",
+        "Source": "Nooklings Shop",
+        "Price": 2000,
+        "SalePrice": 500,
+        "Theme": "Natural",
+        "Style": "Safe",
+        "Color": "Brown/Brown"
+    },
+    {
+        "Name": "Ranch Bed",
+        "Source": "Nooklings Shop",
+        "Price": 2300,
+        "SalePrice": 575,
+        "Theme": "Natural",
+        "Style": "Safe",
+        "Color": "Brown/White"
+    },
+    {
+        "Name": "Ranch Bookcase",
+        "Source": "Nooklings Shop",
+        "Price": 2000,
+        "SalePrice": 500,
+        "Theme": "Natural",
+        "Style": "Safe",
+        "Color": "Brown/Brown"
+    },
+    {
+        "Name": "Ranch Chair",
+        "Source": "Nooklings Shoop",
+        "Price": 1400,
+        "SalePrice": 350,
+        "Theme": "Natural",
+        "Style": "Safe",
+        "Color": "Brown/Brown"
+    },
+    {
+        "Name": "Ranch Couch",
+        "Source": "Nooklings Shop",
+        "Price": 2400,
+        "SalePrice": 600,
+        "Theme": "Natural",
+        "Style": "Safe",
+        "Color": "Brown/Brown"
+    },
+    {
+        "Name": "Ranch Dresser",
+        "Source": "Nooklings Shop",
+        "Price": 2720,
+        "SalePrice": 680,
+        "Theme": "Natural",
+        "Style": "Safe",
+        "Color": "Brown/Brown"
+    },
+    {
+        "Name": "Ranch Hutch",
+        "Source": "Nooklings Shop",
+        "Price": 2560,
+        "SalePrice": 640,
+        "Theme": "Natural",
+        "Style": "Safe",
+        "Color": "Brown/Brown"
+    },
+    {
+        "Name": "Ranch Table",
+        "Source": "Nooklings Shop",
+        "Price": 1700,
+        "SalePrice": 425,
+        "Theme": "Natural",
+        "Style": "Safe",
+        "Color": "Brown/Brown"
+    },
+    {
+        "Name": "Ranch Tea Table",
+        "Source": "Nooklings Shop",
+        "Price": 1800,
+        "SalePrice": 450,
+        "Theme": "Natural",
+        "Style": "Safe",
+        "Color": "Blue/Brown"
+    },
+    {
+        "Name": "Ranch Wall Rack",
+        "Source": "Nooklings Shop",
+        "Price": 2400,
+        "SalePrice": 600,
+        "Theme": "Natural",
+        "Style": "Safe",
+        "Color": "Brown/Brown"
+    },
+    {
+        "Name": "Ranch Wardrobe",
+        "Source": "Nooklings Shop",
+        "Price": 3050,
+        "SalePrice": 762,
+        "Theme": "Natural",
+        "Style": "Safe",
+        "Color": "Brown/Brown"
+    },
+    {
+        "Name": "Range",
+        "Source": "Nooklings Shop",
+        "Price": 1800,
+        "SalePrice": 450,
+        "Theme": "Science",
+        "Style": "Old",
+        "Color": "Brown/White"
+    },
+    {
+        "Name": "Raven Pole",
+        "Source": "Nooklings Shop",
+        "Price": 1400,
+        "SalePrice": 350,
+        "Theme": "Natural",
+        "Style": "Traditional",
+        "Color": "Colorful/Brown"
+    },
+    {
+        "Name": "Reception Chair",
+        "Price": "NFS",
+        "Source": "Julia/Piper's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Reception Counter",
+        "Price": "NFS",
+        "Source": "June's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Reception Table",
+        "Source": "Museum Shop",
+        "Price": 2000,
+        "SalePrice": 500,
+        "Theme": "N/A",
+        "Style": "Formal",
+        "Color": "White/White"
+    },
+    {
+        "Name": "Reception Window",
+        "Price": "NFS",
+        "Source": "June's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Record Box",
+        "Price": "NFS",
+        "Source": "Hornsby/Weber's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Record Player",
+        "Price": "1,400",
+        "Theme": "None",
+        "Source": "Timmy & Tommy",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Red Cash Register",
+        "Price": "NFS",
+        "Source": "Ursala's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Red Corner",
+        "Source": "Nooklings Shop",
+        "Price": 6800,
+        "SalePrice": 1700,
+        "Theme": "N/A",
+        "Style": "Sporty",
+        "Color": "Red/White"
+    },
+    {
+        "Name": "Red Vase",
+        "Source": "Nooklings Shop",
+        "Price": 2450,
+        "SalePrice": 612,
+        "Theme": "Antique/Oriental",
+        "Style": "Old",
+        "Color": "Red/White"
+    },
+    {
+        "Name": "Red Wing",
+        "Price": "NFS",
+        "Source": "Felyne's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Red-Snapper Chair",
+        "Price": "NFS",
+        "Theme": "Toy Shop",
+        "Source": "Fishing Tourney",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Red-Tasseled Lantern",
+        "Price": "2,400",
+        "Theme": "Harmonious",
+        "Source": "Gulliver (Answer Correct)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Reel-To-Reel",
+        "Price": "2,000",
+        "Theme": "Sci-Fi",
+        "Source": "Timmy & Tommy",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Refrigerator",
+        "Source": "Nooklings Shop",
+        "Price": 1200,
+        "SalePrice": 300,
+        "Theme": "Science",
+        "Style": "Safe",
+        "Color": "White/White"
+    },
+    {
+        "Name": "Regal Armoire",
+        "Source": "Nooklings Shop",
+        "Price": 3820,
+        "SalePrice": 955,
+        "Theme": "Antique/Fairytale",
+        "Style": "Gorgeous",
+        "Color": "Yellow/White"
+    },
+    {
+        "Name": "Regal Bed",
+        "Source": "Nooklings Shop",
+        "Price": 3120,
+        "SalePrice": 780,
+        "Theme": "Antique/Fairytale",
+        "Style": "Gorgeous",
+        "Color": "Yellow/White"
+    },
+    {
+        "Name": "Regal Bookcase",
+        "Source": "Nooklings Shop",
+        "Price": 3120,
+        "SalePrice": 780,
+        "Theme": "Antique/Fairytale",
+        "Style": "Gorgeous",
+        "Color": "Yellow/White"
+    },
+    {
+        "Name": "Regal Chair",
+        "Source": "Nooklings Shop",
+        "Price": 2100,
+        "SalePrice": 525,
+        "Theme": "Antique/Fairytale",
+        "Style": "Gorgeous",
+        "Color": "Yellow/White"
+    },
+    {
+        "Name": "Regal Clock",
+        "Source": "Nooklings Shop",
+        "Price": 3360,
+        "SalePrice": 840,
+        "Theme": "Antique/Fairytale",
+        "Style": "Gorgeous",
+        "Color": "Yellow/White"
+    },
+    {
+        "Name": "Regal Dresser",
+        "Source": "Nooklings Shop",
+        "Price": 3520,
+        "SalePrice": 880,
+        "Theme": "Antique/Fairytale",
+        "Style": "Gorgeous",
+        "Color": "Yellow/White"
+    },
+    {
+        "Name": "Regal Lamp",
+        "Source": "Nooklings Shop",
+        "Price": 2400,
+        "SalePrice": 600,
+        "Theme": "Antique/Fairytale",
+        "Style": "Gorgeous",
+        "Color": "Yellow/White"
+    },
+    {
+        "Name": "Regal Sofa",
+        "Source": "Nooklings Shop",
+        "Price": 3100,
+        "SalePrice": 775,
+        "Theme": "Antique/Fairytale",
+        "Style": "Gorgeous",
+        "Color": "Yellow/White"
+    },
+    {
+        "Name": "Regal Table",
+        "Source": "Nooklings Shop",
+        "Price": 2840,
+        "SalePrice": 635,
+        "Theme": "Antique/Fairytale",
+        "Style": "Gorgeous",
+        "Color": "Yellow/White"
+    },
+    {
+        "Name": "Regal Vanity",
+        "Source": "Nooklings Shop",
+        "Price": 3200,
+        "SalePrice": 800,
+        "Theme": "Antique/Fairytale",
+        "Style": "Gorgeous",
+        "Color": "Yellow/White"
+    },
+    {
+        "Name": "Regal Wall Lamp",
+        "Source": "Nooklings Shop",
+        "Price": 3600,
+        "SalePrice": 900,
+        "Theme": "Antique/Fairytale",
+        "Style": "Gorgeous",
+        "Color": "Yellow/White"
+    },
+    {
+        "Name": "Resetti Model",
+        "Source": "Groundhog Day",
+        "Price": "NFS",
+        "SalePrice": "NFS",
+        "Theme": "Hobby",
+        "Style": "Fancy",
+        "Color": "Colorful/Brown"
+    },
+    {
+        "Name": "Re-Tail Clock",
+        "Price": "NFS",
+        "Source": "Reese's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Re-Tail Mat",
+        "Price": "NFS",
+        "Source": "Reese's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Retro Fridge",
+        "Source": "Nooklings Shop",
+        "Price": 2300,
+        "SalePrice": 575,
+        "Theme": "Antique",
+        "Style": "Old",
+        "Color": "Green/Green"
+    },
+    {
+        "Name": "Retro Screen",
+        "Price": "NFS",
+        "Source": "Billy's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Retro Sign",
+        "Price": "NFS",
+        "Source": "Timmy & Tommy's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Retro Sink",
+        "Price": "NFS",
+        "Source": "Timmy & Tommy's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Retro Stereo",
+        "Source": "Nooklings Shop",
+        "Price": 5500,
+        "SalePrice": 1375,
+        "Theme": "Antique",
+        "Style": "Old",
+        "Color": "Black/Black"
+    },
+    {
+        "Name": "Retro TV",
+        "Source": "Nooklings Shop",
+        "Price": 1600,
+        "SalePrice": 400,
+        "Theme": "Antique",
+        "Style": "Old",
+        "Color": "Brown/Gray"
+    },
+    {
+        "Name": "Reversi Piece",
+        "Price": "1,200",
+        "Theme": "Toy Shop",
+        "Source": "Timmy & Tommy",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Revolving Spice Rack",
+        "Price": "8,000",
+        "Theme": "None",
+        "Source": "Timmy & Tommy",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Rice Bales",
+        "Price": "NFS",
+        "Source": "Boot's RV, Harvey's Shop",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Rice Balls",
+        "Price": "NFS",
+        "Source": "Tad/Wendell's RV, Harvey's Shop",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Rice Cake",
+        "Source": "Girl's Day",
+        "Price": "NFS",
+        "SalePrice": 300,
+        "Theme": "Oriental",
+        "Style": "Traditional",
+        "Color": "Colorful/Black"
+    },
+    {
+        "Name": "Rice Cooker",
+        "Source": "Nooklings Shop",
+        "Price": 2000,
+        "SalePrice": 500,
+        "Theme": "N/A",
+        "Style": "Modern",
+        "Color": "White/White"
+    },
+    {
+        "Name": "Rice-Plant Bed",
+        "Price": "4,400",
+        "Theme": "Rustic",
+        "Source": "DLC (Japan)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Right Platform",
+        "Source": "Nooklings Shop",
+        "Price": 1600,
+        "SalePrice": 400,
+        "Theme": "Science",
+        "Style": "Formal",
+        "Color": "Green/Brown"
+    },
+    {
+        "Name": "Right Splatfest Sign",
+        "Price": "NFS",
+        "Source": "Cece/Viche's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Righty Desk",
+        "Source": "Nooklings Shop",
+        "Price": 1240,
+        "SalePrice": 310,
+        "Theme": "N/A",
+        "Style": "Safe",
+        "Color": "Blue/Brown"
+    },
+    {
+        "Name": "Ring",
+        "Price": "NFS",
+        "Source": "Bitty's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Ringside Table",
+        "Source": "Nooklings Shop",
+        "Price": 1320,
+        "SalePrice": 330,
+        "Theme": "N/A",
+        "Style": "Sporty",
+        "Color": "Brown/Brown"
+    },
+    {
+        "Name": "Ringtoss",
+        "Price": "NFS",
+        "Source": "Carrie's RV, Harvey's Shop",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Roasted Dino Meat",
+        "Price": "NFS",
+        "Source": "Wendell's RV, Harvey's Shop",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Robo-Bed",
+        "Source": "Nooklings Shop",
+        "Price": 2000,
+        "SalePrice": 500,
+        "Theme": "Hobby/Science",
+        "Style": "Rock",
+        "Color": "Blue/White"
+    },
+    {
+        "Name": "Robo-Chair",
+        "Source": "Nooklings Shop",
+        "Price": 1600,
+        "SalePrice": 400,
+        "Theme": "Hobby/Science",
+        "Style": "Rock",
+        "Color": "White/White"
+    },
+    {
+        "Name": "Robo-Clock",
+        "Source": "Nooklings Shop",
+        "Price": 1400,
+        "SalePrice": 350,
+        "Theme": "Hobby/Science",
+        "Style": "Rock",
+        "Color": "White/White"
+    },
+    {
+        "Name": "Robo-Closet",
+        "Source": "Nooklings Shop",
+        "Price": 2400,
+        "SalePrice": 600,
+        "Theme": "Hobby/Science",
+        "Style": "Rock",
+        "Color": "White/White"
+    },
+    {
+        "Name": "Robo-Dresser",
+        "Source": "Nooklings Shop",
+        "Price": 2560,
+        "SalePrice": 640,
+        "Theme": "Hobby/Science",
+        "Style": "Rock",
+        "Color": "White/White"
+    },
+    {
+        "Name": "Robo-Lamp",
+        "Source": "Nooklings Shop",
+        "Price": 1800,
+        "SalePrice": 450,
+        "Theme": "Hobby/Science",
+        "Style": "Rock",
+        "Color": "Green/White"
+    },
+    {
+        "Name": "Robo-Sofa",
+        "Source": "Nooklings Shop",
+        "Price": 2000,
+        "SalePrice": 500,
+        "Theme": "Hobby/Science",
+        "Style": "Rock",
+        "Color": "Blue/White"
+    },
+    {
+        "Name": "Robo-Stereo",
+        "Source": "Nooklings Shop",
+        "Price": 2200,
+        "SalePrice": 550,
+        "Theme": "Hobby/Science",
+        "Style": "Rock",
+        "Color": "White/White"
+    },
+    {
+        "Name": "Robot Hero",
+        "Price": "8,000",
+        "Source": "Happy Home Designer save data",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Robo-Table",
+        "Source": "Nooklings Shop",
+        "Price": 2200,
+        "SalePrice": 550,
+        "Theme": "Hobby/Science",
+        "Style": "Rock",
+        "Color": "White/White"
+    },
+    {
+        "Name": "Robo-TV",
+        "Source": "Nooklings Shop",
+        "Price": 2360,
+        "SalePrice": 590,
+        "Theme": "Hobby/Science",
+        "Style": "Rock",
+        "Color": "White/White"
+    },
+    {
+        "Name": "Robo-Wall Clock",
+        "Source": "Nooklings Shop",
+        "Price": 2000,
+        "SalePrice": 500,
+        "Theme": "Hobby/Science",
+        "Style": "Rock",
+        "Color": "White/White"
+    },
+    {
+        "Name": "Rock Guitar",
+        "Source": "Nooklings Shop",
+        "Price": 1800,
+        "SalePrice": 450,
+        "Theme": "Stylish",
+        "Style": "Rock",
+        "Color": "Green/Green"
+    },
+    {
+        "Name": "Rocket",
+        "Source": "Nooklings Shop",
+        "Price": 2400,
+        "SalePrice": 600,
+        "Theme": "Hobby/Science",
+        "Style": "Crazy",
+        "Color": "Red/White"
+    },
+    {
+        "Name": "Rocking Chair",
+        "Source": "Nooklings Shop",
+        "Price": 1400,
+        "SalePrice": 350,
+        "Theme": "Natural",
+        "Style": "Old",
+        "Color": "Brown/Brown"
+    },
+    {
+        "Name": "Rocking Horse",
+        "Source": "Nooklings Shop",
+        "Price": 600,
+        "SalePrice": 150,
+        "Theme": "Fairytale/Hobby/Natural",
+        "Style": "Fancy",
+        "Color": "Brown/Brown"
+    },
+    {
+        "Name": "Rococo Bed",
+        "Source": "Spotlight Item/Wishy",
+        "Price": 3520,
+        "SalePrice": 880,
+        "Theme": "Antique/Fairytale",
+        "Style": "Gorgeous",
+        "Color": "Brown/Brown"
+    },
+    {
+        "Name": "Rococo Candlestick",
+        "Price": "3,120",
+        "Theme": "Antique, Fairy Tale",
+        "Source": "Timmy & Tommy (Spotlight Item)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Rococo Chair",
+        "Source": "Spotlight Item/Wishy",
+        "Price": 3100,
+        "SalePrice": 775,
+        "Theme": "Antique/Fairytale",
+        "Style": "Gorgeous",
+        "Color": "Brown/Brown"
+    },
+    {
+        "Name": "Rococo Clock",
+        "Source": "Spotlight Item/Wishy",
+        "Price": 3360,
+        "SalePrice": 840,
+        "Theme": "Antique/Fairytale",
+        "Style": "Gorgeous",
+        "Color": "Brown/Brown"
+    },
+    {
+        "Name": "Rococo Dresser",
+        "Price": "2,540",
+        "Theme": "Antique, Fairy Tale",
+        "Source": "Timmy & Tommy (Spotlight Item)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Rococo Lamp",
+        "Source": "Spotlight Item/Wishy",
+        "Price": 3200,
+        "SalePrice": 800,
+        "Theme": "Antique/Fairytale",
+        "Style": "Gorgeous",
+        "Color": "Beige/Brown"
+    },
+    {
+        "Name": "Rococo Shelf",
+        "Source": "Spotlight Item/Wishy",
+        "Price": 3820,
+        "SalePrice": 955,
+        "Theme": "Antique/Fairytale",
+        "Style": "Gorgeous",
+        "Color": "Brown/Brown"
+    },
+    {
+        "Name": "Rococo Sofa",
+        "Source": "Spotlight Item/Wishy",
+        "Price": 2100,
+        "SalePrice": 525,
+        "Theme": "Antique/Fairytale",
+        "Style": "Gorgeous",
+        "Color": "Brown/Brown"
+    },
+    {
+        "Name": "Rococo Table",
+        "Source": "Spotlight Item/Wishy",
+        "Price": 3600,
+        "SalePrice": 900,
+        "Theme": "Antique/Fairytale",
+        "Style": "Gorgeous",
+        "Color": "Brown/Brown"
+    },
+    {
+        "Name": "Rococo Vanity",
+        "Source": "Spotlight Item/Wishy",
+        "Price": 3120,
+        "SalePrice": 780,
+        "Theme": "Antique/Fairytale",
+        "Style": "Gorgeous",
+        "Color": "Brown/Brown"
+    },
+    {
+        "Name": "Rococo Wardrobe",
+        "Price": "2,400",
+        "Theme": "Antique, Fairy Tale",
+        "Source": "Timmy & Tommy (Spotlight Item)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Rolling Cart",
+        "Price": "NFS",
+        "Source": "Cleo/Cyrus/Murphy's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Rolling Closet",
+        "Price": "NFS",
+        "Source": "Cashmere/Copper/Tasha's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Rolling File Cart",
+        "Price": "NFS",
+        "Source": "Cleo's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Rolling Suitcase",
+        "Price": "1,000",
+        "Theme": "None",
+        "Source": "Rover's RV, DLC",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Rook",
+        "Source": "Nooklings Shop",
+        "Price": 2800,
+        "SalePrice": 700,
+        "Theme": "Hobby",
+        "Style": "Modern",
+        "Color": "Brown/Brown"
+    },
+    {
+        "Name": "Rooster of Barcelos",
+        "Price": "1,200",
+        "Theme": "Toy Shop",
+        "Source": "Gulliver (Answer Correct)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Rope Partition",
+        "Price": "1,800",
+        "Theme": "Trendy",
+        "Source": "Museum Shop",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Rose Sofa",
+        "Source": "Grass Day",
+        "Price": "NFS",
+        "SalePrice": 600,
+        "Theme": "Fairytale/Natural",
+        "Style": "Fancy",
+        "Color": "Red/Red"
+    },
+    {
+        "Name": "Round Cactus",
+        "Source": "Garden Center",
+        "Price": 1700,
+        "SalePrice": 425,
+        "Theme": "Natural",
+        "Style": "Safe",
+        "Color": "Green/Brown"
+    },
+    {
+        "Name": "Round Clock",
+        "Price": "960",
+        "Theme": "None",
+        "Source": "Timmy & Tommy",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Round Cushion",
+        "Price": "NFS",
+        "Source": "Carrie/Hopkins/Vivian's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Round Electric Sign",
+        "Price": "NFS",
+        "Source": "Harvey's Shop",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Round Mini Cactus",
+        "Price": "800",
+        "Theme": "Rustic",
+        "Source": "Sahara's RV, Gardening Store (TIY)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Round Pillow",
+        "Price": "NFS",
+        "Source": "Jacob/Stella/Wade's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Round-Cloth Table",
+        "Price": "NFS",
+        "Source": "Julia/Piper's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Rover Suitcase",
+        "Price": "NFS",
+        "Source": "Rover's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Rubber Tree",
+        "Source": "Garden Center",
+        "Price": 1300,
+        "SalePrice": 325,
+        "Theme": "Natural",
+        "Style": "Safe",
+        "Color": "Green/Brown"
+    },
+    {
+        "Name": "Rupee",
+        "Price": "NFS",
+        "Source": "Ganon/Medli's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "S.S. Dolphin",
+        "Price": "840",
+        "Theme": "Sci-Fi, Toy Shop",
+        "Source": "Fortune Cookie #39",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Sacks of Money",
+        "Price": "NFS",
+        "Source": "Tom Nook's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Saddle Fence",
+        "Source": "Nooklings Shop",
+        "Price": 2180,
+        "SalePrice": 545,
+        "Theme": "Natural",
+        "Style": "Old",
+        "Color": "Brown/Brown"
+    },
+    {
+        "Name": "Safe",
+        "Source": "Savings",
+        "Price": "NFS",
+        "SalePrice": 189,
+        "Theme": "Science",
+        "Style": "Safe",
+        "Color": "Black/Black"
+    },
+    {
+        "Name": "Sagittarius Arrow",
+        "Price": "4,800",
+        "Theme": "Quirky",
+        "Source": "DLC",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Sailboat Model",
+        "Source": "Explorer's Day",
+        "Price": "NFS",
+        "SalePrice": "NFS",
+        "Theme": "Hobby",
+        "Style": "Old",
+        "Color": "White/Brown"
+    },
+    {
+        "Name": "Salad Bar",
+        "Source": "Nooklings Shop",
+        "Price": 3000,
+        "SalePrice": 750,
+        "Theme": "N/A",
+        "Style": "Modern",
+        "Color": "Brown/Gray"
+    },
+    {
+        "Name": "Sales Graph",
+        "Price": "NFS",
+        "Source": "Tom Nook's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Salon Chair",
+        "Price": "NFS",
+        "Source": "Tasha's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Salon Mirror Stand",
+        "Price": "NFS",
+        "Source": "Tasha's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Samgyetang",
+        "Source": "Gulliver",
+        "Price": 1200,
+        "SalePrice": 300,
+        "Theme": "Oriental",
+        "Style": "Traditional",
+        "Color": "White/White"
+    },
+    {
+        "Name": "Sample Case",
+        "Price": "NFS",
+        "Source": "Sylvana's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Samurai Suit",
+        "Source": "Spotlight Item/Wishy",
+        "Price": 4500,
+        "SalePrice": 1125,
+        "Theme": "Antique/Horror/Oriental",
+        "Style": "Traditional",
+        "Color": "Yellow/Black"
+    },
+    {
+        "Name": "Sand Castle",
+        "Source": "Club Tortimer",
+        "Price": "46M",
+        "SalePrice": 575,
+        "Theme": "N/A",
+        "Style": "Fancy",
+        "Color": "Beige/Beige"
+    },
+    {
+        "Name": "Sandbag",
+        "Source": "Nooklings Shop",
+        "Price": 3190,
+        "SalePrice": 797,
+        "Theme": "N/A",
+        "Style": "Sporty",
+        "Color": "Red/Gray"
+    },
+    {
+        "Name": "Sandbox",
+        "Price": "NFS",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Sandwich Display",
+        "Price": "2,844",
+        "Theme": "None",
+        "Source": "DLC (Japan)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Sanshin",
+        "Source": "Island",
+        "Price": "40M",
+        "SalePrice": 500,
+        "Theme": "Oriental",
+        "Style": "Traditional",
+        "Color": "Brown/Brown"
+    },
+    {
+        "Name": "Sapling Clock",
+        "Price": "NFS",
+        "Source": "Town Anniversary Gift",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Satellite",
+        "Source": "Nooklings Shop",
+        "Price": 2600,
+        "SalePrice": 650,
+        "Theme": "Hobby/Science",
+        "Style": "Fancy",
+        "Color": "Gray/Gray"
+    },
+    {
+        "Name": "Sausage",
+        "Price": "NFS",
+        "Source": "Julia's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Sawhorse",
+        "Price": "1,200",
+        "Theme": "None",
+        "Source": "Timmy & Tommy",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Scale",
+        "Source": "Nooklings Shop",
+        "Price": 1200,
+        "SalePrice": 300,
+        "Theme": "Science",
+        "Style": "Formal",
+        "Color": "Gray/Gray"
+    },
+    {
+        "Name": "Scarecrow",
+        "Source": "Nooklings Shop",
+        "Price": 420,
+        "SalePrice": 105,
+        "Theme": "Oriental",
+        "Style": "Fancy",
+        "Color": "Brown/White"
+    },
+    {
+        "Name": "Scattered Papers",
+        "Price": "NFS",
+        "Source": "Dobie/Jacob/Murphy/Wendell's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "School Chair",
+        "Price": "800",
+        "Theme": "Sci-Fi",
+        "Source": "Timmy & Tommy",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "School Desk",
+        "Source": "Nooklings Shop",
+        "Price": 1200,
+        "SalePrice": 300,
+        "Theme": "Science",
+        "Style": "Formal",
+        "Color": "Brown/Gray"
+    },
+    {
+        "Name": "School Locker",
+        "Price": "NFS",
+        "Source": "Leopold's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "School Speaker",
+        "Source": "Nooklings Shop",
+        "Price": 1600,
+        "SalePrice": 400,
+        "Theme": "Science",
+        "Style": "Traditional",
+        "Color": "Brown/Gray"
+    },
+    {
+        "Name": "Science Table",
+        "Source": "Nooklings Shop",
+        "Price": 1900,
+        "SalePrice": 475,
+        "Theme": "Science",
+        "Style": "Formal",
+        "Color": "White/White"
+    },
+    {
+        "Name": "Sconce",
+        "Source": "Nooklings Shop",
+        "Price": 1600,
+        "SalePrice": 400,
+        "Theme": "Antique",
+        "Style": "Traditional",
+        "Color": "Orange/Brown"
+    },
+    {
+        "Name": "Scooter",
+        "Price": "NFS",
+        "Source": "Isabelle's RV (Winter Outfit amiibo), Stu's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Scoreboard",
+        "Source": "Nooklings Shop",
+        "Price": 2200,
+        "SalePrice": 550,
+        "Theme": "N/A",
+        "Style": "Sporty",
+        "Color": "Orange/White"
+    },
+    {
+        "Name": "Scorpio Lamp",
+        "Price": "4,800",
+        "Theme": "Quirky",
+        "Source": "DLC",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Screen",
+        "Source": "Nooklings Shop",
+        "Price": 1650,
+        "SalePrice": 412,
+        "Theme": "Oriental",
+        "Style": "Old",
+        "Color": "Yellow/Green"
+    },
+    {
+        "Name": "Sea Globe",
+        "Source": "Club Tortimer",
+        "Price": "20M",
+        "SalePrice": 250,
+        "Theme": "Natural",
+        "Style": "Fancy",
+        "Color": "Aqua/White"
+    },
+    {
+        "Name": "Sea-Anemone Bed",
+        "Price": "NFS",
+        "Theme": "Toy Shop",
+        "Source": "Fishing Tourney",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Server",
+        "Source": "Nooklings Shop",
+        "Price": 3400,
+        "SalePrice": 850,
+        "Theme": "Science",
+        "Style": "Modern",
+        "Color": "White/Black"
+    },
+    {
+        "Name": "Serving Cart",
+        "Price": "NFS",
+        "Source": "Ellie/Sandy's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Set Lunch",
+        "Price": "NFS",
+        "Source": "Sylvana's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Set Square Table",
+        "Price": "23,760",
+        "Theme": "Trendy",
+        "Source": "DLC (Japan)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Seven Lamp",
+        "Price": "7,000",
+        "Theme": "Trendy",
+        "Source": "Timmy & Tommy (Spotlight Item)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Sewing Kit",
+        "Price": "NFS",
+        "Source": "Mabel's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Sewing Machine",
+        "Source": "Nooklings Shop",
+        "Price": 1350,
+        "SalePrice": 337,
+        "Theme": "N/A",
+        "Style": "Old",
+        "Color": "Brown/Gray"
+    },
+    {
+        "Name": "Shamrock Clock",
+        "Source": "Gulliver",
+        "Price": 1800,
+        "SalePrice": 450,
+        "Theme": "Natural",
+        "Style": "Traditional",
+        "Color": "Green/Green"
+    },
+    {
+        "Name": "Shaved Ice",
+        "Price": "NFS",
+        "Source": "Olive's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Shaved-Ice Lamp",
+        "Price": "2,400",
+        "Theme": "Fairy Tale",
+        "Source": "DLC (Korea)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Shaved-Ice Maker",
+        "Price": "1,200",
+        "Theme": "None",
+        "Source": "Timmy & Tommy",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Ship Cannon",
+        "Source": "Pascal",
+        "Price": "NFS",
+        "SalePrice": 455,
+        "Theme": "Hobby",
+        "Style": "Old",
+        "Color": "Black/Black"
+    },
+    {
+        "Name": "Ship Compass",
+        "Source": "Pascal",
+        "Price": "NFS",
+        "SalePrice": 400,
+        "Theme": "Hobby",
+        "Style": "Old",
+        "Color": "Brown/Gray"
+    },
+    {
+        "Name": "Shoe Boxes",
+        "Price": "NFS",
+        "Source": "Kicks' RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Shoe Locker",
+        "Price": "NFS",
+        "Source": "Kicks' RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Shoe-Polishing Set",
+        "Price": "NFS",
+        "Source": "Kicks' RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Shogi Board",
+        "Source": "Nooklings Shop",
+        "Price": 1200,
+        "SalePrice": 300,
+        "Theme": "Hobby/Oriental",
+        "Style": "Traditional",
+        "Color": "Brown/Brown"
+    },
+    {
+        "Name": "Shogi Piece",
+        "Source": "Nooklings Shop",
+        "Price": 1200,
+        "SalePrice": 300,
+        "Theme": "Hobby/Oriental",
+        "Style": "Traditional",
+        "Color": "Brown/Black"
+    },
+    {
+        "Name": "Shoji Bench",
+        "Price": "NFS",
+        "Source": "Toby's RV (Sanrio)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Shop Coffee Machine",
+        "Price": "NFS",
+        "Source": "Filly's RV (7-11)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Shop Ice-Cream Case",
+        "Price": "NFS",
+        "Source": "Filly's RV (7-11)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Shop Mat",
+        "Price": "NFS",
+        "Source": "Timmy & Tommy's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Shopping Bag",
+        "Price": "NFS",
+        "Source": "Bea/Candi's RV, Harvey's Shop",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Shopping Cart",
+        "Source": "Spotlight Item/Wishy",
+        "Price": 3980,
+        "SalePrice": 995,
+        "Theme": "N/A",
+        "Style": "Safe",
+        "Color": "Gray/Gray"
+    },
+    {
+        "Name": "Shower",
+        "Source": "Nooklings Shop",
+        "Price": 880,
+        "SalePrice": 220,
+        "Theme": "Science/Stylish",
+        "Style": "Safe",
+        "Color": "Gray/Gray"
+    },
+    {
+        "Name": "Shower Stall",
+        "Price": "2,200",
+        "Theme": "Sci-Fi, Trendy",
+        "Source": "Timmy & Tommy",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Silver Bug Trophy",
+        "Price": "NFS",
+        "Theme": "None",
+        "Source": "Bug Off",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Silver Fish Trophy",
+        "Price": "NFS",
+        "Theme": "None",
+        "Source": "Fishing Tourney",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Silver HHA Plaque",
+        "Price": "1,800",
+        "Theme": "None",
+        "Source": "HHA (50,000 Points)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Silver HHA Trophy",
+        "Price": "1,800",
+        "Theme": "None",
+        "Source": "HHA (90,000 Points)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Silver Mic",
+        "Price": "NFS",
+        "Source": "Sprocket's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Silver Teapot",
+        "Price": "NFS",
+        "Source": "Ellie/Piper's RV, Harvey's Shop",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Simple Armchair",
+        "Price": "1,800",
+        "Theme": "Trendy",
+        "Source": "Timmy & Tommy",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Simple Kettle",
+        "Price": "1,200",
+        "Theme": "None",
+        "Source": "Timmy & Tommy",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Simple Love Seat",
+        "Price": "2,050",
+        "Theme": "Trendy",
+        "Source": "Timmy & Tommy",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Simple Panel",
+        "Price": "NFS",
+        "Source": "Spike/Timmy & Tommy's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Single Rose",
+        "Price": "NFS",
+        "Source": "Piper's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Sink",
+        "Source": "Nooklings Shop",
+        "Price": 1200,
+        "SalePrice": 300,
+        "Theme": "N/A",
+        "Style": "Safe",
+        "Color": "White/White"
+    },
+    {
+        "Name": "Siphon",
+        "Source": "Brewster",
+        "Price": "NFS",
+        "SalePrice": 445,
+        "Theme": "Stylish",
+        "Style": "Old",
+        "Color": "Brown/White"
+    },
+    {
+        "Name": "Sitar",
+        "Source": "Gulliver",
+        "Price": 1200,
+        "SalePrice": 300,
+        "Theme": "Oriental",
+        "Style": "Traditional",
+        "Color": "Brown/Brown"
+    },
+    {
+        "Name": "Six Lamp",
+        "Price": "6,000",
+        "Theme": "Trendy",
+        "Source": "Timmy & Tommy (Spotlight Item)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Skateboard Rack",
+        "Price": "NFS",
+        "Source": "Spike's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Skeleton",
+        "Source": "Nooklings Shop",
+        "Price": 3360,
+        "SalePrice": 840,
+        "Theme": "Horror/Science",
+        "Style": "Crazy",
+        "Color": "White/White"
+    },
+    {
+        "Name": "Skeleton Figurine",
+        "Price": "1,680",
+        "Theme": "Quirky, Toy Shop",
+        "Source": "Gulliver (Answer Correct)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Sketchbook",
+        "Source": "Katie",
+        "Price": "NFS",
+        "SalePrice": 240,
+        "Theme": "N/A",
+        "Style": "SAfe",
+        "Color": "Red/Red"
+    },
+    {
+        "Name": "Ski Rack",
+        "Price": "2,000",
+        "Theme": "None",
+        "Source": "Snowman",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Slalom Gate",
+        "Source": "SnowDad",
+        "Price": "NFS",
+        "SalePrice": 600,
+        "Theme": "N/A",
+        "Style": "Sporty",
+        "Color": "Red/Red"
+    },
+    {
+        "Name": "Sleek Bed",
+        "Price": "1,640",
+        "Theme": "Sci-Fi, Trendy",
+        "Source": "Timmy & Tommy",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Sleek Chair",
+        "Price": "1,400",
+        "Theme": "Sci-Fi, Trendy",
+        "Source": "Timmy & Tommy",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Sleek Clock",
+        "Price": "1,580",
+        "Theme": "Sci-Fi, Trendy",
+        "Source": "Timmy & Tommy",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Sleek Closet",
+        "Price": "1,800",
+        "Theme": "Sci-Fi, Trendy",
+        "Source": "Timmy & Tommy",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Sleek Dresser",
+        "Price": "1,600",
+        "Theme": "Sci-Fi, Trendy",
+        "Source": "Timmy & Tommy",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Sleek Lamp",
+        "Price": "1,680",
+        "Theme": "Sci-Fi, Trendy",
+        "Source": "Timmy & Tommy",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Sleek Side Table",
+        "Price": "1,900",
+        "Theme": "Sci-Fi, Trendy",
+        "Source": "Timmy & Tommy",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Sleek Sideboard",
+        "Price": "1,800",
+        "Theme": "Sci-Fi, Trendy",
+        "Source": "Timmy & Tommy",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Sleek Sofa",
+        "Price": "1,600",
+        "Theme": "Sci-Fi, Trendy",
+        "Source": "Timmy & Tommy",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Sleek Stereo",
+        "Price": "1,680",
+        "Theme": "Sci-Fi, Trendy",
+        "Source": "Timmy & Tommy",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Sleek Table",
+        "Price": "1,600",
+        "Theme": "Sci-Fi, Trendy",
+        "Source": "Boris' RV, Timmy & Tommy",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Sleeping Bag",
+        "Source": "Tent Camper",
+        "Price": 1960,
+        "SalePrice": 490,
+        "Theme": "N/A",
+        "Style": "Sporty",
+        "Color": "Green/Green"
+    },
+    {
+        "Name": "Sleigh",
+        "Source": "SnowKid",
+        "Price": "NFS",
+        "SalePrice": 300,
+        "Theme": "N/A",
+        "Style": "Sporty",
+        "Color": "Red/Brown"
+    },
+    {
+        "Name": "Slide Puzzle",
+        "Source": "Nooklings Shop",
+        "Price": 800,
+        "SalePrice": 200,
+        "Theme": "Hobby",
+        "Style": "Fancy",
+        "Color": "Blue/White"
+    },
+    {
+        "Name": "Slipper Rack",
+        "Price": "NFS",
+        "Source": "Carrie's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Sloppy Bed",
+        "Source": "Re-Tail",
+        "Price": "NFS",
+        "SalePrice": 130,
+        "Theme": "Horror/Science",
+        "Style": "Crazy",
+        "Color": "Aqua/Brown"
+    },
+    {
+        "Name": "Sloppy Chair",
+        "Source": "Re-Tail",
+        "Price": "NFS",
+        "SalePrice": 100,
+        "Theme": "Horror/Science",
+        "Style": "Crazy",
+        "Color": "Aqua/Brown"
+    },
+    {
+        "Name": "Sloppy Clock",
+        "Source": "Re-Tail",
+        "Price": "NFS",
+        "SalePrice": 120,
+        "Theme": "Horror/Science",
+        "Style": "Crazy",
+        "Color": "Beige/White"
+    },
+    {
+        "Name": "Sloppy Closet",
+        "Source": "Re-Tail",
+        "Price": "NFS",
+        "SalePrice": 130,
+        "Theme": "Horror/Science",
+        "Style": "Crazy",
+        "Color": "Aqua/Brown"
+    },
+    {
+        "Name": "Sloppy Dresser",
+        "Price": "500",
+        "Theme": "Quirky, Sci-Fi",
+        "Source": "Re-Tail (Flea Market) or Police Station (Lost and Found)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Sloppy Lamp",
+        "Source": "Re-Tail",
+        "Price": "NFS",
+        "SalePrice": 100,
+        "Theme": "Horror/Science",
+        "Style": "Crazy",
+        "Color": "Aqua/Brown"
+    },
+    {
+        "Name": "Sloppy Sink",
+        "Source": "Re-Tail",
+        "Price": "NFS",
+        "SalePrice": 120,
+        "Theme": "Horror/Science",
+        "Style": "Crazy",
+        "Color": "Brown/Gray"
+    },
+    {
+        "Name": "Sloppy Sofa",
+        "Source": "Re-Tail",
+        "Price": "NFS",
+        "SalePrice": 150,
+        "Theme": "Horror/Science",
+        "Style": "Crazy",
+        "Color": "Aqua/Brown"
+    },
+    {
+        "Name": "Sloppy Stereo",
+        "Price": "540",
+        "Theme": "Quirky, Sci-Fi",
+        "Source": "Re-Tail (Flea Market) or Police Station (Lost and Found)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Sloppy Table",
+        "Source": "Re-Tail",
+        "Price": "NFS",
+        "SalePrice": 135,
+        "Theme": "Horror/Science",
+        "Style": "Crazy",
+        "Color": "Aqua/Brown"
+    },
+    {
+        "Name": "Sloppy TV",
+        "Source": "Re-Tail",
+        "Price": "NFS",
+        "SalePrice": 150,
+        "Theme": "Horror/Science",
+        "Style": "Crazy",
+        "Color": "Red/Brown"
+    },
+    {
+        "Name": "Slushie Machine",
+        "Price": "2,400",
+        "Theme": "None",
+        "Source": "DLC",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Small Igloo",
+        "Price": "600",
+        "Theme": "Harmonious",
+        "Source": "Snowtyke",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Small LED Display",
+        "Price": "2,500",
+        "Theme": "Sci-Fi, Toy Shop",
+        "Source": "Timmy & Tommy",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Small Magazine Rack",
+        "Price": "1,780",
+        "Theme": "Trendy",
+        "Source": "Tasha's RV, Timmy & Tommy",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Small Space Console",
+        "Price": "2,680",
+        "Theme": "Sci-Fi, Toy Shop",
+        "Source": "Timmy & Tommy (Spotlight Item)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Small Spotlight",
+        "Price": "1,400",
+        "Theme": "Trendy",
+        "Source": "Timmy & Tommy",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Smoker",
+        "Price": "3,000",
+        "Theme": "None",
+        "Source": "Booker's RV, Camping NPC (Igloo)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Snack Machine",
+        "Price": "NFS",
+        "Source": "Huck's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Snail Clock",
+        "Source": "Nat",
+        "Price": "NFS",
+        "SalePrice": 450,
+        "Theme": "Hobby",
+        "Style": "Fancy",
+        "Color": "Brown/Brown"
+    },
+    {
+        "Name": "Snake Plant",
+        "Source": "Garden Center",
+        "Price": 1200,
+        "SalePrice": 300,
+        "Theme": "Natural",
+        "Style": "Safe",
+        "Color": "Green/Brown"
+    },
+    {
+        "Name": "Snare Drum",
+        "Price": "NFS",
+        "Source": "Weber's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Snow Bunny",
+        "Source": "SnowKid",
+        "Price": "NFS",
+        "SalePrice": 150,
+        "Theme": "Fairytale/Oriental",
+        "Style": "Fancy",
+        "Color": "Brown/White"
+    },
+    {
+        "Name": "Snow Globe",
+        "Source": "Nooklings Shop (December)",
+        "Price": 1200,
+        "SalePrice": 300,
+        "Theme": "Fairytale",
+        "Style": "Fancy",
+        "Color": "Red/White"
+    },
+    {
+        "Name": "Snow Machine",
+        "Price": "5,600",
+        "Theme": "None",
+        "Source": "Snowman",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Snowboard",
+        "Source": "SnowDad",
+        "Price": "NFS",
+        "SalePrice": 350,
+        "Theme": "N/A",
+        "Style": "Sporty",
+        "Color": "Red/Red"
+    },
+    {
+        "Name": "Snowman",
+        "Source": "Snowman",
+        "Price": "NFS",
+        "SalePrice": 3000,
+        "Theme": "Fairytale",
+        "Style": "Fancy",
+        "Color": "White/White"
+    },
+    {
+        "Name": "Snowman Bed",
+        "Source": "Snowman",
+        "Price": "NFS",
+        "SalePrice": 8888,
+        "Theme": "Fairytale",
+        "Style": "Fancy",
+        "Color": "White/White"
+    },
+    {
+        "Name": "Snowman Chair",
+        "Source": "Snowman",
+        "Price": "NFS",
+        "SalePrice": 8888,
+        "Theme": "Fairytale",
+        "Style": "Fancy",
+        "Color": "White/White"
+    },
+    {
+        "Name": "Snowman Clock",
+        "Source": "Snowman",
+        "Price": "NFS",
+        "SalePrice": 8888,
+        "Theme": "Fairytale",
+        "Style": "Fancy",
+        "Color": "White/White"
+    },
+    {
+        "Name": "Snowman Dresser",
+        "Source": "Snowman",
+        "Price": "NFS",
+        "SalePrice": 8888,
+        "Theme": "Fairytale",
+        "Style": "Fancy",
+        "Color": "White/White"
+    },
+    {
+        "Name": "Snowman Fridge",
+        "Source": "Snowman",
+        "Price": "NFS",
+        "SalePrice": 8888,
+        "Theme": "Fairytale",
+        "Style": "Fancy",
+        "Color": "White/White"
+    },
+    {
+        "Name": "Snowman Lamp",
+        "Source": "Snowman",
+        "Price": "NFS",
+        "SalePrice": 8888,
+        "Theme": "Fairytale",
+        "Style": "Fancy",
+        "Color": "White/White"
+    },
+    {
+        "Name": "Snowman Matryoshka",
+        "Source": "SnowKid",
+        "Price": "NFS",
+        "SalePrice": 2000,
+        "Theme": "Fairytale/Hobby",
+        "Style": "Fancy",
+        "Color": "White/White"
+    },
+    {
+        "Name": "Snowman Sofa",
+        "Source": "Snowman",
+        "Price": "NFS",
+        "SalePrice": 8888,
+        "Theme": "Fairytale",
+        "Style": "Fancy",
+        "Color": "White/White"
+    },
+    {
+        "Name": "Snowman Table",
+        "Source": "Snowman",
+        "Price": "NFS",
+        "SalePrice": 8888,
+        "Theme": "Fairytale",
+        "Style": "Fancy",
+        "Color": "White/White"
+    },
+    {
+        "Name": "Snowman TV",
+        "Source": "Snowman",
+        "Price": "NFS",
+        "SalePrice": 8888,
+        "Theme": "Fairytale",
+        "Style": "Fancy",
+        "Color": "Yellow/White"
+    },
+    {
+        "Name": "Snowman Vanity",
+        "Source": "Snowman",
+        "Price": "NFS",
+        "SalePrice": 8888,
+        "Theme": "Fairytale",
+        "Style": "Fancy",
+        "Color": "White/White"
+    },
+    {
+        "Name": "Snowman Wardrobe",
+        "Source": "Snowman",
+        "Price": "NFS",
+        "SalePrice": 8888,
+        "Theme": "Fairytale",
+        "Style": "Fancy",
+        "Color": "White/White"
+    },
+    {
+        "Name": "Snowmobile",
+        "Source": "SnowDad",
+        "Price": "NFS",
+        "SalePrice": 900,
+        "Theme": "N/A",
+        "Style": "Sporty",
+        "Color": "Yellow/Black"
+    },
+    {
+        "Name": "Soccer Goal",
+        "Price": "NFS",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Soda Case",
+        "Price": "1,800",
+        "Theme": "None",
+        "Source": "Bea's RV, Timmy & Tommy",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Soda Fountain",
+        "Price": "2,400",
+        "Theme": "None",
+        "Source": "Timmy & Tommy",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Soft-Drink Display",
+        "Price": "2,844",
+        "Theme": "None",
+        "Source": "Filly's RV (7-11), DLC (Japan)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Soft-Serve Lamp",
+        "Price": "1,120",
+        "Theme": "Fairy Tale",
+        "Source": "Timmy & Tommy",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Songpyeon",
+        "Source": "Autumn Moon",
+        "Price": "NFS",
+        "SalePrice": "NFS",
+        "Theme": "Oriental",
+        "Style": "Traditional",
+        "Color": "Red/Colorful"
+    },
+    {
+        "Name": "Sound Mixer",
+        "Price": "NFS",
+        "Source": "Sprocket's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Spa Chair",
+        "Source": "Nooklings Shop",
+        "Price": 600,
+        "SalePrice": 150,
+        "Theme": "Oriental",
+        "Style": "Safe",
+        "Color": "Aqua/Aqua"
+    },
+    {
+        "Name": "Space Captain's Seat",
+        "Price": "3,680",
+        "Theme": "Sci-Fi, Toy Shop",
+        "Source": "Timmy & Tommy (Spotlight Item)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Space Console",
+        "Price": "3,000",
+        "Theme": "Sci-Fi, Toy Shop",
+        "Source": "Timmy & Tommy (Spotlight Item)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Space Heater",
+        "Source": "Nooklings Shop",
+        "Price": 1700,
+        "SalePrice": 425,
+        "Theme": "Science",
+        "Style": "Safe",
+        "Color": "White/White"
+    },
+    {
+        "Name": "Space Shuttle",
+        "Source": "Nooklings Shop",
+        "Price": 1700,
+        "SalePrice": 425,
+        "Theme": "Hobby/Science",
+        "Style": "Crazy",
+        "Color": "White/White"
+    },
+    {
+        "Name": "Space Station",
+        "Source": "Nooklings Shop",
+        "Price": 2800,
+        "SalePrice": 700,
+        "Theme": "Hobby/Science",
+        "Style": "Crazy",
+        "Color": "Gray/Gray"
+    },
+    {
+        "Name": "Spaceman Sam",
+        "Source": "Nooklings Shop",
+        "Price": 2800,
+        "SalePrice": 700,
+        "Theme": "Hobby/Science",
+        "Style": "Crazy",
+        "Color": "White/White"
+    },
+    {
+        "Name": "Sparrow's Nest",
+        "Price": "NFS",
+        "Source": "Nat's RV, Harvey's Shop",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Speaker",
+        "Price": "NFS",
+        "Source": "Boris' RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Speed Bag",
+        "Price": "2,990",
+        "Theme": "None",
+        "Source": "Timmy & Tommy",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Spherical Radar",
+        "Price": "3,000",
+        "Theme": "Sci-Fi, Toy Shop",
+        "Source": "Timmy & Tommy (Spotlight Item)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Sphinx",
+        "Source": "Nooklings Shop",
+        "Price": 3200,
+        "SalePrice": 800,
+        "Theme": "Antique/Horror",
+        "Style": "Old",
+        "Color": "Yellow/Brown"
+    },
+    {
+        "Name": "Spiderweb Clock",
+        "Price": "NFS",
+        "Theme": "Quirky, Toy Shop",
+        "Source": "Bug Off",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Spinning Wheel",
+        "Source": "Nooklings Shop",
+        "Price": 2200,
+        "SalePrice": 550,
+        "Theme": "Natural/Horror",
+        "Style": "Old",
+        "Color": "Brown/Brown"
+    },
+    {
+        "Name": "Splatoon Spawn Point",
+        "Price": "NFS",
+        "Source": "Inkwell's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Splatoon Tower",
+        "Price": "NFS",
+        "Source": "Inkwell's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Splattershot",
+        "Price": "NFS",
+        "Source": "Inkwell's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Spooky Bed",
+        "Source": "Nooklings Shop (October)",
+        "Price": 4124,
+        "SalePrice": 1031,
+        "Theme": "Horror",
+        "Style": "Crazy",
+        "Color": "Orange/Orange"
+    },
+    {
+        "Name": "Spooky Bookcase",
+        "Source": "Nooklings Shop (October)",
+        "Price": 4124,
+        "SalePrice": 1031,
+        "Theme": "Horror",
+        "Style": "Crazy",
+        "Color": "Orange/Orange"
+    },
+    {
+        "Name": "Spooky Chair",
+        "Source": "Nooklings Shop (October)",
+        "Price": 4124,
+        "SalePrice": 1031,
+        "Theme": "Horror",
+        "Style": "Crazy",
+        "Color": "Orange/Orange"
+    },
+    {
+        "Name": "Spooky Clock",
+        "Source": "Nooklings Shop (October)",
+        "Price": 4124,
+        "SalePrice": 1031,
+        "Theme": "Horror",
+        "Style": "Crazy",
+        "Color": "Orange/Orange"
+    },
+    {
+        "Name": "Spooky Dresser",
+        "Source": "Nooklings Shop (October)",
+        "Price": 4124,
+        "SalePrice": 1031,
+        "Theme": "Horror",
+        "Style": "Crazy",
+        "Color": "Orange/Orange"
+    },
+    {
+        "Name": "Spooky Lamp",
+        "Source": "Nooklings Shop (October)",
+        "Price": 4124,
+        "SalePrice": 1031,
+        "Theme": "Horror",
+        "Style": "Crazy",
+        "Color": "Orange/Orange"
+    },
+    {
+        "Name": "Spooky Sofa",
+        "Source": "Nooklings Shop (October)",
+        "Price": 4124,
+        "SalePrice": 1031,
+        "Theme": "Horror",
+        "Style": "Crazy",
+        "Color": "Orange/Orange"
+    },
+    {
+        "Name": "Spooky Table",
+        "Source": "Nooklings Shop (October)",
+        "Price": 4124,
+        "SalePrice": 1031,
+        "Theme": "Horror",
+        "Style": "Crazy",
+        "Color": "Orange/Orange"
+    },
+    {
+        "Name": "Spooky Vanity",
+        "Source": "Nooklings Shop (October)",
+        "Price": 4124,
+        "SalePrice": 1031,
+        "Theme": "Horror",
+        "Style": "Crazy",
+        "Color": "Orange/Orange"
+    },
+    {
+        "Name": "Spooky Wall Lamp",
+        "Source": "Nooklings Shop (October)",
+        "Price": 4124,
+        "SalePrice": 1031,
+        "Theme": "Horror",
+        "Style": "Crazy",
+        "Color": "Orange/Orange"
+    },
+    {
+        "Name": "Spooky Wardrobe",
+        "Source": "Nooklings Shop (October)",
+        "Price": 4124,
+        "SalePrice": 1031,
+        "Theme": "Horror",
+        "Style": "Crazy",
+        "Color": "Orange/Orange"
+    },
+    {
+        "Name": "Sports Car",
+        "Price": "NFS",
+        "Source": "Ike's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Sprinkler",
+        "Source": "Nooklings Shop",
+        "Price": 1640,
+        "SalePrice": 410,
+        "Theme": "N/A",
+        "Style": "Sporty",
+        "Color": "Yellow/Yellow"
+    },
+    {
+        "Name": "Sprout Table",
+        "Price": "4,120",
+        "Theme": "Rustic",
+        "Source": "Nat's RV, DLC (Japan)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Square Minitable",
+        "Price": "NFS",
+        "Source": "Huck/Spike's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Squid Bumber",
+        "Price": "NFS",
+        "Source": "Inkwell's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Squid Chair",
+        "Source": "Chip",
+        "Price": "NFS",
+        "SalePrice": 600,
+        "Theme": "Hobby",
+        "Style": "Fancy",
+        "Color": "White/White"
+    },
+    {
+        "Name": "Stack of Books",
+        "Price": "NFS",
+        "Source": "Blathers/Dobie/Jacob/Pascal's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Stack of Clothes",
+        "Price": "NFS",
+        "Source": "Stella's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Stacked Magazines",
+        "Price": "NFS",
+        "Source": "Candi/Hornsby/Jacob's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Stadiometer",
+        "Source": "Nooklings Shop",
+        "Price": 1680,
+        "SalePrice": 420,
+        "Theme": "Science",
+        "Style": "Formal",
+        "Color": "Brown/Brown"
+    },
+    {
+        "Name": "Stag-Beetle Chair",
+        "Price": "NFS",
+        "Theme": "Toy Shop",
+        "Source": "Bug Off",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Stained Glass",
+        "Source": "Nooklings Shop",
+        "Price": 1200,
+        "SalePrice": 300,
+        "Theme": "Fairytale",
+        "Style": "Fancy",
+        "Color": "Colorful/Colorful"
+    },
+    {
+        "Name": "Stained-Glass Lamp",
+        "Price": "2,400",
+        "Theme": "Antique",
+        "Source": "Timmy & Tommy",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Stair Dresser",
+        "Source": "Nooklings Shop",
+        "Price": 2250,
+        "SalePrice": 562,
+        "Theme": "Natural/Oriental",
+        "Style": "Old",
+        "Color": "Brown/Brown"
+    },
+    {
+        "Name": "Standing Sink",
+        "Price": "NFS",
+        "Source": "Cashmere/Paolo's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Standing Spotlight",
+        "Price": "1,800",
+        "Theme": "Trendy",
+        "Source": "Timmy & Tommy",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Standing TV",
+        "Price": "NFS",
+        "Source": "Boris/Hopkin's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Star Globe",
+        "Price": "2,400",
+        "Theme": "Sci-Fi",
+        "Source": "Celeste's RV, Timmy & Tommy",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Star Projector",
+        "Price": "2,400",
+        "Theme": "Sci-Fi",
+        "Source": "Celeste's RV, Timmy & Tommy",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Statue of Liberty",
+        "Price": "1,200",
+        "Theme": "None",
+        "Source": "Gulliver (Answer Correct)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Steamed Lobster",
+        "Price": "NFS",
+        "Source": "Julia's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Steamed-Bun Case",
+        "Price": "2,844",
+        "Theme": "Harmonious",
+        "Source": "Filly's RV (7-11), DLC (Japan)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Steamroller",
+        "Price": "4,500",
+        "Theme": "None",
+        "Source": "Timmy & Tommy",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Stepladder",
+        "Source": "Nooklings Shop",
+        "Price": 1200,
+        "SalePrice": 300,
+        "Theme": "N/A",
+        "Style": "Safe",
+        "Color": "Gray/Gray"
+    },
+    {
+        "Name": "Stewpot",
+        "Price": "960",
+        "Theme": "None",
+        "Source": "Franklin's RV, Camping NPC (Igloo)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Sticker Tape Liner",
+        "Price": "23,760",
+        "Theme": "Trendy",
+        "Source": "DLC (Japan)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Stone Lantern",
+        "Price": "NFS",
+        "Source": "Toby's RV (Sanrio)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Stool",
+        "Source": "Nooklings Shop",
+        "Price": 1360,
+        "SalePrice": 340,
+        "Theme": "N/A",
+        "Style": "Modern",
+        "Color": "Red/Red"
+    },
+    {
+        "Name": "Storage Case",
+        "Source": "Nookligns Shop",
+        "Price": 980,
+        "SalePrice": 245,
+        "Theme": "N/A",
+        "Style": "Safe",
+        "Color": "White/Black"
+    },
+    {
+        "Name": "Store Shelf",
+        "Price": "NFS",
+        "Source": "Candi's RV, Harvey's Shop",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Storefront",
+        "Source": "Nooklings Shop",
+        "Price": 3680,
+        "SalePrice": 920,
+        "Theme": "Natural",
+        "Style": "Old",
+        "Color": "Brown/Brown"
+    },
+    {
+        "Name": "Stove",
+        "Source": "Nooklings Shop",
+        "Price": 1980,
+        "SalePrice": 495,
+        "Theme": "N/A",
+        "Style": "Old",
+        "Color": "Red/White"
+    },
+    {
+        "Name": "Strapped Books",
+        "Price": "NFS",
+        "Source": "Hornsby/Leopold/Rover's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Stretcher",
+        "Price": "NFS",
+        "Source": "Raddle's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Stripe Bathroom Sink",
+        "Price": "2,020",
+        "Theme": "Trendy",
+        "Source": "Timmy & Tommy",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Stripe Bed",
+        "Source": "Nooklings Shop",
+        "Price": 2020,
+        "SalePrice": 505,
+        "Theme": "Stylish",
+        "Style": "Modern",
+        "Color": "Aqua/White"
+    },
+    {
+        "Name": "Stripe Chair",
+        "Source": "Nooklings Shop",
+        "Price": 2020,
+        "SalePrice": 505,
+        "Theme": "Stylish",
+        "Style": "Modern",
+        "Color": "Aqua/White"
+    },
+    {
+        "Name": "Stripe Clock",
+        "Source": "Nooklings Shop",
+        "Price": 2020,
+        "SalePrice": 505,
+        "Theme": "Stylish",
+        "Style": "Modern",
+        "Color": "Aqua/White"
+    },
+    {
+        "Name": "Stripe Closet",
+        "Source": "Nooklings Shop",
+        "Price": 2020,
+        "SalePrice": 505,
+        "Theme": "Stylish",
+        "Style": "Modern",
+        "Color": "Aqua/White"
+    },
+    {
+        "Name": "Stripe Dresser",
+        "Price": "2,020",
+        "Theme": "Trendy",
+        "Source": "Timmy & Tommy",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Stripe Lamp",
+        "Price": "2,020",
+        "Theme": "Trendy",
+        "Source": "Timmy & Tommy",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Stripe Shelf",
+        "Source": "Nooklings Shop",
+        "Price": 2020,
+        "SalePrice": 505,
+        "Theme": "Stylish",
+        "Style": "Modern",
+        "Color": "Aqua/White"
+    },
+    {
+        "Name": "Stripe Sofa",
+        "Source": "Nooklings Shop",
+        "Price": 2020,
+        "SalePrice": 505,
+        "Theme": "Stylish",
+        "Style": "Modern",
+        "Color": "Aqua/White"
+    },
+    {
+        "Name": "Stripe Table",
+        "Source": "Nooklings Shop",
+        "Price": 2020,
+        "SalePrice": 505,
+        "Theme": "Stylish",
+        "Style": "Modern",
+        "Color": "Aqua/White"
+    },
+    {
+        "Name": "Stripe TV",
+        "Source": "Nooklings Shop",
+        "Price": 2020,
+        "SalePrice": 505,
+        "Theme": "Stylish",
+        "Style": "Modern",
+        "Color": "Aqua/White"
+    },
+    {
+        "Name": "Striped Cone",
+        "Source": "Nooklings Shop",
+        "Price": 800,
+        "SalePrice": 200,
+        "Theme": "N/A",
+        "Style": "Rock",
+        "Color": "Yellow/Black"
+    },
+    {
+        "Name": "Stroller",
+        "Source": "Nooklings Shop",
+        "Price": 1960,
+        "SalePrice": 490,
+        "Theme": "Fairytale",
+        "Style": "Fancy",
+        "Color": "Aqua/White"
+    },
+    {
+        "Name": "Stuffed Stocking",
+        "Source": "Nooklings Shop (December)",
+        "Price": 1200,
+        "SalePrice": 300,
+        "Theme": "Hobby",
+        "Style": "Fancy",
+        "Color": "Aqua/Colorful"
+    },
+    {
+        "Name": "Submarine",
+        "Price": "8,000",
+        "Source": "Happy Home Designer save data",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Succulent Plant",
+        "Price": "NFS",
+        "Source": "Kicks/Spike's RV, Harvey's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Sun",
+        "Price": "6,000",
+        "Source": "Happy Home Designer save data",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Sunflower",
+        "Source": "Garden Center",
+        "Price": 980,
+        "SalePrice": 245,
+        "Theme": "Natural",
+        "Style": "Safe",
+        "Color": "Yellow/Green"
+    },
+    {
+        "Name": "Sunflower Stereo",
+        "Price": "2,480",
+        "Theme": "Fairy Tale, Rustic",
+        "Source": "Leif (Weeding Day; Happy Generosity Award)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Sunrise Lamp",
+        "Price": "4,040",
+        "Theme": "None",
+        "Source": "DLC",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Super Mushroom",
+        "Source": "Fortune Cookies",
+        "Price": "NFS",
+        "SalePrice": 210,
+        "Theme": "Hobby",
+        "Style": "Fancy",
+        "Color": "Red/Orange"
+    },
+    {
+        "Name": "Super Sea Snail",
+        "Price": "NFS",
+        "Source": "Inkwell's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Super Star",
+        "Price": "840",
+        "Theme": "Toy Shop",
+        "Source": "Fortune Cookie #23",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Super Toilet",
+        "Source": "Nooklings Shop",
+        "Price": 1980,
+        "SalePrice": 495,
+        "Theme": "N/A",
+        "Style": "SAfe",
+        "Color": "Pink/Pink"
+    },
+    {
+        "Name": "Surfboard",
+        "Source": "Tent Camper",
+        "Price": 1400,
+        "SalePrice": 350,
+        "Theme": "N/A",
+        "Style": "Sporty",
+        "Color": "Blue/Aqua"
+    },
+    {
+        "Name": "Surveillance Camera",
+        "Source": "Nooklings Shop",
+        "Price": 1800,
+        "SalePrice": 450,
+        "Theme": "Science/Stylish",
+        "Style": "Safe",
+        "Color": "Gray/Gray"
+    },
+    {
+        "Name": "Sushi Bench",
+        "Price": "NFS",
+        "Source": "Filly's RV (7-11)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Sushi Container",
+        "Price": "NFS",
+        "Source": "Chip's RV, Harvey's Shop",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Sushi Menu",
+        "Price": "NFS",
+        "Source": "Harvey's Shop",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Sushi Platter",
+        "Price": "1,680",
+        "Theme": "Harmonious",
+        "Source": "Chip's RV, Timmy & Tommy (JP)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Sushi Tray",
+        "Price": "NFS",
+        "Source": "Chip's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Sweets Bed",
+        "Source": "Gracie (Autumn)",
+        "Price": 80000,
+        "SalePrice": 20000,
+        "Theme": "Fairytale",
+        "Style": "Fancy",
+        "Color": "Beige/White"
+    },
+    {
+        "Name": "Sweets Bookcase",
+        "Source": "Gracie (Autumn)",
+        "Price": 90000,
+        "SalePrice": 22500,
+        "Theme": "Fairytale",
+        "Style": "Fancy",
+        "Color": "Beige/Beige"
+    },
+    {
+        "Name": "Sweets Chair",
+        "Source": "Gracie (Autumn)",
+        "Price": 120000,
+        "SalePrice": 30000,
+        "Theme": "Fairytale",
+        "Style": "Fancy",
+        "Color": "Beige/Brown"
+    },
+    {
+        "Name": "Sweets Closet",
+        "Source": "Gracie (Autumn)",
+        "Price": 68000,
+        "SalePrice": 17000,
+        "Theme": "Fairytale",
+        "Style": "Fancy",
+        "Color": "Beige/Brown"
+    },
+    {
+        "Name": "Sweets Dresser",
+        "Source": "Gracie (Autumn)",
+        "Price": 220000,
+        "SalePrice": 55000,
+        "Theme": "Fairytale",
+        "Style": "Fancy",
+        "Color": "Beige/Brown"
+    },
+    {
+        "Name": "Sweets Lamp",
+        "Source": "Gracie (Autumn)",
+        "Price": 98000,
+        "SalePrice": 24500,
+        "Theme": "Fairytale",
+        "Style": "Fancy",
+        "Color": "Colorful/Brown"
+    },
+    {
+        "Name": "Sweets Minilamp",
+        "Price": "110,000",
+        "Theme": "Fairy Tale",
+        "Source": "Gracie Grace (Fall)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Sweets Minitable",
+        "Price": "80,000",
+        "Theme": "Fairy Tale",
+        "Source": "Gracie Grace (Fall)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Sweets Player",
+        "Source": "Gracie (Autumn)",
+        "Price": 100000,
+        "SalePrice": 25000,
+        "Theme": "Fairytale",
+        "Style": "Fancy",
+        "Color": "Pink/White"
+    },
+    {
+        "Name": "Sweets Sofa",
+        "Source": "Gracie (Autumn)",
+        "Price": "???",
+        "SalePrice": "???",
+        "Theme": "???",
+        "Style": "???",
+        "Color": "???/???"
+    },
+    {
+        "Name": "Sweets Table",
+        "Source": "Gracie (Autumn)",
+        "Price": 240000,
+        "SalePrice": 60000,
+        "Theme": "Fairytale",
+        "Style": "Fancy",
+        "Color": "Beige/Brown"
+    },
+    {
+        "Name": "Swinging Bench",
+        "Price": "NFS",
+        "Source": "Maddie's RV, Harvey's Shop",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Sword",
+        "Source": "Nooklings Shop",
+        "Price": 1400,
+        "SalePrice": 350,
+        "Theme": "Antique/Hobby/Oriental",
+        "Style": "Traditional",
+        "Color": "Yellow/Black"
+    },
+    {
+        "Name": "Synthesizer",
+        "Price": "NFS",
+        "Source": "Sprocket's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Table Lamp",
+        "Source": "Nooklings Shop",
+        "Price": 640,
+        "SalePrice": 160,
+        "Theme": "Science",
+        "Style": "Safe",
+        "Color": "Aqua/White"
+    },
+    {
+        "Name": "Table with Cloth",
+        "Price": "NFS",
+        "Source": "Julia's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Tabletop Game",
+        "Source": "Nooklings Shop",
+        "Price": 2480,
+        "SalePrice": 620,
+        "Theme": "Hobby",
+        "Style": "Rock",
+        "Color": "Brown/Black"
+    },
+    {
+        "Name": "Tacos",
+        "Price": "NFS",
+        "Source": "Wendell's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Taiko Drum",
+        "Price": "1,300",
+        "Theme": "Harmonious",
+        "Source": "Timmy & Tommy",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Tall Cactus",
+        "Source": "Garden Center",
+        "Price": 1700,
+        "SalePrice": 425,
+        "Theme": "Natural",
+        "Style": "Safe",
+        "Color": "Green/Brown"
+    },
+    {
+        "Name": "Tall Display Case",
+        "Price": "2,500",
+        "Theme": "Trendy",
+        "Source": "Museum Shop",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Tall Garden Rock",
+        "Price": "NFS",
+        "Source": "Boots' RV, Harvey's Shop",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Tall Lantern",
+        "Source": "Nookligns Shop",
+        "Price": 1980,
+        "SalePrice": 495,
+        "Theme": "Horror/Oriental",
+        "Style": "Traditional",
+        "Color": "Gray/Gray"
+    },
+    {
+        "Name": "Tall Mini Cactus",
+        "Price": "800",
+        "Theme": "Rustic",
+        "Source": "Gardening Store (TIY)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Tangerine Chair",
+        "Price": "1,300",
+        "Theme": "Rustic",
+        "Source": "Timmy & Tommy",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Tape Deck",
+        "Source": "Nooklings Shop",
+        "Price": 700,
+        "SalePrice": 175,
+        "Theme": "N/A",
+        "Style": "Old",
+        "Color": "Gray/Gray"
+    },
+    {
+        "Name": "Tapestry",
+        "Source": "Gulliver",
+        "Price": 800,
+        "SalePrice": 200,
+        "Theme": "Antique",
+        "Style": "Traditional",
+        "Color": "Red/Brown"
+    },
+    {
+        "Name": "Tart",
+        "Price": "NFS",
+        "Source": "Olive's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Tatami Bed",
+        "Source": "Nooklings Shop",
+        "Price": 2400,
+        "SalePrice": 600,
+        "Theme": "Oriental",
+        "Style": "Traditional",
+        "Color": "Green/Brown"
+    },
+    {
+        "Name": "Taurus Bathtub",
+        "Price": "4,800",
+        "Theme": "None",
+        "Source": "DLC",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Tea Set",
+        "Source": "Nooklings Shop",
+        "Price": 300,
+        "SalePrice": 75,
+        "Theme": "N/A",
+        "Style": "Traditional",
+        "Color": "Yellow/Green"
+    },
+    {
+        "Name": "Tea Table",
+        "Source": "Nooklings Shop",
+        "Price": 1000,
+        "SalePrice": 250,
+        "Theme": "Oriental",
+        "Style": "Old",
+        "Color": "Brown/Brown"
+    },
+    {
+        "Name": "Tea Tansu",
+        "Source": "Nooklings Shop",
+        "Price": 1600,
+        "SalePrice": 400,
+        "Theme": "Natural/Oriental",
+        "Style": "Old",
+        "Color": "Brown/Brown"
+    },
+    {
+        "Name": "Tea Vase",
+        "Price": "2,400",
+        "Theme": "Antique, Harmonious",
+        "Source": "Timmy & Tommy",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Teacher's Chair",
+        "Source": "Nooklings Shop",
+        "Price": 1440,
+        "SalePrice": 360,
+        "Theme": "Science",
+        "Style": "Formal",
+        "Color": "Gray/Gray"
+    },
+    {
+        "Name": "Teacher's Desk",
+        "Source": "Nooklings Shop",
+        "Price": 1580,
+        "SalePrice": 395,
+        "Theme": "Science",
+        "Style": "Formal",
+        "Color": "Brown/Gray"
+    },
+    {
+        "Name": "Teacup Ride",
+        "Price": "8,000",
+        "Source": "Happy Home Designer save data",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Telescope",
+        "Source": "Nooklings Shop",
+        "Price": 5800,
+        "SalePrice": 1450,
+        "Theme": "Hobby/Science",
+        "Style": "Sporty",
+        "Color": "Whtie/Black"
+    },
+    {
+        "Name": "Ten Billion Barrel",
+        "Source": "Fireworks",
+        "Price": "NFS",
+        "SalePrice": 256,
+        "Theme": "Hobby/Science",
+        "Style": "Traditional",
+        "Color": "Colorful/Black"
+    },
+    {
+        "Name": "Tennis Racket",
+        "Price": "NFS",
+        "Source": "Tybalt's RV, Harvey's Shop",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Tennis Table",
+        "Source": "Nooklings Shop",
+        "Price": 1800,
+        "SalePrice": 450,
+        "Theme": "Hobby",
+        "Style": "Sporty",
+        "Color": "Green/Green"
+    },
+    {
+        "Name": "Tent",
+        "Price": "8,000",
+        "Source": "Happy Home Designer save data",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Teppanyaki Grill",
+        "Price": "NFS",
+        "Source": "Buzz's RV, Harvey's Shop",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Termina's Moon",
+        "Price": "NFS",
+        "Source": "Epona's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Theater Seat",
+        "Price": "NFS",
+        "Source": "Boris' RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Theremin",
+        "Source": "Nooklings Shop",
+        "Price": 2000,
+        "SalePrice": 500,
+        "Theme": "Science",
+        "Style": "Safe",
+        "Color": "Brown/White"
+    },
+    {
+        "Name": "Thermohygrometer",
+        "Price": "1,500",
+        "Theme": "Sci-Fi",
+        "Source": "Museum Shop",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Three Lamp",
+        "Price": "3,000",
+        "Theme": "Trendy",
+        "Source": "Timmy & Tommy (Spotlight Item)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Throne",
+        "Source": "Spotlight Item/Wishy",
+        "Price": 800000,
+        "SalePrice": 200000,
+        "Theme": "Antique/Fairytale",
+        "Style": "Old",
+        "Color": "Yellow/Red"
+    },
+    {
+        "Name": "Tiki Torch",
+        "Source": "Nooklings Shop",
+        "Price": 870,
+        "SalePrice": 217,
+        "Theme": "Natural",
+        "Style": "Sporty",
+        "Color": "Red/Brown"
+    },
+    {
+        "Name": "Tile Screen",
+        "Price": "NFS",
+        "Source": "Sahara's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Time Clock",
+        "Price": "1,800",
+        "Theme": "Sci-Fi",
+        "Source": "Timmy & Tommy",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Timpano Drum",
+        "Source": "Nooklings Shop",
+        "Price": 2100,
+        "SalePrice": 525,
+        "Theme": "N/A",
+        "Style": "Safe",
+        "Color": "Beige/Gray"
+    },
+    {
+        "Name": "Tin Watering Can",
+        "Price": "NFS",
+        "Source": "Maggie's RV, Harvey's Shop",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Tire Stack",
+        "Price": "NFS",
+        "Source": "Ike's RV, Harvey's Shop",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Toaster",
+        "Source": "Nooklings Shop",
+        "Price": 720,
+        "SalePrice": 180,
+        "Theme": "N/A",
+        "Style": "Safe",
+        "Color": "White/White"
+    },
+    {
+        "Name": "Toilet",
+        "Source": "Nooklings Shop",
+        "Price": 1800,
+        "SalePrice": 450,
+        "Theme": "N/A",
+        "Style": "Safe",
+        "Color": "White/White"
+    },
+    {
+        "Name": "Tokonoma",
+        "Source": "Nooklings Shop",
+        "Price": 2300,
+        "SalePrice": 575,
+        "Theme": "Oriental",
+        "Style": "Traditional",
+        "Color": "Brown/White"
+    },
+    {
+        "Name": "Tong-and-Tray Stand",
+        "Price": "NFS",
+        "Source": "Bea's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Tool Cart",
+        "Price": "NFS",
+        "Source": "Cyrus/Ike's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Tool Shelf",
+        "Price": "NFS",
+        "Source": "Ike's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Tool Stand",
+        "Price": "NFS",
+        "Source": "Cyrus' RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Toolbox",
+        "Price": "NFS",
+        "Source": "Ike/Kicks' RV, Harvey's Shop",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Top",
+        "Price": "2,000",
+        "Theme": "Harmonious",
+        "Source": "DLC (Japan)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Towel Basket",
+        "Price": "NFS",
+        "Source": "Paolo/Plucky's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Towel Rack",
+        "Price": "NFS",
+        "Source": "Leopold's RV, Harvey's Shop",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Tower of Pisa",
+        "Source": "Spotlight Item/Wishy",
+        "Price": 9200,
+        "SalePrice": 2300,
+        "Theme": "Hobby",
+        "Style": "Old",
+        "Color": "Gray/Gray"
+    },
+    {
+        "Name": "Toy Camera",
+        "Source": "Katie",
+        "Price": "NFS",
+        "SalePrice": 240,
+        "Theme": "Hobby/Stylish",
+        "Style": "Fancy",
+        "Color": "Pink/Pink"
+    },
+    {
+        "Name": "Toy Piano",
+        "Price": "NFS",
+        "Source": "Carrie/Weber's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Tractor",
+        "Price": "NFS",
+        "Source": "Tad's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Traffic Cone",
+        "Source": "Nooklings Shop",
+        "Price": 800,
+        "SalePrice": 200,
+        "Theme": "N/A",
+        "Style": "Rock",
+        "Color": "Red/Red"
+    },
+    {
+        "Name": "Train Seat",
+        "Price": "NFS",
+        "Source": "Rover's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Train Set",
+        "Source": "Nooklings Shop",
+        "Price": 1600,
+        "SalePrice": 400,
+        "Theme": "Hobby",
+        "Style": "Fancy",
+        "Color": "Green/Brown"
+    },
+    {
+        "Name": "Tranquil Bridge",
+        "Price": "NFS",
+        "Source": "Toby's RV (Sanrio)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Trash Bags",
+        "Price": "NFS",
+        "Source": "Buzz/Hornsby/Jacob's RV, Harvey's Shop",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Trash Bin",
+        "Source": "Nooklings Shop",
+        "Price": 400,
+        "SalePrice": 100,
+        "Theme": "Horror",
+        "Style": "Safe",
+        "Color": "Red/Blue"
+    },
+    {
+        "Name": "Trash Can",
+        "Source": "Nooklings Shop",
+        "Price": 1400,
+        "SalePrice": 350,
+        "Theme": "Horror",
+        "Style": "Safe",
+        "Color": "Aqua/Gray"
+    },
+    {
+        "Name": "Treadmill",
+        "Price": "2,400",
+        "Theme": "Sci-Fi",
+        "Source": "Timmy & Tommy",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Treasure Chest",
+        "Source": "Island",
+        "Price": "150M",
+        "SalePrice": 1875,
+        "Theme": "Hobby",
+        "Style": "Old",
+        "Color": "Yellow/Green"
+    },
+    {
+        "Name": "Tree Standee",
+        "Price": "1,200",
+        "Theme": "None",
+        "Source": "Nat's RV, Timmy & Tommy",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Tree-Stump Chair",
+        "Price": "4,480",
+        "Theme": "Rustic",
+        "Source": "Jingle's RV, DLC (Japan)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Trellis",
+        "Price": "NFS",
+        "Source": "Boot's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Tribal Mask",
+        "Source": "Gulliver",
+        "Price": 4400,
+        "SalePrice": 1100,
+        "Theme": "Antique/Horror",
+        "Style": "Traditional",
+        "Color": "Brown/Brown"
+    },
+    {
+        "Name": "Tricycle",
+        "Source": "Nooklings Shop",
+        "Price": 1120,
+        "SalePrice": 280,
+        "Theme": "N/A",
+        "Style": "Fancy",
+        "Color": "Yellow/Orange"
+    },
+    {
+        "Name": "Triforce",
+        "Source": "Fortune Cookie",
+        "Price": "NFS",
+        "SalePrice": 210,
+        "Theme": "Hobby",
+        "Style": "Old",
+        "Color": "Yellow/Yellow"
+    },
+    {
+        "Name": "Triple Bananas",
+        "Source": "Fortune Cookie",
+        "Price": "NFS",
+        "SalePrice": 210,
+        "Theme": "Hobby",
+        "Style": "Fancy",
+        "Color": "Yellow/Yellow"
+    },
+    {
+        "Name": "Triple Red Shells",
+        "Price": "840",
+        "Theme": "Toy Shop",
+        "Source": "Fortune Cookie #31",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Trumpet",
+        "Price": "NFS",
+        "Source": "Weber's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Trunk",
+        "Source": "Nooklings Shop",
+        "Price": 1000,
+        "SalePrice": 250,
+        "Theme": "N/A",
+        "Style": "Old",
+        "Color": "Brown/Brown"
+    },
+    {
+        "Name": "Trunk Measure",
+        "Source": "Nooklings Shop",
+        "Price": 1680,
+        "SalePrice": 420,
+        "Theme": "Science",
+        "Style": "Formal",
+        "Color": "Brown/Brown"
+    },
+    {
+        "Name": "Tteok Plate",
+        "Price": "320",
+        "Theme": "Harmonious",
+        "Source": "Wade's RV, DLC (Korea)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Tuk-Tuk",
+        "Source": "Gulliver",
+        "Price": 1200,
+        "SalePrice": 300,
+        "Theme": "Oriental",
+        "Style": "Traditional",
+        "Color": "Blue/Black"
+    },
+    {
+        "Name": "Tulip Dresser",
+        "Price": "2,200",
+        "Theme": "Fairy Tale, Rustic",
+        "Source": "Leif (Weeding Day; Happy Generosity Award)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Tumbleweed",
+        "Source": "Nooklings Shop",
+        "Price": 520,
+        "SalePrice": 130,
+        "Theme": "Natural",
+        "Style": "Old",
+        "Color": "Brown/Brown"
+    },
+    {
+        "Name": "Turkey",
+        "Source": "DLC",
+        "Price": "NFS",
+        "SalePrice": "NFS",
+        "Theme": "???",
+        "Style": "???",
+        "Color": "???/???"
+    },
+    {
+        "Name": "Turntable",
+        "Source": "Nooklings Shop",
+        "Price": 2580,
+        "SalePrice": 645,
+        "Theme": "Antique",
+        "Style": "Old",
+        "Color": "Brown/Brown"
+    },
+    {
+        "Name": "TV Camera",
+        "Source": "Nooklings Shop",
+        "Price": 5600,
+        "SalePrice": 1400,
+        "Theme": "Science/Stylish",
+        "Style": "Formal",
+        "Color": "Gray/Gray"
+    },
+    {
+        "Name": "TV with VCR",
+        "Price": "2,000",
+        "Theme": "Sci-Fi",
+        "Source": "Timmy & Tommy",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Twelve-Grape Plate",
+        "Price": "NFS",
+        "Theme": "None",
+        "Source": "Countdown (Isabelle; NA and EU Spanish)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Two Lamp",
+        "Price": "2,000",
+        "Theme": "Trendy",
+        "Source": "Timmy & Tommy (Spotlight Item)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Typewriter",
+        "Source": "Nooklings Shop",
+        "Price": 2400,
+        "SalePrice": 600,
+        "Theme": "N/A",
+        "Style": "Old",
+        "Color": "White/Black"
+    },
+    {
+        "Name": "Udon Soup",
+        "Price": "NFS",
+        "Source": "Sylvana's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "UFO",
+        "Price": "6,000",
+        "Source": "Happy Home Designer save data",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Ukulele",
+        "Source": "Club Tortimer",
+        "Price": "30M",
+        "SalePrice": 375,
+        "Theme": "N/A",
+        "Style": "Safe",
+        "Color": "Brown/Brown"
+    },
+    {
+        "Name": "Ultra Hand",
+        "Source": "Fireworks",
+        "Price": "NFS",
+        "SalePrice": 256,
+        "Theme": "Hobby/Science",
+        "Style": "Traditional",
+        "Color": "Blue/Blue"
+    },
+    {
+        "Name": "Ultra Machine",
+        "Source": "Fireworks",
+        "Price": "NFS",
+        "SalePrice": 256,
+        "Theme": "Hobby/Science",
+        "Style": "Traditional",
+        "Color": "Red/White"
+    },
+    {
+        "Name": "Ultra Scope",
+        "Price": "1,024",
+        "Theme": "Sci-Fi, Toy Shop",
+        "Source": "Redd (Fireworks Show; Kaboom Ticket)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Umbrella Stand",
+        "Price": "NFS",
+        "Source": "June's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Unicycle",
+        "Price": "NFS",
+        "Source": "Tybalt's RV, Harvey's Shop",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Unknown Machine",
+        "Source": "Spotlight Item/Wishy",
+        "Price": 4800,
+        "SalePrice": 1200,
+        "Theme": "Horror/Science",
+        "Style": "Crazy",
+        "Color": "Gray/Gray"
+    },
+    {
+        "Name": "Upright Piano",
+        "Source": "Nooklings Shop",
+        "Price": 3200,
+        "SalePrice": 800,
+        "Theme": "N/A",
+        "Style": "Safe",
+        "Color": "Red/Black"
+    },
+    {
+        "Name": "Upright Vacuum",
+        "Price": "1,800",
+        "Theme": "Sci-Fi",
+        "Source": "Timmy & Tommy",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Vacuum Cleaner",
+        "Source": "Nooklings Shop",
+        "Price": 1200,
+        "SalePrice": 300,
+        "Theme": "Science",
+        "Style": "Old",
+        "Color": "Red/White"
+    },
+    {
+        "Name": "Vaulting Horse",
+        "Source": "Nooklings Shop",
+        "Price": 1200,
+        "SalePrice": 300,
+        "Theme": "N/A",
+        "Style": "Sporty",
+        "Color": "Beige/Brown"
+    },
+    {
+        "Name": "Veggie Basket",
+        "Source": "Autumn Moon",
+        "Price": "NFS",
+        "SalePrice": "NFS",
+        "Theme": "N/A",
+        "Style": "Sporty",
+        "Color": "Colorful/Brown"
+    },
+    {
+        "Name": "Ventilation Fan",
+        "Price": "1,120",
+        "Theme": "Sci-Fi",
+        "Source": "Copper's RV, Timmy & Tommy",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Vibraphone",
+        "Source": "Nooklings Shop",
+        "Price": 1900,
+        "SalePrice": 475,
+        "Theme": "N/A",
+        "Style": "Modern",
+        "Color": "Brown/Black"
+    },
+    {
+        "Name": "Video Camera",
+        "Price": "NFS",
+        "Source": "Murphy's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Villager Statue",
+        "Price": "NFS",
+        "Source": "Villager's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Vintage Camera",
+        "Price": "1,800",
+        "Theme": "Antique",
+        "Source": "Timmy & Tommy",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Vintage Radio",
+        "Price": "1,280",
+        "Theme": "Antique",
+        "Source": "Timmy & Tommy (Spotlight Item)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Vintage Telephone",
+        "Price": "1,800",
+        "Theme": "Antique",
+        "Source": "Timmy & Tommy",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Vintage Telescope",
+        "Price": "1,880",
+        "Theme": "Antique",
+        "Source": "Pascal",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Violet Screen",
+        "Source": "Grass Day",
+        "Price": "NFS",
+        "SalePrice": 595,
+        "Theme": "Fairytale/Natural",
+        "Style": "Fancy",
+        "Color": "Purple/Purple"
+    },
+    {
+        "Name": "Violin",
+        "Source": "Nooklings Shop",
+        "Price": 2200,
+        "SalePrice": 550,
+        "Theme": "N/A",
+        "Style": "SAfe",
+        "Color": "Brown/Brown"
+    },
+    {
+        "Name": "Virgo Harp",
+        "Price": "4,800",
+        "Theme": "None",
+        "Source": "DLC",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Virtual Boy",
+        "Source": "Fortune Cookie",
+        "Price": "NFS",
+        "SalePrice": 210,
+        "Theme": "Hobby/Science",
+        "Style": "Rock",
+        "Color": "Red/Black"
+    },
+    {
+        "Name": "Vision Tester",
+        "Source": "Nooklings Shop",
+        "Price": 2280,
+        "SalePrice": 570,
+        "Theme": "Science",
+        "Style": "Formal",
+        "Color": "White/White"
+    },
+    {
+        "Name": "Volleyball Net",
+        "Price": "1,800",
+        "Theme": "None",
+        "Source": "Gulliver's RV, Timmy & Tommy",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Wagon Wheel",
+        "Source": "Nooklings Shop",
+        "Price": 1230,
+        "SalePrice": 307,
+        "Theme": "Natural",
+        "Style": "Old",
+        "Color": "Brown/Brown"
+    },
+    {
+        "Name": "Waiting Room Bench",
+        "Price": "NFS",
+        "Source": "June's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Wall Fan",
+        "Price": "1,680",
+        "Theme": "None",
+        "Source": "Resetti's RV, Timmy & Tommy",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Wall Flowerpot",
+        "Price": "800",
+        "Theme": "Rustic",
+        "Source": "Timmy & Tommy",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Wall-Mounted Monitor",
+        "Price": "3,800",
+        "Theme": "Sci-Fi, Toy Shop",
+        "Source": "Timmy & Tommy (Spotlight Item)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Wall-Mounted Speaker",
+        "Price": "1,600",
+        "Theme": "Sci-Fi, Trendy",
+        "Source": "Timmy & Tommy",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Wall-Mounted TV",
+        "Price": "NFS",
+        "Source": "Resetti's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Warming Buffet",
+        "Price": "NFS",
+        "Source": "Julia's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Wash Station",
+        "Price": "2,880",
+        "Source": "Timmy & Tommy",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Washbasin (Bathroom)",
+        "Price": "2,880",
+        "Theme": "Harmonious",
+        "Source": "Timmy & Tommy",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Washbasin (Medical)",
+        "Price": "1,200",
+        "Theme": "Sci-Fi",
+        "Source": "Timmy & Tommy",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Washer/Dryer",
+        "Source": "Nooklings Shop",
+        "Price": 1800,
+        "SalePrice": 450,
+        "Theme": "Science",
+        "Style": "Safe",
+        "Color": "Green/Green"
+    },
+    {
+        "Name": "Washing Machine",
+        "Price": "2,800",
+        "Theme": "Sci-Fi",
+        "Source": "Timmy & Tommy",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Water Bird",
+        "Source": "Nooklings Shop",
+        "Price": 1400,
+        "SalePrice": 350,
+        "Theme": "Hobby",
+        "Style": "Fancy",
+        "Color": "Colorful/Colorful"
+    },
+    {
+        "Name": "Water Cooler",
+        "Price": "2,200",
+        "Theme": "Sci-Fi, Trendy",
+        "Source": "Timmy & Tommy",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Water Pot",
+        "Price": "NFS",
+        "Source": "Sylvana's RV, Harvey's Shop",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Watering Trough",
+        "Source": "Nooklings Shop",
+        "Price": 1100,
+        "SalePrice": 275,
+        "Theme": "Natural",
+        "Style": "Old",
+        "Color": "Brown/Brown"
+    },
+    {
+        "Name": "Watermelon",
+        "Price": "NFS",
+        "Source": "Plucky's RV, Harvey's Shop",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Watermelon Chair",
+        "Source": "Nooklings Shop",
+        "Price": 1300,
+        "SalePrice": 325,
+        "Theme": "Natural",
+        "Style": "Fancy",
+        "Color": "Green/Red"
+    },
+    {
+        "Name": "Watermelon Table",
+        "Source": "Nooklings Shop",
+        "Price": 1800,
+        "SalePrice": 450,
+        "Theme": "Natural",
+        "Style": "Fancy",
+        "Color": "Green/Red"
+    },
+    {
+        "Name": "Wave Breaker",
+        "Source": "Island",
+        "Price": "35M",
+        "SalePrice": 437,
+        "Theme": "N/A",
+        "Style": "Rock",
+        "Color": "Gray/Gray"
+    },
+    {
+        "Name": "Wedding Cake",
+        "Source": "Gracie (Sales)",
+        "Price": 60000,
+        "SalePrice": 15000,
+        "Theme": "Fairytale",
+        "Style": "Fancy",
+        "Color": "Pink/Pink"
+    },
+    {
+        "Name": "Weeping Fig",
+        "Source": "Garden Center",
+        "Price": 1200,
+        "SalePrice": 300,
+        "Theme": "Natural",
+        "Style": "Safe",
+        "Color": "Green/Brown"
+    },
+    {
+        "Name": "Weight Bench",
+        "Source": "Nooklings Shop",
+        "Price": 3590,
+        "SalePrice": 897,
+        "Theme": "N/A",
+        "Style": "Sporty",
+        "Color": "Black/Black"
+    },
+    {
+        "Name": "Well",
+        "Source": "Nooklings Shop",
+        "Price": 2700,
+        "SalePrice": 675,
+        "Theme": "Horror/Natural",
+        "Style": "Old",
+        "Color": "Brown/Brown"
+    },
+    {
+        "Name": "Wendell's Painting",
+        "Price": "NFS",
+        "Source": "Wendell's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Western Fence",
+        "Source": "Nooklings Shop",
+        "Price": 880,
+        "SalePrice": 220,
+        "Theme": "Natural",
+        "Style": "Old",
+        "Color": "Brown/Brown"
+    },
+    {
+        "Name": "Wet-Road Sign",
+        "Price": "850",
+        "Theme": "None",
+        "Source": "Boyd's RV, Timmy & Tommy",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Wheat Bundle",
+        "Source": "Autumn Moon",
+        "Price": "NFS",
+        "SalePrice": "NFS",
+        "Theme": "Natural",
+        "Style": "Traditional",
+        "Color": "Brown/Brown"
+    },
+    {
+        "Name": "Wheat Field",
+        "Source": "Nooklings Shop",
+        "Price": 380,
+        "SalePrice": 95,
+        "Theme": "Natural",
+        "Style": "Safe",
+        "Color": "Yellow/Yellow"
+    },
+    {
+        "Name": "Whirlpool Bath",
+        "Price": "70 Medals",
+        "Theme": "Sci-Fi, Trendy",
+        "Source": "Island Gift Shop (Club Tortimer Members)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "White Festive Tree",
+        "Price": "NFS",
+        "Source": "DLC",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "White Katana",
+        "Source": "Nooklings Shop",
+        "Price": 36800,
+        "SalePrice": 9200,
+        "Theme": "Antique/Horror/Oriental",
+        "Style": "Traditional",
+        "Color": "White/White"
+    },
+    {
+        "Name": "White Office Desk",
+        "Price": "NFS",
+        "Source": "Cleo's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "White Pot",
+        "Source": "Nooklings Shop",
+        "Price": 1200,
+        "SalePrice": 300,
+        "Theme": "N/A",
+        "Style": "Safe",
+        "Color": "White/White"
+    },
+    {
+        "Name": "Whiteboard",
+        "Source": "Nooklings Shop",
+        "Price": 1800,
+        "SalePrice": 450,
+        "Theme": "Science",
+        "Style": "Formal",
+        "Color": "White/Gray"
+    },
+    {
+        "Name": "Whole Pizza",
+        "Price": "NFS",
+        "Source": "Ketchup's RV, Harvey's Shop",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Wide-Screen TV",
+        "Source": "Nooklings Shop",
+        "Price": 2200,
+        "SalePrice": 550,
+        "Theme": "Science",
+        "Style": "Modern",
+        "Color": "Brown/Black"
+    },
+    {
+        "Name": "Wii Balance Board",
+        "Price": "840",
+        "Theme": "Toy Shop, Trendy",
+        "Source": "Fortune Cookie #41",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Wii Remote Cabinet",
+        "Price": "NFS",
+        "Source": "Villager's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Wii U Console",
+        "Price": "NFS",
+        "Source": "Celeste/Cyrus/Digby/Hopkins/Isabelle/K.K./Kapp'n/Kicks/Lottie/Mabel/Reese/Resetti/Rover/Timmy & Tommy/Tom Nook/ Villager's RV, Fortune cookie #51, Fortune cookie #52",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Wii U Game Shelf",
+        "Price": "NFS",
+        "Source": "Clear all intemediate levels in Desert Island Escape",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Wii U Station",
+        "Price": "NFS",
+        "Source": "Clear all beginner levels in Desert Island Escape",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Wobbelina",
+        "Source": "Nooklings Shop",
+        "Price": 700,
+        "SalePrice": 175,
+        "Theme": "Fairytale/Hobby",
+        "Style": "Fancy",
+        "Color": "Pink/Pink"
+    },
+    {
+        "Name": "Wood Display Stand",
+        "Price": "NFS",
+        "Source": "Buzz/Jack/Norma/Rex's RV, Harvey's Shop",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Wooden Bear",
+        "Price": "NFS",
+        "Source": "Wade's RV, Harvey's Shop",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Wooden Box",
+        "Source": "Nooklings Shop",
+        "Price": 200,
+        "SalePrice": 50,
+        "Theme": "N/A",
+        "Style": "Safe",
+        "Color": "Brown/Brown"
+    },
+    {
+        "Name": "Wooden Bucket",
+        "Price": "NFS",
+        "Source": "Maggie's RV, Harvey's Shop",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Wooden Counter",
+        "Price": "NFS",
+        "Source": "Bea's RV, Bitty's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Wooden Duckboards",
+        "Price": "NFS",
+        "Source": "Louie/Paolo's RV, Harvey's Shop",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Wooden Stool",
+        "Source": "Nooklings Shop",
+        "Price": 1000,
+        "SalePrice": 250,
+        "Theme": "Natural",
+        "Style": "Old",
+        "Color": "Brown/Brown"
+    },
+    {
+        "Name": "Wood-Plank Table",
+        "Price": "NFS",
+        "Source": "Kapp'n/Snooty/Ursala's RV, Harvey's Shop",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Worktable",
+        "Price": "NFS",
+        "Source": "Buzz/Cyrus/Ketchup/Norma's RV, Harvey's Shop",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "World Map",
+        "Source": "Katie",
+        "Price": "NFS",
+        "SalePrice": 300,
+        "Theme": "N/A",
+        "Style": "Traditional",
+        "Color": "Aqua/Aqua"
+    },
+    {
+        "Name": "Writing Chair",
+        "Source": "Nooklings Shop",
+        "Price": 1000,
+        "SalePrice": 250,
+        "Theme": "Science",
+        "Style": "Formal",
+        "Color": "Brown/White"
+    },
+    {
+        "Name": "Writing Desk",
+        "Source": "Nooklings Shop",
+        "Price": 1900,
+        "SalePrice": 475,
+        "Theme": "Science",
+        "Style": "Formal",
+        "Color": "Brown/Brown"
+    },
+    {
+        "Name": "Wyvern Eggs",
+        "Price": "NFS",
+        "Source": "Felyne's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Xylophone",
+        "Price": "NFS",
+        "Source": "Weber's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Yarn Basket",
+        "Price": "NFS",
+        "Source": "Mabel/Stella's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Yellow Certificate",
+        "Price": "960",
+        "Theme": "None",
+        "Source": "Timmy & Tommy",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Yoshi's Egg",
+        "Source": "Fortune Cookie",
+        "Price": "NFS",
+        "SalePrice": 210,
+        "Theme": "Hobby",
+        "Style": "Fancy",
+        "Color": "Green/White"
+    },
+    {
+        "Name": "Yule Log",
+        "Price": "1,000",
+        "Theme": "Fairy Tale",
+        "Source": "Jingle's RV, DLC (Japan)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Yut Board",
+        "Price": "500",
+        "Theme": "Harmonious, Toy Shop",
+        "Source": "Lunar New Year's Day (Isabelle; Korea Only)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Zen Backpack",
+        "Price": "NFS",
+        "Source": "Leopold's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Zen Barrel",
+        "Price": "NFS",
+        "Source": "Boots/Tad's RV, Harvey's Shop",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Zen Chair",
+        "Price": "NFS",
+        "Source": "Blathers/Sylvana's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Zen Cupboard",
+        "Price": "NFS",
+        "Source": "Snooty's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Zen Cushion",
+        "Price": "NFS",
+        "Source": "Snooty's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Zen Desk",
+        "Price": "NFS",
+        "Source": "Hornsby/Snooty's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Zen Low Table",
+        "Price": "NFS",
+        "Source": "Billy/Timmy & Tommy/Wade's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Zen Phone Stand",
+        "Price": "NFS",
+        "Source": "Billy's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Zen Screen",
+        "Price": "NFS",
+        "Source": "Wade's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Zen Tea Set",
+        "Price": "NFS",
+        "Source": "Joan/Snooty's RV",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Zero Lamp",
+        "Price": "10,000",
+        "Theme": "Trendy",
+        "Source": "Timmy & Tommy (Spotlight Item)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Zodiac Boar",
+        "Price": "480",
+        "Theme": "Harmonious",
+        "Source": "Joan's RV, New Year's (Isabelle)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Zodiac Dog",
+        "Price": "480",
+        "Theme": "Harmonious",
+        "Source": "New Year's (Isabelle)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Zodiac Dragon",
+        "Price": "480",
+        "Theme": "Harmonious",
+        "Source": "New Year's (Isabelle)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Zodiac Goat",
+        "Price": "480",
+        "Theme": "Harmonious",
+        "Source": "New Year's (Isabelle)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Zodiac Horse",
+        "Price": "480",
+        "Theme": "Harmonious",
+        "Source": "New Year's (Isabelle)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Zodiac Monkey",
+        "Price": "480",
+        "Theme": "Harmonious",
+        "Source": "New Year's (Isabelle)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Zodiac Ox",
+        "Price": "480",
+        "Theme": "Harmonious",
+        "Source": "New Year's (Isabelle)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Zodiac Rabbit",
+        "Price": "480",
+        "Theme": "Harmonious",
+        "Source": "New Year's (Isabelle)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Zodiac Rat",
+        "Price": "480",
+        "Theme": "Harmonious",
+        "Source": "New Year's (Isabelle)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Zodiac Rooster",
+        "Price": "480",
+        "Theme": "Harmonious",
+        "Source": "New Year's (Isabelle)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    },
+    {
+        "Name": "Zodiac Snake",
+        "Price": "480",
+        "Theme": "Harmonious",
+        "Source": "New Year's (Isabelle)",
+        "SalePrice": "???",
+        "Style": "???",
+        "Color": "???"
+    }
 ];
 
 export default Furnitures;

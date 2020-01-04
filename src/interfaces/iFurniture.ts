@@ -1,7 +1,11 @@
 import IPurchasable from './IPurchasable';
 
 export interface IFurniture extends IPurchasable {
-	'HHA Themes'?: string;
+	Theme?: string;
+	SalePrice?: number | string;
+	Color?: string;
+	Style?: string;
+	Notes?: string;
 }
 
 export default IFurniture;

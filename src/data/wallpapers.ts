@@ -3,888 +3,1233 @@ import IFurniture from '../interfaces/IFurniture';
 export const Wallpapers: IFurniture[] = [
 	{
 		Name: 'Alpine Wall',
-		Price: '1,320',
-		'HHA Themes': 'Rustic',
-		Source: 'Timmy & Tommy'
+		Source: "Timmy&Tommy's",
+		Price: 1320,
+		SalePrice: 330,
+		Color: 'gray',
+		Theme: 'Rustic',
+		Style: 'Modern',
+		Notes: ''
 	},
 	{
 		Name: 'Ancient Wall',
-		Price: 'NFS',
-		'HHA Themes': 'Antique, Quirky',
-		Source: 'Saharah'
+		Source: 'Saharah',
+		Price: 'none',
+		SalePrice: 2300,
+		Color: 'none',
+		Theme: 'Antique/Quirky',
+		Style: 'Historical',
+		Notes: ''
 	},
 	{
 		Name: 'Arched Window',
-		Price: '2,150',
-		'HHA Themes': 'Antique',
-		Source: 'Timmy & Tommy'
+		Source: "Timmy&Tommy's",
+		Price: 2150,
+		SalePrice: 537,
+		Color: 'brown',
+		Theme: 'Antique',
+		Style: 'Iconic',
+		Notes: ''
 	},
 	{
 		Name: 'Astro Wall',
-		Price: '2,120',
-		'HHA Themes': 'Sci-Fi, Toy Shop',
-		Source: 'Timmy & Tommy'
+		Source: "Timmy&Tommy's",
+		Price: 2120,
+		SalePrice: 530,
+		Color: 'orange',
+		Theme: 'Trendy/Sci-Fi/Toy Shop',
+		Style: 'Modern',
+		Notes: ''
 	},
 	{
 		Name: 'Autumn Wall',
-		Price: 'NFS',
-		'HHA Themes': 'Rustic',
-		Source: 'Saharah'
+		Source: 'Saharah',
+		Price: 'none',
+		SalePrice: 1700,
+		Color: 'red',
+		Theme: 'Rustic',
+		Style: 'Basic',
+		Notes: ''
 	},
 	{
 		Name: 'Backgammon Wall',
-		Price: 'NFS',
-		'HHA Themes': 'Toy Shop',
-		Source: 'Saharah'
+		Source: 'Saharah',
+		Price: 'none',
+		SalePrice: 1800,
+		Color: 'none',
+		Theme: 'Toy Shop',
+		Style: 'Sporty',
+		Notes: ''
 	},
 	{
 		Name: 'Backyard Fence',
-		Price: '800',
-		'HHA Themes': 'None',
-		Source: "Maggie's RV, Timmy & Tommy"
+		Source: "Timmy&Tommy's",
+		Price: 800,
+		SalePrice: 200,
+		Color: 'aqua',
+		Theme: 'none',
+		Style: 'Basic',
+		Notes: 'Backyard Theme'
 	},
 	{
 		Name: 'Balloon Wall',
-		Price: 'NFS',
-		'HHA Themes': 'Toy Shop',
-		Source: 'Gift Balloon'
+		Source: 'Balloon',
+		Price: 'none',
+		SalePrice: 450,
+		Color: 'none',
+		Theme: 'Toy Shop',
+		Style: 'Cute',
+		Notes: 'Balloon Series'
 	},
 	{
 		Name: 'Bamboo Wall',
-		Price: '1,150',
-		'HHA Themes': 'Harmonious, Rustic',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Bamboo-Grove Wall',
-		Price: 'NFS',
-		Source: "Boot's RV"
+		Source: "Timmy&Tommy's",
+		Price: 1150,
+		SalePrice: 287,
+		Color: 'green',
+		Theme: 'Harmonious/Rustic',
+		Style: 'Basic',
+		Notes: ''
 	},
 	{
 		Name: 'Basement Wall',
-		Price: 'NFS',
-		'HHA Themes': 'Quirky',
-		Source: 'Saharah'
-	},
-	{
-		Name: 'Basic Wall',
-		Price: 'NFS',
-		Source: "Louie's RV"
+		Source: 'Saharah',
+		Price: 'none',
+		SalePrice: 1875,
+		Color: 'none',
+		Theme: 'Quirky',
+		Style: 'Flashy',
+		Notes: ''
 	},
 	{
 		Name: 'Bathhouse Wall',
-		Price: 'NFS',
-		'HHA Themes': 'Harmonious',
-		Source: 'Saharah'
+		Source: 'Saharah',
+		Price: 'none',
+		SalePrice: 1500,
+		Color: 'none',
+		Theme: 'Harmonious',
+		Style: 'Historical',
+		Notes: ''
 	},
 	{
 		Name: 'Blue Tarp',
-		Price: 'NFS',
-		'HHA Themes': 'Quirky',
-		Source: "Boyd's RV, Saharah"
+		Source: 'Saharah',
+		Price: 'none',
+		SalePrice: 1400,
+		Color: 'none',
+		Theme: 'Quirky',
+		Style: 'Flashy',
+		Notes: 'Construction Theme'
 	},
 	{
 		Name: 'Blue Wall',
-		Price: '1,260',
-		'HHA Themes': 'None',
-		Source: "Sylvana's RV, Timmy & Tommy"
+		Source: "Timmy&Tommy's",
+		Price: 1260,
+		SalePrice: 315,
+		Color: 'blue',
+		Theme: 'none',
+		Style: 'Basic',
+		Notes: 'Blue Series'
 	},
 	{
 		Name: 'Blue-Trim Wall',
-		Price: '1,420',
-		'HHA Themes': 'None',
-		Source: 'Timmy & Tommy'
+		Source: "Timmy&Tommy's",
+		Price: 1420,
+		SalePrice: 355,
+		Color: 'blue',
+		Theme: 'none',
+		Style: 'Basic',
+		Notes: ''
 	},
 	{
 		Name: 'Butterfly Wall',
-		Price: 'NFS',
-		'HHA Themes': 'Toy Shop',
-		Source: 'Timmy & Tommy'
+		Source: 'Nat',
+		Price: 1480,
+		SalePrice: 370,
+		Color: 'none',
+		Theme: 'Toy Shop',
+		Style: 'Cute',
+		Notes: ''
 	},
 	{
 		Name: 'Cabana Wall',
-		Price: 'NFS',
-		'HHA Themes': 'Harmonious',
-		Source: "Tybalt's RV, Island Gift Shop (Rare)"
+		Source: 'Island',
+		Price: 40,
+		SalePrice: 500,
+		Color: 'none',
+		Theme: 'Harmonious',
+		Style: 'Basic',
+		Notes: 'Cabana Series'
 	},
 	{
 		Name: 'Cabin Wall',
-		Price: '1,200',
-		'HHA Themes': 'Rustic',
-		Source: "Cyrus' RV, Timmy & Tommy"
-	},
-	{
-		Name: 'Café-Curtain Wall',
-		Price: 'NFS',
-		Source: "Ellie's RV"
+		Source: "Timmy&Tommy's",
+		Price: 1200,
+		SalePrice: 300,
+		Color: 'brown',
+		Theme: 'Rustic',
+		Style: 'Iconic',
+		Notes: 'Cabin Series'
 	},
 	{
 		Name: 'Card Wall',
-		Price: 'NFS',
-		'HHA Themes': 'Toy Shop',
-		Source: 'GracieGrace (Summer, during sales)'
+		Source: 'GracieGrace (Sales)',
+		Price: 196000,
+		SalePrice: 49000,
+		Color: 'none',
+		Theme: 'Toy Shop',
+		Style: 'Cute',
+		Notes: ''
 	},
 	{
 		Name: 'Chain-Link Fence',
-		Price: 'NFS',
-		'HHA Themes': 'None',
-		Source: "Buzz/Stu's RV, Saharah"
+		Source: 'Saharah',
+		Price: 'none',
+		SalePrice: 1600,
+		Color: 'none',
+		Theme: 'none',
+		Style: 'Historical',
+		Notes: ''
 	},
 	{
 		Name: 'Cheese Wall',
-		Price: '1,360',
-		'HHA Themes': 'None',
-		Source: 'Timmy & Tommy'
+		Source: "Timmy&Tommy's",
+		Price: 1360,
+		SalePrice: 340,
+		Color: 'yellow',
+		Theme: 'none',
+		Style: 'Cute',
+		Notes: ''
 	},
 	{
 		Name: 'Chic Wall',
-		Price: '1,960',
-		'HHA Themes': 'Antique',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Cinnamoroll Wall',
-		Price: 'NFS',
-		'HHA Themes': 'Cute',
-		Source: "Chai's RV (Sanrio)"
+		Source: "Timmy&Tommy's",
+		Price: 1960,
+		SalePrice: 490,
+		Color: 'beige',
+		Theme: 'Antique',
+		Style: 'Historical',
+		Notes: ''
 	},
 	{
 		Name: 'Citrus Wall',
-		Price: '1,120',
-		'HHA Themes': 'Rustic',
-		Source: 'Timmy & Tommy'
+		Source: "Timmy&Tommy's",
+		Price: 1120,
+		SalePrice: 280,
+		Color: 'colorful',
+		Theme: 'Rustic',
+		Style: 'Cute',
+		Notes: ''
 	},
 	{
 		Name: 'Cityscape Wall',
-		Price: '1,600',
-		'HHA Themes': 'Trendy',
-		Source: "Piper's RV, Timmy & Tommy"
+		Source: "Timmy&Tommy's",
+		Price: 1600,
+		SalePrice: 400,
+		Color: 'purple',
+		Theme: 'Trendy',
+		Style: 'Basic',
+		Notes: ''
 	},
 	{
 		Name: 'Classic Wall',
-		Price: '2,100',
-		'HHA Themes': 'None',
-		Source: 'Timmy & Tommy'
+		Source: "Timmy&Tommy's",
+		Price: 2100,
+		SalePrice: 525,
+		Color: 'green',
+		Theme: 'Rustic',
+		Style: 'Iconic',
+		Notes: ''
 	},
 	{
 		Name: 'Classroom Wall',
-		Price: 'NFS',
-		'HHA Themes': 'Sci-Fi',
-		Source: "Leopold's RV, Saharah"
+		Source: 'Saharah',
+		Price: 'none',
+		SalePrice: 1500,
+		Color: 'none',
+		Theme: 'Sci-Fi',
+		Style: 'Iconic',
+		Notes: ''
 	},
 	{
 		Name: 'Common Wall',
-		Price: '1,240',
-		'HHA Themes': 'None',
-		Source: 'Timmy & Tommy'
+		Source: "House/Timmy&Tommy's",
+		Price: 1240,
+		SalePrice: 310,
+		Color: 'brown',
+		Theme: 'none',
+		Style: 'Basic',
+		Notes: ''
 	},
 	{
 		Name: 'Concrete Wall',
-		Price: 'NFS',
-		'HHA Themes': 'Quirky, Sci-Fi, Trendy',
-		Source: "Spike/Wendell's RV, Saharah"
-	},
-	{
-		Name: 'Convenient Wall',
-		Price: 'NFS',
-		Source: "Filly's RV (7-11)"
+		Source: 'Saharah',
+		Price: 'none',
+		SalePrice: 1600,
+		Color: 'gray',
+		Theme: 'Trendy/Sci-Fi/Quirky',
+		Style: 'Modern',
+		Notes: ''
 	},
 	{
 		Name: 'Creepy Wall',
-		Price: 'NFS',
-		'HHA Themes': 'Quirky',
-		Source: 'Jack (Halloween)'
+		Source: 'Halloween',
+		Price: 'none',
+		SalePrice: 500,
+		Color: 'none',
+		Theme: 'Quirky',
+		Style: 'Flashy',
+		Notes: 'Creepy Theme'
 	},
 	{
 		Name: 'Desert Vista',
-		Price: 'NFS',
-		'HHA Themes': 'None',
-		Source: 'Saharah'
+		Source: 'Saharah',
+		Price: 'none',
+		SalePrice: 2250,
+		Color: 'none',
+		Theme: 'none',
+		Style: 'Sporty',
+		Notes: ''
 	},
 	{
 		Name: 'Dig-Site Wall',
-		Price: '1,600',
-		'HHA Themes': 'None',
-		Source: 'Museum Shop (All Fossils)'
+		Source: 'Museum Shop',
+		Price: 1600,
+		SalePrice: 400,
+		Color: 'none',
+		Theme: 'none',
+		Style: 'Sporty',
+		Notes: ''
 	},
 	{
 		Name: 'Dirt-Clod Wall',
-		Price: '800',
-		'HHA Themes': 'Quirky',
-		Source: "Hornsby's RV, Timmy & Tommy"
+		Source: "Timmy&Tommy's",
+		Price: 800,
+		SalePrice: 200,
+		Color: 'brown',
+		Theme: 'Quirky',
+		Style: 'Historical',
+		Notes: ''
 	},
 	{
 		Name: 'Dotted Wall',
-		Price: '1,840',
-		'HHA Themes': 'Trendy',
-		Source: 'Timmy & Tommy'
+		Source: "Timmy&Tommy's",
+		Price: 1840,
+		SalePrice: 460,
+		Color: 'yellow',
+		Theme: 'Trendy',
+		Style: 'Cute',
+		Notes: ''
 	},
 	{
 		Name: 'Egg Wall',
-		Price: 'NFS',
-		'HHA Themes': 'Toy Shop',
-		Source: "Zipper T. Bunny's RV, Zipper T. Bunny (Bunny Day)"
+		Source: 'Bunny Day',
+		Price: 'none',
+		SalePrice: 8888,
+		Color: 'none',
+		Theme: 'Toy Shop',
+		Style: 'Cute',
+		Notes: 'Egg Series'
 	},
 	{
 		Name: 'Exhibit-Room Wall',
-		Price: 'NFS',
-		'HHA Themes': 'None',
-		Source: 'Museum Shop'
+		Source: 'Exhibit Room',
+		Price: 'none',
+		SalePrice: 100,
+		Color: 'none',
+		Theme: 'none',
+		Style: 'Basic',
+		Notes: ''
 	},
 	{
 		Name: 'Exotic Wall',
-		Price: '1,420',
-		'HHA Themes': 'Harmonious, Rustic',
-		Source: 'Timmy & Tommy'
+		Source: "Timmy&Tommy's",
+		Price: 1420,
+		SalePrice: 355,
+		Color: 'brown',
+		Theme: 'Harmonious/Rustic',
+		Style: 'Iconic',
+		Notes: ''
 	},
 	{
 		Name: 'Exquisite Wall',
-		Price: '1,470',
-		'HHA Themes': 'Antique, Harmonious',
-		Source: 'Timmy & Tommy'
+		Source: "Timmy&Tommy's",
+		Price: 1470,
+		SalePrice: 367,
+		Color: 'brown',
+		Theme: 'Harmonious/Antique',
+		Style: '',
+		Notes: ''
 	},
 	{
 		Name: 'Floral Wall',
-		Price: '2,250',
-		'HHA Themes': 'None',
-		Source: "Tasha's RV, Timmy & Tommy"
+		Source: "Timmy&Tommy's",
+		Price: 2250,
+		SalePrice: 562,
+		Color: 'green',
+		Theme: 'none',
+		Style: 'Iconic',
+		Notes: ''
 	},
 	{
 		Name: 'Flower Pop Wall',
-		Price: '1,480',
-		'HHA Themes': 'Fairy Tale, Rustic',
-		Source: 'Timmy & Tommy'
+		Source: "Timmy&Tommy's",
+		Price: 1480,
+		SalePrice: 370,
+		Color: 'colorful',
+		Theme: 'Rustic/Fairy Tale',
+		Style: 'Cute',
+		Notes: ''
 	},
 	{
 		Name: 'Forest Wall',
-		Price: 'NFS',
-		'HHA Themes': 'Fairy Tale, Rustic',
-		Source: 'Pick Musrooms During November'
-	},
-	{
-		Name: 'Fruit-Panel Wall',
-		Price: 'NFS',
-		Source: 'Play more Story Mode in Puzzle League'
-	},
-	{
-		Name: 'Fueki Wall',
-		Price: 'NFS',
-		Source: "Holden's RV (Fueki)"
+		Source: 'Mushroom',
+		Price: 'none',
+		SalePrice: 420,
+		Color: 'none',
+		Theme: 'Rustic/Fairy Tale',
+		Style: 'Cute',
+		Notes: ''
 	},
 	{
 		Name: 'Garden Wall',
-		Price: 'NFS',
-		'HHA Themes': 'Harmonious, Quirky, Rustic',
-		Source: 'Saharah'
+		Source: 'Saharah',
+		Price: 'none',
+		SalePrice: 1600,
+		Color: 'none',
+		Theme: 'Harmonious/Rustic/Quirky',
+		Style: 'Iconic',
+		Notes: ''
 	},
 	{
 		Name: 'Gold Screen Wall',
-		Price: '2,180',
-		'HHA Themes': 'Harmonious',
-		Source: 'Timmy & Tommy'
+		Source: "Timmy&Tommy's",
+		Price: 2180,
+		SalePrice: 545,
+		Color: 'yellow',
+		Theme: 'Harmonious',
+		Style: 'Iconic',
+		Notes: ''
 	},
 	{
 		Name: 'Golden Wall',
-		Price: 'NFS',
-		'HHA Themes': 'Antique',
-		Source: 'Re-Tail (Refurbish) 10k + 3 Gold Nuggets'
+		Source: 'Cyrus',
+		Price: 'none',
+		SalePrice: 15000,
+		Color: 'none',
+		Theme: 'Antique',
+		Style: 'Historical',
+		Notes: 'Golden Series'
 	},
 	{
 		Name: 'Gorgeous Wall',
-		Price: 'NFS',
-		'HHA Themes': 'Trendy',
-		Source: 'GracieGrace (Winter)'
+		Source: 'GracieGrace (Winter)',
+		Price: 124000,
+		SalePrice: 31000,
+		Color: 'none',
+		Theme: 'Trendy',
+		Style: 'Ornate',
+		Notes: ''
 	},
 	{
 		Name: 'Gracie Wallpaper',
-		Price: 'NFS',
-		'HHA Themes': 'Trendy',
-		Source: 'GracieGrace (Summer)'
+		Source: 'GracieGrace (Summer)',
+		Price: 124000,
+		SalePrice: 31000,
+		Color: 'none',
+		Theme: 'Trendy',
+		Style: 'Modern',
+		Notes: "Gracie Series can't recycle"
 	},
 	{
 		Name: 'Green Wall',
-		Price: '1,050',
-		'HHA Themes': 'Rustic',
-		Source: "Bea/Isabelle's RV, Timmy & Tommy"
+		Source: "Timmy&Tommy's",
+		Price: 1050,
+		SalePrice: 262,
+		Color: 'green',
+		Theme: 'Rustic',
+		Style: 'Basic',
+		Notes: 'Green Series'
 	},
 	{
 		Name: 'Groovy Wall',
-		Price: '1,280',
-		'HHA Themes': 'Trendy',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Hallway Wall',
-		Price: 'NFS',
-		Source: "Boris/Gonzo's RV"
+		Source: "Timmy&Tommy's",
+		Price: 1280,
+		SalePrice: 320,
+		Color: 'orange',
+		Theme: 'Trendy',
+		Style: 'Cute',
+		Notes: ''
 	},
 	{
 		Name: 'Harvest Wall',
-		Price: '3,333',
-		'HHA Themes': 'Fairy Tale',
-		Source: "Franklin's RV, Timmy & Tommy (11/1 - Harvest Festival)"
-	},
-	{
-		Name: 'Hello Kitty Wall',
-		Price: 'NFS',
-		'HHA Themes': 'Cute',
-		Source: "Rilla's RV (Sanrio)"
-	},
-	{
-		Name: 'Hyrule Wall',
-		Price: 'NFS',
-		Source: "Epona/Ganon/Medli/Wolf Link's RV"
+		Source: 'Limited (November 1 to Fourth Thursday)',
+		Price: '3333/833',
+		SalePrice: 'none',
+		Color: 'Fairy Tale',
+		Theme: 'Cute',
+		Style: 'Harvest Series',
+		Notes: ''
 	},
 	{
 		Name: 'Ice Wall',
-		Price: 'NFS',
-		'HHA Themes': 'Fairy Tale',
-		Source: 'Snowmam'
+		Source: 'Snowmam',
+		Price: 'none',
+		SalePrice: 8888,
+		Color: 'none',
+		Theme: 'Fairy Tale',
+		Style: 'Cute',
+		Notes: 'Ice Series'
 	},
 	{
 		Name: 'Illusion Wall',
-		Price: '1,360',
-		'HHA Themes': 'Toy Shop, Trendy',
-		Source: 'Timmy & Tommy'
+		Source: "Timmy&Tommy's",
+		Price: 1360,
+		SalePrice: 340,
+		Color: 'gray',
+		Theme: 'Trendy/Toy Shop',
+		Style: "Rock 'n' Roll",
+		Notes: ''
 	},
 	{
 		Name: 'Imperial Wall',
-		Price: '2,660',
-		'HHA Themes': 'Antique, Harmonious',
-		Source: 'Timmy & Tommy'
+		Source: "Timmy&Tommy's",
+		Price: 2660,
+		SalePrice: 665,
+		Color: 'colorful',
+		Theme: 'Harmonious/Antique',
+		Style: 'Official',
+		Notes: ''
 	},
 	{
 		Name: 'Industrial Wall',
-		Price: '1,800',
-		'HHA Themes': 'Quirky, Sci-Fi',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Inkopolis Wall',
-		Price: 'NFS',
-		Source: "Cece/Viche's RV"
-	},
-	{
-		Name: 'Ink-Splattered Wall',
-		Price: 'NFS',
-		Source: "Inkwell's RV"
+		Source: "Timmy&Tommy's",
+		Price: 1800,
+		SalePrice: 450,
+		Color: 'none',
+		Theme: 'Sci-Fi/Quirky',
+		Style: "Rock 'n' Roll",
+		Notes: ''
 	},
 	{
 		Name: 'Ivy Wall',
-		Price: '1,250',
-		'HHA Themes': 'Quirky, Rustic',
-		Source: "Ketchup's RV, Timmy & Tommy"
+		Source: "Timmy&Tommy's",
+		Price: 1250,
+		SalePrice: 312,
+		Color: 'brown',
+		Theme: 'Rustic/Quirky',
+		Style: 'Historical',
+		Notes: ''
 	},
 	{
 		Name: 'Jingle Wall',
-		Price: '4,896',
-		'HHA Themes': 'Toy Shop',
-		Source: 'Timmy & Tommy (12/1 - 12/23)'
+		Source: 'Limited (December 1 to 23)',
+		Price: '4896/1224',
+		SalePrice: 'none',
+		Color: 'Toy Shop',
+		Theme: 'Cute',
+		Style: 'Jingle Series',
+		Notes: ''
 	},
 	{
 		Name: 'Jungle Wall',
-		Price: '1,600',
-		'HHA Themes': 'Rustic',
-		Source: "Nat's RV, Museum Shop (All Insects)"
-	},
-	{
-		Name: 'Kerokerokeroppi Wall',
-		Price: 'NFS',
-		'HHA Themes': 'Cute',
-		Source: "Toby's RV (Sanrio)"
+		Source: 'Museum Shop',
+		Price: 1600,
+		SalePrice: 400,
+		Color: 'none',
+		Theme: 'Rustic',
+		Style: 'Sporty',
+		Notes: ''
 	},
 	{
 		Name: 'Kiddie Wall',
-		Price: '1,500',
-		'HHA Themes': 'Toy Shop',
-		Source: "Hopkins' RV, Timmy & Tommy"
-	},
-	{
-		Name: 'Kiki and Lala Wall',
-		Price: 'NFS',
-		'HHA Themes': 'Cute',
-		Source: "Etoile's RV (Sanrio)"
+		Source: "Timmy&Tommy's",
+		Price: 1500,
+		SalePrice: 375,
+		Color: 'colorful',
+		Theme: 'Toy Shop',
+		Style: 'Cute',
+		Notes: 'Kiddie Series'
 	},
 	{
 		Name: 'Kitchen Wall',
-		Price: '1,120',
-		'HHA Themes': 'None',
-		Source: "Cashmere's RV, Timmy & Tommy"
+		Source: "Timmy&Tommy's",
+		Price: 1120,
+		SalePrice: 280,
+		Color: 'orange',
+		Theme: 'none',
+		Style: 'Historical',
+		Notes: ''
 	},
 	{
 		Name: 'Kitschy Wall',
-		Price: '1,240',
-		'HHA Themes': 'Trendy',
-		Source: 'Timmy & Tommy'
+		Source: "Timmy&Tommy's",
+		Price: 1240,
+		SalePrice: 310,
+		Color: 'colorful',
+		Theme: 'Trendy',
+		Style: 'Cute',
+		Notes: ''
 	},
 	{
 		Name: 'Lab Wall',
-		Price: '1,460',
-		'HHA Themes': 'Quirky, Sci-Fi',
-		Source: "Murphy's RV, Timmy & Tommy"
+		Source: "Timmy&Tommy's",
+		Price: 1460,
+		SalePrice: 365,
+		Color: 'gray',
+		Theme: 'Sci-Fi/Quirky',
+		Style: "Rock 'n' Roll",
+		Notes: 'Mad Scientist Theme'
 	},
 	{
 		Name: 'Lattice Wall',
-		Price: '1,780',
-		'HHA Themes': 'Harmonious',
-		Source: 'Timmy & Tommy'
+		Source: "Timmy&Tommy's",
+		Price: 1780,
+		SalePrice: 445,
+		Color: 'brown',
+		Theme: 'Harmonious',
+		Style: 'Iconic',
+		Notes: ''
 	},
 	{
 		Name: 'Library Wall',
-		Price: '1,680',
-		'HHA Themes': 'Quirky',
-		Source: "Blathers/Dobie's RV, Timmy & Tommy"
+		Source: "Timmy&Tommy's",
+		Price: 1680,
+		SalePrice: 420,
+		Color: 'gray',
+		Theme: 'Quirky',
+		Style: 'Historical',
+		Notes: ''
 	},
 	{
 		Name: 'Lovely Wall',
-		Price: '1,880',
-		'HHA Themes': 'Fairy Tale',
-		Source: 'Timmy & Tommy'
+		Source: "Timmy&Tommy's",
+		Price: 1880,
+		SalePrice: 470,
+		Color: 'pink',
+		Theme: 'Fairy Tale',
+		Style: 'Cute',
+		Notes: 'Lovely Series'
 	},
 	{
 		Name: 'Lunar Horizon',
-		Price: 'NFS',
-		'HHA Themes': 'Sci-Fi',
-		Source: "Celeste/Villager's RV, Saharah"
-	},
-	{
-		Name: 'Magma-Cavern Wall',
-		Price: 'NFS',
-		Source: "Felyne's RV"
+		Source: 'Saharah',
+		Price: 'none',
+		SalePrice: 1900,
+		Color: 'none',
+		Theme: 'Sci-Fi',
+		Style: 'Cute',
+		Notes: 'Space Theme'
 	},
 	{
 		Name: 'Manor Wall',
-		Price: '1,050',
-		'HHA Themes': 'None',
-		Source: 'Timmy & Tommy'
+		Source: "Timmy&Tommy's",
+		Price: 1050,
+		SalePrice: 262,
+		Color: 'white',
+		Theme: 'none',
+		Style: 'Basic',
+		Notes: ''
 	},
 	{
 		Name: 'Marine Pop Wall',
-		Price: 'NFS',
-		'HHA Themes': 'Toy Shop',
-		Source: 'Fishing Tourney'
+		Source: 'Chip',
+		Price: 'none',
+		SalePrice: 410,
+		Color: 'none',
+		Theme: 'Toy Shop',
+		Style: 'Cute',
+		Notes: ''
 	},
 	{
 		Name: 'Maze Wall',
-		Price: '1,480',
-		'HHA Themes': 'Sci-Fi, Toy Shop, Trendy',
-		Source: 'Timmy & Tommy'
+		Source: "Timmy&Tommy's",
+		Price: 1480,
+		SalePrice: 370,
+		Color: 'white',
+		Theme: 'Trendy/Sci-Fi/Toy Shop',
+		Style: 'Cute',
+		Notes: ''
 	},
 	{
 		Name: 'Meadow Vista',
-		Price: 'NFS',
-		'HHA Themes': 'Rustic',
-		Source: "Booker/Maddie's RV, Saharah"
+		Source: 'Saharah',
+		Price: 'none',
+		SalePrice: 2000,
+		Color: 'none',
+		Theme: 'Rustic',
+		Style: 'Sporty',
+		Notes: ''
 	},
 	{
 		Name: 'Mermaid Wall',
-		Price: 'NFS',
-		'HHA Themes': 'Fairy Tale',
-		Source: 'Island Gift Shop'
+		Source: 'Island',
+		Price: 40,
+		SalePrice: 500,
+		Color: 'aqua',
+		Theme: 'Fairy Tale',
+		Style: 'Cute',
+		Notes: 'Mermaid Series'
 	},
 	{
 		Name: 'Mod Wall',
-		Price: '1,200',
-		'HHA Themes': 'Trendy',
-		Source: 'Timmy & Tommy'
+		Source: "Timmy&Tommy's",
+		Price: 1200,
+		SalePrice: 300,
+		Color: 'orange',
+		Theme: 'Trendy',
+		Style: 'Historical',
+		Notes: ''
 	},
 	{
 		Name: 'Modern Screen',
-		Price: '1,150',
-		'HHA Themes': 'Harmonious, Rustic, Trendy',
-		Source: "Wade's RV, Timmy & Tommy's"
+		Source: "Timmy&Tommy's",
+		Price: 1150,
+		SalePrice: 287,
+		Color: 'white',
+		Theme: 'Harmonious/Rustic/Trendy',
+		Style: 'Modern',
+		Notes: ''
 	},
 	{
 		Name: 'Modern Wall',
-		Price: '1,450',
-		'HHA Themes': 'Trendy',
-		Source: "Digby/Raddle's RV, Timmy & Tommy"
+		Source: "Timmy&Tommy's",
+		Price: 1450,
+		SalePrice: 362,
+		Color: 'gray',
+		Theme: 'Trendy',
+		Style: 'Official',
+		Notes: 'Modern Series'
 	},
 	{
 		Name: 'Modern Wood Wall',
-		Price: '1,480',
-		'HHA Themes': 'Rustic, Trendy',
-		Source: "Sandy's RV, Timmy & Tommy"
+		Source: "Timmy&Tommy's",
+		Price: 1480,
+		SalePrice: 370,
+		Color: 'brown',
+		Theme: 'Rustic/Trendy',
+		Style: 'Modern',
+		Notes: 'Modern Wood Series'
 	},
 	{
 		Name: 'Mortar Wall',
-		Price: 'NFS',
-		'HHA Themes': 'Harmonious',
-		Source: 'Saharah'
+		Source: 'Saharah',
+		Price: 'none',
+		SalePrice: 1750,
+		Color: 'none',
+		Theme: 'Harmonious',
+		Style: 'Historical',
+		Notes: ''
 	},
 	{
 		Name: 'Mosaic Wall',
-		Price: '2,100',
-		'HHA Themes': 'Antique',
-		Source: "Bitty's RV, Timmy & Tommy"
+		Source: "Timmy&Tommy's",
+		Price: 2100,
+		SalePrice: 525,
+		Color: 'colorful',
+		Theme: 'Antique',
+		Style: 'Iconic',
+		Notes: ''
 	},
 	{
 		Name: 'Museum Wall',
-		Price: '2,000',
-		'HHA Themes': 'None',
-		Source: 'Museum Shop'
+		Source: 'Museum Shop',
+		Price: 2000,
+		SalePrice: 500,
+		Color: 'none',
+		Theme: 'none',
+		Style: 'Iconic',
+		Notes: ''
 	},
 	{
 		Name: 'Mushroom Mural',
-		Price: 'NFS',
-		'HHA Themes': 'Toy Shop',
-		Source: 'Fortune Cookie #1'
+		Source: 'Fortune Cookie',
+		Price: 'none',
+		SalePrice: 210,
+		Color: 'none',
+		Theme: 'Toy Shop',
+		Style: 'Cute',
+		Notes: "Mario Theme can't recycle"
 	},
 	{
 		Name: 'Music-Room Wall',
-		Price: 'NFS',
-		'HHA Themes': 'None',
-		Source: "Copper/Weber's RV, Saharah"
-	},
-	{
-		Name: 'My Melody Wall',
-		Price: 'NFS',
-		'HHA Themes': 'Cute',
-		Source: "Chelsea's RV (Sanrio)"
+		Source: 'Saharah',
+		Price: 'none',
+		SalePrice: 1600,
+		Color: 'none',
+		Theme: 'none',
+		Style: 'Basic',
+		Notes: ''
 	},
 	{
 		Name: 'Neutral Wall',
-		Price: '1,200',
-		'HHA Themes': 'Trendy',
-		Source: "Candi's RV, Timmy & Tommy"
-	},
-	{
-		Name: 'Notebook Wall',
-		Price: '23,760',
-		'HHA Themes': 'Trendy',
-		Source: 'DLC (JP)'
-	},
-	{
-		Name: 'Ocean-Horizon Wall',
-		Price: 'NFS',
-		Source: 'Successfully complete any level in Desert Island Escape'
+		Source: "Timmy&Tommy's",
+		Price: 1200,
+		SalePrice: 300,
+		Color: 'none',
+		Theme: 'Trendy',
+		Style: 'Basic',
+		Notes: 'Minimalist Series'
 	},
 	{
 		Name: 'Office Wall',
-		Price: 'NFS',
-		'HHA Themes': 'Trendy',
-		Source: "Cleo/Tom Nook's RV, Saharah"
+		Source: 'Saharah',
+		Price: 'none',
+		SalePrice: 1750,
+		Color: 'none',
+		Theme: 'Trendy',
+		Style: 'Basic',
+		Notes: ''
 	},
 	{
 		Name: 'Old Brick Wall',
-		Price: '1,200',
-		'HHA Themes': 'Quirky',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Old Wallpaper',
-		Price: 'NFS',
-		Source: "Jacob/Resetti's RV, Halloween (Neighbor Trick)"
+		Source: "Timmy&Tommy's",
+		Price: 1200,
+		SalePrice: 300,
+		Color: 'brown',
+		Theme: 'Quirky',
+		Style: 'Historical',
+		Notes: ''
 	},
 	{
 		Name: 'Ornate Wall',
-		Price: '1,580',
-		'HHA Themes': 'Fairy Tale, Rustic',
-		Source: 'Timmy & Tommy'
+		Source: "Timmy&Tommy's",
+		Price: 1580,
+		SalePrice: 395,
+		Color: 'green',
+		Theme: 'Rustic/Fairy Tale',
+		Style: 'Iconic',
+		Notes: ''
 	},
 	{
 		Name: 'Paintball Wall',
-		Price: '1,600',
-		'HHA Themes': 'Toy Shop',
-		Source: 'Museum Shop (All Art)'
+		Source: 'Museum Shop',
+		Price: 1600,
+		SalePrice: 400,
+		Color: 'none',
+		Theme: 'Toy Shop',
+		Style: 'Modern',
+		Notes: ''
 	},
 	{
 		Name: 'Palace Wall',
-		Price: '2,000',
-		'HHA Themes': 'Antique',
-		Source: 'Timmy & Tommy'
+		Source: "Timmy&Tommy's",
+		Price: 2000,
+		SalePrice: 500,
+		Color: 'white',
+		Theme: 'Antique',
+		Style: 'Ornate',
+		Notes: ''
 	},
 	{
 		Name: 'Parlor Wall',
-		Price: '1,120',
-		'HHA Themes': 'Fairy Tale, Rustic',
-		Source: "Reese's RV, Timmy & Tommy"
+		Source: "Timmy&Tommy's",
+		Price: 1120,
+		SalePrice: 280,
+		Color: 'pink',
+		Theme: 'Rustic/Fairy Tale',
+		Style: 'Cute',
+		Notes: ''
 	},
 	{
 		Name: 'Party Wall',
-		Price: '1,480',
-		'HHA Themes': 'Fairy Tale, Toy Shop',
-		Source: "Jingle's RVTimmy & Tommy"
+		Source: "Timmy&Tommy's",
+		Price: 1480,
+		SalePrice: 370,
+		Color: 'none',
+		Theme: 'Fairy Tale/Toy Shop',
+		Style: 'Cute',
+		Notes: ''
 	},
 	{
 		Name: 'Pastel-Dot Wall',
-		Price: '1,480',
-		'HHA Themes': 'Trendy',
-		Source: 'Timmy & Tommy'
+		Source: "Timmy&Tommy's",
+		Price: 1480,
+		SalePrice: 370,
+		Color: 'colorful',
+		Theme: 'Tendy',
+		Style: 'Cute',
+		Notes: ''
 	},
 	{
-		Name: 'Pavé Wall',
-		Price: 'NFS',
-		'HHA Themes': 'Trendy',
-		Source: "Pave's RV, Pavé (Festivale)"
+		Name: 'Pave Wall',
+		Source: 'Festivale',
+		Price: 'none',
+		SalePrice: 1800,
+		Color: 'none',
+		Theme: 'Trendy',
+		Style: 'Modern',
+		Notes: "Pave Seriescan't recycle"
 	},
 	{
 		Name: 'Paw-Print Wall',
-		Price: '1,560',
-		'HHA Themes': 'None',
-		Source: 'Timmy & Tommy'
+		Source: "Isabelle/Timmy&Tommy's",
+		Price: 1560,
+		SalePrice: 390,
+		Color: 'beige',
+		Theme: 'none',
+		Style: 'Cute',
+		Notes: ''
 	},
 	{
 		Name: 'Plaster Wall',
-		Price: '880',
-		'HHA Themes': 'Harmonious',
-		Source: "Timmy & Tommy's RV, Timmy & Tommy"
+		Source: "Timmy&Tommy's",
+		Price: 880,
+		SalePrice: 220,
+		Color: 'green',
+		Theme: 'Harmonious',
+		Style: 'Iconic',
+		Notes: ''
 	},
 	{
 		Name: 'Playroom Wall',
-		Price: '1,320',
-		'HHA Themes': 'Toy Shop',
-		Source: "Carrie's RV, Timmy & Tommy"
+		Source: "Timmy&Tommy's",
+		Price: 1320,
+		SalePrice: 330,
+		Color: 'blue',
+		Theme: 'Toy Shop',
+		Style: 'Cute',
+		Notes: 'Nursery Theme'
 	},
 	{
 		Name: 'Plaza Wall',
-		Price: '1,960',
-		'HHA Themes': 'Antique',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Polka-Dot Wall',
-		Price: 'NFS',
-		Source: "Lottie's RV"
-	},
-	{
-		Name: 'Pompompurin Wall',
-		Price: 'NFS',
-		'HHA Themes': 'Cute',
-		Source: "Marty's RV (Sanrio)"
+		Source: "Timmy&Tommy's",
+		Price: 1960,
+		SalePrice: 490,
+		Color: 'white',
+		Theme: 'Antique',
+		Style: 'Iconic',
+		Notes: ''
 	},
 	{
 		Name: 'Princess Wall',
-		Price: 'NFS',
-		'HHA Themes': 'Fairy Tale',
-		Source: 'GracieGrace (Spring)'
+		Source: 'GracieGrace (Spring)',
+		Price: 124000,
+		SalePrice: 31000,
+		Color: 'none',
+		Theme: 'Antique/Fairy Tale',
+		Style: 'Ornate',
+		Notes: 'Princess Series'
 	},
 	{
 		Name: 'Ramshackle Wall',
-		Price: '1,200',
-		'HHA Themes': 'Quirky',
-		Source: 'Timmy & Tommy'
+		Source: "Timmy&Tommy's",
+		Price: 1200,
+		SalePrice: 300,
+		Color: 'gray',
+		Theme: 'Quirky',
+		Style: 'Flashy',
+		Notes: ''
 	},
 	{
 		Name: 'Ranch Wall',
-		Price: '1,450',
-		'HHA Themes': 'Rustic',
-		Source: "Mabel's RV, Timmy & Tommy"
+		Source: "Timmy&Tommy's",
+		Price: 1450,
+		SalePrice: 362,
+		Color: 'pink',
+		Theme: 'Rustic',
+		Style: 'Iconic',
+		Notes: 'Ranch Series'
 	},
 	{
 		Name: 'Red Tile Wall',
-		Price: '1,680',
-		'HHA Themes': 'Trendy',
-		Source: 'Timmy & Tommy'
+		Source: "Timmy&Tommy's",
+		Price: 1680,
+		SalePrice: 420,
+		Color: 'brown',
+		Theme: 'Trendy',
+		Style: 'Iconic',
+		Notes: ''
 	},
 	{
 		Name: 'Regal Wall',
-		Price: '2,240',
-		'HHA Themes': 'Antique, Fairy Tale',
-		Source: "Bill's RV, Timmy & Tommy"
-	},
-	{
-		Name: 'Rice-Paddy Wall',
-		Price: 'NFS',
-		Source: "Tad's RV"
+		Source: "Timmy&Tommy's",
+		Price: 2240,
+		SalePrice: 560,
+		Color: 'green',
+		Theme: 'Antique/Fairy Tale',
+		Style: 'Ornate',
+		Notes: 'Regal Series'
 	},
 	{
 		Name: 'Ringside Seating',
-		Price: 'NFS',
-		'HHA Themes': 'None',
-		Source: 'Saharah'
+		Source: 'Saharah',
+		Price: 'none',
+		SalePrice: 2250,
+		Color: 'none',
+		Theme: 'none',
+		Style: 'Sporty',
+		Notes: 'Boxing Theme'
 	},
 	{
 		Name: 'Robo-Wall',
-		Price: '1,780',
-		'HHA Themes': 'Sci-Fi, Toy Shop',
-		Source: 'Timmy & Tommy'
+		Source: "Timmy&Tommy's",
+		Price: 1780,
+		SalePrice: 445,
+		Color: 'gray',
+		Theme: 'Sci-Fi/Toy Shop',
+		Style: 'Modern',
+		Notes: 'Robo Series'
 	},
 	{
 		Name: 'Rococo Wall',
-		Price: '2,240',
-		'HHA Themes': 'Antique, Fairy Tale',
-		Source: "Julia's RV, Timmy & Tommy"
+		Source: "Timmy&Tommy's",
+		Price: 2240,
+		SalePrice: 560,
+		Color: 'white',
+		Theme: 'Antique/Fairy Tale',
+		Style: 'Ornate',
+		Notes: 'Rococo Series'
 	},
 	{
 		Name: 'Rose Wall',
-		Price: '2,240',
-		'HHA Themes': 'Fairy Tale, Rustic',
-		Source: "Stella's RV, Timmy & Tommy"
+		Source: "Timmy&Tommy's",
+		Price: 2240,
+		SalePrice: 560,
+		Color: 'orange',
+		Theme: 'Rustic/Fairy Tale',
+		Style: 'Cute',
+		Notes: ''
 	},
 	{
 		Name: 'Sci-Fi Wall',
-		Price: 'NFS',
-		'HHA Themes': 'Sci-Fi, Toy Shop',
-		Source: 'Saharah'
+		Source: 'Saharah',
+		Price: 'none',
+		SalePrice: 1500,
+		Color: 'none',
+		Theme: 'Sci-Fi/Toy Shop',
+		Style: 'Modern',
+		Notes: 'SF Theme'
 	},
 	{
 		Name: 'Sea View',
-		Price: 'NFS',
-		'HHA Themes': 'None',
-		Source: "Chip/Pascal's RV, Pascal"
+		Source: 'Pascal',
+		Price: 'none',
+		SalePrice: 1000,
+		Color: 'none',
+		Theme: 'none',
+		Style: 'Sporty',
+		Notes: 'Pirate Ship Theme'
 	},
 	{
 		Name: 'Shanty Wall',
-		Price: '800',
-		'HHA Themes': 'Quirky',
-		Source: "Admiral's RV, Timmy & Tommy"
+		Source: "Timmy&Tommy's",
+		Price: 800,
+		SalePrice: 200,
+		Color: 'gray',
+		Theme: 'Quirky',
+		Style: 'Historical',
+		Notes: ''
 	},
 	{
 		Name: 'Shoji Screen',
-		Price: 'NFS',
-		'HHA Themes': 'Harmonious',
-		Source: "Joan's RV, Saharah"
+		Source: 'Saharah',
+		Price: 'none',
+		SalePrice: 1875,
+		Color: 'none',
+		Theme: 'Harmonious',
+		Style: 'Iconic',
+		Notes: ''
 	},
 	{
 		Name: 'Ski-Slope Wall',
-		Price: 'NFS',
-		'HHA Themes': 'None',
-		Source: 'Snowman'
+		Source: 'Snowman',
+		Price: 'none',
+		SalePrice: 390,
+		Color: 'none',
+		Theme: 'none',
+		Style: 'Sporty',
+		Notes: "can't recycle"
 	},
 	{
 		Name: 'Sky Wall',
-		Price: '1,200',
-		'HHA Themes': 'None',
-		Source: 'Timmy & Tommy'
+		Source: "Timmy&Tommy's",
+		Price: 1200,
+		SalePrice: 300,
+		Color: 'blue',
+		Theme: 'none',
+		Style: 'Cute',
+		Notes: ''
 	},
 	{
 		Name: 'Skyscraper Wall',
-		Price: 'NFS',
-		'HHA Themes': 'Trendy',
-		Source: 'Saharah'
+		Source: 'Saharah',
+		Price: 'none',
+		SalePrice: 2100,
+		Color: 'aqua',
+		Theme: 'Trendy',
+		Style: 'Sporty',
+		Notes: ''
 	},
 	{
 		Name: 'Sleek Wall',
-		Price: '1,540',
-		'HHA Themes': 'Sci-Fi, Trendy',
-		Source: 'Timmy & Tommy'
+		Source: "Timmy&Tommy's",
+		Price: 1540,
+		SalePrice: 385,
+		Color: 'black',
+		Theme: 'Trendy/Sci-Fi',
+		Style: 'Modern',
+		Notes: 'Sleek Series'
 	},
 	{
 		Name: 'Sloppy Wall',
-		Price: 'NFS',
-		'HHA Themes': 'Quirky',
-		Source: 'Re-Tail or Police Station'
+		Source: 'Re-Tail/Police Station',
+		Price: 'none',
+		SalePrice: 200,
+		Color: 'none',
+		Theme: 'Quirky',
+		Style: 'Flashy',
+		Notes: 'Sloppy Series'
 	},
 	{
 		Name: 'Snowman Wall',
-		Price: 'NFS',
-		'HHA Themes': 'Fairy Tale',
-		Source: 'Snowboy'
+		Source: 'Snowboy',
+		Price: 'none',
+		SalePrice: 8888,
+		Color: 'none',
+		Theme: 'Fairy Tale',
+		Style: 'Cute',
+		Notes: "Snowman Series can't recycle"
 	},
 	{
 		Name: 'Spooky Wall',
-		Price: '4,124',
-		'HHA Themes': 'Quirky',
-		Source: "Jack's RV, Timmy & Tommy (October)"
+		Source: 'Limited (October 1 to 31)',
+		Price: '4124/1031',
+		SalePrice: 'none',
+		Color: 'Quirky',
+		Theme: 'Flashy',
+		Style: 'Spooky Series',
+		Notes: ''
 	},
 	{
 		Name: 'Sporty Wall',
-		Price: 'NFS',
-		'HHA Themes': 'None',
-		Source: 'Saharah'
-	},
-	{
-		Name: 'Stadium Wall',
-		Price: 'NFS',
-		Source: "Sprocket's RV"
+		Source: 'Saharah',
+		Price: 'none',
+		SalePrice: 1600,
+		Color: 'aqua',
+		Theme: 'none',
+		Style: 'Sporty',
+		Notes: ''
 	},
 	{
 		Name: 'Stately Wall',
-		Price: '2,450',
-		'HHA Themes': 'Antique',
-		Source: 'Timmy & Tommy'
-	},
-	{
-		Name: 'Steel-Frame Wall',
-		Price: 'NFS',
-		Source: "Ike's RV"
+		Source: "Timmy&Tommy's",
+		Price: 2450,
+		SalePrice: 612,
+		Color: 'orange',
+		Theme: 'Antique',
+		Style: 'Ornate',
+		Notes: ''
 	},
 	{
 		Name: 'Stone Wall',
-		Price: '800',
-		'HHA Themes': 'Quirky',
-		Source: "Claude/Kicks' RV, Timmy & Tommy"
+		Source: "Timmy&Tommy's",
+		Price: 800,
+		SalePrice: 200,
+		Color: 'brown',
+		Theme: 'Quirky',
+		Style: 'Basic',
+		Notes: ''
 	},
 	{
 		Name: 'Stripe Wall',
-		Price: '1,480',
-		'HHA Themes': 'Trendy',
-		Source: 'Timmy & Tommy'
+		Source: "Timmy&Tommy's",
+		Price: 1480,
+		SalePrice: 370,
+		Color: 'gray',
+		Theme: 'Trendy',
+		Style: 'Sporty',
+		Notes: 'Stripe Series'
 	},
 	{
 		Name: 'Summit Wall',
-		Price: 'NFS',
-		'HHA Themes': 'Rustic',
-		Source: "Rex's RV, Saharah"
+		Source: 'Saharah',
+		Price: 'none',
+		SalePrice: 2100,
+		Color: 'aqua',
+		Theme: 'Rustic',
+		Style: 'Sporty',
+		Notes: ''
 	},
 	{
 		Name: 'Sweets Wall',
-		Price: 'NFS',
-		'HHA Themes': 'Fairy Tale',
-		Source: 'GracieGrace (Fall)'
+		Source: 'GracieGrace (Autumn)',
+		Price: 124000,
+		SalePrice: 31000,
+		Color: 'none',
+		Theme: 'Fairy Tale',
+		Style: 'Cute',
+		Notes: "Sweets Series can't recycle"
 	},
 	{
 		Name: 'Tearoom Wall',
-		Price: '1,750',
-		'HHA Themes': 'Harmonious, Quirky',
-		Source: "Snooty's RV, Timmy & Tommy"
+		Source: "Timmy&Tommy's",
+		Price: 1750,
+		SalePrice: 437,
+		Color: 'brown',
+		Theme: 'Harmonious/Quirky',
+		Style: 'Iconic',
+		Notes: ''
 	},
 	{
 		Name: 'Tent Wall',
-		Price: '1,480',
-		'HHA Themes': 'Antique',
-		Source: "Sahara's RV, Timmy & Tommy"
-	},
-	{
-		Name: 'Train-Window Wall',
-		Price: 'NFS',
-		Source: "Rover's RV"
+		Source: "Timmy&Tommy's",
+		Price: 1480,
+		SalePrice: 370,
+		Color: 'beige',
+		Theme: 'Antique',
+		Style: 'Iconic',
+		Notes: ''
 	},
 	{
 		Name: 'Tree-Lined Wall',
-		Price: 'NFS',
-		'HHA Themes': 'Rustic',
-		Source: "Olive's RV, Saharah"
+		Source: 'Saharah',
+		Price: 'none',
+		SalePrice: 1850,
+		Color: 'none',
+		Theme: 'Rustic',
+		Style: 'Basic',
+		Notes: ''
 	},
 	{
 		Name: 'Tropical Vista',
-		Price: 'NFS',
-		'HHA Themes': 'None',
-		Source: "Gulliver/Plucky's RV, Island Gift Shop (Rare)"
+		Source: 'Island',
+		Price: 100,
+		SalePrice: 1250,
+		Color: 'none',
+		Theme: 'none',
+		Style: 'Sporty',
+		Notes: ''
 	},
 	{
 		Name: 'Underwater Wall',
-		Price: '1,600',
-		'HHA Themes': 'None',
-		Source: 'Museum (All Fish)'
-	},
-	{
-		Name: 'Waiting-Room Wall',
-		Price: 'NFS',
-		Source: "Huck/June's RV"
+		Source: 'Museum Shop',
+		Price: 1600,
+		SalePrice: 400,
+		Color: 'none',
+		Theme: 'none',
+		Style: 'Sporty',
+		Notes: ''
 	},
 	{
 		Name: 'Western Vista',
-		Price: 'NFS',
-		'HHA Themes': 'None',
-		Source: 'Saharah'
-	},
-	{
-		Name: 'White Brick Wall',
-		Price: 'NFS',
-		Source: "Blanca/K.K./Norma/Vivian's RV"
-	},
-	{
-		Name: 'White Tile Wall',
-		Price: 'NFS',
-		Source: "Paolo's RV"
+		Source: 'Saharah',
+		Price: 'none',
+		SalePrice: 1500,
+		Color: 'none',
+		Theme: 'none',
+		Style: 'Sporty',
+		Notes: 'Western Theme'
 	},
 	{
 		Name: 'Wood Paneling',
-		Price: '1,320',
-		'HHA Themes': 'Rustic',
-		Source: "Ursala's RV, Timmy & Tommy"
+		Source: "Timmy&Tommy's",
+		Price: 1320,
+		SalePrice: 330,
+		Color: 'brown',
+		Theme: 'Rustic',
+		Style: 'Basic',
+		Notes: ''
 	}
 ];
 
