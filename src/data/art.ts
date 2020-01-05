@@ -2,36 +2,36 @@ import IArt from '../interfaces/IArt';
 
 export const Art: IArt[] = [
 	{
-		Name: 'Ancient Statue',
-		Fake: 'Half eyes'
+		Name: 'Amazing Painting',
+		Fake: 'Black on right, white on left'
 	},
 	{
-		Name: 'Beautiful Statue',
-		Fake: 'Long hair'
+		Name: 'Basic Painting',
+		Fake: 'Both hands on hips'
 	},
 	{
-		Name: 'Gallant Sculpture',
-		Fake: 'Cloth on both shoulders'
+		Name: 'Calm Painting',
+		Fake: 'No fake'
 	},
 	{
-		Name: 'Great Sculpture',
-		Fake: 'Palm is down'
+		Name: 'Common Painting',
+		Fake: 'No fake'
 	},
 	{
-		Name: 'Motherly Sculpture',
-		Fake: '1 child'
+		Name: 'Dynamic Painting',
+		Fake: 'Mt Fuji is big'
 	},
 	{
-		Name: 'Mystic Sculpture',
-		Fake: 'Rounded top'
+		Name: 'Famous Painting',
+		Fake: 'Left hand on top'
 	},
 	{
-		Name: 'Robust Sculpture',
-		Fake: 'Holding a UFO'
+		Name: 'Fine Painting',
+		Fake: 'No fake'
 	},
 	{
-		Name: 'Valiant Sculpture',
-		Fake: 'Bat wings'
+		Name: 'Flowery Painting',
+		Fake: 'No fake'
 	},
 	{
 		Name: 'Graceful Painting',
@@ -100,6 +100,38 @@ export const Art: IArt[] = [
 	{
 		Name: 'Worthy Painting',
 		Fake: 'No fake'
+	},
+	{
+		Name: 'Ancient Statue',
+		Fake: 'Half eyes'
+	},
+	{
+		Name: 'Beautiful Statue',
+		Fake: 'Long hair'
+	},
+	{
+		Name: 'Gallant Sculpture',
+		Fake: 'Cloth on both shoulders'
+	},
+	{
+		Name: 'Great Sculpture',
+		Fake: 'Palm is down'
+	},
+	{
+		Name: 'Motherly Sculpture',
+		Fake: '1 child'
+	},
+	{
+		Name: 'Mystic Sculpture',
+		Fake: 'Rounded top'
+	},
+	{
+		Name: 'Robust Sculpture',
+		Fake: 'Holding a UFO'
+	},
+	{
+		Name: 'Valiant Sculpture',
+		Fake: 'Bat wings'
 	}
 ];
 
