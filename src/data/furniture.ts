@@ -13879,7 +13879,7 @@ export const Furnitures: IFurniture[] = [
 		SalePrice: 1450,
 		Theme: 'Hobby/Science',
 		Style: 'Sporty',
-		Color: 'Whtie/Black'
+		Color: 'White/Black'
 	},
 	{
 		Name: 'Ten Billion Barrel',
