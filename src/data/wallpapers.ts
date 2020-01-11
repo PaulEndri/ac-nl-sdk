@@ -6,7 +6,7 @@ export const Wallpapers: IFurniture[] = [
 		Source: "Timmy&Tommy's",
 		Price: 1320,
 		SalePrice: 330,
-		Color: 'gray',
+		Color: 'Gray',
 		Theme: 'Rustic',
 		Style: 'Modern',
 		Notes: ''
@@ -66,7 +66,7 @@ export const Wallpapers: IFurniture[] = [
 		Source: "Timmy&Tommy's",
 		Price: 800,
 		SalePrice: 200,
-		Color: 'aqua',
+		Color: 'Aqua',
 		Theme: 'none',
 		Style: 'Basic',
 		Notes: 'Backyard Theme'
@@ -86,7 +86,7 @@ export const Wallpapers: IFurniture[] = [
 		Source: "Timmy&Tommy's",
 		Price: 1150,
 		SalePrice: 287,
-		Color: 'green',
+		Color: 'Green',
 		Theme: 'Harmonious/Rustic',
 		Style: 'Basic',
 		Notes: ''
@@ -126,7 +126,7 @@ export const Wallpapers: IFurniture[] = [
 		Source: "Timmy&Tommy's",
 		Price: 1260,
 		SalePrice: 315,
-		Color: 'blue',
+		Color: 'Blue',
 		Theme: 'none',
 		Style: 'Basic',
 		Notes: 'Blue Series'
@@ -136,7 +136,7 @@ export const Wallpapers: IFurniture[] = [
 		Source: "Timmy&Tommy's",
 		Price: 1420,
 		SalePrice: 355,
-		Color: 'blue',
+		Color: 'Blue',
 		Theme: 'none',
 		Style: 'Basic',
 		Notes: ''
@@ -196,7 +196,7 @@ export const Wallpapers: IFurniture[] = [
 		Source: "Timmy&Tommy's",
 		Price: 1360,
 		SalePrice: 340,
-		Color: 'yellow',
+		Color: 'Yellow',
 		Theme: 'none',
 		Style: 'Cute',
 		Notes: ''
@@ -206,7 +206,7 @@ export const Wallpapers: IFurniture[] = [
 		Source: "Timmy&Tommy's",
 		Price: 1960,
 		SalePrice: 490,
-		Color: 'beige',
+		Color: 'Beige',
 		Theme: 'Antique',
 		Style: 'Historical',
 		Notes: ''
@@ -216,7 +216,7 @@ export const Wallpapers: IFurniture[] = [
 		Source: "Timmy&Tommy's",
 		Price: 1120,
 		SalePrice: 280,
-		Color: 'colorful',
+		Color: 'Colorful',
 		Theme: 'Rustic',
 		Style: 'Cute',
 		Notes: ''
@@ -236,7 +236,7 @@ export const Wallpapers: IFurniture[] = [
 		Source: "Timmy&Tommy's",
 		Price: 2100,
 		SalePrice: 525,
-		Color: 'green',
+		Color: 'Green',
 		Theme: 'Rustic',
 		Style: 'Iconic',
 		Notes: ''
@@ -266,7 +266,7 @@ export const Wallpapers: IFurniture[] = [
 		Source: 'Saharah',
 		Price: 'none',
 		SalePrice: 1600,
-		Color: 'gray',
+		Color: 'Gray',
 		Theme: 'Trendy/Sci-Fi/Quirky',
 		Style: 'Modern',
 		Notes: ''
@@ -316,7 +316,7 @@ export const Wallpapers: IFurniture[] = [
 		Source: "Timmy&Tommy's",
 		Price: 1840,
 		SalePrice: 460,
-		Color: 'yellow',
+		Color: 'Yellow',
 		Theme: 'Trendy',
 		Style: 'Cute',
 		Notes: ''
@@ -366,7 +366,7 @@ export const Wallpapers: IFurniture[] = [
 		Source: "Timmy&Tommy's",
 		Price: 2250,
 		SalePrice: 562,
-		Color: 'green',
+		Color: 'Green',
 		Theme: 'none',
 		Style: 'Iconic',
 		Notes: ''
@@ -376,7 +376,7 @@ export const Wallpapers: IFurniture[] = [
 		Source: "Timmy&Tommy's",
 		Price: 1480,
 		SalePrice: 370,
-		Color: 'colorful',
+		Color: 'Colorful',
 		Theme: 'Rustic/Fairy Tale',
 		Style: 'Cute',
 		Notes: ''
@@ -406,7 +406,7 @@ export const Wallpapers: IFurniture[] = [
 		Source: "Timmy&Tommy's",
 		Price: 2180,
 		SalePrice: 545,
-		Color: 'yellow',
+		Color: 'Yellow',
 		Theme: 'Harmonious',
 		Style: 'Iconic',
 		Notes: ''
@@ -446,7 +446,7 @@ export const Wallpapers: IFurniture[] = [
 		Source: "Timmy&Tommy's",
 		Price: 1050,
 		SalePrice: 262,
-		Color: 'green',
+		Color: 'Green',
 		Theme: 'Rustic',
 		Style: 'Basic',
 		Notes: 'Green Series'
@@ -486,7 +486,7 @@ export const Wallpapers: IFurniture[] = [
 		Source: "Timmy&Tommy's",
 		Price: 1360,
 		SalePrice: 340,
-		Color: 'gray',
+		Color: 'Gray',
 		Theme: 'Trendy/Toy Shop',
 		Style: "Rock 'n' Roll",
 		Notes: ''
@@ -496,7 +496,7 @@ export const Wallpapers: IFurniture[] = [
 		Source: "Timmy&Tommy's",
 		Price: 2660,
 		SalePrice: 665,
-		Color: 'colorful',
+		Color: 'Colorful',
 		Theme: 'Harmonious/Antique',
 		Style: 'Official',
 		Notes: ''
@@ -524,12 +524,12 @@ export const Wallpapers: IFurniture[] = [
 	{
 		Name: 'Jingle Wall',
 		Source: 'Limited (December 1 to 23)',
-		Price: '4896/1224',
-		SalePrice: 'none',
-		Color: 'Toy Shop',
-		Theme: 'Cute',
-		Style: 'Jingle Series',
-		Notes: ''
+		Price: '4896',
+		SalePrice: '1224',
+		Theme: 'Toy Shop',
+		Style: 'Cute',
+		Notes: 'Jingle Series',
+		Color: 'none'
 	},
 	{
 		Name: 'Jungle Wall',
@@ -546,7 +546,7 @@ export const Wallpapers: IFurniture[] = [
 		Source: "Timmy&Tommy's",
 		Price: 1500,
 		SalePrice: 375,
-		Color: 'colorful',
+		Color: 'Colorful',
 		Theme: 'Toy Shop',
 		Style: 'Cute',
 		Notes: 'Kiddie Series'
@@ -566,7 +566,7 @@ export const Wallpapers: IFurniture[] = [
 		Source: "Timmy&Tommy's",
 		Price: 1240,
 		SalePrice: 310,
-		Color: 'colorful',
+		Color: 'Colorful',
 		Theme: 'Trendy',
 		Style: 'Cute',
 		Notes: ''
@@ -576,7 +576,7 @@ export const Wallpapers: IFurniture[] = [
 		Source: "Timmy&Tommy's",
 		Price: 1460,
 		SalePrice: 365,
-		Color: 'gray',
+		Color: 'Gray',
 		Theme: 'Sci-Fi/Quirky',
 		Style: "Rock 'n' Roll",
 		Notes: 'Mad Scientist Theme'
@@ -596,7 +596,7 @@ export const Wallpapers: IFurniture[] = [
 		Source: "Timmy&Tommy's",
 		Price: 1680,
 		SalePrice: 420,
-		Color: 'gray',
+		Color: 'Gray',
 		Theme: 'Quirky',
 		Style: 'Historical',
 		Notes: ''
@@ -606,7 +606,7 @@ export const Wallpapers: IFurniture[] = [
 		Source: "Timmy&Tommy's",
 		Price: 1880,
 		SalePrice: 470,
-		Color: 'pink',
+		Color: 'Pink',
 		Theme: 'Fairy Tale',
 		Style: 'Cute',
 		Notes: 'Lovely Series'
@@ -626,7 +626,7 @@ export const Wallpapers: IFurniture[] = [
 		Source: "Timmy&Tommy's",
 		Price: 1050,
 		SalePrice: 262,
-		Color: 'white',
+		Color: 'White',
 		Theme: 'none',
 		Style: 'Basic',
 		Notes: ''
@@ -646,7 +646,7 @@ export const Wallpapers: IFurniture[] = [
 		Source: "Timmy&Tommy's",
 		Price: 1480,
 		SalePrice: 370,
-		Color: 'white',
+		Color: 'White',
 		Theme: 'Trendy/Sci-Fi/Toy Shop',
 		Style: 'Cute',
 		Notes: ''
@@ -666,7 +666,7 @@ export const Wallpapers: IFurniture[] = [
 		Source: 'Island',
 		Price: 40,
 		SalePrice: 500,
-		Color: 'aqua',
+		Color: 'Aqua',
 		Theme: 'Fairy Tale',
 		Style: 'Cute',
 		Notes: 'Mermaid Series'
@@ -686,7 +686,7 @@ export const Wallpapers: IFurniture[] = [
 		Source: "Timmy&Tommy's",
 		Price: 1150,
 		SalePrice: 287,
-		Color: 'white',
+		Color: 'White',
 		Theme: 'Harmonious/Rustic/Trendy',
 		Style: 'Modern',
 		Notes: ''
@@ -696,7 +696,7 @@ export const Wallpapers: IFurniture[] = [
 		Source: "Timmy&Tommy's",
 		Price: 1450,
 		SalePrice: 362,
-		Color: 'gray',
+		Color: 'Gray',
 		Theme: 'Trendy',
 		Style: 'Official',
 		Notes: 'Modern Series'
@@ -726,7 +726,7 @@ export const Wallpapers: IFurniture[] = [
 		Source: "Timmy&Tommy's",
 		Price: 2100,
 		SalePrice: 525,
-		Color: 'colorful',
+		Color: 'Colorful',
 		Theme: 'Antique',
 		Style: 'Iconic',
 		Notes: ''
@@ -796,7 +796,7 @@ export const Wallpapers: IFurniture[] = [
 		Source: "Timmy&Tommy's",
 		Price: 1580,
 		SalePrice: 395,
-		Color: 'green',
+		Color: 'Green',
 		Theme: 'Rustic/Fairy Tale',
 		Style: 'Iconic',
 		Notes: ''
@@ -816,7 +816,7 @@ export const Wallpapers: IFurniture[] = [
 		Source: "Timmy&Tommy's",
 		Price: 2000,
 		SalePrice: 500,
-		Color: 'white',
+		Color: 'White',
 		Theme: 'Antique',
 		Style: 'Ornate',
 		Notes: ''
@@ -826,7 +826,7 @@ export const Wallpapers: IFurniture[] = [
 		Source: "Timmy&Tommy's",
 		Price: 1120,
 		SalePrice: 280,
-		Color: 'pink',
+		Color: 'Pink',
 		Theme: 'Rustic/Fairy Tale',
 		Style: 'Cute',
 		Notes: ''
@@ -846,7 +846,7 @@ export const Wallpapers: IFurniture[] = [
 		Source: "Timmy&Tommy's",
 		Price: 1480,
 		SalePrice: 370,
-		Color: 'colorful',
+		Color: 'Colorful',
 		Theme: 'Tendy',
 		Style: 'Cute',
 		Notes: ''
@@ -866,7 +866,7 @@ export const Wallpapers: IFurniture[] = [
 		Source: "Isabelle/Timmy&Tommy's",
 		Price: 1560,
 		SalePrice: 390,
-		Color: 'beige',
+		Color: 'Beige',
 		Theme: 'none',
 		Style: 'Cute',
 		Notes: ''
@@ -876,7 +876,7 @@ export const Wallpapers: IFurniture[] = [
 		Source: "Timmy&Tommy's",
 		Price: 880,
 		SalePrice: 220,
-		Color: 'green',
+		Color: 'Green',
 		Theme: 'Harmonious',
 		Style: 'Iconic',
 		Notes: ''
@@ -886,7 +886,7 @@ export const Wallpapers: IFurniture[] = [
 		Source: "Timmy&Tommy's",
 		Price: 1320,
 		SalePrice: 330,
-		Color: 'blue',
+		Color: 'Blue',
 		Theme: 'Toy Shop',
 		Style: 'Cute',
 		Notes: 'Nursery Theme'
@@ -896,7 +896,7 @@ export const Wallpapers: IFurniture[] = [
 		Source: "Timmy&Tommy's",
 		Price: 1960,
 		SalePrice: 490,
-		Color: 'white',
+		Color: 'White',
 		Theme: 'Antique',
 		Style: 'Iconic',
 		Notes: ''
@@ -916,7 +916,7 @@ export const Wallpapers: IFurniture[] = [
 		Source: "Timmy&Tommy's",
 		Price: 1200,
 		SalePrice: 300,
-		Color: 'gray',
+		Color: 'Gray',
 		Theme: 'Quirky',
 		Style: 'Flashy',
 		Notes: ''
@@ -926,7 +926,7 @@ export const Wallpapers: IFurniture[] = [
 		Source: "Timmy&Tommy's",
 		Price: 1450,
 		SalePrice: 362,
-		Color: 'pink',
+		Color: 'Pink',
 		Theme: 'Rustic',
 		Style: 'Iconic',
 		Notes: 'Ranch Series'
@@ -946,7 +946,7 @@ export const Wallpapers: IFurniture[] = [
 		Source: "Timmy&Tommy's",
 		Price: 2240,
 		SalePrice: 560,
-		Color: 'green',
+		Color: 'Green',
 		Theme: 'Antique/Fairy Tale',
 		Style: 'Ornate',
 		Notes: 'Regal Series'
@@ -966,7 +966,7 @@ export const Wallpapers: IFurniture[] = [
 		Source: "Timmy&Tommy's",
 		Price: 1780,
 		SalePrice: 445,
-		Color: 'gray',
+		Color: 'Gray',
 		Theme: 'Sci-Fi/Toy Shop',
 		Style: 'Modern',
 		Notes: 'Robo Series'
@@ -976,7 +976,7 @@ export const Wallpapers: IFurniture[] = [
 		Source: "Timmy&Tommy's",
 		Price: 2240,
 		SalePrice: 560,
-		Color: 'white',
+		Color: 'White',
 		Theme: 'Antique/Fairy Tale',
 		Style: 'Ornate',
 		Notes: 'Rococo Series'
@@ -1016,7 +1016,7 @@ export const Wallpapers: IFurniture[] = [
 		Source: "Timmy&Tommy's",
 		Price: 800,
 		SalePrice: 200,
-		Color: 'gray',
+		Color: 'Gray',
 		Theme: 'Quirky',
 		Style: 'Historical',
 		Notes: ''
@@ -1046,7 +1046,7 @@ export const Wallpapers: IFurniture[] = [
 		Source: "Timmy&Tommy's",
 		Price: 1200,
 		SalePrice: 300,
-		Color: 'blue',
+		Color: 'Blue',
 		Theme: 'none',
 		Style: 'Cute',
 		Notes: ''
@@ -1056,7 +1056,7 @@ export const Wallpapers: IFurniture[] = [
 		Source: 'Saharah',
 		Price: 'none',
 		SalePrice: 2100,
-		Color: 'aqua',
+		Color: 'Aqua',
 		Theme: 'Trendy',
 		Style: 'Sporty',
 		Notes: ''
@@ -1066,7 +1066,7 @@ export const Wallpapers: IFurniture[] = [
 		Source: "Timmy&Tommy's",
 		Price: 1540,
 		SalePrice: 385,
-		Color: 'black',
+		Color: 'Black',
 		Theme: 'Trendy/Sci-Fi',
 		Style: 'Modern',
 		Notes: 'Sleek Series'
@@ -1098,15 +1098,15 @@ export const Wallpapers: IFurniture[] = [
 		SalePrice: 'none',
 		Color: 'Quirky',
 		Theme: 'Flashy',
-		Style: 'Spooky Series',
-		Notes: ''
+		Notes: 'Spooky Series',
+		Style: ''
 	},
 	{
 		Name: 'Sporty Wall',
 		Source: 'Saharah',
 		Price: 'none',
 		SalePrice: 1600,
-		Color: 'aqua',
+		Color: 'Aqua',
 		Theme: 'none',
 		Style: 'Sporty',
 		Notes: ''
@@ -1136,7 +1136,7 @@ export const Wallpapers: IFurniture[] = [
 		Source: "Timmy&Tommy's",
 		Price: 1480,
 		SalePrice: 370,
-		Color: 'gray',
+		Color: 'Gray',
 		Theme: 'Trendy',
 		Style: 'Sporty',
 		Notes: 'Stripe Series'
@@ -1146,7 +1146,7 @@ export const Wallpapers: IFurniture[] = [
 		Source: 'Saharah',
 		Price: 'none',
 		SalePrice: 2100,
-		Color: 'aqua',
+		Color: 'Aqua',
 		Theme: 'Rustic',
 		Style: 'Sporty',
 		Notes: ''
@@ -1176,7 +1176,7 @@ export const Wallpapers: IFurniture[] = [
 		Source: "Timmy&Tommy's",
 		Price: 1480,
 		SalePrice: 370,
-		Color: 'beige',
+		Color: 'Beige',
 		Theme: 'Antique',
 		Style: 'Iconic',
 		Notes: ''

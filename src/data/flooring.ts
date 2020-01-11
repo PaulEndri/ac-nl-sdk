@@ -6,7 +6,7 @@ export const Flooring: IFurniture[] = [
 	  "Source": "Timmy&Tommy's",
 	  "Price": 1400,
 	  "SalePrice": 350,
-	  "Color": "colorful",
+	  "Color": "Colorful",
 	  "Theme": "Rustic",
 	  "Style": "Cute",
 	  "Notes": ""
@@ -36,7 +36,7 @@ export const Flooring: IFurniture[] = [
 	  "Source": "Saharah",
 	  "Price": "none",
 	  "SalePrice": 1700,
-	  "Color": "red",
+	  "Color": "Red",
 	  "Theme": "Rustic",
 	  "Style": "Cute",
 	  "Notes": ""
@@ -46,7 +46,7 @@ export const Flooring: IFurniture[] = [
 	  "Source": "Timmy&Tommy's",
 	  "Price": 880,
 	  "SalePrice": 220,
-	  "Color": "green",
+	  "Color": "Green",
 	  "Theme": "Rustic",
 	  "Style": "Basic",
 	  "Notes": ""
@@ -66,7 +66,7 @@ export const Flooring: IFurniture[] = [
 	  "Source": "Timmy&Tommy's",
 	  "Price": 1360,
 	  "SalePrice": 340,
-	  "Color": "green",
+	  "Color": "Green",
 	  "Theme": "Harmonious/Rustic",
 	  "Style": "Basic",
 	  "Notes": ""
@@ -96,7 +96,7 @@ export const Flooring: IFurniture[] = [
 	  "Source": "Timmy&Tommy's",
 	  "Price": 800,
 	  "SalePrice": 200,
-	  "Color": "white",
+	  "Color": "White",
 	  "Theme": "Rustic/Trendy",
 	  "Style": "Iconic",
 	  "Notes": ""
@@ -116,7 +116,7 @@ export const Flooring: IFurniture[] = [
 	  "Source": "Timmy&Tommy's",
 	  "Price": 1580,
 	  "SalePrice": 395,
-	  "Color": "blue",
+	  "Color": "Blue",
 	  "Theme": "none",
 	  "Style": "Basic",
 	  "Notes": "Blue Series"
@@ -146,7 +146,7 @@ export const Flooring: IFurniture[] = [
 	  "Source": "Timmy&Tommy's",
 	  "Price": 1540,
 	  "SalePrice": 385,
-	  "Color": "red",
+	  "Color": "Red",
 	  "Theme": "Rustic",
 	  "Style": "Iconic",
 	  "Notes": "Cabin Series"
@@ -166,7 +166,7 @@ export const Flooring: IFurniture[] = [
 	  "Source": "Timmy&Tommy's",
 	  "Price": 1390,
 	  "SalePrice": 347,
-	  "Color": "yellow",
+	  "Color": "Yellow",
 	  "Theme": "Trendy",
 	  "Style": "Modern",
 	  "Notes": ""
@@ -176,17 +176,17 @@ export const Flooring: IFurniture[] = [
 	  "Source": "Timmy&Tommy's",
 	  "Price": 800,
 	  "SalePrice": 200,
-	  "Color": "gray",
+	  "Color": "Gray",
 	  "Theme": "none",
 	  "Style": "Historical",
 	  "Notes": ""
 	},
 	{
-	  "Name": "Checkered Tile",
+	  "Name": "CheckeRed Tile",
 	  "Source": "Timmy&Tommy's",
 	  "Price": 1680,
 	  "SalePrice": 420,
-	  "Color": "black",
+	  "Color": "Black",
 	  "Theme": "Trendy/Toy Shop",
 	  "Style": "Cute",
 	  "Notes": ""
@@ -196,7 +196,7 @@ export const Flooring: IFurniture[] = [
 	  "Source": "Timmy&Tommy's",
 	  "Price": 1360,
 	  "SalePrice": 340,
-	  "Color": "yellow",
+	  "Color": "Yellow",
 	  "Theme": "none",
 	  "Style": "Modern",
 	  "Notes": ""
@@ -226,7 +226,7 @@ export const Flooring: IFurniture[] = [
 	  "Source": "Timmy&Tommy's",
 	  "Price": 2300,
 	  "SalePrice": 575,
-	  "Color": "green",
+	  "Color": "Green",
 	  "Theme": "Rustic",
 	  "Style": "Iconic",
 	  "Notes": "Classic Series"
@@ -256,7 +256,7 @@ export const Flooring: IFurniture[] = [
 	  "Source": "Timmy&Tommy's",
 	  "Price": 1480,
 	  "SalePrice": 370,
-	  "Color": "white",
+	  "Color": "White",
 	  "Theme": "none",
 	  "Style": "Cute",
 	  "Notes": ""
@@ -326,7 +326,7 @@ export const Flooring: IFurniture[] = [
 	  "Source": "Timmy&Tommy's",
 	  "Price": 1300,
 	  "SalePrice": 325,
-	  "Color": "green",
+	  "Color": "Green",
 	  "Theme": "Trendy",
 	  "Style": "Modern",
 	  "Notes": ""
@@ -336,7 +336,7 @@ export const Flooring: IFurniture[] = [
 	  "Source": "Timmy&Tommy's",
 	  "Price": 1600,
 	  "SalePrice": 400,
-	  "Color": "yellow",
+	  "Color": "Yellow",
 	  "Theme": "Trendy",
 	  "Style": "Cute",
 	  "Notes": "Polka-Dot Series"
@@ -376,7 +376,7 @@ export const Flooring: IFurniture[] = [
 	  "Source": "Timmy&Tommy's",
 	  "Price": 1960,
 	  "SalePrice": 490,
-	  "Color": "colorful",
+	  "Color": "Colorful",
 	  "Theme": "Harmonious",
 	  "Style": "Official",
 	  "Notes": ""
@@ -386,7 +386,7 @@ export const Flooring: IFurniture[] = [
 	  "Source": "Timmy&Tommy's",
 	  "Price": 2980,
 	  "SalePrice": 745,
-	  "Color": "colorful",
+	  "Color": "Colorful",
 	  "Theme": "Antique",
 	  "Style": "Ornate",
 	  "Notes": ""
@@ -446,7 +446,7 @@ export const Flooring: IFurniture[] = [
 	  "Source": "Timmy&Tommy's",
 	  "Price": 1540,
 	  "SalePrice": 385,
-	  "Color": "green",
+	  "Color": "Green",
 	  "Theme": "Rustic",
 	  "Style": "Basic",
 	  "Notes": "Green Series"
@@ -466,7 +466,7 @@ export const Flooring: IFurniture[] = [
 	  "Source": "Timmy&Tommy's",
 	  "Price": 960,
 	  "SalePrice": 240,
-	  "Color": "gray",
+	  "Color": "Gray",
 	  "Theme": "none",
 	  "Style": "Sporty",
 	  "Notes": ""
@@ -486,7 +486,7 @@ export const Flooring: IFurniture[] = [
 	  "Source": "Timmy&Tommy's",
 	  "Price": 1600,
 	  "SalePrice": 400,
-	  "Color": "gray",
+	  "Color": "Gray",
 	  "Theme": "Trendy/Toy Shop",
 	  "Style": "Flashy",
 	  "Notes": ""
@@ -496,7 +496,7 @@ export const Flooring: IFurniture[] = [
 	  "Source": "Timmy&Tommy's",
 	  "Price": 2980,
 	  "SalePrice": 745,
-	  "Color": "gray",
+	  "Color": "Gray",
 	  "Theme": "Harmonious/Antique",
 	  "Style": "Official",
 	  "Notes": ""
@@ -504,12 +504,12 @@ export const Flooring: IFurniture[] = [
 	{
 	  "Name": "Jingle Carpet",
 	  "Source": "Limited (December 1 to 23)",
-	  "Price": "4896/1224",
-	  "SalePrice": "none",
-	  "Color": "Toy Shop",
-	  "Theme": "Cute",
-	  "Style": "Jingle Series",
-	  "Notes": ""
+	  "Price": "4896",
+	  "SalePrice": "1224",
+	  Color: "none",
+	  "Theme": "Toy Shop",
+	  "Style": "Cute",
+	  "Notes": "Jingle Series",
 	},
 	{
 	  "Name": "Jungle Floor",
@@ -526,7 +526,7 @@ export const Flooring: IFurniture[] = [
 	  "Source": "Timmy&Tommy's",
 	  "Price": 1630,
 	  "SalePrice": 407,
-	  "Color": "colorful",
+	  "Color": "Colorful",
 	  "Theme": "Toy Shop",
 	  "Style": "Cute",
 	  "Notes": "Kiddie Series"
@@ -546,7 +546,7 @@ export const Flooring: IFurniture[] = [
 	  "Source": "Timmy&Tommy's",
 	  "Price": 1890,
 	  "SalePrice": 472,
-	  "Color": "beige",
+	  "Color": "Beige",
 	  "Theme": "none",
 	  "Style": "Basic",
 	  "Notes": ""
@@ -566,7 +566,7 @@ export const Flooring: IFurniture[] = [
 	  "Source": "Timmy&Tommy's",
 	  "Price": 1280,
 	  "SalePrice": 320,
-	  "Color": "gray",
+	  "Color": "Gray",
 	  "Theme": "Sci-Fi/Quirky",
 	  "Style": "Rock 'n' Roll",
 	  "Notes": "Mad Scientist Theme"
@@ -586,7 +586,7 @@ export const Flooring: IFurniture[] = [
 	  "Source": "Timmy&Tommy's",
 	  "Price": 1980,
 	  "SalePrice": 495,
-	  "Color": "pink",
+	  "Color": "Pink",
 	  "Theme": "Fairy Tale",
 	  "Style": "Cute",
 	  "Notes": "Lovely Series"
@@ -606,7 +606,7 @@ export const Flooring: IFurniture[] = [
 	  "Source": "Chip",
 	  "Price": "none",
 	  "SalePrice": 410,
-	  "Color": "aqua",
+	  "Color": "Aqua",
 	  "Theme": "none",
 	  "Style": "Cute",
 	  "Notes": ""
@@ -616,7 +616,7 @@ export const Flooring: IFurniture[] = [
 	  "Source": "Timmy&Tommy's",
 	  "Price": 1480,
 	  "SalePrice": 370,
-	  "Color": "white",
+	  "Color": "White",
 	  "Theme": "Trendy/Sci-Fi/Toy Shop",
 	  "Style": "Cute",
 	  "Notes": ""
@@ -626,7 +626,7 @@ export const Flooring: IFurniture[] = [
 	  "Source": "Island",
 	  "Price": 40,
 	  "SalePrice": 500,
-	  "Color": "aqua",
+	  "Color": "Aqua",
 	  "Theme": "Fairy Tale",
 	  "Style": "Cute",
 	  "Notes": "Mermaid Series"
@@ -636,7 +636,7 @@ export const Flooring: IFurniture[] = [
 	  "Source": "Timmy&Tommy's",
 	  "Price": 1540,
 	  "SalePrice": 385,
-	  "Color": "gray",
+	  "Color": "Gray",
 	  "Theme": "Trendy",
 	  "Style": "Official",
 	  "Notes": "Modern Series"
@@ -696,7 +696,7 @@ export const Flooring: IFurniture[] = [
 	  "Source": "Timmy&Tommy's",
 	  "Price": 1200,
 	  "SalePrice": 300,
-	  "Color": "beige",
+	  "Color": "Beige",
 	  "Theme": "Trendy",
 	  "Style": "Cute",
 	  "Notes": "Minimalist Series"
@@ -756,7 +756,7 @@ export const Flooring: IFurniture[] = [
 	  "Source": "Timmy&Tommy's",
 	  "Price": 3200,
 	  "SalePrice": 800,
-	  "Color": "blue",
+	  "Color": "Blue",
 	  "Theme": "Antique/Fairy Tale",
 	  "Style": "Iconic",
 	  "Notes": ""
@@ -776,7 +776,7 @@ export const Flooring: IFurniture[] = [
 	  "Source": "Timmy&Tommy's",
 	  "Price": 1300,
 	  "SalePrice": 325,
-	  "Color": "colorful",
+	  "Color": "Colorful",
 	  "Theme": "Trendy",
 	  "Style": "Cute",
 	  "Notes": ""
@@ -806,7 +806,7 @@ export const Flooring: IFurniture[] = [
 	  "Source": "Timmy&Tommy's",
 	  "Price": 1340,
 	  "SalePrice": 335,
-	  "Color": "beige",
+	  "Color": "Beige",
 	  "Theme": "Harmonious",
 	  "Style": "Iconic",
 	  "Notes": ""
@@ -816,7 +816,7 @@ export const Flooring: IFurniture[] = [
 	  "Source": "Timmy&Tommy's",
 	  "Price": 1360,
 	  "SalePrice": 340,
-	  "Color": "colorful",
+	  "Color": "Colorful",
 	  "Theme": "Toy Shop",
 	  "Style": "Cute",
 	  "Notes": "Nursery Theme"
@@ -836,7 +836,7 @@ export const Flooring: IFurniture[] = [
 	  "Source": "Timmy&Tommy's",
 	  "Price": 2160,
 	  "SalePrice": 540,
-	  "Color": "red",
+	  "Color": "Red",
 	  "Theme": "Antique",
 	  "Style": "Basic",
 	  "Notes": ""
@@ -856,7 +856,7 @@ export const Flooring: IFurniture[] = [
 	  "Source": "Timmy&Tommy's",
 	  "Price": 1200,
 	  "SalePrice": 300,
-	  "Color": "gray",
+	  "Color": "Gray",
 	  "Theme": "Quirky",
 	  "Style": "Flashy",
 	  "Notes": ""
@@ -866,7 +866,7 @@ export const Flooring: IFurniture[] = [
 	  "Source": "Timmy&Tommy's",
 	  "Price": 1750,
 	  "SalePrice": 437,
-	  "Color": "green",
+	  "Color": "Green",
 	  "Theme": "Rustic",
 	  "Style": "Iconic",
 	  "Notes": "Ranch Series"
@@ -886,7 +886,7 @@ export const Flooring: IFurniture[] = [
 	  "Source": "Timmy&Tommy's",
 	  "Price": 2850,
 	  "SalePrice": 712,
-	  "Color": "blue",
+	  "Color": "Blue",
 	  "Theme": "Antique/Fairy Tale",
 	  "Style": "Ornate",
 	  "Notes": "Regal Series"
@@ -896,7 +896,7 @@ export const Flooring: IFurniture[] = [
 	  "Source": "Timmy&Tommy's",
 	  "Price": 2400,
 	  "SalePrice": 600,
-	  "Color": "gray",
+	  "Color": "Gray",
 	  "Theme": "Sci-Fi/Toy Shop",
 	  "Style": "Modern",
 	  "Notes": "Robo Series"
@@ -906,7 +906,7 @@ export const Flooring: IFurniture[] = [
 	  "Source": "Timmy&Tommy's",
 	  "Price": 2200,
 	  "SalePrice": 550,
-	  "Color": "beige",
+	  "Color": "Beige",
 	  "Theme": "Antique/Fairy Tale",
 	  "Style": "Iconic",
 	  "Notes": "Rococo Series"
@@ -916,7 +916,7 @@ export const Flooring: IFurniture[] = [
 	  "Source": "Timmy&Tommy's",
 	  "Price": 1080,
 	  "SalePrice": 270,
-	  "Color": "beige",
+	  "Color": "Beige",
 	  "Theme": "none",
 	  "Style": "Basic",
 	  "Notes": ""
@@ -1006,7 +1006,7 @@ export const Flooring: IFurniture[] = [
 	  "Source": "Timmy&Tommy's",
 	  "Price": 1380,
 	  "SalePrice": 345,
-	  "Color": "gray",
+	  "Color": "Gray",
 	  "Theme": "Harmonious",
 	  "Style": "Basic",
 	  "Notes": ""
@@ -1016,7 +1016,7 @@ export const Flooring: IFurniture[] = [
 	  "Source": "Timmy&Tommy's",
 	  "Price": 1540,
 	  "SalePrice": 385,
-	  "Color": "black",
+	  "Color": "Black",
 	  "Theme": "Trendy/Sci-Fi",
 	  "Style": "Modern",
 	  "Notes": "Sleek Series"
@@ -1026,7 +1026,7 @@ export const Flooring: IFurniture[] = [
 	  "Source": "Re-Tail/Police Station",
 	  "Price": "none",
 	  "SalePrice": 150,
-	  "Color": "blue",
+	  "Color": "Blue",
 	  "Theme": "Quirky",
 	  "Style": "Flashy",
 	  "Notes": ""
@@ -1056,7 +1056,7 @@ export const Flooring: IFurniture[] = [
 	  "Source": "Saharah",
 	  "Price": "none",
 	  "SalePrice": 1600,
-	  "Color": "beige",
+	  "Color": "Beige",
 	  "Theme": "none",
 	  "Style": "Sporty",
 	  "Notes": ""
@@ -1066,7 +1066,7 @@ export const Flooring: IFurniture[] = [
 	  "Source": "Timmy&Tommy's",
 	  "Price": 1480,
 	  "SalePrice": 370,
-	  "Color": "gray",
+	  "Color": "Gray",
 	  "Theme": "Trendy/Sci-Fi/Quirky",
 	  "Style": "Rock 'n' Roll",
 	  "Notes": ""
@@ -1076,7 +1076,7 @@ export const Flooring: IFurniture[] = [
 	  "Source": "Timmy&Tommy's",
 	  "Price": 2750,
 	  "SalePrice": 687,
-	  "Color": "gray",
+	  "Color": "Gray",
 	  "Theme": "Antique",
 	  "Style": "Historical",
 	  "Notes": ""
@@ -1086,7 +1086,7 @@ export const Flooring: IFurniture[] = [
 	  "Source": "Timmy&Tommy's",
 	  "Price": 1480,
 	  "SalePrice": 370,
-	  "Color": "gray",
+	  "Color": "Gray",
 	  "Theme": "Trendy",
 	  "Style": "Modern",
 	  "Notes": "Stripe Series"
@@ -1097,9 +1097,9 @@ export const Flooring: IFurniture[] = [
 	  "Price": 124000,
 	  "SalePrice": 31000,
 	  "Color": "none",
-	  "Theme": "Fairy TaleCute",
-	  "Style": "Sweets Series can't recycle",
-	  "Notes": ""
+	  "Theme": "Fairy Tale",
+	  "Style": "Cute",
+	  "Notes": "Sweets Series can't recycle",
 	},
 	{
 	  "Name": "Tartan Rug",
@@ -1126,7 +1126,7 @@ export const Flooring: IFurniture[] = [
 	  "Source": "Timmy&Tommy's",
 	  "Price": 1280,
 	  "SalePrice": 320,
-	  "Color": "colorful",
+	  "Color": "Colorful",
 	  "Theme": "Antique",
 	  "Style": "Iconic",
 	  "Notes": ""
@@ -1166,7 +1166,7 @@ export const Flooring: IFurniture[] = [
 	  "Source": "Timmy&Tommy's",
 	  "Price": 1480,
 	  "SalePrice": 370,
-	  "Color": "colorful",
+	  "Color": "Colorful",
 	  "Theme": "Rustic",
 	  "Style": "Basic",
 	  "Notes": ""
